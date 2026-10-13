@@ -30,6 +30,7 @@ CPU:
 ```
 
 The brain spends resources processing:
+
 - "Why did this happen?"
 - "What does this mean?"
 - "Am I safe?"
@@ -38,6 +39,7 @@ The brain spends resources processing:
 This reduces working memory and concentration.
 
 However, crying can also be a **reset mechanism**:
+
 - emotional pressure decreases
 - the nervous system calms down
 - people may feel clearer afterward
@@ -59,13 +61,14 @@ The second pattern can seriously reduce learning ability.
 A useful model:
 
 | Emotional state | Learning ability |
-|-|-|
+| - | - |
 | Mild sadness | Often normal or even deeper reflection |
 | Crying occasionally | Usually still able to learn |
 | Crying daily but maintaining routine | Possible, slower but possible |
 | Constant distress, sleep/appetite problems | Learning becomes much harder |
 
 Also, emotional experiences sometimes improve learning. A person who goes through hardship may develop:
+
 - stronger self-understanding
 - deeper motivation
 - better empathy

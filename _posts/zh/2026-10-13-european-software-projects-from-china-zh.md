@@ -323,6 +323,7 @@ agent开发
 这是一个现实可行的小型全球软件公司。
 
 参考资料：
+
 - 欧洲软件外包市场概览： [CBI](https://www.cbi.eu/market-information/outsourcing-itobpo/software-development-services/market-entry?utm_source=chatgpt.com)
 - 欧洲AI外包机会： [CBI](https://www.cbi.eu/market-information/outsourcing-itobpo/artificial-intelligence-ai-and-machine-learning-ml/market-potential?utm_source=chatgpt.com)
 - 欧洲IT外包需求与技能： [CBI](https://www.cbi.eu/market-information/outsourcing/trade-statistics?utm_source=chatgpt.com)

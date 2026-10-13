@@ -56,6 +56,7 @@ they lose control.
 Great athletes develop the ability to **care deeply but recover quickly**.
 
 Federer was known for:
+
 - staying calm after errors
 - accepting that losing is part of the game
 - focusing on process rather than the scoreboard

@@ -18,22 +18,24 @@ Yes. The main investment-based immigration route is the **EB-5 Immigrant Investo
 Current minimum investment:
 
 | Investment type | Amount |
-|---|---:|
+| --- | ---: |
 | Normal EB-5 investment | **$1.05 million USD** |
 | Targeted Employment Area (rural / high unemployment area) or infrastructure project | **$800,000 USD** | :chatgpt-content-reference{index="1"}
 
-
 Requirements:
+
 - Money must come from a **lawful source** (business income, salary, asset sale, etc.).
 - Investment must go into a qualifying U.S. commercial enterprise.
 - The project must create at least **10 full-time U.S. jobs**. [Travel.state.gov](https://travel.state.gov/content/travel/en/us-visas/immigrate/immigrant-investor-visas.html?utm_source=chatgpt.com)
 - The investor, spouse, and children can generally obtain permanent residence if approved. [USCIS](https://www.uscis-govdhs.us/policy-manual/volume-6-part-g-chapter-1.html?utm_source=chatgpt.com)
 
 Roughly:
+
 - $800k USD ≈ 5.5–6 million RMB (depending on exchange rate)
 - $1.05M USD ≈ 7.5 million RMB
 
 This route is mainly for wealthy investors. For many engineers/startup founders, other paths are usually more realistic:
+
 - **H-1B** → work visa through a U.S. employer
 - **O-1** → extraordinary ability (strong AI/research/startup achievements can help)
 - **L-1** → transfer through your own company

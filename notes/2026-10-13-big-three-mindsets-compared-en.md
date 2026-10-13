@@ -15,8 +15,6 @@ type: note
 
 The "Big Three" of tennis are interesting because they achieved similar greatness through very different psychological styles:
 
-
-
 ## 1. Federer: Flow, elegance, and acceptance
 
 Roger Federer represents **effortless mastery**.
@@ -119,7 +117,7 @@ Djokovic often wins matches where he appears to be losing because he can psychol
 ## Simple comparison
 
 | Player | Core mindset | Metaphor |
-|---|---|---|
+| --- | --- | --- |
 | Federer | Trust + flow | Artist |
 | Nadal | Fight + endurance | Warrior |
 | Djokovic | Analysis + control | Engineer |
@@ -128,26 +126,32 @@ Djokovic often wins matches where he appears to be losing because he can psychol
 
 For life and startups, all three styles have value:
 
-### Federer style:
+### Federer style
+
 "Build something excellent. Stay calm."
 
 Useful for:
+
 - creativity
 - product design
 - engineering
 
-### Nadal style:
+### Nadal style
+
 "Keep going when everyone else quits."
 
 Useful for:
+
 - difficult periods
 - fundraising
 - customer problems
 
-### Djokovic style:
+### Djokovic style
+
 "Study reality and improve your system."
 
 Useful for:
+
 - AI research
 - business iteration
 - learning

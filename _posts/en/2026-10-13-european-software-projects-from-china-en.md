@@ -46,7 +46,6 @@ Projects:
 
 Europe has strong AI adoption pressure and a shortage of AI developers, which creates opportunities for external providers. [CBI](https://www.cbi.eu/market-information/outsourcing-itobpo/artificial-intelligence-ai-and-machine-learning-ml/market-potential?utm_source=chatgpt.com)
 
-
 ### Legacy modernization
 
 Your HSBC experience is valuable.
@@ -328,6 +327,7 @@ average €5k/month
 This is a realistic small global software company.
 
 References:
+
 - European software outsourcing market overview: [CBI](https://www.cbi.eu/market-information/outsourcing-itobpo/software-development-services/market-entry?utm_source=chatgpt.com)
 - European AI outsourcing opportunities: [CBI](https://www.cbi.eu/market-information/outsourcing-itobpo/artificial-intelligence-ai-and-machine-learning-ml/market-potential?utm_source=chatgpt.com)
 - European IT outsourcing demand and skills: [CBI](https://www.cbi.eu/market-information/outsourcing/trade-statistics?utm_source=chatgpt.com)
