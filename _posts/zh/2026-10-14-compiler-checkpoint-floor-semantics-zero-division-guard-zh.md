@@ -27,6 +27,7 @@ type: note
 4. **`codegen.py` 中的REPL机制** — 会话端（模块级REPL变量，整数/浮点数/布尔值/字符串的种子/回读）已存在，并在探针中证明工作正常（全局变量往返42 / 3.5 / true / 'hi'）；将交互式驱动程序连接到 `wei repl` 命令是剩下的最后一步接线工作。
 
 所有内容均已提交且测试通过（46个通过）。当你想要时，诚实的下一步是 **`cli.py` 的 `repl` 子命令 + `ReplSession`**，复用已证明的代码生成原语：
+
 - 每行编译为一个新的模块，使用 `generate_repl(seeds=session_state)`
 - 运行，然后通过 `engine.get_global_value_address`（已证明）读取REPL变量的槽位并存储到会话中
 - 在会话中跨行累积定义
