@@ -20,7 +20,7 @@ Answer:
 Looking at your rejection letter closely, **two separate language criteria** were flagged as deficient:
 
 | Criterion | Requirement | Your Status |
-|---|---|---|
+| --- | --- | --- |
 | (4) | Proficient in **two languages**, written & spoken | ❌ Missing docs |
 | (5) | Good proficiency in **Chinese** (written & spoken) | ❌ Missing docs |
 
@@ -57,6 +57,7 @@ Don't worry about your IELTS score — it's not too low. The issue is that you n
 ---
 
 References:
+
 - [QMAS FAQ – Hong Kong Immigration Department](https://www.immd.gov.hk/eng/faq/QMAS.html)
 - [QMAS 2026 Language & Criteria Guide](https://www-web.itiger.com/news/1135431092)
 - [BorderPilot – QMAS Language Requirements](https://www.borderpilot.com/blog/hong-kong-quality-migrant-admission-scheme-explained)

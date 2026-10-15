@@ -20,7 +20,7 @@ type: note
 仔细查看你的拒签信，**两个独立的语言标准**被标记为不符合要求：
 
 | 标准 | 要求 | 你的状态 |
-|---|---|---|
+| --- | --- | --- |
 | (4) | 精通**两种语言**，书面及口语 | ❌ 缺少文件 |
 | (5) | 良好的**中文**能力（书面及口语） | ❌ 缺少文件 |
 
@@ -57,6 +57,7 @@ IELTS 6.0 或以上通常被认为足以满足该计划中的英语能力要求�
 ---
 
 参考资料：
+
 - [QMAS FAQ – Hong Kong Immigration Department](https://www.immd.gov.hk/eng/faq/QMAS.html)
 - [QMAS 2026 Language & Criteria Guide](https://www-web.itiger.com/news/1135431092)
 - [BorderPilot – QMAS Language Requirements](https://www.borderpilot.com/blog/hong-kong-quality-migrant-admission-scheme-explained)

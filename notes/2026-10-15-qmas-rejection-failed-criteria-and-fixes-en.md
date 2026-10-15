@@ -28,6 +28,7 @@ These are gatekeepers. If either fails, the whole application is rejected before
 The applicant must demonstrate they are capable of supporting themselves and their dependants on their own financial resources without relying on public assistance during their stay in Hong Kong.
 
 **What was likely missing:**
+
 - Bank statements (typically last 3–6 months)
 - Investment account statements
 - Property ownership certificates
@@ -42,6 +43,7 @@ The applicant must demonstrate they are capable of supporting themselves and the
 The applicant must have a good educational background, normally a first degree from a recognised university or tertiary education institution. The applicant is not considered as meeting the criteria if they are unable to provide proof of graduation. Applicants are required to submit verification proof issued by a third-party credential verification service.
 
 **What was likely missing:**
+
 - Degree certificate (original or notarised copy)
 - Official transcripts
 - **Third-party credential verification** — this is a common trap. The Immigration Department requires your degree to be verified by an independent service (e.g. WES, CQVA), not just a self-submitted copy
@@ -57,6 +59,7 @@ You don't need to pass all of these — only at least 6. But the more you provid
 The applicant must have no less than three years' graduate or specialist level work experience in one of the specific fields/industries, including "innovation and technology", "finance" and "international trade" (including cross-boundary marine and aviation transportation, and supply chain management).
 
 **What was likely missing:**
+
 - Employment contracts specifying your role and industry
 - Reference letters from employers describing your work in the relevant sector
 - Job descriptions showing your work falls under Innovation & Tech, Finance, or International Trade
@@ -68,6 +71,7 @@ The applicant must have no less than three years' graduate or specialist level w
 In respect of the assessment criterion about work experience with international exposure, it refers to graduate or specialist level work experience outside the applicant's home country/territory.
 
 **What was likely missing:**
+
 - Employment records showing you worked **outside your home country** (not just working for a foreign company domestically)
 - Work permits/visas from overseas countries
 - Foreign tax records, overseas payslips, or overseas contracts
@@ -77,7 +81,7 @@ In respect of the assessment criterion about work experience with international 
 ## Summary Table
 
 | Criteria | Type | Minimum Required | Likely Fix |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Financial | Basic (mandatory) | Prove self-sufficiency | Submit bank statements + assets |
 | Education | Basic (mandatory) | Bachelor's degree | Submit degree + **3rd-party verification** |
 | Language (×2) | Points test | Two languages | IELTS + Chinese certificate |
@@ -89,6 +93,7 @@ In respect of the assessment criterion about work experience with international 
 ---
 
 References:
+
 - [QMAS Self-Assessment Tool – IMMD Official](https://www.immd.gov.hk/eng/services/visas/quality-migrant-admission/self-assessment-tool.html)
 - [QMAS FAQ – IMMD Official](https://www.immd.gov.hk/eng/faq/QMAS.html)
 - [QMAS 2026 Criteria Guide](https://www-web.itiger.com/news/1135431092)

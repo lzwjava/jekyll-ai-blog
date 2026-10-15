@@ -33,14 +33,16 @@ The applicant (name hidden) submitted an application on **September 2, 2026** to
 The department found that **insufficient or non-compliant documents** were submitted. The specific deficiencies (marked **X**) are:
 
 **Basic Eligibility Failures:**
+
 | Requirement | Status |
-|---|---|
+| --- | --- |
 | (2) Financial requirement (財政要求) | ❌ Insufficient |
 | (4) Basic education qualification (基本學歷) | ❌ Insufficient |
 
 **Criteria Failures:**
+
 | Criterion | Status |
-|---|---|
+| --- | --- |
 | (4) Good written & spoken proficiency in **two languages** | ❌ Insufficient |
 | (5) Good written & spoken proficiency in **Chinese** | ❌ Insufficient |
 | (8) ≥3 years degree-level experience in **specific sectors** (Innovation Tech / Finance / International Trade incl. logistics & supply chain) | ❌ Insufficient |
@@ -66,5 +68,6 @@ The application was rejected **not on merit**, but because key documents were **
 ---
 
 References:
+
 - [QMAS – Quality Migrant Admission Scheme (Official)](https://www.immd.gov.hk/eng/services/visas/quality_migrant_admission_scheme.html)
 - [QMAS Application Notes & Document Checklist](https://www.immd.gov.hk/pdforms/ID(E)995A.pdf)
