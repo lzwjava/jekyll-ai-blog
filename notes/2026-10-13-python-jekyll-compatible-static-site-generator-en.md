@@ -41,9 +41,9 @@ jepyll/
 ## Notable behaviours matched
 
 - URLs: `permalink: /:title` → `/ffmpeg-en` → `ffmpeg-en.html`; `/notes/:path/` → `notes/x/index.html`; slug/date/title extraction from filenames; future posts skipped; `site.pages` sorted by name like `reader.rb:44`
-- Liquid: `{% raw %}` swallows bad tags, `{{ ... }}` renders empty, unknown filters pass through, `site[type]` dynamic lookups, `divided_by` integer semantics
+- Liquid: `{{ "{%" }} raw %}` swallows bad tags, `{{ "{{" }} ... }}` renders empty, unknown filters pass through, `site[type]` dynamic lookups, `divided_by` integer semantics
 - Markdown: math masked then `$$..$$` → `\\[..\\]` like kramdown, `{: .responsive}` IALs, heading `auto_ids`, smart quotes, footnotes, GFM autolink
-- `{% seo %}` mirrors jekyll-seo-tag 2.9.1 (excerpt-based descriptions, `og:locale`, JSON-LD), `jekyll-sitemap` emulated when you don't ship your own `sitemap.xml`
+- `{{ "{%" }} seo %}` mirrors jekyll-seo-tag 2.9.1 (excerpt-based descriptions, `og:locale`, JSON-LD), `jekyll-sitemap` emulated when you don't ship your own `sitemap.xml`
 
 ```bash
 cd /home/lzw/projects/jepyll && source .venv/bin/activate

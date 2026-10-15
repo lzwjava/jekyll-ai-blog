@@ -41,9 +41,9 @@ jepyll/
 ## 已匹配的重要行为
 
 - URL：`permalink: /:title` → `/ffmpeg-en` → `ffmpeg-en.html`；`/notes/:path/` → `notes/x/index.html`；从文件名提取 slug/date/title；跳过未来发布的文章；`site.pages` 按名称排序，与 `reader.rb:44` 一致
-- Liquid：`{% raw %}` 会吞掉非法标签，`{{ ... }}` 渲染为空，未知过滤器直接透传，支持 `site[type]` 动态查找，以及 `divided_by` 的整数语义
+- Liquid：`{{ "{%" }} raw %}` 会吞掉非法标签，`{{ "{{" }} ... }}` 渲染为空，未知过滤器直接透传，支持 `site[type]` 动态查找，以及 `divided_by` 的整数语义
 - Markdown：先掩蔽数学公式，再将 `$$..$$` → `\\[..\\]`（与 kramdown 一致）；支持 `{: .responsive}` IAL、标题 `auto_ids`、智能引号、脚注、GFM 自动链接
-- `{% seo %}` 镜像了 jekyll-seo-tag 2.9.1（基于摘要的描述、`og:locale`、JSON-LD）；当你没有自带 `sitemap.xml` 时会模拟 `jekyll-sitemap`
+- `{{ "{%" }} seo %}` 镜像了 jekyll-seo-tag 2.9.1（基于摘要的描述、`og:locale`、JSON-LD）；当你没有自带 `sitemap.xml` 时会模拟 `jekyll-sitemap`
 
 ```bash
 cd /home/lzw/projects/jepyll && source .venv/bin/activate
