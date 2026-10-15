@@ -20,7 +20,7 @@ Yes — Google Cloud is a solid choice for this. Its **Premium Tier global netwo
 ## Concrete GCP blueprint for live-server
 
 | Tier | Service |
-|---|---|
+| --- | --- |
 | API + web (nginx) | **GKE Autopilot** or 2–3 Compute Engine VMs in `asia-east2` (Hong Kong) — start with VMs, it's simpler |
 | Global entry | **Global HTTP(S) Load Balancer + Cloud CDN** — one anycast IP worldwide, TLS at edge, cache static/API GETs |
 | MySQL | **Cloud SQL for MySQL** (HA in HK) — replaces your dockerized MySQL 5.7; read replicas later |

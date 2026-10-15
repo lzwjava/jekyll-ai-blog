@@ -50,7 +50,7 @@ Alibaba's published pricing lists standard live-streaming traffic at approximate
 For illustration:
 
 | Monthly video delivery | North America | Asia-Pacific tier 1 |
-|---|---:|---:|
+| --- | ---: | ---: |
 | 100 GB | $7 | $8.10 |
 | 1 TB (1,000 GB) | $70 | $81 |
 | 10 TB | $700 | $810 |
@@ -66,7 +66,7 @@ These are illustrative traffic charges, not complete bills. They exclude transco
 For Fun Live, I would evaluate the options like this:
 
 | Requirement | Alibaba Cloud Hong Kong | GCP | AWS |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Hong Kong application hosting | Good fit | Good fit | Good fit |
 | Mainland China access without ICP | Possible, but must be tested | Possible, but must be tested | Possible, but must be tested |
 | Mainland-specific cloud integrations | Strong ecosystem | Less China-centric | Less China-centric |
@@ -135,7 +135,7 @@ I would initially avoid Kubernetes, a load balancer, Global Accelerator, and mul
 Test from at least four locations:
 
 | Location | What to measure |
-|---|---|
+| --- | --- |
 | Guangzhou or Shenzhen | API latency, connection failures, playback startup |
 | Hong Kong | API latency and video playback |
 | Singapore | API latency and video playback |
@@ -227,7 +227,7 @@ For a paid livestreaming product, separately assess the regulatory requirements 
 Here is my practical recommendation for your situation:
 
 | Your situation | My choice |
-|---|---|
+| --- | --- |
 | Rebuilding Fun Live with limited initial traffic | Alibaba Cloud HK, existing Docker stack |
 | Primarily international users and existing GCP infrastructure | GCP HK |
 | Primarily international users with existing AWS infrastructure | AWS |

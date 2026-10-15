@@ -14,7 +14,7 @@ Alibaba Cloud with a **Hong Kong origin (`cn-hongkong`)** is arguably an even be
 ## Where Alibaba Cloud wins vs GCP
 
 | 方面 | 阿里云香港 | GCP香港 |
-|---|---|---|
+| --- | --- | --- |
 | 中国大陆延迟 | 业界领先 — 阿里云骨干网 + 可选 **CN2 GIA / Global Accelerator** 线路到大陆 | 尚可，但跨境对等互联依赖公共传输质量 |
 | 托管直播 | **Apsara Video Live（阿里云视频直播）** — 托管式推流/转码/CDN，可以淘汰SRS | 无 — 需自建SRS |
 | 支付/短信 | 一流的支付宝、微信支付、国内短信/OTP | 支付宝需自行集成；短信仍需国内服务商 |
@@ -25,7 +25,7 @@ Alibaba Cloud with a **Hong Kong origin (`cn-hongkong`)** is arguably an even be
 ## Concrete blueprint — Alibaba HK origin
 
 | 层级 | 服务 |
-|---|---|
+| --- | --- |
 | API + Web（nginx/PHP） | `cn-hongkong` 的 **ECS**（如需扩容可用 **ACK** 容器集群） |
 | 全球入口 | 香港的 **ALB** + 可选 **Global Accelerator（GA）** — GA 通过阿里云国内线路为大陆用户提供稳定、快速的入口IP，对跨境访问提升显著 |
 | MySQL | **RDS for MySQL** 高可用版（替代 Docker 化的 MySQL 5.7） |

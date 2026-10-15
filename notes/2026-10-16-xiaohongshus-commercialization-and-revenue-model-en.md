@@ -21,18 +21,17 @@ Answer:
 Xiaohongshu's commercial engine relies on a **B2K2C model** (*Business to Key Opinion Leader/Consumer to Consumer*):
 
 1. **Content "Seeding" (种草):**
+
 * Brands and creators publish educational, review-focused, or lifestyle-driven posts ("Notes"). Instead of hard-sell ads, content targets specific user pain points or aesthetic desires.
 
-
 2. **Algorithmic & Search Discovery:**
+
 * Over 60% of user interactions stem from intent-based search queries. Xiaohongshu’s algorithm serves relevant recommendations based on user interests, high engagement rates, and key product search terms.
 
-
 3. **In-App Conversion & Live Streaming (拔草):**
+
 * **Buyer-Led Live Commerce (买手电商):** Unlike traditional high-discount live streaming (e.g., Douyin/Taobao), Xiaohongshu live streaming focuses on curated, high-ticket, lifestyle-oriented "Buyers" who build strong community trust.
 * **Product Notes & Storefronts:** Merchants embed product cards directly inside posts and profile shops, allowing users to buy without leaving the app.
-
-
 
 ---
 

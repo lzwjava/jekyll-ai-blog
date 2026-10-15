@@ -20,7 +20,7 @@ Your experience gives you an unusually good starting point for this combination.
 Looking at [your resume](https://lzwjava.com/resume-en) and [software portfolio](https://lzwjava.com/portfolio-en), I see three important assets.
 
 | Asset | Evidence | Strategic value |
-|---|---|---|
+| --- | --- | --- |
 | Community building | Fun Live attracted 30,000 users and millions of page views. | You have already demonstrated that you can attract an audience around technical content. |
 | Software consulting | Your company completed around 50 projects, generating approximately RMB 3 million in revenue. | You have experience turning software engineering into paying customer relationships. |
 | Technical credibility | 12 years of engineering experience, open-source projects, banking systems, and hands-on LLM training. | You can market yourself through concrete technical work rather than relying on a generic agency pitch. |
@@ -61,7 +61,7 @@ Your community and personal brand could help solve the customer acquisition prob
 I would organize your business around three layers.
 
 | Layer | Purpose | Initial implementation |
-|---|---|---|
+| --- | --- | --- |
 | Audience | Attract engineers, founders, and potential customers. | Fun Live, your blog, GitHub, technical articles, and social media. |
 | Community | Build relationships and discover opportunities. | Online technical talks, engineering groups, and international collaborations. |
 | Revenue | Convert customer problems into paid work. | AI implementation, agent development, software consulting, and engineering services. |
@@ -95,7 +95,7 @@ Invite them to share their experiences in informal online sessions.
 For example:
 
 | Session | Potential audience | Why it matters |
-|---|---|---|
+| --- | --- | --- |
 | How AI coding agents change enterprise engineering | Engineers in Hong Kong, Singapore, and China | Directly relevant to your own experience. |
 | Building AI products with small teams | Engineers and startup founders | Establishes your consultancy's capabilities. |
 | LLM inference and GPU infrastructure | AI engineers and independent researchers | Differentiates you from generic software agencies. |
@@ -207,7 +207,7 @@ You can retain those capabilities without marketing all of them equally.
 I would initially position your consultancy around three offerings.
 
 | Service | Deliverable | Why it fits you |
-|---|---|---|
+| --- | --- | --- |
 | AI agent development | Working agents that automate specific business workflows. | Combines your LLM and full-stack experience. |
 | AI application development | Complete AI-powered products, including frontend, backend, and model integration. | Builds on your consulting and product-development history. |
 | AI engineering and infrastructure | Model integration, inference experiments, evaluation, and deployment support. | Differentiates you from developers who only integrate an API. |
@@ -262,7 +262,7 @@ You don't need to choose only one.
 Imagine allocating your working time roughly as follows during the initial phase:
 
 | Activity | Time allocation |
-|---|---:|
+| --- | ---: |
 | Finding customers and delivering paid work | 60% |
 | Building the community and publishing content | 25% |
 | Developing reusable tools and platform infrastructure | 15% |

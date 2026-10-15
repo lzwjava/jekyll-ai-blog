@@ -47,6 +47,7 @@ type: note
 
 **1. 三方实习协议**
 你需要签署一份由**你（公司）+ 学生 + 其学校/大学**三方签署的协议。协议应涵盖：
+
 - 期限和时间安排
 - 报酬
 - 工作时间和班次
@@ -66,6 +67,7 @@ type: note
 ### 住在你家里
 
 对实习生来说，这里也没有法律问题。提供房间只是一种私人安排——可视为薪酬待遇的一部分（住宿 + 津贴）。只需确保：
+
 - 基本消防安全（烟雾报警器、畅通的出口）
 - 房间可居住（通风、床上用品）
 - 双方同意，并最好在实习协议中注明
@@ -75,7 +77,7 @@ type: note
 ### 2–3名实习生的实际操作安排
 
 | 项目 | 要求 |
-|---|---|
+| --- | --- |
 | 协议 | 三方（你 + 学生 + 其学校） |
 | 薪酬 | 建议每月约¥2,000–2,680+ |
 | 社会保险 | 不需要 |
@@ -97,6 +99,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [Hiring Interns in China — China Briefing](https://www.china-briefing.com/news/hiring-interns-china/)
 - [Student Interns in China: Employment Law Issues — Harris Sliwoski](https://harris-sliwoski.com/chinalawblog/student-interns-in-china-the-china-employment-law-issues/)
 - [Guangzhou Internship Base Program — gz.gov.cn](https://www.gz.gov.cn/attachment/6/6728/6728225/6956824.pdf)

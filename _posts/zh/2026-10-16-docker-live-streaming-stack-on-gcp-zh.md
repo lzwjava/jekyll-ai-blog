@@ -58,6 +58,7 @@ docker compose up -d --build
 适合 API/Web 部分，但**不能用于 SRS/RTMP 推流**——你需要将 SRS 部署在其他地方（一台小型 GCE 虚拟机或使用推流服务）。
 
 1. **创建 Cloud SQL（MySQL 5.7 或 8.0）：**
+
    ```bash
    gcloud sql instances create live-mysql \
      --database-version=MYSQL_5_7 \
@@ -67,8 +68,10 @@ docker compose up -d --build
    gcloud sql databases create qulive --instance=live-mysql
    gcloud sql import sql live-mysql gs://YOUR_BUCKET/db-dump.sql
    ```
+
 2. **为 Cloud Run 调整镜像：** 你当前的 Dockerfile 在 9000 端口运行 `php-fpm`，但 Cloud Run 需要在 `$PORT` 上运行单一的 HTTP 服务器。修改 CMD，让 nginx 和 php-fpm 一起运行（例如通过 supervisord 启动 `nginx -g 'daemon off;'` 和 php-fpm，并将 `fastcgi_pass` 指向 `127.0.0.1:9000` 而不是 `app:9000`）。
 3. **部署：**
+
    ```bash
    gcloud run deploy live-server \
      --image gcr.io/YOUR_PROJECT_ID/live-server \
@@ -77,6 +80,7 @@ docker compose up -d --build
      --add-cloudsql-instances=YOUR_PROJECT_ID:asia-east1:live-mysql \
      --set-env-vars="CI_ENVIRONMENT=production,DB_HOST=/cloudsql/... connection name,DB_NAME=qulive,DB_USER=root,DB_PASS=..."
    ```
+
 4. **Redis：** 使用 Memorystore（需要为 Cloud Run 配置 VPC connector）或使用兼容 Redis 的服务。
 
 ## 方案 3：GKE（Kubernetes）

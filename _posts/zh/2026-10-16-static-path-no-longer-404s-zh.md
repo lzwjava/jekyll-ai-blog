@@ -18,7 +18,7 @@ type: note
 3. **外部验证结果：**
 
 | URL | 状态 |
-|---|---|
+| --- | --- |
 | `/static/` | **200** — SPA index.html（趣直播） |
 | `/static/index.html` | 200 |
 | `/static/assets/index-CgRn8J2L.js` + CSS chunks | 200 |

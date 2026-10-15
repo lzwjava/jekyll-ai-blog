@@ -28,7 +28,7 @@ Your opportunity would be to connect all three.
 I found several projects that overlap with your idea, each solving a different part of the problem.
 
 | Platform or community | What it does | What it means for your idea |
-|---|---|---|
+| --- | --- | --- |
 | [GitHub](https://github.com/) | Global open-source collaboration | Developers already have a shared place to build software. |
 | [DEV Community](https://dev.to/) | Developer articles, discussions, and professional visibility | There is demand for a global knowledge-sharing community. [DEV Community](https://dev.to/about?utm_source=chatgpt.com) |
 | [OpenBuild](https://openbuild.xyz/) | Developer learning, events, and collaborative projects | A community can connect learning with practical building. [OpenBuildXYZ](https://openbuildxyz.github.io/eco/zh/guides/?utm_source=chatgpt.com) |
@@ -159,7 +159,7 @@ You cannot assume that one website, messaging application, or social network wil
 I'd design the community to be distributed across existing channels.
 
 | Function | Possible approach |
-|---|---|
+| --- | --- |
 | Public content | A globally accessible website with bilingual pages |
 | Source code | GitHub integration, with appropriate alternatives for participants who cannot reliably access it |
 | Chinese discussions | WeChat groups and other locally accessible channels |
@@ -181,7 +181,7 @@ I'd avoid monetizing every interaction at the beginning.
 First, establish a community that people genuinely want to participate in. Then monetize services that create additional value.
 
 | Stage | Product | Potential revenue |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Bilingual content and expert interviews | Sponsorships |
 | 2 | Technical workshops and courses | Ticket sales and course fees |
 | 3 | Developer and project network | Recruitment and project-matching fees |

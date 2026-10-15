@@ -14,7 +14,7 @@ type: note
 ## 状态
 
 | 服务 | 容器 | 状态 |
-|---|---|---|
+| --- | --- | --- |
 | PHP 8.5-FPM 应用 | `live-server-app-1` | 运行45小时 |
 | nginx | `live-server-web-1` | 运行2天 |
 | MySQL 5.7 (`qulive`) | `live-server-database-1` | 运行2天 — 23个表，2个用户 |

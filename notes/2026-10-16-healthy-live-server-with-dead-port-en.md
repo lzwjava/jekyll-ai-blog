@@ -14,7 +14,7 @@ It's already up — and healthy. Here's the state:
 ## Status
 
 | Service | Container | Status |
-|---|---|---|
+| --- | --- | --- |
 | PHP 8.5-FPM app | `live-server-app-1` | up 45h |
 | nginx | `live-server-web-1` | up 2d |
 | MySQL 5.7 (`qulive`) | `live-server-database-1` | up 2d — 23 tables, 2 users |

@@ -16,7 +16,7 @@ type: note
 I'd recommend **Fun Live**. It's natural, memorable, and fits your original vision of a knowledge-sharing platform.
 
 | English name | Meaning & positioning |
-|---|---|
+| --- | --- |
 | **Fun Live** | Friendly, memorable, and close to the original Chinese brand. |
 | **FunLive** | A more compact, startup-style brand name. |
 | **LiveFun** | Emphasizes the fun of live broadcasting. |
@@ -28,6 +28,7 @@ I'd recommend **Fun Live**. It's natural, memorable, and fits your original visi
 Given your original Fun Live platform, which attracted 30,000 users, I'd keep the name rather than rebrand it.
 
 The Chinese name 趣直播 combines:
+
 - **趣 (Fun):** Interest, enjoyment, and curiosity.
 - **直播 (Live):** Live broadcasting and real-time interaction.
 

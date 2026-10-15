@@ -20,7 +20,7 @@ type: note
 ## 2. 全球设计的四个层级
 
 | 层级 | 全球访问设计 |
-|---|---|
+| --- | --- |
 | **媒体（难点）** | 不分发源站。将RTMP推流到**最近的接入边缘节点**（多区域SRS：香港、新加坡、东京、洛杉矶、法兰克福），中继到中央**源站**（SRS + ABR转码为HLS），然后通过**全球CDN**（Cloudflare、Akamai、CloudFront）播放HLS/LL-HLS。播放延迟从数秒到30秒降至2-5秒。 |
 | **API** | 保持PHP应用**无状态**和多区域（同一镜像部署在香港/新加坡/美东），位于任一Anycast DNS/GSLB（Cloudflare Load Balancer / AWS Route53延迟路由）之后。或者，在一个网络连接良好的区域（香港或新加坡）运行API，仅在边缘缓存——简单得多，对亚洲大部分地区可接受p95 < 300ms。 |
 | **数据** | 一个可写的MySQL主库（香港/新加坡）+ 各区域只读副本，或预算允许时迁移到**Aurora Global Database / PlanetScale**。Redis用于会话，按区域部署实例。**VOD、图片、回放缩略图的对象存储**：S3 + 跨区域复制，或Cloudflare R2（免费出口流量，一个存储桶服务全球）。 |

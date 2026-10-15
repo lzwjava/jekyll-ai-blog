@@ -14,7 +14,7 @@ Alibaba Cloud with a **Hong Kong origin (`cn-hongkong`)** is arguably an even be
 ## Where Alibaba Cloud wins vs GCP
 
 | Aspect | Alibaba HK | GCP HK |
-|---|---|---|
+| --- | --- | --- |
 | Mainland CN latency | Best-in-class — Alibaba backbone + optional **CN2 GIA / Global Accelerator** lines to mainland | Good, but cross-border peering is whatever public transit gives you |
 | Managed live video | **Apsara Video Live (阿里云视频直播)** — managed ingest/transcode/CDN, you could drop SRS | None — self-run SRS |
 | Payments / SMS | First-class Alipay, WeChat Pay, domestic SMS/OTP | Alipay via your own integration; SMS needs a CN provider anyway |
@@ -25,7 +25,7 @@ Alibaba Cloud with a **Hong Kong origin (`cn-hongkong`)** is arguably an even be
 ## Concrete blueprint — Alibaba HK origin
 
 | Tier | Service |
-|---|---|
+| --- | --- |
 | API + web (nginx/PHP) | **ECS** in `cn-hongkong` (or **ACK** container cluster if you scale) |
 | Global entry | **ALB** in HK + optionally **Global Accelerator (GA)** — GA gives mainland users a stable, fast entry IP over Alibaba's CN lines, big win for cross-border |
 | MySQL | **RDS for MySQL** HA edition (replaces dockerized MySQL 5.7) |

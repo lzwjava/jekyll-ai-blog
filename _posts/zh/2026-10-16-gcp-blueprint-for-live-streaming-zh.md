@@ -20,7 +20,7 @@ type: note
 ## 直播服务器的具体GCP架构方案
 
 | 层级 | 服务 |
-|---|---|
+| --- | --- |
 | API + Web（nginx） | **GKE Autopilot** 或2–3台位于`asia-east2`（香港）的Compute Engine虚拟机——从虚拟机开始，更简单 |
 | 全球入口 | **Global HTTP(S) Load Balancer + Cloud CDN**——全球一个anycast IP，边缘节点终结TLS，缓存静态资源和API GET请求 |
 | MySQL | **Cloud SQL for MySQL**（香港高可用）——替代你docker化的MySQL 5.7；后续可加只读副本 |

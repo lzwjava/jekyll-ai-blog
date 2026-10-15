@@ -42,6 +42,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [极客邦在CBInsights上的信息](https://www.cbinsights.com/investor/geekbang)
 - [App Store上的极客时间](https://apps.apple.com/th/app/id1280245865)
 - [App Store上的极客时间企业版](https://apps.apple.com/qa/app/id1625051318)

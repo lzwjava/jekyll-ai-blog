@@ -57,6 +57,7 @@ Chinese technical article or video
 The same pipeline can operate in reverse, bringing English-language technical knowledge to Chinese-speaking developers.
 
 AI can also help with:
+
 - Automatic subtitles and multilingual transcripts.
 - Translation of technical discussions.
 - Search across Chinese and English content.
@@ -103,7 +104,7 @@ The result is more than translated content: it is a shared technical environment
 You could implement an initial version with a conventional web stack and LLM APIs.
 
 | Component | Initial implementation |
-|---|---|
+| --- | --- |
 | Content website | Next.js or a static-site generator |
 | Content storage | Markdown and Git |
 | Translation | LLM API with terminology rules |

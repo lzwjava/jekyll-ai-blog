@@ -42,6 +42,7 @@ In short, the business is a hybrid B2C (courses, subscriptions, bootcamps) + B2B
 ---
 
 **References:**
+
 - [Geekbang on CBInsights](https://www.cbinsights.com/investor/geekbang)
 - [极客时间 on App Store](https://apps.apple.com/th/app/id1280245865)
 - [极客时间企业版 on App Store](https://apps.apple.com/qa/app/id1625051318)

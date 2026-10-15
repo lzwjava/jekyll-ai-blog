@@ -77,7 +77,7 @@ Coursera focuses on structured learning and courses. GeekTime has established a 
 Fun Live could focus on a different intersection:
 
 | Dimension | Fun Live Global |
-|---|---|
+| --- | --- |
 | Primary audience | Chinese and international technical practitioners |
 | Core experience | Live knowledge exchange and ongoing collaboration |
 | Language | Chinese and English, with AI-assisted translation |
@@ -93,6 +93,7 @@ The distinction is that the community isn't just somewhere to learn from experts
 Start with people you can personally reach.
 
 For example:
+
 - Three Chinese AI engineers with interesting projects.
 - Two international engineers working on open source.
 - Two practitioners from Hong Kong or Singapore.

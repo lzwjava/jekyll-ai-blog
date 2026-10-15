@@ -18,7 +18,7 @@ Frontend deployed to Google Cloud — `/static/` no longer 404s. Summary:
 3. **Verified externally:**
 
 | URL | Status |
-|---|---|
+| --- | --- |
 | `/static/` | **200** — SPA index.html (趣直播) |
 | `/static/index.html` | 200 |
 | `/static/assets/index-CgRn8J2L.js` + CSS chunks | 200 |

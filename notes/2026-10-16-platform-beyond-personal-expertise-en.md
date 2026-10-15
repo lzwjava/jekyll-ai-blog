@@ -27,7 +27,7 @@ The second model can grow beyond your individual capabilities.
 Consider the different roles involved.
 
 | Participant | Contribution | What they gain |
-|---|---|---|
+| --- | --- | --- |
 | Founder | Vision, product, distribution, partnerships | Business growth and ownership |
 | Teachers and practitioners | Expertise, experience, content | Income, reputation, audience |
 | Learners | Attention, questions, feedback, payments | Knowledge and career opportunities |
@@ -39,6 +39,7 @@ The founder doesn't need to personally produce all the knowledge.
 Instead, the founder builds the infrastructure that allows knowledge to flow between people.
 
 For example, you might invite:
+
 - An AI infrastructure engineer to explain how their team serves billions of tokens.
 - A Hong Kong fintech engineer to share lessons from building financial systems.
 - A startup founder to explain how they acquired their first 1,000 customers.
@@ -80,6 +81,7 @@ You can think of the business as:
 \\[
 \text{Platform Value}
 =
+
 \text{Experts}
 +
 \text{Audience}
@@ -108,7 +110,7 @@ These assets fit together naturally.
 I would combine three business models rather than choosing just one.
 
 | Business | Purpose | Revenue model |
-|---|---|---|
+| --- | --- | --- |
 | Fun Live community | Attract people and establish relationships | Sponsorships, events, memberships |
 | Technical content platform | Build long-term organic distribution | Courses, sponsorships, premium content |
 | AI/software consultancy | Solve real business problems | Project fees, retainers, ongoing support |
@@ -173,7 +175,7 @@ You cannot build a sustainable platform by assuming everyone will contribute sim
 Give contributors concrete benefits.
 
 | What you offer | Why it matters |
-|---|---|
+| --- | --- |
 | Professional exposure | They reach an audience beyond their existing network. |
 | High-quality content | They receive edited clips and articles they can share. |
 | Reputation | They become associated with valuable technical discussions. |
@@ -275,7 +277,7 @@ That would be a more defensible starting point than trying to build a platform f
 Start with a small experiment.
 
 | Metric | Initial target |
-|---|---:|
+| --- | ---: |
 | Expert interviews | 12 |
 | Distinct practitioners involved | 10+ |
 | Published content pieces | 40+ |
@@ -318,6 +320,7 @@ You can expand into courses, memberships, events, and other products once you ha
 The long-term opportunity is to build something where you no longer need to personally create every piece of value. You organize the people, systems, and relationships that make the value possible.
 
 **References**
+
 - [GeekTime — Official website](https://www.geekbang.org/index)
 - [GeekTime Enterprise — Learning and expert ecosystem](https://b.geekbang.org/)
 - [Coursera — Annual report and business model](https://www.sec.gov/Archives/edgar/data/1651562/000165156226000015/cour-20251231.htm)

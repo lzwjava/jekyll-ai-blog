@@ -47,6 +47,7 @@ In Guangdong/Guangzhou specifically:
 
 **1. Tripartite Agreement (三方实习协议)**
 You need a signed agreement between **you (the company) + the student + their school/university**. It should cover:
+
 - Duration and schedule
 - Compensation
 - Work hours and shifts
@@ -66,6 +67,7 @@ Since interns aren't covered by the social insurance system, you should purchase
 ### Living in Your Home
 
 No legal issue here for interns either. Providing a room is simply a private arrangement — think of it as part of the compensation package (accommodation + stipend). Just make sure:
+
 - Basic fire safety (smoke alarm, clear exits)
 - The room is livable (ventilation, bedding)
 - It's mutually agreed and ideally noted in the internship agreement
@@ -75,7 +77,7 @@ No legal issue here for interns either. Providing a room is simply a private arr
 ### Practical Setup for 2–3 Interns
 
 | Item | Requirement |
-|---|---|
+| --- | --- |
 | Agreement | Tripartite (you + student + their school) |
 | Pay | ~¥2,000–2,680+/month recommended |
 | Social insurance | Not required |
@@ -97,6 +99,7 @@ If the employer does not want to hire the former intern on a full-time basis aft
 ---
 
 **References:**
+
 - [Hiring Interns in China — China Briefing](https://www.china-briefing.com/news/hiring-interns-china/)
 - [Student Interns in China: Employment Law Issues — Harris Sliwoski](https://harris-sliwoski.com/chinalawblog/student-interns-in-china-the-china-employment-law-issues/)
 - [Guangzhou Internship Base Program — gz.gov.cn](https://www.gz.gov.cn/attachment/6/6728/6728225/6956824.pdf)

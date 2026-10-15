@@ -20,7 +20,7 @@ Good question. I looked at your codebase: it's a PHP (CodeIgniter) live-streamin
 ## 2. The four tiers of a global design
 
 | Tier | Design for global access |
-|---|---|
+| --- | --- |
 | **Media (the hard part)** | Don't distribute origin. Push RTMP to a **nearest ingest edge** (multi-region SRS: HK, Singapore, Tokyo, LA, Frankfurt), relay to a central **origin** (SRS + ABR transcode to HLS), then play through a **global CDN** (Cloudflare, Akamai, CloudFront) in front of HLS/LL-HLS. Playback latency goes from seconds-to-30s to 2–5s. |
 | **API** | Keep the PHP app **stateless** and multi-region (same image in HK/SG/US-East), behind one Anycast DNS/GSLB (Cloudflare Load Balancer / AWS Route53 latency routing). Alternatively, run API in one well-connected region (HK or Singapore) and only cache at the edge — much simpler, acceptable p95 < 300ms for most of Asia. |
 | **Data** | One writable MySQL primary (HK/SG) + read replicas per region, or migrate to **Aurora Global Database / PlanetScale** if budget allows. Redis for sessions with regional instances. **Object storage for VOD, images, replay thumbnails**: S3 + cross-region replication, or Cloudflare R2 (free egress, one bucket serves worldwide). |

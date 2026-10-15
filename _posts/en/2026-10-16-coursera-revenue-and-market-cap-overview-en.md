@@ -20,7 +20,6 @@ Answer: Here is an overview of Coursera’s financial standing and market valuat
 * **Consumer Segment:** Generates the majority of revenue (~66%), bringing in **$502.2 million** in 2025.
 * **Enterprise Segment:** Accounts for ~34%, bringing in **$255.3 million** in 2025.
 
-
 * **Future Outlook:** Full-year 2026 revenue is guided to be between **$805 million and $815 million**.
 
 ---

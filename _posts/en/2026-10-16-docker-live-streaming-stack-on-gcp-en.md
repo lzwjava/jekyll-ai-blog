@@ -58,6 +58,7 @@ Point your domain at the VM's external IP (or put Cloud Load Balancing in front)
 Good for the API/web part, but **won't work for SRS/RTMP streaming** — you'd need to run SRS elsewhere (a small GCE VM or a streaming service).
 
 1. **Create Cloud SQL (MySQL 5.7 or 8.0):**
+
    ```bash
    gcloud sql instances create live-mysql \
      --database-version=MYSQL_5_7 \
@@ -67,8 +68,10 @@ Good for the API/web part, but **won't work for SRS/RTMP streaming** — you'd n
    gcloud sql databases create qulive --instance=live-mysql
    gcloud sql import sql live-mysql gs://YOUR_BUCKET/db-dump.sql
    ```
+
 2. **Adjust the image for Cloud Run:** your current Dockerfile runs `php-fpm` on port 9000, but Cloud Run needs a single HTTP server on `$PORT`. Change the CMD to run nginx + php-fpm together (e.g. use `nginx -g 'daemon off;'` with php-fpm started via supervisord, and point `fastcgi_pass` to `127.0.0.1:9000` instead of `app:9000`).
 3. **Deploy:**
+
    ```bash
    gcloud run deploy live-server \
      --image gcr.io/YOUR_PROJECT_ID/live-server \
@@ -77,6 +80,7 @@ Good for the API/web part, but **won't work for SRS/RTMP streaming** — you'd n
      --add-cloudsql-instances=YOUR_PROJECT_ID:asia-east1:live-mysql \
      --set-env-vars="CI_ENVIRONMENT=production,DB_HOST=/cloudsql/... connection name,DB_NAME=qulive,DB_USER=root,DB_PASS=..."
    ```
+
 4. **Redis:** use Memorystore (needs VPC connector with Cloud Run) or a Redis-compatible service.
 
 ## Option 3: GKE (Kubernetes)
