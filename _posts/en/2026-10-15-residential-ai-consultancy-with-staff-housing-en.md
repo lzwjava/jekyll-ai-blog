@@ -22,6 +22,7 @@ type: note
 Guangzhou has a specific government policy — originally issued as 穗府办规〔2021〕2号, updated as 穗府办规〔2024〕4号 — that explicitly allows certain businesses to register at a **residential address**. Businesses in categories including consulting/planning (咨询策划), e-commerce, software and information technology services, industrial design, and agency consulting are permitted to use residential premises as their registered business address, provided they are pollution-free and pose no safety hazards. An AI agent/software consultancy fits squarely in this allowed category.
 
 **To do it legally:**
+
 - You need a "场地使用证明" (premises use certificate) from the local community/government body with neighbor consent
 - You cannot run catering, manufacturing, entertainment, or anything involving hazardous materials from the same address
 - The registered address must have legal ownership or usage rights — your own house deed works fine for this
@@ -41,7 +42,7 @@ Practically, 120 sqm with 3 people working + sleeping + an owner is tight but wo
 This matters a lot in China:
 
 | | **Current students (interns)** | **Fresh graduates (已毕业)** |
-|---|---|---|
+| --- | --- | --- |
 | Labor law applies? | ❌ No | ✅ Yes |
 | Need labor contract? | No (need a tripartite agreement with their school) | Yes — within 1 month of start |
 | Social insurance required? | No | Yes (五险一金) |
@@ -70,6 +71,7 @@ As of September 1, 2026, Guangzhou's minimum wage (first-tier) was raised to ¥2
 ---
 
 **References:**
+
 - [Guangzhou Residential Address Business Registration Policy (穗府办规〔2021〕2号)](https://www.gz.gov.cn/gkmlpt/content/7/7057/post_7057588.html)
 - [穗府办规〔2024〕4号 Reference in Nansha Policy](https://www.gz.gov.cn/gzzcwjk/gzdata/content/post_10068149.html)
 - [Hiring Interns in China — China Briefing](https://www.china-briefing.com/news/hiring-interns-china/)

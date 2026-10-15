@@ -30,7 +30,7 @@ A company is sellable (or investable) when a new owner can step in and keep thin
 ## What Enterprise WeChat Gives You
 
 | Layer | What to Build | Why It's Transferable |
-|---|---|---|
+| --- | --- | --- |
 | **Sales** | All customer conversations via 企业微信 external contacts | Customer is bound to the company account, not the salesperson's personal ID |
 | **Knowledge Base** | 企业微信 + 腾讯文档 / Notion / Feishu wiki | Anyone in the company (or a new owner) can access it |
 | **Customers** | CRM tagged to 企业微信 contacts | Reassignable between staff at any time |
@@ -48,6 +48,7 @@ When everything is on **enterprise accounts**:
 - Staff can be replaced without losing a single customer relationship
 
 When everything is on **personal accounts**:
+
 - Salesperson quits → takes their WeChat contacts with them
 - Owner changes → customers don't know who the new contact is
 - No audit trail, no handover, **no sale possible**
@@ -57,7 +58,7 @@ When everything is on **personal accounts**:
 ## The Rule: Never Do Business on Personal Channels
 
 | ❌ Don't Use | ✅ Use Instead | Reason |
-|---|---|---|
+| --- | --- | --- |
 | Personal WeChat | 企业微信 (Enterprise WeChat) | Company owns the contact relationship |
 | Personal WhatsApp | WhatsApp Business API / enterprise line | Auditable, transferable |
 | Personal email | Company domain email (e.g. Google Workspace) | Entity owns the mailbox |

@@ -30,6 +30,7 @@ Charisma University was **founded in 2011** by **Dr. Peterchris Okpala**. It is 
 ---
 
 **References:**
+
 - [Charisma University — Times Higher Education](https://www.timeshighereducation.com/world-university-rankings/charisma-university)
 - [Charisma University Overview — xuanxiao.org](https://xuanxiao.org/en/universities/charisma-university)
 - [Charisma University Review — Career Karma](https://careerkarma.com/blog/charisma-university-review/)
