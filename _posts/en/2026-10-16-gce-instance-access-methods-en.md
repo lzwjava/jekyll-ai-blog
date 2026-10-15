@@ -40,6 +40,7 @@ ssh username@EXTERNAL_IP
 ```
 
 The username depends on the OS image:
+
 - Debian/Ubuntu → `username` you configured (or your OS Login email)
 - CentOS/RHEL → `your_username`
 - Container-optimized OS → `username` from instance metadata
@@ -58,6 +59,7 @@ Then connect with an RDP client to `localhost:3389`. Or use the console's **Rese
 - `gcloud config set project PROJECT_ID` — correct project
 - Firewall allows SSH: rule permitting TCP port **22** (default `default-allow-ssh` rule covers this)
 - For IAP-based access (recommended, no external IP needed):
+
   ```bash
   gcloud compute ssh INSTANCE_NAME --zone ZONE --tunnel-through-iap
   ```

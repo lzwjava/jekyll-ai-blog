@@ -16,7 +16,7 @@ Done. I built **LiveIos** — a complete Swift/SwiftUI native port of `live-mobi
 **~3,500 lines across 27 files**, zero third-party dependencies, Xcode project (objectVersion 77, folder-synced):
 
 | Area | Files | Matches Web |
-|---|---|---|
+| --- | --- | --- |
 | 直播列表 | `LiveListView` | 最新/热门直播 tabs, status tags, 参与人数, price (ListView) |
 | 直播介绍 | `LiveIntroView` | cover, 主播信息, 参与/邀请榜, 主播简介, 详情, 须知, 更多直播, 报名/付费 (IntroView) |
 | 直播间 | `LiveRoomView` + `ChatView` | AVPlayer **HLS/MP4** live+回放, 倒计时, 公告/聊天 tabs, 关注, 切换线路, 打赏 (LiveView) |

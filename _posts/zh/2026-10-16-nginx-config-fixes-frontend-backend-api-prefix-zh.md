@@ -37,7 +37,7 @@ Content-Type: text/html
 已备份到 `nginx.conf.bak-1792096592`。共四个块：`/static/`（SPA 静态资源）、`/api/`（去掉前缀 → PHP-FPM）、`location = /`（SPA 入口），以及一个兜底的 `try_files` 规则，确保旧的无前缀路径仍然可以到达 CI4。在优雅执行 `nginx -s reload` 之前已通过 `nginx -t` 验证——无需重启容器。
 
 | 测试 | 结果 |
-|------|--------|
+| ------ | -------- |
 | `/` → SPA HTML | 200，`text/html`，1897 字节 |
 | `/api/topics`（前端的 baseURL） | 200 JSON ✅ 之前是 404 |
 | `/topics`（旧的无前缀路径） | 200 JSON — 已保留 |

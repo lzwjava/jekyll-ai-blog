@@ -37,7 +37,7 @@ Had I only switched `/` to the SPA, every API call would have 404'd. The origina
 Backed up to `nginx.conf.bak-1792096592`. Four blocks: `/static/` (SPA assets), `/api/` (strip prefix → PHP-FPM), `location = /` (SPA entry), and a catch-all `try_files` so bare legacy paths still reach CI4. Validated with `nginx -t` before a graceful `nginx -s reload` — no container restart.
 
 | Test | Result |
-|------|--------|
+| ------ | -------- |
 | `/` → SPA HTML | 200, `text/html`, 1897 bytes |
 | `/api/topics` (frontend's baseURL) | 200 JSON ✅ was 404 |
 | `/topics` (legacy bare path) | 200 JSON — preserved |

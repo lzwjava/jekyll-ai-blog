@@ -38,6 +38,7 @@ There is no official stance from VIPKID encouraging parents to use VPNs, and VIP
 In short: VIPKID is not just "geo-blocked" like a streaming site — it is **legally prohibited** for mainland Chinese K-12 students. Using a VPN to work around the ban doesn't change the legal status of the underlying activity.
 
 **References:**
+
 - [Major Tutoring Company VIPKid to End Core Tutoring Program in China – EdWeek Market Brief](https://marketbrief.edweek.org/marketplace-k-12/major-tutoring-company-vipkid-end-core-tutoring-program-china/)
 - [VIPKid to Stop Foreign-Based Tutoring for Students in China – Asia Financial](https://asiafinancial.com/?p=14632)
 - [China bans off-shore online tutors – EL Gazette](https://www.elgazette.com/?p=5776)

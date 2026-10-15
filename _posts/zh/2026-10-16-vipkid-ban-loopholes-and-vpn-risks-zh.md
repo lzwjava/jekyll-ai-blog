@@ -38,6 +38,7 @@ VIPKID官方并未表态鼓励家长使用VPN，VIPKID本身也不会公开推�
 简言之：VIPKID并非像流媒体网站那样仅仅是被“地域屏蔽”——其对大陆K-12学生而言属于**法律禁止**的服务。使用VPN绕过禁令并不会改变该行为本身的法律性质。
 
 **参考资料：**
+
 - [Major Tutoring Company VIPKid to End Core Tutoring Program in China – EdWeek Market Brief](https://marketbrief.edweek.org/marketplace-k-12/major-tutoring-company-vipkid-end-core-tutoring-program-china/)
 - [VIPKid to Stop Foreign-Based Tutoring for Students in China – Asia Financial](https://asiafinancial.com/?p=14632)
 - [China bans off-shore online tutors – EL Gazette](https://www.elgazette.com/?p=5776)

@@ -40,6 +40,7 @@ ssh username@EXTERNAL_IP
 ```
 
 用户名取决于操作系统镜像：
+
 - Debian/Ubuntu → 你配置的 `username`（或你的OS Login邮箱）
 - CentOS/RHEL → `your_username`
 - Container-optimized OS → 实例元数据中的 `username`
@@ -58,6 +59,7 @@ gcloud compute start-iap-tunnel INSTANCE_NAME 3389 --local-host-port=localhost:3
 - `gcloud config set project PROJECT_ID` — 正确的项目
 - 防火墙允许SSH：规则允许TCP端口 **22**（默认的 `default-allow-ssh` 规则已涵盖）
 - 对于基于IAP的访问（推荐，无需外部IP）：
+
   ```bash
   gcloud compute ssh INSTANCE_NAME --zone ZONE --tunnel-through-iap
   ```

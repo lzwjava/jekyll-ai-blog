@@ -16,7 +16,7 @@ type: note
 **27 个文件约 3,500 行代码**，零第三方依赖，Xcode 项目（objectVersion 77，文件夹同步）：
 
 | 模块 | 文件 | 对应 Web 端 |
-|---|---|---|
+| --- | --- | --- |
 | 直播列表 | `LiveListView` | 最新/热门直播 tabs, 状态标签, 参与人数, 价格 (ListView) |
 | 直播介绍 | `LiveIntroView` | 封面, 主播信息, 参与/邀请榜, 主播简介, 详情, 须知, 更多直播, 报名/付费 (IntroView) |
 | 直播间 | `LiveRoomView` + `ChatView` | AVPlayer **HLS/MP4** 直播+回放, 倒计时, 公告/聊天 tabs, 关注, 切换线路, 打赏 (LiveView) |
