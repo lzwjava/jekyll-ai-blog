@@ -67,7 +67,7 @@ The feed should support both casual social updates and substantive technical con
 Users can create or join circles.
 
 | Circle | Description |
-|---|---|
+| --- | --- |
 | 🤖 AI & LLMs | LLM training, inference, agents, and research |
 | 🔥 PyTorch | Deep learning engineering and implementation |
 | 🖥️ GPU Computing | CUDA, ROCm, GPU hardware, and performance |
@@ -95,7 +95,7 @@ I would design the publishing interface around a simple question:
 Users can publish:
 
 | Content type | Examples |
-|---|---|
+| --- | --- |
 | Text | Thoughts, questions, experiences |
 | Images | Screenshots, hardware, whiteboards, photos |
 | Multiple images | Project progress, tutorials, benchmark comparisons |
@@ -107,6 +107,7 @@ Users can publish:
 For images, support uploading multiple pictures in a single post, with an interactive image viewer.
 
 Useful details:
+
 - Automatic image compression and thumbnail generation.
 - Full-screen image viewing.
 - Multiple-image grids.

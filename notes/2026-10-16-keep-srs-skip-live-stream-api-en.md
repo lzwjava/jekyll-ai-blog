@@ -14,7 +14,7 @@ Short answer: **not for this app, not now.** The Live Stream API is a great prod
 ## Why it's a poor fit here
 
 | Your app today | Live Stream API |
-|---|---|
+| --- | --- |
 | A `live` row is created any moment; anchor gets a **per-live `rtmpKey`** and pushes instantly with OBS | Channels + input endpoints are **pre-provisioned resources**. Provisioning takes minutes; you'd have to `POST` create a channel per lecture, wait for `ACTIVE`, then push, then stop it |
 | Multiple simultaneous lectures | Default project quota allows only a **handful of concurrent channels** → you'd need a quota increase before growth |
 | Web desktop plays **HTTP-FLV** (`flv.js`), iOS plays **RTMP** | Outputs **HLS/DASH only** — no FLV, no RTMP playback. You'd need client changes in `live-web` and the native iOS app loses its `rtmpUrl` |
@@ -35,6 +35,6 @@ So adopting it means: a channel-lifecycle manager in PHP (create/provision/poll/
 
 Stick with the plan: **SRS on your VM → HTTPS playback via nginx → repoint `LiveDao` → verify.** It reuses your existing hooks, DVR, FLV/RTMP/HLS players, and per-lecture stream keys with zero client changes, and it's ~an hour of work instead of days. If transcoded multi-rendition output becomes a need later, you can even have SRT/RTMP-forward from SRS into a managed service then — but that's a Phase 6 decision, fully reversible since frontends read URLs from the API.
 
-I'm mid-way through verifying SRS's hook response semantics (confirmed: allow = body `0`, deny = any other JSON; hooks POST **JSON**, so I'll make `LiveHooks` read JSON form-or-body robustly). 
+I'm mid-way through verifying SRS's hook response semantics (confirmed: allow = body `0`, deny = any other JSON; hooks POST **JSON**, so I'll make `LiveHooks` read JSON form-or-body robustly).
 
 **Continue with the SRS implementation?**

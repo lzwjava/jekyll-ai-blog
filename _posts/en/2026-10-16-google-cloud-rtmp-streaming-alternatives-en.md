@@ -80,7 +80,7 @@ A modern, lightweight, zero-dependency media server written in Go. Supports RTMP
 ## Summary Comparison
 
 | Solution | Type | Deployment on GCP | Protocols |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Google Live Stream API** | Managed service | Native | RTMP, SRT → HLS/DASH |
 | **Nginx-RTMP** | Open-source | GCE / GKE | RTMP, HLS, DASH |
 | **Ant Media Server** | OSS / Commercial | GKE / Marketplace | WebRTC, RTMP, SRT, HLS |
@@ -93,6 +93,7 @@ If you want the least ops overhead, **Google Cloud Live Stream API** is the natu
 ---
 
 **References:**
+
 - [Google Cloud Live Stream API Overview](https://cloud.google.com/livestream/docs/overview)
 - [Google Cloud Live Stream API Release Notes](https://docs.cloud.google.com/livestream/docs/release-notes)
 - [Ant Media Server GitHub](https://github.com/ant-media/Ant-Media-Server)

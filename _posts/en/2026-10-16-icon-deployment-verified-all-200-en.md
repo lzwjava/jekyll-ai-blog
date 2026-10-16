@@ -21,7 +21,7 @@ The deployment target for this project is the **GCP VM `live-server`** (34.150.1
 ## Changes made
 
 | File | Change |
-|---|---|
+| --- | --- |
 | `index.html` | Added 8 favicon links (SVG, 32/48/64/128/256 PNG, apple-touch-icon) using the repo's root-path pattern (like the existing `/logo.png`) |
 | `public/logo.png` | Replaced with new icon (256px) — also synced to `static/logo.png` locally |
 | `public/fun-live-icon/` | Full icon set (32–1024 PNG + SVG) |

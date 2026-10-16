@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-## 构建通过。以下是问题原因和我所做的修改：
+## 构建通过。以下是问题原因和我所做的修改
 
 ## 根本原因
 
@@ -20,11 +20,13 @@ type: note
 ## 修复
 
 **`src/components/user-avatar.vue`** — 添加安全默认值，避免此类问题再次发生：
+
 - `.avatar` 增加 `width: 50px; height: 50px; overflow: hidden; flex-shrink: 0`（可被任何更具体的选择器覆盖，因此不影响现有页面）
 - `img` → `display: block` + `object-fit: cover`（不变形，填满圆形）
 - 字母回退 `span` → flex 居中（在任何头像尺寸下都能正常工作，不像固定 `line-height` 那样受限）
 
 **`src/views/UsersView.vue`** — 用真正的布局替换过时的 `li` 规则：
+
 - `.user-list`：CSS grid `repeat(auto-fill, minmax(64px, 1fr))` 并带间距 → 响应式头像网格
 - `.user-item`：flex 列布局，头像居中显示在名字上方
 - `.username`：12px，居中，单行省略号，使 `伯阳阳阳阳阳阳阳阳阳阳` 这样的长名字截断而不是溢出

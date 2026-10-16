@@ -23,7 +23,7 @@ This is exactly the territory **Flutter is best at** — and the least painful s
 ## Should you use Flutter?
 
 | Your goal | Verdict |
-|---|---|
+| --- | --- |
 | **iOS only** | ❌ Don't switch. Keep native SwiftUI. The app is already complete with zero dependencies; rewriting adds size and cost, and AVPlayer integration only gets more convoluted |
 | **iOS + Android, one codebase** | ✅ Flutter is a great fit |
 | **Future: in-app camera broadcast (phone pushes stream directly)** | ⚠️ That's complex; prefer native or a mature live-streaming SDK (Tencent/Aliyun), where Flutter is weakest |

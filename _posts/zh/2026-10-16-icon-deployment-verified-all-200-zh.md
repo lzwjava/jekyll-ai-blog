@@ -21,7 +21,7 @@ type: note
 ## 所做的更改
 
 | 文件 | 更改 |
-|---|---|
+| --- | --- |
 | `index.html` | 添加了 8 个 favicon 链接（SVG、32/48/64/128/256 PNG、apple-touch-icon），使用仓库的根路径模式（如现有的 `/logo.png`） |
 | `public/logo.png` | 替换为新图标（256px）— 同时在本地同步到 `static/logo.png` |
 | `public/fun-live-icon/` | 完整图标集（32–1024 PNG + SVG） |

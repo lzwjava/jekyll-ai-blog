@@ -40,6 +40,7 @@ The claim contains several elements that are **partially true**, but it also req
 ---
 
 **References:**
+
 - [Why Hong Kong Bank Account Applications Are Rejected (2026)](https://www.china-briefing.com/news/hong-kong-bank-account-applications-rejections-risk-factors/)
 - [Non-Resident Business Bank Account in Hong Kong: Complete Guide (2026)](https://air-corporate.com/hk/blog/non-resident-business-bank-account-hong-kong)
 - [Sovereign Hong Kong – Opening a Business Bank Account](https://www.sovereigngroup.com/hong-kong/corporate-services/offshore-bank-account-opening-in-hong-kong)

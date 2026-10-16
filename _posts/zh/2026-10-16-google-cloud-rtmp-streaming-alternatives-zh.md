@@ -68,7 +68,7 @@ Red5 是一个开源媒体服务器，支持 RTMP、RTMPS 和 RTMPE 协议，用
 ## 总结对比
 
 | 解决方案 | 类型 | GCP 上的部署 | 协议 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Google Live Stream API** | 托管服务 | 原生 | RTMP, SRT → HLS/DASH |
 | **Nginx-RTMP** | 开源 | GCE / GKE | RTMP, HLS, DASH |
 | **Ant Media Server** | 开源 / 商业 | GKE / Marketplace | WebRTC, RTMP, SRT, HLS |
@@ -81,6 +81,7 @@ Red5 是一个开源媒体服务器，支持 RTMP、RTMPS 和 RTMPE 协议，用
 ---
 
 **参考资料：**
+
 - [Google Cloud Live Stream API 概览](https://cloud.google.com/livestream/docs/overview)
 - [Google Cloud Live Stream API 发布说明](https://docs.cloud.google.com/livestream/docs/release-notes)
 - [Ant Media Server GitHub](https://github.com/ant-media/Ant-Media-Server)

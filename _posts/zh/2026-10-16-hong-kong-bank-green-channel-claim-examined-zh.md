@@ -40,6 +40,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [为何香港银行账户申请会被拒绝（2026）](https://www.china-briefing.com/news/hong-kong-bank-account-applications-rejections-risk-factors/)
 - [香港非居民企业银行账户：完整指南（2026）](https://air-corporate.com/hk/blog/non-resident-business-bank-account-hong-kong)
 - [Sovereign香港 – 开设企业银行账户](https://www.sovereigngroup.com/hong-kong/corporate-services/offshore-bank-account-opening-in-hong-kong)

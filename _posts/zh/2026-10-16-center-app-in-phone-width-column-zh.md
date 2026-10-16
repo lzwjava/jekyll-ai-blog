@@ -18,11 +18,13 @@ type: note
 ## 更改
 
 **`src/stylus/variables.styl`** —— 列宽的唯一来源：
+
 ```stylus
 $app-max-width = 480px
 ```
 
 **`src/App.vue`** —— 约束并居中 `#wrapper` 列：
+
 ```stylus
 #wrapper
   position relative
@@ -38,9 +40,11 @@ $app-max-width = 480px
     box-shadow 0 0 24px rgba(0, 0, 0, .35)
     min-height 100vh
 ```
+
 由于 `.view` 在 `#wrapper` 内部是 `position: absolute; width: 100%`，所有路由（`/lives`、个人资料、房间…）也会自动被限制。
 
 **`src/components/Tabbar.vue`** —— 固定的底部标签栏（之前是 `max-width: 700px` 但相对于 viewport 左对齐）现在居中于该列：
+
 ```stylus
 .tab-bar
   position fixed

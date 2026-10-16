@@ -20,11 +20,13 @@ Build passes. Here's what was wrong and what I changed:
 ## Fixes
 
 **`src/components/user-avatar.vue`** — safe defaults so this can never recur:
+
 - `.avatar` gets `width: 50px; height: 50px; overflow: hidden; flex-shrink: 0` (overridable by any more-specific selector, so existing pages are unaffected)
 - `img` → `display: block` + `object-fit: cover` (no distortion, fills circle)
 - letter fallback `span` → flex centering (works at any avatar size, unlike fixed `line-height`)
 
 **`src/views/UsersView.vue`** — replaced stale `li` rules with real layout:
+
 - `.user-list`: CSS grid `repeat(auto-fill, minmax(64px, 1fr))` with gaps → responsive avatar grid
 - `.user-item`: flex column, avatar centered above the name
 - `.username`: 12px, centered, single-line ellipsis so long names like `伯阳阳阳阳阳阳阳阳阳阳` truncate instead of overflowing

@@ -18,11 +18,13 @@ The page stretched `width: 100%` across the whole monitor. Also, two bars use `p
 ## Changes
 
 **`src/stylus/variables.styl`** — single source of truth for the column width:
+
 ```stylus
 $app-max-width = 480px
 ```
 
 **`src/App.vue`** — constrain and center the `#wrapper` column:
+
 ```stylus
 #wrapper
   position relative
@@ -38,9 +40,11 @@ $app-max-width = 480px
     box-shadow 0 0 24px rgba(0, 0, 0, .35)
     min-height 100vh
 ```
+
 Since `.view` is `position: absolute; width: 100%` inside `#wrapper`, every route (`/lives`, profile, room…) is automatically limited too.
 
 **`src/components/Tabbar.vue`** — the fixed bottom tab bar (was `max-width: 700px` but left-aligned to the viewport) now centers on the column:
+
 ```stylus
 .tab-bar
   position fixed
