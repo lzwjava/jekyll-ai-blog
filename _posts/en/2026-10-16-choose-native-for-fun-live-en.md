@@ -18,7 +18,7 @@ The key reason is that **AI changes the economics of maintaining two native code
 ### My choice
 
 | | SwiftUI + Kotlin/Jetpack Compose | Flutter |
-|---|---|---|
+| --- | --- | --- |
 | iOS | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | Android | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | Native video/audio | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |

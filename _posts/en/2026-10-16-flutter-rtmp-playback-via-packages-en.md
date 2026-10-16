@@ -60,7 +60,7 @@ Tencent's Player SDK provides video playback capabilities for live streaming on 
 ### Summary Table
 
 | Scenario | Recommended Package | RTMP Support |
-|---|---|---|
+| --- | --- | --- |
 | Playback (watching RTMP) | `media_kit` | ✅ via libmpv/FFmpeg |
 | Playback (Tencent Cloud) | Tencent Player SDK | ✅ |
 | Publishing (streaming camera) | `rtmpstreamer` | ✅ Android + Web |
@@ -71,6 +71,7 @@ The most common real-world approach for low-latency live streaming is: **ingest 
 ---
 
 **References:**
+
 - [media_kit on pub.dev](https://pub.dev/documentation/media_kit/latest/)
 - [rtmpstreamer on pub.dev](https://pub.dev/documentation/rtmpstreamer/latest/)
 - [Tencent Cloud Player SDK – Flutter](https://www.tencentcloud.com/ko/document/product/266/59808)

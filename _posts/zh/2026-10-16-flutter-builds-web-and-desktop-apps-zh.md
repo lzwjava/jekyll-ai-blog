@@ -18,19 +18,23 @@ type: note
 ---
 
 ### 📱 移动端
+
 - Android
 - iOS
 
 ### 🌐 Web
+
 - 可在任何现代浏览器中运行
 - 两种渲染模式：
   - **HTML 渲染器** — 更轻量、SEO 更好、标准 DOM
   - **CanvasKit (WebAssembly)** — 像素级完美，与移动端外观一致，更重
 
 ### 🖥️ 桌面端（原生应用）
+
 Flutter 支持编译**原生 Windows、macOS 或 Linux** 桌面应用。Flutter 的桌面支持也扩展到了插件 — 你可以安装支持这些平台的现有插件，或创建自己的插件。
 
 启用桌面目标：
+
 ```bash
 flutter config --enable-windows-desktop
 flutter config --enable-macos-desktop
@@ -38,6 +42,7 @@ flutter config --enable-linux-desktop
 ```
 
 向现有项目添加桌面支持：
+
 ```bash
 flutter create --platforms=windows,macos,linux .
 ```
@@ -55,7 +60,7 @@ Flutter 团队的目标是构建这样的方式：**一个 Flutter 代码库**�
 ### ⚠️ 需要了解的注意事项
 
 | 平台 | 成熟度 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | Android / iOS | ⭐⭐⭐⭐⭐ | 生产环境验证 |
 | Web | ⭐⭐⭐⭐ | 适合 SPA/仪表盘；CanvasKit 的 SEO 较棘手 |
 | Windows | ⭐⭐⭐⭐ | 稳定 |
@@ -67,6 +72,7 @@ Flutter 团队的目标是构建这样的方式：**一个 Flutter 代码库**�
 ---
 
 **参考资料：**
+
 - [Flutter 桌面支持 – flutter.dev](https://docs.flutter.dev/platform-integration/desktop)
 - [Flutter Web 支持 – flutter.dev](https://docs.flutter.dev/platform-integration/web)
 - [Flutter 开发趋势 2026](https://www.monterail.com/blog/flutter-development-trends)

@@ -18,19 +18,23 @@ type: note
 ---
 
 ### 📱 Mobile
+
 - Android
 - iOS
 
 ### 🌐 Web
+
 - Runs in any modern browser
 - Two rendering modes:
   - **HTML renderer** — lighter, better SEO, standard DOM
   - **CanvasKit (WebAssembly)** — pixel-perfect, same look as mobile, heavier
 
 ### 🖥️ Desktop (Native Apps)
+
 Flutter provides support for compiling a **native Windows, macOS, or Linux** desktop app. Flutter's desktop support also extends to plugins — you can install existing plugins that support these platforms, or create your own.
 
 To enable desktop targets:
+
 ```bash
 flutter config --enable-windows-desktop
 flutter config --enable-macos-desktop
@@ -38,6 +42,7 @@ flutter config --enable-linux-desktop
 ```
 
 To add desktop to an existing project:
+
 ```bash
 flutter create --platforms=windows,macos,linux .
 ```
@@ -55,7 +60,7 @@ Businesses can optimize resource allocation, accelerate time-to-market, and main
 ### ⚠️ Caveats to Know
 
 | Platform | Maturity | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Android / iOS | ⭐⭐⭐⭐⭐ | Production-proven |
 | Web | ⭐⭐⭐⭐ | Good for SPAs/dashboards; SEO tricky with CanvasKit |
 | Windows | ⭐⭐⭐⭐ | Stable |
@@ -67,6 +72,7 @@ This is exactly why Xianyu uses Flutter for the **mobile app** but a separate Re
 ---
 
 **References:**
+
 - [Flutter Desktop Support – flutter.dev](https://docs.flutter.dev/platform-integration/desktop)
 - [Flutter Web Support – flutter.dev](https://docs.flutter.dev/platform-integration/web)
 - [Flutter Development Trends 2026](https://www.monterail.com/blog/flutter-development-trends)

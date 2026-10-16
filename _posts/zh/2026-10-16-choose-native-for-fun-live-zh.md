@@ -17,8 +17,8 @@ type: note
 
 ### 我的选择
 
-|  | SwiftUI + Kotlin/Jetpack Compose | Flutter |
-|---|---|---|
+| | SwiftUI + Kotlin/Jetpack Compose | Flutter |
+| --- | --- | --- |
 | iOS | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | Android | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | 原生视频/音频 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |

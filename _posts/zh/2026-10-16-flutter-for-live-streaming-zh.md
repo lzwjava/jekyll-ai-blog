@@ -34,6 +34,7 @@ Flutter 可以处理**两端**——主播端和观众端。
 ### 📦 Flutter 直播的顶级 SDK 与服务
 
 #### 1. **Agora**（最常用于类似 Twitch 的应用）
+
 RTMP 是一种广泛使用的直播视频流协议，用于向 YouTube、Twitch 和 Facebook 等平台推流。Agora 的 Flutter SDK 支持超低延迟的互动直播：
 
 ```yaml
@@ -48,6 +49,7 @@ audienceLatencyLevel: audienceLatencyLevelUltraLowLatency,
 ```
 
 #### 2. **Mux**（最适合 Twitch 风格的 VOD + 直播）
+
 Mux API 支持通过 Flutter 进行直播的推流和播放。它使用 RTMP 进行推流，使用 HLS 进行播放：
 
 ```dart
@@ -59,6 +61,7 @@ final url = 'https://stream.mux.com/$playbackId.m3u8';
 ```
 
 #### 3. **Stream Video SDK**（低延迟，内置聊天功能）
+
 Stream 提供两种直播形式——**基于 WebRTC**（超低延迟）和**基于 RTMP**（用于 OBS/专业工具）。它还支持类似 Twitch 的功能：当主播准备好时，可以调用 `goLive` 使直播开启。
 
 ```yaml
@@ -67,6 +70,7 @@ dependencies:
 ```
 
 #### 4. **VideoSDK**
+
 支持通过提供推流密钥和 URL，直接将 RTMP 直播推送到 YouTube、Twitch 和 Facebook：
 
 ```dart
@@ -82,7 +86,7 @@ room.startLivestream(outputs: outputs);
 ### ✅ 你可以构建的 Twitch 风格功能
 
 | 功能 | Flutter 支持 |
-|---|---|
+| --- | --- |
 | 📹 摄像头推流（RTMP） | ✅ `rtmpstreamer`、Agora、Mux |
 | 📺 观看直播流（HLS） | ✅ `media_kit`、`video_player` |
 | 💬 实时聊天 | ✅ Stream Chat、Firebase、WebSocket |
@@ -103,6 +107,7 @@ room.startLivestream(outputs: outputs);
 ---
 
 **参考资料：**
+
 - [Agora 互动直播 – Flutter](https://docs.agora.io/en/realtime-media/interactive-live-streaming/quickstart/flutter.md)
 - [Mux for Flutter](https://www.mux.com/for/flutter)
 - [Stream Video Flutter – 直播教程](https://getstream.io/video/docs/flutter/livestreaming)

@@ -17,8 +17,10 @@ type: note
 
 Here's how I can tell from inspecting the page source:
 
-### ❌ No Flutter Web signatures found:
+### ❌ No Flutter Web signatures found
+
 A Flutter Web app always leaves clear fingerprints in the HTML:
+
 - `flutter.js` bootstrap script
 - `main.dart.js` compiled Dart code
 - `flutter_service_worker.js`
@@ -27,7 +29,8 @@ A Flutter Web app always leaves clear fingerprints in the HTML:
 
 None of these are present on `goofish.com`.
 
-### ✅ What it actually uses:
+### ✅ What it actually uses
+
 Looking at the page source, there's a telling clue:
 
 ```
@@ -36,10 +39,10 @@ meta-ice-meta-count: 0
 
 The `ice` prefix points to **[ICE.js](https://ice.work/)** — Alibaba's own internal React-based frontend framework (also known as `icejs` or `AppWorks`). The web version is a standard **React + SSR (Server-Side Rendered)** app, which also explains why it has proper SEO meta tags (Baidu verification, Google verification, keywords, description) — Flutter Web CanvasKit mode renders into a `<canvas>` and is essentially invisible to search engines.
 
-### Summary:
+### Summary
 
 | Platform | Technology |
-|---|---|
+| --- | --- |
 | 📱 Xianyu iOS/Android app | ✅ Flutter |
 | 🌐 goofish.com website | ❌ React + Alibaba ICE.js (not Flutter) |
 

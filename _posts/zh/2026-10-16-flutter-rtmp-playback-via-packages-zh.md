@@ -60,7 +60,7 @@ Tencent 的 Player SDK 在 Flutter 上提供直播视频播放能力，支持 RT
 ### 汇总表
 
 | 场景 | 推荐包 | RTMP 支持 |
-|---|---|---|
+| --- | --- | --- |
 | 播放（观看 RTMP） | `media_kit` | ✅ 通过 libmpv/FFmpeg |
 | 播放（Tencent Cloud） | Tencent Player SDK | ✅ |
 | 推流（摄像头直播） | `rtmpstreamer` | ✅ Android + Web |
@@ -71,6 +71,7 @@ Tencent 的 Player SDK 在 Flutter 上提供直播视频播放能力，支持 RT
 ---
 
 **参考：**
+
 - [pub.dev 上的 media_kit](https://pub.dev/documentation/media_kit/latest/)
 - [pub.dev 上的 rtmpstreamer](https://pub.dev/documentation/rtmpstreamer/latest/)
 - [Tencent Cloud Player SDK – Flutter](https://www.tencentcloud.com/ko/document/product/266/59808)

@@ -34,6 +34,7 @@ Flutter can handle **both sides** — the broadcaster and the viewer.
 ### 📦 Top SDKs & Services for Flutter Live Streaming
 
 #### 1. **Agora** (Most popular for Twitch-like apps)
+
 RTMP is a widely used protocol for live streaming video content to platforms like YouTube, Twitch, and Facebook. Agora's Flutter SDK supports interactive live streaming with ultra-low latency:
 
 ```yaml
@@ -48,6 +49,7 @@ audienceLatencyLevel: audienceLatencyLevelUltraLowLatency,
 ```
 
 #### 2. **Mux** (Best for Twitch-style VOD + Live)
+
 Mux APIs support both broadcasting and playback for live streams with Flutter. It uses RTMP for broadcasting and HLS for playback:
 
 ```dart
@@ -59,6 +61,7 @@ final url = 'https://stream.mux.com/$playbackId.m3u8';
 ```
 
 #### 3. **Stream Video SDK** (Low-latency, built-in chat)
+
 Stream offers two flavors of livestreaming — **WebRTC-based** (ultra-low latency) and **RTMP-based** (for OBS/professional tools). It also covers a Twitch-like feature where when hosts are ready, they can make the call "live" by calling `goLive`.
 
 ```yaml
@@ -67,6 +70,7 @@ dependencies:
 ```
 
 #### 4. **VideoSDK**
+
 Supports RTMP livestream directly to YouTube, Twitch, and Facebook by providing the stream key and URL:
 
 ```dart
@@ -82,7 +86,7 @@ room.startLivestream(outputs: outputs);
 ### ✅ Twitch-Like Features You Can Build
 
 | Feature | Flutter Support |
-|---|---|
+| --- | --- |
 | 📹 Camera broadcasting (RTMP) | ✅ `rtmpstreamer`, Agora, Mux |
 | 📺 Watching a stream (HLS) | ✅ `media_kit`, `video_player` |
 | 💬 Live chat | ✅ Stream Chat, Firebase, WebSocket |
@@ -103,6 +107,7 @@ room.startLivestream(outputs: outputs);
 ---
 
 **References:**
+
 - [Agora Interactive Live Streaming – Flutter](https://docs.agora.io/en/realtime-media/interactive-live-streaming/quickstart/flutter.md)
 - [Mux for Flutter](https://www.mux.com/for/flutter)
 - [Stream Video Flutter – Livestreaming Tutorial](https://getstream.io/video/docs/flutter/livestreaming)
