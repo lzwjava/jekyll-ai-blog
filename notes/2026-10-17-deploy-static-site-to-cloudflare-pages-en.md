@@ -24,8 +24,6 @@ Cloudflare Pages docs
 
 +1
 
-
-
 ## Option 1: Deploy from your terminal
 
 If you already have a static site, this is the quickest way to deploy it.
@@ -59,8 +57,6 @@ GitHub
 
 +1
 
-
-
 ## Option 2: Automatic deployment from GitHub
 
 Recommended if you actively maintain the website or blog.
@@ -88,8 +84,6 @@ Cloudflare Pages docs
 
 +1
 
-
-
 ## Option 3: Connect your own domain
 
 After deployment:
@@ -114,8 +108,6 @@ One important detail: choose Git integration or Direct Upload when creating the 
 Cloudflare Pages docs
 
 +1
-
-
 
 One question: What kind of static site are you deploying?
 

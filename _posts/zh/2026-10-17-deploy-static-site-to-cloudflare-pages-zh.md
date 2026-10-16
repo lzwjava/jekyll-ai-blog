@@ -24,8 +24,6 @@ Cloudflare Pages 文档
 
 +1
 
-
-
 ## 选项 1：从终端部署
 
 如果你已经有一个静态站点，这是最快速的部署方式。
@@ -59,8 +57,6 @@ GitHub
 
 +1
 
-
-
 ## 选项 2：从 GitHub 自动部署
 
 如果你积极维护网站或博客，推荐使用此方式。
@@ -72,11 +68,11 @@ GitHub
 
 典型设置：
 
-| 设置                | 纯 HTML          | Vite            |
+| 设置 | 纯 HTML | Vite |
 | ---------------------- | --------------- | --------------- |
-| 生产分支      | `main`          | `main`          |
-| 构建命令          | `exit 0`        | `npm run build` |
-| 构建输出目录 | `.` 或 `public` | `dist`          |
+| 生产分支 | `main` | `main` |
+| 构建命令 | `exit 0` | `npm run build` |
+| 构建输出目录 | `.` 或 `public` | `dist` |
 
 对于 Jekyll 站点，请使用适当的 Ruby/Jekyll 构建命令以及生成的输出目录，通常是 `_site`。
 
@@ -87,8 +83,6 @@ GitHub
 Cloudflare Pages 文档
 
 +1
-
-
 
 ## 选项 3：连接你自己的域名
 
@@ -114,8 +108,6 @@ Cloudflare Pages 文档
 Cloudflare Pages 文档
 
 +1
-
-
 
 一个问题：你正在部署哪种静态站点？
 

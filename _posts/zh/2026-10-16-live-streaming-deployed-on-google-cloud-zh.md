@@ -14,10 +14,10 @@ type: note
 ## 部署内容
 
 | 部分 | 变更 |
-|---|---|
+| --- | --- |
 | `srs/srs.conf` | 新的 SRS 6 配置：RTMP 推流接收、HLS（2 秒分片）+ HTTP-FLV、每会话 DVR、hooks → 应用 |
 | `docker-compose.yml` | 新增 `srs` 服务（`ossrs/srs:6`，端口 1935+8080，`restart: unless-stopped`，持久化 `./srs-data`） |
-| `nginx.conf` | funlive.io vhost 上的 `/live/` 代理 → `https://funlive.io/live/<key>.m3u8|.flv`（无混合内容；为 web.funlive.io 播放器配置 CORS；已与仅 VM 的 `fun-live-icon` 配置块合并） |
+| `nginx.conf` | funlive.io vhost 上的 `/live/` 代理 → `<https://funlive.io/live/><key>.m3u8 | .flv`（无混合内容；为 web.funlive.io 播放器配置 CORS；已与仅 VM 的`fun-live-icon` 配置块合并） |
 | `LiveDao.php` | `pushUrl` = `rtmp://funlive.io/live/<key>`，HLS/FLV/RTMP 播放 URL 已重新指向（所有 `*.quzhiboapp.com`/已失效的 Aliyun 主机已移除） |
 | `LiveHooks.php` | 接收 SRS 6 JSON hook 请求体；拒绝流 key 没有对应 live 记录的推流 |
 | `RecordedVideoDao.php` | 修复表名（`recorded_videos`）——原有的 CI3→CI4 迁移 bug |

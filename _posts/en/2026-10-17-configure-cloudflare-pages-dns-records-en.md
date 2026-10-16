@@ -17,8 +17,6 @@ Cloudflare Pages docs
 
 +1
 
-
-
 ## Configure it based on where your DNS is hosted
 
 ### Case 1: You're using Cloudflare nameservers
@@ -47,8 +45,6 @@ If you want to keep Namecheap's nameservers, an A record won't directly connect 
 Cloudflare Pages docs
 
 +1
-
-
 
 One question: In Namecheap, what does the Nameservers field currently show?
 

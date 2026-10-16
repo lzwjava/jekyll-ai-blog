@@ -17,8 +17,6 @@ Cloudflare Pages 文档
 
 +1
 
-
-
 ## 根据您的 DNS 托管位置进行配置
 
 ### 情况 1：您使用的是 Cloudflare nameservers
@@ -47,8 +45,6 @@ Cloudflare Pages 文档
 Cloudflare Pages 文档
 
 +1
-
-
 
 一个问题：在 Namecheap 中，Nameservers 字段当前显示什么？
 

@@ -42,8 +42,6 @@ After Cloudflare gives you two assigned nameservers:
 
    +1
 
-
-
 Do not copy nameservers from another domain; use the exact pair Cloudflare assigned to yours.
 
 ## Step 3 — Attach the domain to Pages
@@ -62,8 +60,6 @@ Cloudflare will configure the necessary DNS record and provision HTTPS for the d
 Cloudflare Pages docs
 
 +1
-
-
 
 ## Step 4 — Verify everything
 

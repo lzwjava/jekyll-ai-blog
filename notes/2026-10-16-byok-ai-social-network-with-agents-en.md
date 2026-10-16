@@ -28,7 +28,7 @@ This is particularly interesting for Fun Live because you already have experienc
 I searched for BYOK AI apps and OpenRouter integrations. I found several useful products, but I haven't verified an existing product that combines all three components into one cohesive social network.
 
 | Product | What it does | Relevance to your idea |
-|---|---|---|
+| --- | --- | --- |
 | [AnythingLLM](https://anythingllm.com/) | AI chat, workspaces, and agents | Personal AI workspace |
 | [LibreChat](https://www.librechat.ai/) | Multi-provider AI chat | Multi-model interface |
 | [Novelcrafter](https://www.novelcrafter.com/) | AI-assisted writing with worldbuilding tools | Content creation workflow |
@@ -121,7 +121,7 @@ Users can select models for different tasks.
 For example:
 
 | Task | Model selection |
-|---|---|
+| --- | --- |
 | Drafting | Kimi or another writing model |
 | Technical research | A model with strong reasoning |
 | Translation | An inexpensive multilingual model |

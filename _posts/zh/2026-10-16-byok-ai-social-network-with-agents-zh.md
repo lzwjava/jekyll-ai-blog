@@ -28,7 +28,7 @@ type: note
 我搜索了 BYOK AI 应用和 OpenRouter 集成。我找到了一些有用的产品，但我尚未验证有现成产品能将这三个组件整合进一个统一的社交网络。
 
 | 产品 | 功能 | 与你的想法的关联 |
-|---|---|---|
+| --- | --- | --- |
 | [AnythingLLM](https://anythingllm.com/) | AI 聊天、工作区和 Agent | 个人 AI 工作区 |
 | [LibreChat](https://www.librechat.ai/) | 多提供商 AI 聊天 | 多模型界面 |
 | [Novelcrafter](https://www.novelcrafter.com/) | 带世界观构建工具的 AI 辅助写作 | 内容创作工作流 |
@@ -121,7 +121,7 @@ Publish to feed
 例如：
 
 | 任务 | 模型选择 |
-|---|---|
+| --- | --- |
 | 起草 | Kimi 或其他写作模型 |
 | 技术研究 | 推理能力强的模型 |
 | 翻译 | 便宜的多语言模型 |
