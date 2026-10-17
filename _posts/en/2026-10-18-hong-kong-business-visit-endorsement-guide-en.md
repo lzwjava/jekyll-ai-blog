@@ -26,6 +26,7 @@ Each time you enter Hong Kong, the maximum stay per visit is **7 to 14 days** (d
 ## Who Can Apply?
 
 Eligible applicants include:
+
 1. Employees **dispatched by a company** to Hong Kong for business — the company must be a legally registered entity with independent legal person status, or a foreign enterprise resident representative office.
 2. **Individual business operators** (个体工商户) travelling for business.
 3. Drivers of **cross-border transport vehicles** between Mainland and Hong Kong.
@@ -37,6 +38,7 @@ Eligible applicants include:
 ## What Can You Do in HK with It?
 
 Permitted business activities for holders include:
+
 - Signing contracts or participating in **tendering/bidding**
 - Inspecting goods or supervising equipment loading
 - Attending **exhibitions and trade fairs** (but NOT directly selling goods to the public)
@@ -44,7 +46,8 @@ Permitted business activities for holders include:
 - **Business or technology study tours**
 - Attending short-term **seminars or conferences**
 
-### ❌ What You CANNOT Do:
+### ❌ What You CANNOT Do
+
 Under Hong Kong immigration law, visitors admitted as visitors **cannot engage in any paid or unpaid work**. Offenders can face a fine of up to HK$50,000 and up to 2 years' imprisonment.
 
 Using a business endorsement for **gambling, fraud, purchasing goods for resale (带货), or employment** is also strictly prohibited.
@@ -58,6 +61,7 @@ The company must have legal person status, a unified social credit code, be oper
 
 **Step 2 — Individual Application**
 The applicant submits:
+
 - A completed *Application Form for Chinese Citizens' Entry-Exit Documents* (with blue-background photo)
 - A company dispatch letter with official seal
 - ID and household registration (hukou) documents
@@ -75,6 +79,7 @@ A separate **Talent Endorsement (人才签注)** was introduced for 6 categories
 ---
 
 **References:**
+
 - [Hong Kong IMMD — Mainland Residents Holding Business Endorsement](https://www.immd.gov.hk/hks/services/hk-visas/overseas-chinese-entry-arrangement/mainland-china/notice.html)
 - [Mondaq — Eased Travel Rules for Mainland Chinese Residents](https://mondaq.com/china/work-visas/1467972/mainland-chinahong-kong-sarmacau-sar-eased-travel-rules-for-chinese-residents-to-hong-kong-sar-and-macau-sar)
 - [Guangzhou PSB — Business Filing Guide](https://www.gz.gov.cn/zt/ljgaqngcwqwl/fwsx/content/post_10054681.html)

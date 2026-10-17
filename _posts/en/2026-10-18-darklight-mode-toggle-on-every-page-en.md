@@ -22,6 +22,7 @@ Done ✅ — committed as `8cc20d2` and pushed to `main`.
 - **`i18n.js`** — the toggle's `aria-label` follows the active language (Switch to light/dark mode)
 
 Verified with headless Chrome across two profiles:
+
 - `data-theme` applied correctly, including dark persisted → case pages honor it too
 - Screenshot luminance confirmed real dark (28/255 avg) vs light (247/255 avg) rendering
 - No missing assets or broken references

@@ -40,7 +40,7 @@ type: note
 Go into BIOS and verify these settings:
 
 | Setting | Required Value |
-|---------|----------------|
+| --------- | ---------------- |
 | **Secure Boot** | **Disabled** (or set to "Other OS") |
 | **SATA Mode** | **AHCI** (not RAID) |
 | **Boot Mode** | **UEFI** |
@@ -68,6 +68,7 @@ Power on → tap F12 → select USB → install Ubuntu
 ---
 
 **References:**
+
 - [Dell BIOS Setup Guide](https://www.dell.com/support/kbdoc/en-us/000126121/how-to-enter-system-bios-setup-on-a-dell-laptop-desktop-or-workstation)
 - [Ubuntu Installation Tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 - [Rufus – Bootable USB Creator](https://rufus.ie)

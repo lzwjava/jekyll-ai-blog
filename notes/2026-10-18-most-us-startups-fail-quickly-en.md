@@ -42,6 +42,7 @@ US venture capital deployed $339.4 billion across 16,709 deals in 2025, but **ha
 ---
 
 References:
+
 - [Startup Failure Statistics 2026 – Review42](https://resources.review42.com/what-percentage-of-startups-fail/)
 - [Startup Failure Rate Statistics – MakerStations](https://makerstations.io/startup-failure-rate-statistics/)
 - [37 Startup Statistics 2025 – Exploding Topics](https://explodingtopics.com/blog/startup-stats)

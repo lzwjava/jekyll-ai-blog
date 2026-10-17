@@ -14,7 +14,7 @@ Both repos are committed and pushed. Each remote had new commits from another ma
 ## `live-mobile-web` → pushed `0c72414..e7225fd`
 
 | Commit | Contents |
-|---|---|
+| --- | --- |
 | `ea7176d` feat: center the app column and polish avatar/user list layout | your pre-existing WIP (`App.vue`, `Tabbar.vue`, `variables.styl`, `IntroView.vue`, `UsersView.vue`, `user-avatar.vue`) |
 | `e7225fd` feat: add GitHub login | `src/common/github.js`, `src/views/GithubCallbackView.vue`, router, `LoginOptionsForm`, `WeiboForm`, `.env.production`, README |
 

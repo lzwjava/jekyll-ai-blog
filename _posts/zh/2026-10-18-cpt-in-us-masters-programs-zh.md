@@ -46,7 +46,7 @@ CPT 授权是针对特定雇主的，仅对当前雇主有效。如果学生更�
 ### CPT 与 OPT 对比（快速比较）
 
 | | CPT | OPT |
-|---|---|---|
+| --- | --- | --- |
 | **时间** | 学位期间 | 毕业之后（或之前） |
 | **要求** | 必须是课程的一部分 | 更加灵活 |
 | **审批机构** | 学校的国际办公室（DSO） | USCIS |
@@ -55,6 +55,7 @@ CPT 授权是针对特定雇主的，仅对当前雇主有效。如果学生更�
 ---
 
 **参考资料：**
+
 - [课程实习训练 – USC 国际办公室](https://ois.usc.edu/employment/curricular-practical-training-cpt/)
 - [CPT – UC 伯克利国际办公室](https://internationaloffice.berkeley.edu/node/27)
 - [CPT – UW–麦迪逊 ISS](https://iss.wisc.edu/employment/cpt/)

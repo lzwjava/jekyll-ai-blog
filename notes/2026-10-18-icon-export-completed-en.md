@@ -14,7 +14,7 @@ Done. I extracted the hero icon SVG from `Fun Live Icon.html` (the 160×160 vers
 **Output folder:** `/Users/lzwjava/Downloads/fun-live-icon/`
 
 | File | Size | Use case |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | `fun-live-icon-1024.png` | 1024×1024 | App Store / high-res master |
 | `fun-live-icon-512.png` | 512×512 | Play Store, preview |
 | `fun-live-icon-256.png` | 256×256 | Standard app/favicon |

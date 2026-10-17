@@ -46,7 +46,7 @@ CPT authorization is employer-specific and valid only for the current employer. 
 ### CPT vs. OPT (Quick Comparison)
 
 | | CPT | OPT |
-|---|---|---|
+| --- | --- | --- |
 | **When** | During the degree | After (or before) graduation |
 | **Requirement** | Must be part of curriculum | More flexible |
 | **Approval** | School's international office (DSO) | USCIS |
@@ -55,6 +55,7 @@ CPT authorization is employer-specific and valid only for the current employer. 
 ---
 
 **References:**
+
 - [Curricular Practical Training – USC International Office](https://ois.usc.edu/employment/curricular-practical-training-cpt/)
 - [CPT – UC Berkeley International Office](https://internationaloffice.berkeley.edu/node/27)
 - [CPT – UW–Madison ISS](https://iss.wisc.edu/employment/cpt/)

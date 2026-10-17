@@ -18,6 +18,7 @@ Your iPhone 13 was **crashing at app launch in the Dart VM** (`dart::Assert::Fai
 **Root cause (confirmed against Flutter's issue tracker):** Your phone runs **iOS 26.6.2**, and iOS 26 closed the `get-task-allow` loophole that Flutter *debug* builds use for their **JIT**. The Flutter engine on this Mac is `3.27.1` (Dart 3.6.0) from Dec 2024, which predates the iOS 26 fix. On iOS 26 the Dart VM can't write/execute its own JIT pages → hard abort at startup. This is Flutter issue **#163984** (same stack trace, same fix vector: "no soluz except release mode / newer Flutter").
 
 Evidence from my tests:
+
 - A **vanilla** Flutter app (no plugins) **launched fine** on the same phone — so it wasn't your code or the camera/ML Kit plugins.
 - The **flutter upgrade is the durable fix** (newer Flutter uses a Dart interpreter fallback for iOS debug builds).
 
@@ -36,6 +37,7 @@ The phone dropped off the wireless pairing (screens locked at 2 AM 😄) and I c
 - **Wake/unlock your iPhone 13** (bring up the home screen and leave the screen on, on the same Wi-Fi), **or plug it into the Mac with a USB cable** (most reliable).
 
 Then either:
+
 - I'll see it connect and finish the install automatically, or
 - run `./scripts/install_ios.sh` yourself.
 

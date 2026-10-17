@@ -21,7 +21,7 @@ Done. The USB stick is now clean:
 That's an **MSI motherboard BIOS firmware version string**. MSI names their BIOS files with a strict convention:
 
 | Part | Meaning |
-|------|---------|
+| ------ | --------- |
 | `E` | Prefix used by MSI for all BIOS image files |
 | `7978` | **Board model code** — the internal MSI model identifier for that specific motherboard |
 | `IMS` | **Intel MSI** — the BIOS vendor/format marker (MSI's Intel-platform BIOS builds) |

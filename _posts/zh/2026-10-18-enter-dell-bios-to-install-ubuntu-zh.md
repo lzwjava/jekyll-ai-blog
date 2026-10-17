@@ -18,7 +18,7 @@ type: note
 ## 步骤 1 — 重启并进入BIOS
 
 | 方法 | 按键 | 按下时机 |
-|--------|-----|---------------|
+| -------- | ----- | --------------- |
 | **BIOS设置** | `F2` | 戴尔Logo出现时立即按下 |
 | **启动菜单**（推荐用于Ubuntu安装） | `F12` | 戴尔Logo出现时立即按下 |
 
@@ -40,7 +40,7 @@ type: note
 进入BIOS并确认以下设置：
 
 | 设置项 | 所需值 |
-|---------|----------------|
+| --------- | ---------------- |
 | **Secure Boot**（安全启动） | **Disabled**（禁用）（或设置为"Other OS"） |
 | **SATA Mode**（SATA模式） | **AHCI**（非RAID） |
 | **Boot Mode**（启动模式） | **UEFI** |
@@ -68,6 +68,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [戴尔BIOS设置指南](https://www.dell.com/support/kbdoc/en-us/000126121/how-to-enter-system-bios-setup-on-a-dell-laptop-desktop-or-workstation)
 - [Ubuntu安装教程](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 - [Rufus – 可启动USB制作工具](https://rufus.ie)

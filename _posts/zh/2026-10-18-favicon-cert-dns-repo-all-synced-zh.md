@@ -19,6 +19,7 @@ VM nginx.conf == repo HEAD: IN SYNC
 ```
 
 **本次会话工作的最终状态：**
+
 - 🔒 `https://funlive.io/?#/lives` — 已修复（证书 SAN `funlive.io, www.funlive.io`，已验证 200，`ssl_verify=0`）
 - 🌐 DNS — 已移除多余的 Namecheap URL 转发记录，仅保留 `34.150.108.243`
 - 🔄 证书续期 — `certbot renew --dry-run` 通过，每日 cron 覆盖两个证书

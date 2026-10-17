@@ -26,6 +26,7 @@ type: note
 ## 谁可以申请？
 
 符合条件的申请人包括：
+
 1. 由公司**派遣至香港**从事商务活动的员工——该公司必须是具有独立法人资格的合法注册实体，或外国企业常驻代表机构。
 2. 因商务活动出行的**个体工商户**经营者。
 3. 内地与香港之间**跨境运输车辆**的驾驶员。
@@ -37,6 +38,7 @@ type: note
 ## 持签注在香港可以做什么？
 
 持签注人可从事的获准商务活动包括：
+
 - 签订合同或参与**招标/投标**
 - 检验货物或监督设备装运
 - 参加**展览会和交易会**（但不得直接向公众售卖商品）
@@ -44,7 +46,8 @@ type: note
 - **商务或技术考察**
 - 参加短期**研讨会或会议**
 
-### ❌ 不可从事的行为：
+### ❌ 不可从事的行为
+
 根据香港入境法律，以访客身份入境的人士**不得从事任何有薪或无偿工作**。违者最高可被罚款50,000港元及监禁2年。
 
 使用商务签注进行**赌博、诈骗、带货转售或受雇工作**也属严格禁止之列。
@@ -58,6 +61,7 @@ type: note
 
 **第二步——个人申请**
 申请人须提交：
+
 - 填写完整的《中国公民出入境证件申请表》（附蓝底照片）
 - 加盖公章的公司派遣函
 - 身份证和户口簿
@@ -75,6 +79,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [香港入境事务处 — 持商务签注的内地居民](https://www.immd.gov.hk/hks/services/hk-visas/overseas-chinese-entry-arrangement/mainland-china/notice.html)
 - [Mondaq — 内地居民赴香港及澳门旅行政策放宽](https://mondaq.com/china/work-visas/1467972/mainland-chinahong-kong-sarmacau-sar-eased-travel-rules-for-chinese-residents-to-hong-kong-sar-and-macau-sar)
 - [广州市公安局 — 商务备案指南](https://www.gz.gov.cn/zt/ljgaqngcwqwl/fwsx/content/post_10054681.html)

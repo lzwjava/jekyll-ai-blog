@@ -30,6 +30,7 @@ More specifically, based on their job listings:
 **In summary**, 新音院 is a private cultural media company focused on **online entertainment, voice/audio content, live streaming talent management, MCN (multi-channel network) operations, and new media production** — essentially an entertainment and media agency in the digital content space.
 
 **References:**
+
 - [广州新音院文化传媒有限公司 — qxwq.org.cn](https://www.qxwq.org.cn/work/company/show/1299431)
 - [新音院文化传媒招聘 — jobui.com](https://www.jobui.com/company/17145474/jobs/)
 - [广州新音院文化传媒有限公司 — liepin.com](https://m.liepin.com/company/13107449/)

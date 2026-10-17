@@ -42,6 +42,7 @@ type: note
 ---
 
 参考来源：
+
 - [2026年初创公司失败统计 – Review42](https://resources.review42.com/what-percentage-of-startups-fail/)
 - [初创公司失败率统计 – MakerStations](https://makerstations.io/startup-failure-rate-statistics/)
 - [2025年37项初创公司统计 – Exploding Topics](https://explodingtopics.com/blog/startup-stats)

@@ -46,6 +46,7 @@ Alibaba moved into the US cloud market in 2015 with an eye toward grabbing marke
 **Summary:** Alibaba has repeatedly tried and failed to break into the US consumer and business markets. The core problems were a brand unknown to American consumers, intense competition from Amazon/eBay/AWS, and difficulty convincing US businesses that the platform offered real value.
 
 **References:**
+
 - [Alibaba Falls Short of Goal to Rival Amazon in US](https://thelogic.co/briefing/alibaba-falls-short-of-goal-to-rival-amazon-in-u-s/)
 - [Alibaba to Sell US Shopping Subsidiary 11 Main](https://www.businessinsider.in/alibaba-to-sell-its-us-shopping-subsidiary-11-main/amp_articleshow/47788263.cms)
 - [Why Alibaba's US Operations Have Struggled to Take Off](https://www.modernretail.co/?p=45449)

@@ -31,6 +31,7 @@ type: note
 ```
 
 这就是为什么 `lsblk` 显示 `sdb 0B`，`/sys/block/sdb/size` 为 `0`，`fdisk` 提示**`No medium found`**：
+
 - `/dev/sdb` 存在（USB 设备枚举正常）
 - 但控制器报告"介质已移除"，因此没有容量，也没有 `/dev/sdb1`。
 
@@ -58,10 +59,12 @@ sudo fdisk -l /dev/sdb
 
 - 如果直连端口仍然显示 `Media removed` / `ffff:1201` / 容量为 0 → **U 盘已损坏**，只能通过专业工具进行数据恢复（而且它很可能从未拥有所宣传的容量）。
 - 如果恢复为真实容量，请在拔除前先干净卸载：
+
   ```bash
   sudo fsck.vfat -a /dev/sdb1   # 它之前"未正确卸载"
   sudo umount /dev/sdb1
   ```
+
 - 在另一台机器上交叉验证——如果那里也显示 `ffff:1201` / 无介质，即可最终确认问题在 U 盘而不是你的电脑。
 
 另外需要注意的是：该磁盘之前曾发生过写入丢失（sdb1 和 sdb2 上的 `lost async page write`），因此请将其上的任何数据视为可疑。

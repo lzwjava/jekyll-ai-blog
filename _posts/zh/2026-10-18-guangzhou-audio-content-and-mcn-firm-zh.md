@@ -30,6 +30,7 @@ type: note
 **总结：** 新音院是一家民营文化传媒公司，专注于 **线上娱乐、语音/音频内容、直播人才管理、MCN（多频道网络）运营及新媒体制作**——本质上是一家深耕数字内容领域的娱乐与传媒机构。
 
 **参考来源：**
+
 - [广州新音院文化传媒有限公司 — qxwq.org.cn](https://www.qxwq.org.cn/work/company/show/1299431)
 - [新音院文化传媒招聘 — jobui.com](https://www.jobui.com/company/17145474/jobs/)
 - [广州新音院文化传媒有限公司 — liepin.com](https://m.liepin.com/company/13107449/)

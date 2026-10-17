@@ -39,7 +39,7 @@ type: note
 ## Simple Analogy
 
 | | Legacy BIOS | UEFI |
-|--|-------------|------|
+| -- | ------------- | ------ |
 | Like... | An old flip phone | A modern smartphone |
 | Speed | Slow | Fast |
 | Disk size limit | 2 TB max | 9 ZB (no real limit) |
@@ -53,6 +53,7 @@ type: note
 ✅ **Use UEFI** — it's what modern Dell laptops use by default, and Ubuntu installs best with it.
 
 > When you flash your USB drive with Rufus, make sure to select:
+>
 > - Partition scheme: **GPT**
 > - Target system: **UEFI (non CSM)**
 
@@ -61,5 +62,6 @@ type: note
 ---
 
 **References:**
+
 - [UEFI vs Legacy BIOS – How-To Geek](https://www.howtogeek.com/56958/htg-explains-how-uefi-will-replace-the-bios/)
 - [Ubuntu UEFI Install Guide](https://help.ubuntu.com/community/UEFI)

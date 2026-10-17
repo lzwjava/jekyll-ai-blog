@@ -46,6 +46,7 @@ type: note
 **总结：** 阿里巴巴多次尝试打入美国消费者和企业市场，但均以失败告终。核心问题在于品牌在美国消费者中知名度不足、来自亚马逊/eBay/AWS的激烈竞争，以及难以让美国企业相信该平台能提供实际价值。
 
 **参考资料：**
+
 - [阿里巴巴未能实现在美国与亚马逊抗衡的目标](https://thelogic.co/briefing/alibaba-falls-short-of-goal-to-rival-amazon-in-u-s/)
 - [阿里巴巴将出售其美国购物子公司11 Main](https://www.businessinsider.in/alibaba-to-sell-its-us-shopping-subsidiary-11-main/amp_articleshow/47788263.cms)
 - [阿里巴巴美国业务为何难以起飞](https://www.modernretail.co/?p=45449)

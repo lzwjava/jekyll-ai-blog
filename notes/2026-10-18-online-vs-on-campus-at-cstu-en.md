@@ -20,7 +20,7 @@ That changes how I would evaluate California Science and Technology University (
 CSTU is located in Milpitas, California, in Silicon Valley. Its website lists the following programs: [CalSTech University](https://www.cstu.edu/?utm_source=chatgpt.com)
 
 | Program | Duration listed | Published tuition |
-|---|---:|---:|
+| --- | ---: | ---: |
 | MS in Computer Systems and Engineering (MSCSE) | 24 months | $29,400 |
 | MBA | 24 months | $29,400 |
 | BS in Computer Systems and Engineering (BSCSE) | Varies | $25,200/year |
@@ -42,7 +42,7 @@ CSTU's September 2026 catalog explicitly lists both 100% online and in-person ve
 Here's how I would compare them.
 
 | Factor | 100% online | Onsite in California |
-|---|---|---|
+| --- | --- | --- |
 | Tuition | Lower total cost if living expenses are excluded | Same published tuition may apply; verify by program |
 | Ability to run your AI company | Excellent | Harder to balance with relocation and classes |
 | Silicon Valley networking | Mostly remote | Better opportunities for face-to-face interaction |
@@ -69,6 +69,7 @@ I would make this decision in three steps.
 Your business opportunity is more immediate than the incremental value of another year spent studying.
 
 You could continue building:
+
 - **AI consulting:** Generate revenue from software development, agent development, and LLM infrastructure.
 - **Fun Live:** Build a developer community that attracts potential customers and collaborators.
 - **Your technical portfolio:** Publish your model-training experiments, agent implementations, and GPU infrastructure work.
@@ -84,6 +85,7 @@ If you choose online study, I would investigate the BSCSE first, rather than ass
 I would consider this only if you have a concrete US strategy.
 
 For example:
+
 1. You want to establish your AI consultancy in the US market.
 2. You have sufficient funding for tuition and living expenses.
 3. You want to meet potential customers, engineers, founders, and investors in person.
@@ -108,7 +110,7 @@ Your existing experience is substantial, but many formal engineering positions a
 You have three possible routes:
 
 | Route | Main advantage | Main drawback |
-|---|---|---|
+| --- | --- | --- |
 | Finish a Chinese bachelor's degree | Potentially lower cost and less disruption | May not provide the US campus experience you want |
 | Earn CSTU's BSCSE online | US degree without relocating | Significant tuition; must verify recognition and value for your goals |
 | Earn CSTU's BSCSE onsite | US degree plus campus experience | Tuition, living costs, relocation, and immigration uncertainty |
@@ -140,6 +142,7 @@ C_{\text{onsite}} = T + F + L + R + O
 \\]
 
 Where:
+
 - \\(T\\) = tuition
 - \\(F\\) = fees and books
 - \\(L\\) = additional living expenses
@@ -151,6 +154,7 @@ Ask for the total cost based on your transfer credits, not just the advertised a
 **Step 3: Verify the outcomes that matter.**
 
 Ask CSTU:
+
 - Can I complete the entire BSCSE online from outside the US?
 - Can my existing coursework count toward the degree?
 - What is the expected graduation date and total tuition after transfer credits?

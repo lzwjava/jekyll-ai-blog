@@ -14,7 +14,7 @@ type: note
 ## `live-mobile-web` → 已推送 `0c72414..e7225fd`
 
 | Commit | 内容 |
-|---|---|
+| --- | --- |
 | `ea7176d` feat: 将应用列居中并优化头像/用户列表布局 | 你现有的 WIP（`App.vue`, `Tabbar.vue`, `variables.styl`, `IntroView.vue`, `UsersView.vue`, `user-avatar.vue`） |
 | `e7225fd` feat: 添加 GitHub 登录 | `src/common/github.js`, `src/views/GithubCallbackView.vue`, router, `LoginOptionsForm`, `WeiboForm`, `.env.production`, README |
 

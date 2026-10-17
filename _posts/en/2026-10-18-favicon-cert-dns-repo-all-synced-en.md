@@ -19,6 +19,7 @@ VM nginx.conf == repo HEAD: IN SYNC
 ```
 
 **Final state of this session's work:**
+
 - 🔒 `https://funlive.io/?#/lives` — fixed (cert SAN `funlive.io, www.funlive.io`, verified 200, `ssl_verify=0`)
 - 🌐 DNS — stray Namecheap URL-forward record removed, only `34.150.108.243` remains
 - 🔄 Cert renewal — `certbot renew --dry-run` passes, daily cron covers both certs

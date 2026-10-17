@@ -12,6 +12,7 @@ type: note
 **App installed successfully on `lzwjava13`** (iPhone 13, bundle `com.quzhibo.LiveIos`), but iOS blocks the launch — the developer certificate isn't trusted yet.
 
 **To fix, on the iPhone:**
+
 1. Open **Settings → General → VPN & Device Management** (on newer iOS: *Profiles & Device Management*)
 2. Tap your developer profile (Apple Development / lzwjava)
 3. Tap **Trust** and confirm

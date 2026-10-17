@@ -31,6 +31,7 @@ The stick enumerated **three times with three different identities** in ~40 seco
 ```
 
 That's why `lsblk` shows `sdb 0B`, `/sys/block/sdb/size` is `0`, and `fdisk` says **`No medium found`**:
+
 - `/dev/sdb` exists (USB device enumerated OK)
 - but the controller reports "media removed", so there's no capacity and no `/dev/sdb1`.
 
@@ -58,10 +59,12 @@ sudo fdisk -l /dev/sdb
 
 - If it still says `Media removed` / `ffff:1201` / capacity 0 on a direct port → **the drive is dead**, data recovery only via a professional tool (and it likely never had the capacity it advertised).
 - If it comes back with real capacity, unmount cleanly before unplugging:
+
   ```bash
   sudo fsck.vfat -a /dev/sdb1   # it was "not properly unmounted"
   sudo umount /dev/sdb1
   ```
+
 - Cross-check on another machine — if it also shows `ffff:1201` / no medium there, it definitively confirms the stick, not your PC.
 
 Also worth noting: writes were lost on this disk earlier (`lost async page write` on sdb1 and sdb2), so treat any data on it as suspect.

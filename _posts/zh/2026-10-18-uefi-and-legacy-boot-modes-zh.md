@@ -39,7 +39,7 @@ type: note
 ## 简单类比
 
 | | Legacy BIOS | UEFI |
-|--|-------------|------|
+| -- | ------------- | ------ |
 | 类似于... | 老式翻盖手机 | 现代智能手机 |
 | 速度 | 慢 | 快 |
 | 磁盘大小限制 | 最大 2 TB | 9 ZB（实际上无限制） |
@@ -53,6 +53,7 @@ type: note
 ✅ **使用 UEFI** — 这是现代 Dell 笔记本默认使用的模式，Ubuntu 在这种模式下安装效果最佳。
 
 > 当你使用 Rufus 刷写 USB 驱动器时，请确保选择：
+>
 > - 分区方案：**GPT**
 > - 目标系统：**UEFI（非 CSM）**
 
@@ -61,5 +62,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [UEFI vs Legacy BIOS – How-To Geek](https://www.howtogeek.com/56958/htg-explains-how-uefi-will-replace-the-bios/)
 - [Ubuntu UEFI 安装指南](https://help.ubuntu.com/community/UEFI)

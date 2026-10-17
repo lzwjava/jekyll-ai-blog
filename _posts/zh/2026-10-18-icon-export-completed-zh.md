@@ -14,7 +14,7 @@ type: note
 **输出文件夹：** `/Users/lzwjava/Downloads/fun-live-icon/`
 
 | 文件 | 尺寸 | 用途 |
-|------|------|----------|
+| ------ | ------ | ---------- |
 | `fun-live-icon-1024.png` | 1024×1024 | App Store / 高分辨率主图 |
 | `fun-live-icon-512.png` | 512×512 | Play Store、预览 |
 | `fun-live-icon-256.png` | 256×256 | 标准应用 / 网站图标 |
