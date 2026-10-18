@@ -50,7 +50,7 @@ For Chinese students studying in Beijing classrooms, total tuition is approximat
 ### Bottom Line
 
 | Factor | Assessment |
-|---|---|
+| --- | --- |
 | Legal operation in the U.S. | ✅ BPPE-approved, legally operating |
 | Accreditation | ⚠️ ACCSC only (vocational, not regional) |
 | Chinese MOE recognition | ✅ Yes |
@@ -63,6 +63,7 @@ If your goal is genuine tech skills and U.S. Silicon Valley employment, the lack
 ---
 
 **References:**
+
 - [CSTU Official Accreditation Page](https://www.cstu.edu/pages/about/about_us/about_accreditation.html)
 - [CSTU 2023 BPPE Annual Report](https://www.bppe.ca.gov/webapplications/annualReports/2023/details/96072081)
 - [CSTU 2026 Catalog (BPPE filing)](https://www.cstu.edu/mobile/pages/tmpl/Catalog.pdf)

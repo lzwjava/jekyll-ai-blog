@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** https://www.state.gov/eeo-no-fear-act-whistleblower-protection-acts 这个页面是什么？
+**问题：** <https://www.state.gov/eeo-no-fear-act-whistleblower-protection-acts> 这个页面是什么？
 
 **回答：**
 
@@ -29,6 +29,7 @@ type: note
 **简而言之，** 该页面是美国国务院依法必须发布的一则公开通知，旨在告知现任雇员、前雇员和求职者在联邦工作场所中享有的免受歧视和报复的合法权利。
 
 **参考资料：**
+
 - [No FEAR Act – HRSA](https://hrsa.gov/eeo/no-fear-act/lawsandprotections)
 - [No FEAR Act – GAO](https://www.gao.gov/about/workforce/nofear.html)
 - [No FEAR Act – SSA](https://www.ssa.gov/eeo/nofear/index.htm)

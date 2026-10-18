@@ -50,7 +50,7 @@ CSTU 是中国教育部认可的高等教育机构，其学位可通过中国留
 ### 核心结论
 
 | 因素 | 评估 |
-|---|---|
+| --- | --- |
 | 美国合法运营 | ✅ 经 BPPE 批准，合法运营 |
 | 认证 | ⚠️ 仅 ACCSC（职业类，非区域认证） |
 | 中国教育部认可 | ✅ 是 |
@@ -63,6 +63,7 @@ CSTU 是中国教育部认可的高等教育机构，其学位可通过中国留
 ---
 
 **参考资料：**
+
 - [CSTU 官方认证页面](https://www.cstu.edu/pages/about/about_us/about_accreditation.html)
 - [CSTU 2023 年 BPPE 年度报告](https://www.bppe.ca.gov/webapplications/annualReports/2023/details/96072081)
 - [CSTU 2026 年课程目录（BPPE 备案文件）](https://www.cstu.edu/mobile/pages/tmpl/Catalog.pdf)

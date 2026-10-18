@@ -17,8 +17,6 @@ Yimin Information
 
 +1
 
-
-
 Name: Jenny Jin
 
 Chinese name: 金正连, according to the Beijing immigration-industry association and the company's Chinese-language profile.&#x20;
@@ -28,8 +26,6 @@ Chinese name: 金正连, according to the Beijing immigration-industry associati
 Bjeesa
 
 +1
-
-
 
 Organization: 北京金征远出入境服务有限公司
 
@@ -58,8 +54,6 @@ Industry: Immigration consulting and employment-based immigration services.
   EB3 Immi
 
   +1
-
-
 
 ## How should you interpret her credentials?
 

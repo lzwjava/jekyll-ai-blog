@@ -22,6 +22,7 @@ type: note
 中国裁判文书网（China Judgments Online，wenshu.court.gov.cn）收录了全国各省及省级城市法院的裁判文书。检索框支持按法院名称、当事人、律师或其他关键词搜索。该数据库提供案件详情，包括对方当事人名称、案由、争议金额及判决金额。
 
 专门以公司名称检索 **服务合同纠纷**，可以让你了解到：
+
 - 客户之前是否曾因未交付服务或服务质量不佳而起诉过他们？
 - 他们是否通常作为 **被告** 出现——这是一个危险信号？
 - 他们最终对簿公堂的频率有多高，还是更倾向于自行解决问题？
@@ -39,7 +40,7 @@ type: note
 将这些核查手段叠加使用：
 
 | 核查内容 | 查询渠道 |
-|---|---|
+| --- | --- |
 | 服务合同纠纷判决书 | wenshu.court.gov.cn 或 天眼查/企查查 |
 | 失信被执行人名单 | zxgk.court.gov.cn/shixin |
 | 被执行人（未履行判决） | zxgk.court.gov.cn/zhixing |
@@ -55,6 +56,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [中国裁判文书网（China Judgments Online）](http://wenshu.court.gov.cn)
 - [失信被执行人名单（Dishonest Debtor List）](http://zxgk.court.gov.cn/shixin/)
 - [被执行人信息查询（Enforcement Records）](http://zxgk.court.gov.cn/zhixing/)

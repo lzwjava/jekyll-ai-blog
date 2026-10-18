@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is the page at https://www.state.gov/eeo-no-fear-act-whistleblower-protection-acts?
+**Question:** What is the page at <https://www.state.gov/eeo-no-fear-act-whistleblower-protection-acts>?
 
 **Answer:**
 
@@ -29,6 +29,7 @@ A federal agency cannot retaliate against an employee or applicant because that 
 **In short**, this page serves as a mandatory public notice from the U.S. State Department to inform current employees, former employees, and job applicants of their legal rights against discrimination and retaliation in the federal workplace.
 
 **References:**
+
 - [No FEAR Act – HRSA](https://hrsa.gov/eeo/no-fear-act/lawsandprotections)
 - [No FEAR Act – GAO](https://www.gao.gov/about/workforce/nofear.html)
 - [No FEAR Act – SSA](https://www.ssa.gov/eeo/nofear/index.htm)

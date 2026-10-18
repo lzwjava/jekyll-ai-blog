@@ -27,8 +27,6 @@ type: note
 
 +1
 
-
-
 来源：[已公开的民事判决书（全文）](https://zh.wikisource.org/zh-hans/吴珊与金正连等服务合同纠纷一审民事判决书?utm_source=chatgpt.com)
 
 该公司确实有公开的运营存在
@@ -40,8 +38,6 @@ type: note
 royalwayvisa.com
 
 +2
-
-
 
 来源：[Royal Way 官方网站](https://www.royalwayvisa.com/?utm_source=chatgpt.com) · [EB-3 移民网站](https://www.eb3immi.com/?utm_source=chatgpt.com)
 
@@ -56,8 +52,6 @@ royalwayvisa.com
 Travel.state.gov
 
 +1
-
-
 
 该流程要求有真实的美国雇主和符合条件的永久性工作，通常需要劳工证（labor certification），随后提交移民申请。向中介付费并不能保证获批或获得签证名额。
 

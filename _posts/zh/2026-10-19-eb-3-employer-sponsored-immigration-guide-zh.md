@@ -24,7 +24,7 @@ EB-3（第三优先就业类）是美国的一种移民签证类别，为受美�
 ## 三个子类别
 
 | 子类别 | 要求 | 示例 |
-|---|---|---|
+| --- | --- | --- |
 | **技术工人** | 2年以上培训/经验 | 电工、厨师、IT技术人员 |
 | **专业人士** | 美国学士学位 | 会计师、工程师、护士 |
 | **其他工人** | 少于2年培训 | 体力劳动者、家政人员、护工 |
@@ -58,6 +58,7 @@ I-140提交后，受益人获得一个**优先日期**——即PERM提交给DOL�
 ### 第六阶段 — I-485（身份调整）或领事处理
 
 I-140获批且优先日期变为当前后：
+
 - **如果在美国境内：** 提交I-485表格（身份调整）。如果与I-140同时提交，受益人可以在等待期间申请EAD（工作许可）和 Advance Parole。
 - **如果在美国境外：** 在美国大使馆或领事馆完成领事处理，然后进入美国，绿卡将邮寄给您。
 
@@ -66,7 +67,7 @@ I-140获批且优先日期变为当前后：
 ## 时间线与费用汇总
 
 | 阶段 | 预计时间 |
-|---|---|
+| --- | --- |
 | 现行工资标准确定 | 6–10个月 |
 | 招聘活动 | 2–3个月 |
 | PERM审理 | 6–12个月 |
@@ -76,7 +77,7 @@ I-140获批且优先日期变为当前后：
 | 领事处理 | 4–10个月 |
 
 | 费用 | 金额 |
-|---|---|
+| --- | --- |
 | PERM申请（ETA表格9089） | 无政府费用 |
 | PERM招聘费用（雇主支付） | $3,000–$8,000 |
 | I-140申请费 | $715 |
@@ -117,6 +118,7 @@ I-485（在美国境内）或领事处理（在国外）
 ---
 
 **参考资料：**
+
 - [EB-3 Green Card Guide 2026: PERM, Requirements & Process — Grape Law Firm](https://www.grapelaw.com/blog/us-immigration/what-is-the-eb-3-visa)
 - [EB-3 Visa Bulletin 2026: Priority Dates & Processing Times — National Law Review](https://natlawreview.com/press-releases/eb-3-visa-bulletin-2026-priority-dates-processing-times-and-realistic)
 - [Employment-Based Green Card 2026 — Lighthouse HQ](https://www.lighthousehq.com/blog/employment-based-green-card)

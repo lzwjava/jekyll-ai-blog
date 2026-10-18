@@ -27,8 +27,6 @@ According to the judgment, the client paid RMB 700,000 in service fees plus addi
 
 +1
 
-
-
 Source: [Published civil judgment (full text)](https://zh.wikisource.org/zh-hans/吴珊与金正连等服务合同纠纷一审民事判决书?utm_source=chatgpt.com)
 
 The company does have a public operating presence
@@ -40,8 +38,6 @@ Its official websites identify the business as 北京金征远出入境服务有
 royalwayvisa.com
 
 +2
-
-
 
 Sources: [Royal Way official website](https://www.royalwayvisa.com/?utm_source=chatgpt.com) · [EB-3 immigration website](https://www.eb3immi.com/?utm_source=chatgpt.com)
 
@@ -57,15 +53,11 @@ Travel.state.gov
 
 +1
 
-
-
 The underlying process requires a genuine US employer and a qualifying permanent job, generally with labor certification followed by an immigration petition. Paying an agency does not guarantee either approval or a visa number.&#x20;
 
 [image](https://www.google.com/s2/favicons?domain=https://www.uscis.gov\&sz=32)
 
 USCIS
-
-
 
 ## 3. What I would verify before paying
 

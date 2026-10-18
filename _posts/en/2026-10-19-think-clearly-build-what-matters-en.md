@@ -37,7 +37,7 @@ We value intellectual independence over conventional wisdom, understanding over 
 
 We build because we care about the work itself and the problems worth solving—not merely because something is fashionable or profitable today.
 
-## Build for Ourselves. Build for Real Users.
+## Build for Ourselves. Build for Real Users
 
 We believe great products often begin with people solving problems they personally experience.
 
@@ -114,8 +114,6 @@ This combines YC's emphasis on real customers and learning through execution wit
 Y Combinator
 
 +2
-
-
 
 ## 2. Your pricing philosophy
 

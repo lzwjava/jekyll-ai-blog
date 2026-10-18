@@ -22,6 +22,7 @@ Yes — checking those judgment records is one of the smartest and most specific
 China Judgments Online (wenshu.court.gov.cn) reports on judgments from the courts of all PRC provinces and provincial-level cities. The search field allows searches by court name, parties, counsel, or other keywords. The database yields case details including the name of the opposing party, the nature of the complaint, the amount in controversy, and the amount in judgment.
 
 Searching specifically for **服务合同纠纷** (service contract disputes) against a company name tells you:
+
 - Have clients previously sued them for non-delivery or poor performance?
 - Were they typically the **defendant** (被告) — a red flag?
 - How often do they end up in court vs. resolving issues themselves?
@@ -39,7 +40,7 @@ Companies can incorporate enforcement record information into their due diligenc
 Layer these checks together:
 
 | What to Check | Where |
-|---|---|
+| --- | --- |
 | 服务合同纠纷判决书 (court judgments) | wenshu.court.gov.cn or 天眼查/企查查 |
 | 失信被执行人 (dishonest debtor blacklist) | zxgk.court.gov.cn/shixin |
 | 被执行人 (outstanding enforcement judgments) | zxgk.court.gov.cn/zhixing |
@@ -55,6 +56,7 @@ Before signing, run the vendor's **exact registered Chinese legal name** (not ju
 ---
 
 **References:**
+
 - [China Judgments Online (裁判文书网)](http://wenshu.court.gov.cn)
 - [Dishonest Debtor List (失信被执行人)](http://zxgk.court.gov.cn/shixin/)
 - [Enforcement Records (被执行人)](http://zxgk.court.gov.cn/zhixing/)
