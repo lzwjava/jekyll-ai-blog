@@ -35,6 +35,7 @@ The two main options are:
 ---
 
 References:
+
 - [Initiate Graphic Adapter – PEG vs IGD (cloudspress.com)](https://www.cloudspress.com/?p=813460)
 - [How to Change Default Display Adapter in BIOS (freedom251.com)](https://freedom251.com/?p=456)
 - [MSI BIOS – Initiate Graphic Adapter setting (yomotherboard.com)](https://yomotherboard.com/question/how-can-i-stop-my-bios-from-using-onboard-graphics/)
