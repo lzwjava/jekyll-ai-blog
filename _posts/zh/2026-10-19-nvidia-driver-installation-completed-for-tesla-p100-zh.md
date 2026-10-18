@@ -16,16 +16,19 @@ type: note
 **检测到的 GPU：** `NVIDIA Tesla P100 PCIe 16GB` (GP100, Pascal)
 
 **执行的安装步骤：**
+
 1. 识别出操作系统（Ubuntu 26.04 LTS）并确认未安装 NVIDIA 驱动程序。
 2. 使用 `ubuntu-drivers devices` → 推荐驱动程序 `nvidia-driver-580`。
 3. 通过 apt 安装了 `nvidia-driver-580`（版本 **580.178.04**，CUDA 13.0）。
 4. 发现 `nouveau`（开源驱动程序）已占用 P100 并阻止了 NVIDIA 模块，因此添加了 `/etc/modprobe.d/blacklist-nouveau.conf`，运行 `update-initramfs -u`，然后解除 nouveau 绑定并加载 NVIDIA 堆栈。
 
 **当前状态 — 正常工作：**
+
 ```
 NVIDIA-SMI 580.178.04   Driver Version: 580.178.04   CUDA Version: 13.0
 Tesla P100-PCIE-16GB | 00000000:01:00.0 | 0MiB / 16384MiB | 0%
 ```
+
 - P100 绑定至 `nvidia` 驱动程序
 - 设备节点存在（`/dev/nvidia0`、`/dev/nvidiactl` 等）
 - `nvidia-persistenced` 服务已激活（建议用于 Tesla 卡）

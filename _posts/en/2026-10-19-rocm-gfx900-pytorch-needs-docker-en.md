@@ -16,7 +16,7 @@ Here's the final state:
 ### Installed & working
 
 | Component | Package | Verified |
-|-----------|---------|----------|
+| ----------- | --------- | ---------- |
 | GPU enumeration | `rocminfo` | ✅ `gfx900`, `AMD Radeon Pro WX 9100`, 64 CUs, 16 GB |
 | Monitoring | `rocm-smi` | ✅ Device `0x6861`, GFX `gfx900` |
 | Kernel thunk | `libhsakmt1` | ✅ |
@@ -27,6 +27,7 @@ Here's the final state:
 I also added your user to the `render` and `video` groups (ACLs already allowed access; re-login to make the group membership effective).
 
 ### Confirmed limitation (proven, not assumed)
+
 ROCm **7.1's rocBLAS has no gfx900 kernels**, so any rocBLAS-based workload fails:
 
 ```
@@ -37,6 +38,7 @@ rocBLAS error: Cannot read .../TensileLibrary.dat ... for GPU arch : gfx900
 This means **PyTorch from the Ubuntu repo (`python3-torch-rocm`) will not work on this GPU.** Custom HIP kernels and OpenCL do work.
 
 ### For actually training nanoGPT on this card
+
 gfx900 needs a **ROCm 5.7** stack (the last release with full Vega 10 support). The clean way is a container, since the host kernel driver + `/dev/kfd` are all it needs:
 
 ```bash
@@ -50,6 +52,7 @@ Your system has **neither docker nor podman**, and the system Python is **3.14**
 ---
 
 **Next step — shall I:**
+
 1. **Install docker (or podman) and pull the `rocm/pytorch` ROCm 5.7 image**, then verify `torch.cuda` sees the GPU and run a quick nanoGPT smoke test? *(recommended)*
 2. Leave it as-is — you'll handle the PyTorch setup yourself?
 3. Also **remove** the `librocblas5`/`librocblas5-bench` packages I installed purely for the verification test? (They're harmless but unused.)

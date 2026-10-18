@@ -20,6 +20,7 @@ type: note
 ```
 
 注释：
+
 - `deepseek/deepseek-v4.1-flash` 存在于目录中（OpenRouter提供商，具备推理能力，1M上下文）。
 - 提供商保持 `openrouter`，它已经在 `auth.json` 中存储了API密钥。
 - 你的思考级别是 `high`，这个模型支持它（`thinkingLevelMap` 有 `high: "high"`），所以没有冲突。

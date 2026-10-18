@@ -18,12 +18,14 @@ Done. Here's what was installed:
 5. **Zsh completions** — copied to `~/.zsh/completions/_ww`
 
 **Verify it works:**
+
 ```bash
 ww
 ww weather
 ```
 
 **Notes:**
+
 - Your `.env` is already present with `OPENROUTER_API_KEY` and `MODEL` configured.
 - If you use **zsh**, run `autoload -Uz compinit && compinit` to reload completions.
 - Run commands with `ww <group> <subcmd>` from anywhere, or `uv run ww <cmd>` if you prefer not using the symlink.

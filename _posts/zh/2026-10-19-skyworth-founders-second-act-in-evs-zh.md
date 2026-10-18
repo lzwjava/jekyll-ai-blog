@@ -48,6 +48,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Skyworth – Wikipedia](https://www.wikipedia.com/wiki/Skyworth)
 - [The Big Read: Story of Skyworth – Car News China](https://carnewschina.com/2021/10/10/the-big-read-story-of-skyworth/)
 - [Huang Hongsheng Biography – China Vitae](https://chinavitae.com/biography/Huang_Hongsheng/full)

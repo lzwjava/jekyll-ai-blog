@@ -16,7 +16,7 @@ type: note
 ### 已安装且正常运行
 
 | 组件 | 包 | 验证 |
-|-----------|---------|----------|
+| ----------- | --------- | ---------- |
 | GPU enumeration | `rocminfo` | ✅ `gfx900`, `AMD Radeon Pro WX 9100`, 64 CUs, 16 GB |
 | Monitoring | `rocm-smi` | ✅ Device `0x6861`, GFX `gfx900` |
 | Kernel thunk | `libhsakmt1` | ✅ |

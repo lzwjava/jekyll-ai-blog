@@ -19,21 +19,25 @@ wl-copy --version
 你现在可以在 Wayland 中使用 clipboard 命令：
 
 - **Copy text to clipboard:**
+
   ```bash
   echo "hello" | wl-copy
   ```
 
 - **Copy file contents:**
+
   ```bash
   cat file.txt | wl-copy
   ```
 
 - **Paste from clipboard:**
+
   ```bash
   wl-paste
   ```
 
 - **Copy image:**
+
   ```bash
   wl-copy < image.png
   ```

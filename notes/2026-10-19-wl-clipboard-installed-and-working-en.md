@@ -19,21 +19,25 @@ wl-copy --version
 You can now use clipboard commands in Wayland:
 
 - **Copy text to clipboard:**
+
   ```bash
   echo "hello" | wl-copy
   ```
 
 - **Copy file contents:**
+
   ```bash
   cat file.txt | wl-copy
   ```
 
 - **Paste from clipboard:**
+
   ```bash
   wl-paste
   ```
 
 - **Copy image:**
+
   ```bash
   wl-copy < image.png
   ```

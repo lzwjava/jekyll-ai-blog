@@ -20,6 +20,7 @@ Done. Updated `/home/lzw/.pi/agent/settings.json`:
 ```
 
 Notes:
+
 - `deepseek/deepseek-v4.1-flash` exists in the catalog (OpenRouter provider, reasoning-capable, 1M context).
 - Provider stays `openrouter`, which already has a stored API key in `auth.json`.
 - Your thinking level is `high`, which this model supports (`thinkingLevelMap` has `high: "high"`), so no conflict.

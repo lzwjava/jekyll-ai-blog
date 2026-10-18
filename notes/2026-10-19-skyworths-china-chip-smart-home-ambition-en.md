@@ -42,4 +42,5 @@ Over 30 years, Skyworth has established 10 global R&D centers in China, the UK, 
 ---
 
 **References:**
+
 - [黄宏生：将创维打造成具有全球竞争力的"中国芯"智能家电企业 - 今日头条](https://www.toutiao.com/zixun/7512697426562730010/)

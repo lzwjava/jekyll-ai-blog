@@ -18,12 +18,14 @@ type: note
 5. **Zsh 补全** — 复制到 `~/.zsh/completions/_ww`
 
 **验证其是否有效：**
+
 ```bash
 ww
 ww weather
 ```
 
 **注意：**
+
 - 你的 `.env` 文件已存在，并配置了 `OPENROUTER_API_KEY` 和 `MODEL`。
 - 如果你使用 **zsh**，请运行 `autoload -Uz compinit && compinit` 以重新加载补全。
 - 使用 `ww <group> <subcmd>` 从任意位置运行命令，或者使用 `uv run ww <cmd>`（如果你更倾向于不使用符号链接）。
