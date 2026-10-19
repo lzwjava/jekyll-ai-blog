@@ -68,7 +68,7 @@ Your model — longer-term, more substantive, with a genuine Silicon Valley angl
 **Recommended business structure: Two layers**
 
 | Layer | What It Covers | License Needed |
-|---|---|---|
+| --- | --- | --- |
 | **Tech Training Center** | CS, AI, algorithms, coding (Python, C++, Scratch), robotics | 办学许可证 (School License) from Guangzhou Education Bureau |
 | **Study Abroad Consulting** | US college CS pathway planning, SAT/AP strategy, program selection | Study Abroad Consulting Registration from Education Dept. |
 
@@ -76,6 +76,7 @@ Your model — longer-term, more substantive, with a genuine Silicon Valley angl
 Since 2021, registering a business in Guangzhou has become dramatically simpler. The entire process of opening a business in Guangzhou runs anywhere from one to three months. Guangzhou insists on a real, physical office address.
 
 **Key requirements for a School License (办学许可证):**
+
 - You need a School License if your business offers any structured educational services to the public in exchange for fees. Operating without one may result in license revocation and fines.
 - Physical office + training space at registered address
 - Qualified instructors (domestic; foreign instructors require proper work visas)
@@ -126,6 +127,7 @@ Regulators are watching low-quality AI camp operators. The opportunity is real b
 ---
 
 **References:**
+
 - [China's AI Summer Camps — Sixth Tone](https://www.sixthtone.com/news/1018774)
 - [China Mandates AI for 6-Year-Olds — Yahoo/Fortune](https://www.yahoo.com/news/china-six-olds-already-being-160253267.html)
 - [Double Reduction Policy & STEM Exemption — Sixth Tone](https://www.sixthtone.com/news/1012495)

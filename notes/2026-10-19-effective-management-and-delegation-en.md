@@ -37,7 +37,7 @@ Delegation is a skill most managers underuse. The failure modes are: **delegatin
 **The delegation framework:**
 
 | Step | What to do |
-|---|---|
+| --- | --- |
 | **Choose the right person** | Match task to skill + growth opportunity |
 | **Define the outcome, not the method** | Tell them *what*, not *how* — let them own the approach |
 | **Set checkpoints** | Agree upfront when you'll sync: not micromanagement, but structured visibility |
@@ -46,6 +46,7 @@ Delegation is a skill most managers underuse. The failure modes are: **delegatin
 | **Debrief and coach** | After the task, discuss what went well and what to improve |
 
 **A useful mental model — the 5 levels of delegation:**
+
 1. "Do exactly this" (no autonomy)
 2. "Research and propose options" (you decide)
 3. "Decide and inform me" (they decide, you stay aware)
@@ -61,10 +62,13 @@ Most managers stay stuck at level 1–2 out of fear. Push toward 3–4 for capab
 This is the deepest question. There are several root causes:
 
 ### A. They were never taught — they were just promoted
+
 Most individual contributors get promoted because they're technically excellent. Nobody taught them how to lead. They manage the way they were managed — or copy bad habits from their own bosses.
 
 ### B. The "I can do it faster myself" trap
+
 This is the #1 reason. It *is* faster to do it yourself — in the short run. But every time you take work back, you:
+
 - Signal you don't trust the person
 - Prevent their growth
 - Create more dependency on yourself
@@ -73,15 +77,19 @@ This is the #1 reason. It *is* faster to do it yourself — in the short run. Bu
 Real leverage comes from multiplying through others, not doing it all yourself.
 
 ### C. They confuse busyness with leadership
+
 Many new managers feel they should always be doing something visible. Coaching, thinking strategically, and creating clarity feel "unproductive." But that IS the job.
 
 ### D. Fear of losing relevance
+
 Some managers unconsciously hoard knowledge or keep their team slightly dependent, because if the team becomes too capable, the manager feels less needed. This is insecurity disguised as management.
 
 ### E. They don't give honest feedback
+
 Developing people requires uncomfortable conversations. Many managers avoid these — they give vague, positive-sounding feedback to keep the peace. The team member doesn't know what to fix, and stagnates.
 
 ### F. They manage tasks, not people
+
 Managers who only track deadlines and outputs miss the human layer — the person's confidence, energy, blockers, and growth trajectory. Task management is necessary but not sufficient.
 
 ---
@@ -93,6 +101,7 @@ Managers who only track deadlines and outputs miss the human layer — the perso
 ---
 
 References:
+
 - [The Manager's Path — Camille Fournier](https://www.oreilly.com/library/view/the-managers-path/9781491973882/)
 - [First, Break All the Rules — Gallup](https://www.gallup.com/press/176069/first-break-all-rules-world-greatest-managers-differently.aspx)
 - [Delegation as a Leadership Skill — Harvard Business Review](https://hbr.org/2017/10/to-be-a-great-leader-you-have-to-learn-how-to-delegate)

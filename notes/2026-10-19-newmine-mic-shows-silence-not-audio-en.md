@@ -14,7 +14,7 @@ Here's the full picture with all the evidence:
 ## Test results
 
 | Test | Result |
-|---|---|
+| --- | --- |
 | **Detection** | ✅ Newmine is visible as a USB audio input device |
 | **Capture** | ✅ ffmpeg successfully grabs a stream from it — but it's pure silence |
 | **Audio signal** | ❌ **RMS -63 dB / peak -56 dB** — that's digital silence (only a faint noise floor, ~0.0007 DC offset, essentially zero crossings) |

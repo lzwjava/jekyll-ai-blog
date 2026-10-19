@@ -32,6 +32,7 @@ Done. Added an **AI 转型咨询 (AI Transformation Consultancy)** section to th
 **5. README** — documented the new section.
 
 ## Verification
+
 - HTML tag balance check: no errors
 - `node --check i18n.js`: valid
 - Automated translation check: all 28 section strings fully translate to English

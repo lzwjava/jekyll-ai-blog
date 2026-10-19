@@ -38,7 +38,7 @@ The results were staggering: in May 2024, PDD's market cap temporarily surpassed
 ## ⚔️ PDD vs. JD.com — Key Differences
 
 | Dimension | PDD (Pinduoduo) | JD.com |
-|---|---|---|
+| --- | --- | --- |
 | **Model** | Marketplace (asset-light) | Self-operated inventory (asset-heavy, like Amazon) |
 | **Strengths** | Ultra-low prices, viral social sharing, massive user base | Authenticity guarantee, next-day delivery, logistics network |
 | **Logistics** | Relies on third-party couriers | JD's self-operated model uses 1,500+ warehouses with same-day or next-day delivery in major cities |
@@ -71,6 +71,7 @@ PDD revealed a China that many city-dwellers didn't want to acknowledge — hund
 ---
 
 **References:**
+
 - [How Pinduoduo Rocked Alibaba and JD — Jeff Towson](https://jefftowson.com/membership_content/stories-from-chinese-hyper-competition-how-pinduoduo-rocked-alibaba-and-jd-tech-strategy/)
 - [The Shopping App That Unveiled China's Social Divisions — Sixth Tone](https://www.sixthtone.com/news/1002780/the-shopping-app-that-unveiled-chinas-social-divisions-)
 - [JD vs PDD Stock & Business Comparison — BrimindInvest](https://brimindinvest.com/compare/jd-vs-pdd)

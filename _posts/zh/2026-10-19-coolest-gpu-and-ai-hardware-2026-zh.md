@@ -75,6 +75,7 @@ AMD还发布了 **AMD Helios** ——被称为全球最强大的AI机架，是AM
 ---
 
 **参考资料：**
+
 - [CES 2026：NVIDIA发布全新六芯片Rubin AI平台](https://www.techbriefs.com/component/content/article/54442-ces-2026-nvidia-unveils-new-six-chip-rubin-ai-platform)
 - [AMD在CES 2026上扩展AI领导地位](https://newsroom.amd.com/news/amd-expands-ai-leadership-across-client-graphics/)
 - [AMD Advancing AI 2026 – Tom's Hardware](https://www.tomshardware.com/tag/amd-advancing-ai-2026)

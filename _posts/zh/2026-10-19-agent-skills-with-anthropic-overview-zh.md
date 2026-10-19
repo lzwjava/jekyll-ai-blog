@@ -32,6 +32,7 @@ Skills 是**指令文件夹**，通过专业知识扩展智能体的能力。由
 ## 您将学到什么
 
 本课程涵盖：
+
 - **为什么要使用 Skills**（第一部分和第二部分）
 - **Skills 与 Tools、MCP 和 Subagents 的区别** — 理解概念上的差异
 - **探索预构建的 Skills** — Anthropic 内置的 Excel、PowerPoint 和 Skill Creation 技能
@@ -53,6 +54,7 @@ Skills 是**指令文件夹**，通过专业知识扩展智能体的能力。由
 ---
 
 **参考资料：**
+
 - [Agent Skills with Anthropic — DeepLearning.AI](https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/)
 - [课程大纲（alpha 页面）](https://www.deeplearning.ai/alpha/short-courses/agent-skills-with-anthropic)
 - [DataWhale 中国 — 中文翻译仓库](https://www.sourcepulse.org/projects/26530001)

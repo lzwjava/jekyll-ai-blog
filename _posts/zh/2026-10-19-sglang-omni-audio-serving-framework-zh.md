@@ -45,7 +45,7 @@ SGLang-Omni 是一个用于全模态、语音和 TTS 模型的多阶段服务运
 ### 硬件支持
 
 | 后端 | 状态 |
-|---|---|
+| --- | --- |
 | NVIDIA CUDA | 完全支持（默认，覆盖全部模型） |
 | Apple Silicon | 实验性（通过 MLX 或 Torch MPS 在 macOS arm64 上运行 Qwen3-ASR） |
 | Intel GPU (XPU) | 实验性（通过 PyTorch XPU 支持 Intel Arc GPU） |
@@ -59,6 +59,7 @@ SGLang-Omni 填补了基础 SGLang 框架未覆盖的空白：**多模态音频�
 ---
 
 **参考：**
+
 - [sgl-project/sglang-omni](https://github.com/sgl-project/sglang-omni)
 - [官方文档](https://sgl-project.github.io/sglang-omni/)
 - [SGLang（基础框架）](https://github.com/sgl-project/sglang)

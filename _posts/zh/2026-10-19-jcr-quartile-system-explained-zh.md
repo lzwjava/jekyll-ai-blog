@@ -26,7 +26,7 @@ type: note
 JCR 中的期刊在每个学科类别内被划分为四个分区：
 
 | 分区 | 范围 | 含义 |
-|----------|-------|---------|
+| ---------- | ------- | --------- |
 | **Q1** | 前 25% | 最具声望，影响力最高 |
 | **Q2** | 26–50% | 实力较强，受认可度高的期刊 |
 | **Q3** | 51–75% | 影响力中等 |
@@ -52,6 +52,7 @@ JCR 中的期刊在每个学科类别内被划分为四个分区：
 ---
 
 **参考资料：**
+
 - [Understanding Quartile Ranking in JCR – CityU Library](https://libguides.library.cityu.edu.hk/rssc_blog/home/Understanding-Quartile-Ranking-in-Journal-Citation-Reports)
 - [Journal Impact Factor and Quartile Rankings – CASRAI](https://casrai.org/guides/journal-impact-factor-and-quartile-rankings)
 - [JCR Quartiles Explained – journalmetrics.org](https://www.journalmetrics.org/blog/understanding-jcr-quartiles)

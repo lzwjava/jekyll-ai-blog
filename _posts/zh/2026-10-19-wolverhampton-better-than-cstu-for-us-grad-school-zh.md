@@ -32,11 +32,13 @@ Wolverhampton的MSc是真正的英国公立大学学历，可通过WES评估，�
 以下是你的情况在招生流程中的真实面貌：
 
 **选项A——正确的路径（耗时更长，但打开更多大门）：**
+
 1. 完成你的中国大专学历（已在读）
 2. 完成**区域性认证**美国在线学校的本科学位——Western Governors University（WGU）是最可信的选择（约$4K/年，WASC区域性认证，完全在线，受美国研究生院认可）
 3. 直接申请美国优秀的线下硕士或博士项目（Georgia Tech、UIUC、UMass等）
 
 **选项B——Wolverhampton捷径（更快，但更窄）：**
+
 1. 获得Wolverhampton的MSc
 2. 通过WES评估为美国同等硕士学位
 3. 申请接受国际硕士学位替代本科学位的美国博士项目
@@ -52,6 +54,7 @@ Wolverhampton的MSc是真正的英国公立大学学历，可通过WES评估，�
 ---
 
 **参考文献：**
+
 - [区域性vs全国性认证——杜克大学DPT招生](https://medschool.duke.edu/accreditation-agencies)
 - [AHOS研究生招生认证政策](https://ahos.edu/ahos-graduate-and-phd-admissions-policy-on-accreditation-of-undergraduate-degrees/)
 - [GradCafe——英国硕士转美国博士](https://forum.thegradcafe.com/topic/87484-masters-in-english-lit-uk-vs-us)

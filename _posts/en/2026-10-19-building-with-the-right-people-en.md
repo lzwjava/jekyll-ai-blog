@@ -17,7 +17,7 @@ You can learn new technologies, travel to new places, and change business models
 
 The principle associated with 段永平 (Duan Yongping) that fits here is to focus on fundamentals, values, and long-term thinking rather than short-term gains. I would apply that principle to collaboration this way:
 
-## 1. Don't just look for people to hire. Discover people worth building with.
+## 1. Don't just look for people to hire. Discover people worth building with
 
 There are different levels of collaboration.
 
@@ -62,8 +62,6 @@ This is consistent with Duan Yongping's emphasis on selecting people with aligne
 The Paper
 
 +1
-
-
 
 ## 3. How I'd filter collaborators in practice
 

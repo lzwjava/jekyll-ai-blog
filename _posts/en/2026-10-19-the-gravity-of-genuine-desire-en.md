@@ -33,6 +33,7 @@ Before chasing something, ask honestly: *Is this mine, or is this someone else's
 ---
 
 References:
+
 - [Intrinsic Motivation – Self-Determination Theory (Deci & Ryan)](https://selfdeterminationtheory.org/theory/)
 - [Carl Jung on the Unconscious Self-Sabotage](https://www.jung.org/introduction-to-jungs-psychology/)
 - [Authenticity in Existentialism (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/authenticity/)

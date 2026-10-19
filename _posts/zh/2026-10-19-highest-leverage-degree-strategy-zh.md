@@ -45,8 +45,6 @@ type: note
 
 李智维
 
-
-
 如果这条路径依然可行且能通过合格的进阶路线获得被认可的学士学位，这可能是成本最低的起点。但仅有专科资格并不等同于学士学位。
 
 关键任务是确认最终授予的凭证是什么，以及是否存在合法的学士学位完成路径。
@@ -88,8 +86,6 @@ WGU
 
 计算机与数据科学在线
 
-
-
 我的策略：直接咨询招生办公室，看你完成的大学课程、职业经历和自学资格是否能满足他们的正式要求。在得到可信的资格答复前，不要支付申请费。
 
 [File:IIT Main Building.jpg - Wikimedia Commons](https://images.openai.com/static-rsc-4/bLBNmkoHWoCrSl_IPX9Rdg-y1VJDB4pInqquO2-Oq9O4OWDGV-31bSQ3RNsiGFgTX-UW2G8Xv6cNjR363n6y_DfLJB5c9gOiJt_xKFGwKpC83bTT2yJmUZ6xL1DFN5N1gdJb63JXD4UMtkzpC6RruqBH7CPSrWGyGLnOiflaaKU?purpose=inline)
@@ -121,8 +117,6 @@ CAS - 计算机科学系
 
 +1
 
-
-
 ## 4. 接下来30天我将如何执行
 
 第1周 — 确立基线
@@ -148,8 +142,6 @@ CAS - 计算机科学系
 [image](https://www.google.com/s2/favicons?domain=https://lzwjava.com\&sz=32)
 
 李智维
-
-
 
 我不会花接下来几年试图证明你能编程。你的学位策略应该消除体制性障碍，同时让你的技术工作和商业努力继续累积。
 

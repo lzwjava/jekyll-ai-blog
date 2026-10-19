@@ -20,6 +20,7 @@ type: note
 Your `Newmine MUSIC-BOOST` EQ profile is designed for **music listening**, not voice recording. It artificially boosts bass and treble, which will make your podcast voice sound **boomy and unnatural**. You should switch it to a **flat/neutral** or **voice/speech** profile before recording.
 
 Your other settings are actually correct:
+
 - **48 kHz** ✅ — This is the broadcast standard (used by BBC Radio etc.) and is ideal for podcast production. The 48kHz standard is recommended: all audio production and distribution should go 48kHz, not just for audible quality but for compatibility with broadcast workflows.
 - **1 channel (Mono)** ✅ — For podcasts that are primarily speech-based, such as interviews, solo narratives, or conversational shows, recording in mono is often the best choice.
 
@@ -30,6 +31,7 @@ Your other settings are actually correct:
 Both use the same legendary mic:
 
 **Shure SM7B (XLR Dynamic)**
+
 - Lex Fridman uses Shure SM7B dynamic microphones, known for their warm and clear sound, making them a popular choice among podcasters.
 - Joe Rogan famously uses the popular Shure SM7B dynamic mic as his podcast microphone.
 - Joe Rogan's audio interface of choice is the Universal Audio Apollo (today's equivalent is the Universal Apollo x6 Thunderbolt). His headphones are the Sennheiser HD280PRO, and he edits in Adobe Audition.
@@ -41,7 +43,7 @@ Both use the same legendary mic:
 ## 📊 Best Microphone Choices by Level
 
 | Level | Mic | Connection | Why |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Beginner USB** | Audio-Technica AT2040USB | USB | Best budget option, good for noise-controlled environments |
 | **Mid-range USB** | Rode NT-USB+ | USB-C | 24-bit depth, 48kHz sample rate, USB-C — no mixer needed |
 | **Best USB/XLR Hybrid** | Shure MV7+ | USB + XLR | Best for Twitch, YouTube, and podcasting with a consistent vocal presence |
@@ -60,6 +62,7 @@ Both use the same legendary mic:
 ---
 
 **References:**
+
 - [Lex Fridman's Podcast Setup – SwipeFile](https://swipefile.com/lex-fridmans-podcast-setup)
 - [Joe Rogan's Equipment List – LowerStreet](https://lowerstreet.co/equipment/joe-rogan)
 - [Best Podcast Microphones 2025 – PodcastVideos](https://www.podcastvideos.com/best-podcast-microphones-2025/)

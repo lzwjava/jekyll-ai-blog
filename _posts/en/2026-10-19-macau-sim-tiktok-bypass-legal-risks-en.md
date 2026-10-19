@@ -54,7 +54,7 @@ So a Macau SIM *may* bypass the firewall depending on how the carrier routes tra
 If your goal is to **teach English to Chinese learners**, consider these fully legal options:
 
 | Platform | Available in China | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **Douyin (抖音)** | ✅ Yes | TikTok's mainland equivalent |
 | **Bilibili** | ✅ Yes | Popular for educational content |
 | **WeChat / 微信** | ✅ Yes | Video messaging, short clips |
@@ -69,6 +69,7 @@ Using Douyin is the safest and most effective path — it has hundreds of millio
 ---
 
 **References:**
+
 - [TikTok in China — documentarytube.com](https://www.documentarytube.com/?p=277416)
 - [China VPN Regulations 2026 — sesamedisk.com](https://sesamedisk.com/china-vpn-regulations-2026/)
 - [eSIM and Great Firewall — yesim.tech](https://blog.yesim.tech/?p=41202)

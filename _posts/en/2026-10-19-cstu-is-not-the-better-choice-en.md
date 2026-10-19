@@ -26,16 +26,19 @@ The intuition seems logical: CSTU is a US school in Silicon Valley → Silicon V
 > "Evaluate programs by what they unlock, not merely by their prestige."
 
 What does CSTU actually unlock for you?
+
 - No US visa pathway (online degree, ACCSC only — STEM OPT requires regional accreditation)
 - No Silicon Valley network
 - No credibility with US tech employers or investors
 - Potentially negative signal to anyone who checks
 
 What does Wolverhampton unlock?
+
 - A real, verifiable UK master's degree (WES-evaluable, Hague apostille, China MOE listed)
 - More useful for HK/Singapore/UK/Canada routes — which the document itself lists as stepping stones
 
 **For the Silicon Valley founder path specifically, what actually moves the needle:**
+
 - Your product + users + revenue (Fun Live already proved you can do this)
 - Your existing AI technical depth (GPT-2 training, HSBC work, 5B tokens) — this is already founder-credible
 - Getting physically into the ecosystem (requires a visa path, not a CSTU diploma)

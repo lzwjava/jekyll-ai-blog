@@ -30,7 +30,7 @@ The Jetson Nano is built around a **128-core Maxwell GPU** and a **Quad-core ARM
 This is the modern successor, available in **8 GB** and **16 GB** versions:
 
 | Spec | Orin NX 8GB | Orin NX 16GB |
-|------|-------------|--------------|
+| ------ | ------------- | -------------- |
 | AI Performance | 70 TOPS (117 in Super Mode) | 100 TOPS (157 in Super Mode) |
 | GPU | 1024-core NVIDIA Ampere + 32 Tensor Cores | same |
 | CPU | 6-core ARM Cortex-A78AE v8.2 64-bit | 8-core ARM Cortex-A78AE |
@@ -62,6 +62,7 @@ It supports complex AI models for tasks like **language understanding, 3D percep
 ---
 
 **References:**
+
 - [NVIDIA Jetson Modules – Official](https://developer.nvidia.com/embedded/jetson-modules)
 - [Jetson Orin NX Review – ThinkRobotics](https://thinkrobotics.com/blogs/product-reviews-buying-guides/nvidia-jetson-orin-nx-module-review-specs-use-cases-price-and-how-it-compares)
 - [Jetson Orin NX 8GB Module – ConnectTech](https://connecttech.com/?p=17661)

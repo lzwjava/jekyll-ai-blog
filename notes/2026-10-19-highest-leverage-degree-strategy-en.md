@@ -45,8 +45,6 @@ You have already passed 13 written and 3 practical exams in the Guangdong Univer
 
 Zhiwei Li
 
-
-
 If this path remains available and leads to a recognized bachelor's degree through an eligible progression route, it could be your lowest-cost starting point. But an associate qualification alone is not equivalent to a bachelor's degree.
 
 The critical task is to confirm the exact credential awarded and whether a legitimate bachelor's completion pathway exists.
@@ -88,8 +86,6 @@ Contrast this with the [University of Texas at Austin's online MSAI](https://cds
 
 Computer & Data Science Online
 
-
-
 My strategy: ask admissions offices directly whether your completed university coursework, professional record, and self-study qualifications can satisfy their formal requirements. Don't pay application fees until you have a credible eligibility answer.
 
 [File:IIT Main Building.jpg - Wikimedia Commons](https://images.openai.com/static-rsc-4/bLBNmkoHWoCrSl_IPX9Rdg-y1VJDB4pInqquO2-Oq9O4OWDGV-31bSQ3RNsiGFgTX-UW2G8Xv6cNjR363n6y_DfLJB5c9gOiJt_xKFGwKpC83bTT2yJmUZ6xL1DFN5N1gdJb63JXD4UMtkzpC6RruqBH7CPSrWGyGLnOiflaaKU?purpose=inline)
@@ -121,8 +117,6 @@ CAS - Department of Computer Science
 
 +1
 
-
-
 ## 4. How I'd execute this over the next 30 days
 
 Week 1 — Establish your baseline
@@ -148,8 +142,6 @@ Your resume documents experience that many applicants cannot demonstrate: runnin
 [image](https://www.google.com/s2/favicons?domain=https://lzwjava.com\&sz=32)
 
 Zhiwei Li
-
-
 
 I would not spend the next few years trying to prove that you can code. Your degree strategy should remove institutional barriers while your technical and commercial work continues to compound.
 

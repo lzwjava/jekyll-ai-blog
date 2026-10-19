@@ -98,8 +98,6 @@ Zhiwei Li
 
 +1
 
-
-
 The opportunity is to connect them into one system rather than starting over with each new idea.
 
 ## Should you pursue a master's degree overseas?

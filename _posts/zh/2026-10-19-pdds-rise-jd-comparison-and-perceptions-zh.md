@@ -38,7 +38,7 @@ type: note
 ## ⚔️ 拼多多 vs. 京东——核心差异
 
 | 维度 | 拼多多（PDD） | 京东（JD.com） |
-|---|---|---|
+| --- | --- | --- |
 | **模式** | 平台模式（轻资产） | 自营库存（重资产，类似亚马逊） |
 | **优势** | 超低价格、社交裂变、庞大用户基础 | 正品保障、次日达、自建物流网络 |
 | **物流** | 依赖第三方快递 | 京东自营模式拥有1500+仓库，主要城市可实现当日达或次日达 |
@@ -71,6 +71,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [拼多多如何撼动阿里巴巴和京东——Jeff Towson](https://jefftowson.com/membership_content/stories-from-chinese-hyper-competition-how-pinduoduo-rocked-alibaba-and-jd-tech-strategy/)
 - [揭示中国社会分化的购物应用——第六声](https://www.sixthtone.com/news/1002780-the-shopping-app-that-unveiled-chinas-social-divisions-)
 - [京东与拼多多股票及商业模式对比——BrimindInvest](https://brimindinvest.com/compare/jd-vs-pdd)

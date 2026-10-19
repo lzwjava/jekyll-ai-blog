@@ -54,7 +54,7 @@ TikTok并未在中国大陆正式运营，TikTok官方也声明其“不在中�
 如果你的目标是**向中国学习者教授英语**，可以考虑以下完全合法的平台：
 
 | 平台 | 在中国可用 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **抖音（Douyin）** | ✅ 是 | TikTok的大陆对应产品 |
 | **哔哩哔哩（Bilibili）** | ✅ 是 | 教育内容热门平台 |
 | **微信（WeChat）** | ✅ 是 | 视频消息、短视频 |
@@ -69,6 +69,7 @@ TikTok并未在中国大陆正式运营，TikTok官方也声明其“不在中�
 ---
 
 **参考资料：**
+
 - [TikTok in China — documentarytube.com](https://www.documentarytube.com/?p=277416)
 - [China VPN Regulations 2026 — sesamedisk.com](https://sesamedisk.com/china-vpn-regulations-2026/)
 - [eSIM and Great Firewall — yesim.tech](https://blog.yesim.tech/?p=41202)

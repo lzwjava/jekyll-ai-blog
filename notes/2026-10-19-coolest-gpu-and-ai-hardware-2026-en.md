@@ -34,7 +34,6 @@ The six chips in the platform are:
 - **BlueField-4 DPU** — 64-core Grace CPU + ConnectX-9 integrated
 - **Spectrum-6 Ethernet Switch** — co-packaged optics for efficiency
 
-
 Performance-wise: the Rubin GPU reaches 50 PFLOPS for inference and 35 PFLOPS for training (NVFP4), which is 5× and 3.5× faster than Blackwell respectively. Each Rubin GPU carries 288 GB of HBM4 memory with up to 22 TB/s bandwidth.
 
 The first Rubin systems will be available in the second half of 2026 via AWS, Microsoft, and Google.
@@ -76,6 +75,7 @@ For graphics: **FSR "Redstone"** brings ML-based frame generation and upscaling 
 ---
 
 **References:**
+
 - [CES 2026: NVIDIA Unveils New Six-Chip Rubin AI Platform](https://www.techbriefs.com/component/content/article/54442-ces-2026-nvidia-unveils-new-six-chip-rubin-ai-platform)
 - [AMD Expands AI Leadership at CES 2026](https://newsroom.amd.com/news/amd-expands-ai-leadership-across-client-graphics/)
 - [AMD Advancing AI 2026 – Tom's Hardware](https://www.tomshardware.com/tag/amd-advancing-ai-2026)

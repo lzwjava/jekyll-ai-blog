@@ -26,7 +26,7 @@ The Journal Citation Reports (JCR) provides transparent, publisher-neutral data 
 Journals in the JCR are divided into four quartiles within each subject category:
 
 | Quartile | Range | Meaning |
-|----------|-------|---------|
+| ---------- | ------- | --------- |
 | **Q1** | Top 25% | Most prestigious, highest impact |
 | **Q2** | 26–50% | Strong, well-regarded journals |
 | **Q3** | 51–75% | Moderate impact |
@@ -52,6 +52,7 @@ Journals in the JCR are divided into four quartiles within each subject category
 ---
 
 **References:**
+
 - [Understanding Quartile Ranking in JCR – CityU Library](https://libguides.library.cityu.edu.hk/rssc_blog/home/Understanding-Quartile-Ranking-in-Journal-Citation-Reports)
 - [Journal Impact Factor and Quartile Rankings – CASRAI](https://casrai.org/guides/journal-impact-factor-and-quartile-rankings)
 - [JCR Quartiles Explained – journalmetrics.org](https://www.journalmetrics.org/blog/understanding-jcr-quartiles)

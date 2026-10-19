@@ -30,7 +30,7 @@ Jetson Nano 采用 **128 核 Maxwell GPU** 和 **四核 ARM Cortex-A57 @ 1.43 GH
 这是现代的继任产品，提供 **8 GB** 和 **16 GB** 两种版本：
 
 | 规格 | Orin NX 8GB | Orin NX 16GB |
-|------|-------------|--------------|
+| ------ | ------------- | -------------- |
 | AI 性能 | 70 TOPS（超级模式下 117） | 100 TOPS（超级模式下 157） |
 | GPU | 1024 核 NVIDIA Ampere + 32 个 Tensor Core | 相同 |
 | CPU | 6 核 ARM Cortex-A78AE v8.2 64 位 | 8 核 ARM Cortex-A78AE |
@@ -62,6 +62,7 @@ Orin NX 非常适合**机器人、无人机、工业 AI 和多传感器视觉系
 ---
 
 **参考链接：**
+
 - [NVIDIA Jetson 模块 – 官方](https://developer.nvidia.com/embedded/jetson-modules)
 - [Jetson Orin NX 评测 – ThinkRobotics](https://thinkrobotics.com/blogs/product-reviews-buying-guides/nvidia-jetson-orin-nx-module-review-specs-use-cases-price-and-how-it-compares)
 - [Jetson Orin NX 8GB 模块 – ConnectTech](https://connecttech.com/?p=17661)

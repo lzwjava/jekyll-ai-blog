@@ -59,8 +59,6 @@ Steve Jobs
 
 +1
 
-
-
 I'd extract four lessons for your journey:
 
 1. Understand the underlying technology. Don't treat AI APIs, operating systems, GPUs, and hardware as magic. Know what happens underneath the abstractions.

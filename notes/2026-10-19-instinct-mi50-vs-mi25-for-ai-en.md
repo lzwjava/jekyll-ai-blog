@@ -32,7 +32,7 @@ The catch: it is passively cooled (no fan) and has no display output until you f
 **MI50 vs MI25 — Key Differences:**
 
 | Spec | MI50 | MI25 |
-|---|---|---|
+| --- | --- | --- |
 | Architecture | Vega 20 (7nm) | Vega 10 (14nm) |
 | Launch | Nov 2018 | 2017 |
 | Stream Processors | 3,840 | 4,096 |
@@ -52,6 +52,7 @@ The MI50 is the clear winner for LLM inference — the memory bandwidth differen
 ROCm 5.7 was the last release where gfx906 (MI50's architecture) was fully supported. ROCm 6.0 moved the card to maintenance mode with no new features, and bug fixes ended in Q2 2024. AMD has since stopped building for it — ROCm 7.14 lists the MI50 as unsupported, warning that prebuilt libraries will cause runtime errors.
 
 Your options for running it today:
+
 1. **ROCm 6.3.3** — the last version with official MI50 support. Works with Ubuntu 22.04 and kernel 5.15, and ollama 0.12.4.
 2. **Vulkan backend** (llama.cpp `-DGGML_VULKAN=1`) — skips ROCm entirely. Loses some performance vs a tuned HIP build but works and is simpler.
 3. **Community workaround** — manually copying gfx906 support files from ROCm 6.4.4 into a newer install. Not a proper fix; depends on community maintenance indefinitely.
@@ -60,6 +61,7 @@ Your options for running it today:
 **Bottom line:** The MI50 32 GB is an excellent cheap LLM card *if* you're comfortable with Linux and some manual setup. The MI25 is strictly worse — less VRAM, less bandwidth, even older architecture. The "driver is old" concern is valid but workable through Vulkan or older ROCm versions.
 
 **References:**
+
 - [AMD Instinct MI50 32GB – Local LLM Guide](https://localaimaster.com/blog/amd-mi50-local-llm)
 - [AMD MI50 ROCm support status (ROCm 7.14)](https://openclawdc.com/blog/amd-mi50-32gb-local-llm/)
 - [MI50 Ollama in a VM – Level1Techs](https://forum.level1techs.com/t/radeon-instinct-mi50-and-ollama-in-a-mv/239906)

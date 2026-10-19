@@ -32,6 +32,7 @@ Skills are **folders of instructions** that extend agent capabilities with speci
 ## What You'll Learn
 
 The course covers:
+
 - **Why use Skills** (Part I & II)
 - **Skills vs. Tools, MCP, and Subagents** — understanding the conceptual differences
 - **Exploring Pre-Built Skills** — Anthropic's built-in skills for Excel, PowerPoint, and Skill Creation
@@ -53,6 +54,7 @@ For Chinese-speaking learners, the **DataWhale China** community has created an 
 ---
 
 **References:**
+
 - [Agent Skills with Anthropic — DeepLearning.AI](https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/)
 - [Course outline (alpha page)](https://www.deeplearning.ai/alpha/short-courses/agent-skills-with-anthropic)
 - [DataWhale China — Chinese translation repo](https://www.sourcepulse.org/projects/26530001)

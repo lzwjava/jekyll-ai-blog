@@ -33,6 +33,7 @@ type: note
 ---
 
 参考：
+
 - [内在动机——自我决定理论（Deci & Ryan）](https://selfdeterminationtheory.org/theory/)
 - [卡尔·荣格论无意识的自我破坏](https://www.jung.org/introduction-to-jungs-psychology/)
 - [存在主义中的本真性（斯坦福哲学百科全书）](https://plato.stanford.edu/entries/authenticity/)

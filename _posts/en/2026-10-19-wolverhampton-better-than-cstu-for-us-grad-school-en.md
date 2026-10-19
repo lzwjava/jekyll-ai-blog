@@ -32,11 +32,13 @@ A Wolverhampton MSc is a genuine UK public university credential, WES-evaluable,
 Here's what the admissions pipeline actually looks like for your situation:
 
 **Option A — The correct route (takes longer, opens more doors):**
+
 1. Finish your Chinese associate degree (already in progress)
 2. Complete a bachelor's from a **regionally accredited** US online school — Western Governors University (WGU) is the most credible option (~$4K/year, WASC regionally accredited, fully online, respected by US grad schools)
 3. Apply directly to strong US on-site master's or PhD programs (Georgia Tech, UIUC, UMass, etc.)
 
 **Option B — The Wolverhampton shortcut (faster, narrower):**
+
 1. Get the Wolverhampton MSc
 2. Have WES evaluate it as a US-equivalent master's
 3. Apply to US PhD programs that accept international master's as a bachelor's substitute
@@ -52,6 +54,7 @@ Your SEC-EDGAR-GPT paper, GPT-2 training work, AMD hackathon award, and HSBC/DBS
 ---
 
 **References:**
+
 - [Regional vs. National Accreditation – Duke DPT Admissions](https://medschool.duke.edu/accreditation-agencies)
 - [AHOS Graduate Admissions Policy on Accreditation](https://ahos.edu/ahos-graduate-and-phd-admissions-policy-on-accreditation-of-undergraduate-degrees/)
 - [GradCafe – UK Master's to US PhD](https://forum.thegradcafe.com/topic/87484-masters-in-english-lit-uk-vs-us)

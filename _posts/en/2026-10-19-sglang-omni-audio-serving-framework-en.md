@@ -25,17 +25,14 @@ SGLang-Omni is a multi-stage serving runtime for omni, speech, and TTS models. I
 
 ### Key Architectural Pillars
 
-
 - **Multi-stage runtime** — Models generation as coordinated stages: preprocessing, encoders, autoregressive engines, talkers, decoders, vocoders, and aggregators.
 - **Stage-specialized scheduling** — Each stage runs behind a scheduler matched to its workload, from SGLang-backed autoregressive scheduling to lightweight preprocessing and streaming vocoder loops.
 - **Transport-aware execution** — A control plane coordinates requests while a relay data plane moves tensor payloads across shared-memory, NCCL, NIXL, and Mooncake backends.
 - **API surface** — OpenAI-compatible endpoints expose multimodal chat, speech generation, batch speech, streaming speech, uploaded voices, and transcription.
 
-
 ---
 
 ### What It Can Serve
-
 
 - **Omni chat/speech**: Qwen3-Omni, Ming-Omni — multimodal input, text/audio output.
 - **Music generation**: MiniMax Music 3 — lyrics + caption → 32 kHz stereo song.
@@ -43,18 +40,15 @@ SGLang-Omni is a multi-stage serving runtime for omni, speech, and TTS models. I
 - **ASR/Transcription**: Qwen3-ASR, Fun-ASR, ARK-ASR, MOSS-Transcribe-Diarize — via `/v1/audio/transcriptions`, with speaker labels and timestamps support.
 - **SGLang-Omni Router**: A multi-worker OpenAI-compatible front door for health, readiness, lifecycle, and capability discovery.
 
-
 ---
 
 ### Hardware Support
 
-
 | Backend | Status |
-|---|---|
+| --- | --- |
 | NVIDIA CUDA | Fully supported (default, full model coverage) |
 | Apple Silicon | Experimental (Qwen3-ASR via MLX or Torch MPS on macOS arm64) |
 | Intel GPU (XPU) | Experimental (Intel Arc GPUs via PyTorch XPU) |
-
 
 ---
 
@@ -65,6 +59,7 @@ SGLang-Omni fills a gap that the base SGLang framework doesn't cover: **multi-mo
 ---
 
 **References:**
+
 - [sgl-project/sglang-omni](https://github.com/sgl-project/sglang-omni)
 - [Official Documentation](https://sgl-project.github.io/sglang-omni/)
 - [SGLang (base framework)](https://github.com/sgl-project/sglang)
