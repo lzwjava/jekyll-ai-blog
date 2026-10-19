@@ -40,7 +40,7 @@ Wolverhampton 标准的校内数据科学理学硕士课程是一个全日制 14
 **与 CSTU 的对比结论**
 
 | | CSTU | Wolverhampton（本项目） |
-|---|---|---|
+| --- | --- | --- |
 | 大学合法性 | 值得怀疑（仅有 ACCSC） | 真正的英国公立大学 ✓ |
 | 学位认可度 | 有限 | 国际认可 ✓ |
 | 项目结构 | 完全在 CSTU | 主要在 QUALIFI，而非 Wolverhampton |
@@ -52,6 +52,7 @@ Wolverhampton 标准的校内数据科学理学硕士课程是一个全日制 14
 ---
 
 **参考来源：**
+
 - [University of Wolverhampton – MSc Data Science](https://www.wlv.ac.uk/courses/msc-data-science)
 - [QUALIFI University Progression Pathways](https://qualifi.net/university-progression)
 - [QS Rankings – University of Wolverhampton](https://www.topuniversities.com/node/297543)

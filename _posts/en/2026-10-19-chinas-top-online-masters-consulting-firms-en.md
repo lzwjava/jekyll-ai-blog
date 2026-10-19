@@ -26,7 +26,7 @@ These are the closest competitors — smaller institutions focused specifically 
 A Sohu-commissioned independent review (Oct 2025 – Jan 2026) of 28 domestic institutions in this niche ranked the following TOP 5:
 
 | Rank | Organization | Score | Focus |
-|------|-------------|-------|-------|
+| ------ | ------------- | ------- | ------- |
 | 1 | **北京法中高商教育咨询** (Beijing France-China Business School) | 92.3/100 | France-focused; partners with ISG, Paris Business School, éklore-ed; 30+ Franco-Chinese advisors |
 | 2 | **高顿教育 (Gaodun Education)** | 86.7/100 | Online MBA via Paris Business School (AMBA/EFMD/AACSB triple-accredited); 12-month program, ¥88k tuition |
 | 3 | **江苏新与成教育** | 85.0/100 | 10+ years in-service MBA/EMBA/DBA; 10 partner universities across Asia & Europe; 10,000+ alumni |
@@ -34,6 +34,7 @@ A Sohu-commissioned independent review (Oct 2025 – Jan 2026) of 28 domestic in
 | 5 | **布雷斯特（北京）教育科技** | 81.2/100 | Narrowly focused on French Brest Business School; strong 留服 certification compatibility |
 
 Other boutique players frequently appearing in this space:
+
 - **果际硕博 (Guoji Shuobo)** — app-native platform; partners with Illinois Tech, University of Arizona, Netherlands Business School, etc.; targets the same no-exam, online-degree segment
 - **全球申硕** — smaller online-first consulting service
 - **零压教育 (Zero Pressure Education)** — the one you mentioned; operates in the same niche with a lighter-pressure marketing pitch
@@ -54,7 +55,7 @@ These are the incumbent giants of traditional study-abroad consulting now pushin
 ### Key Differences in the Niche
 
 | Dimension | Large chains (新东方 etc.) | Boutique specialists (法中高商, 高顿, 零压, etc.) |
-|-----------|--------------------------|-------------------------------|
+| ----------- | -------------------------- | ------------------------------- |
 | Positioning | Broad-market; online master's is one product | Online/in-service master's is the *only* product |
 | Partner schools | Wide global portfolio | Narrow but deep (often 1–3 schools per agency) |
 | Price | Mid-high | Highly variable (¥40k–¥180k) |
@@ -66,6 +67,7 @@ The most comparable players to 零压教育 by size and model are **果际硕博
 ---
 
 Sources:
+
 - [2026 实测报告｜国际免联考在职硕士机构 TOP5 (Sohu)](https://www.sohu.com/a/981464000_122615866)
 - [新东方前途出国：在线硕士项目介绍](https://liuxue.xdf.cn/xiamen/xwzx/5558055.shtml)
 - [2026留学机构TOP6排名 (Sohu)](https://m.sohu.com/a/1033135621_99953713/)

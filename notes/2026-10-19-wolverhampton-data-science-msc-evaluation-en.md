@@ -40,7 +40,7 @@ The standard on-campus MSc in Data Science at Wolverhampton is a full-time 14-mo
 **Verdict vs. CSTU**
 
 | | CSTU | Wolverhampton (this program) |
-|---|---|---|
+| --- | --- | --- |
 | University legitimacy | Questionable (ACCSC only) | Real UK public university ✓ |
 | Degree recognition | Limited | Internationally recognized ✓ |
 | Program structure | Fully at CSTU | Mostly QUALIFI, not Wolverhampton |
@@ -52,6 +52,7 @@ The standard on-campus MSc in Data Science at Wolverhampton is a full-time 14-mo
 ---
 
 **References:**
+
 - [University of Wolverhampton – MSc Data Science](https://www.wlv.ac.uk/courses/msc-data-science)
 - [QUALIFI University Progression Pathways](https://qualifi.net/university-progression)
 - [QS Rankings – University of Wolverhampton](https://www.topuniversities.com/node/297543)

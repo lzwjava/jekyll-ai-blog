@@ -20,6 +20,7 @@ Here's a frank assessment of the issues that the marketing brochure doesn't high
 CSTU holds ACCSC accreditation (national), not regional accreditation (e.g., WASC, which covers California). This is the single biggest concern. ACCSC specifically accredits institutions offering programs "predominantly organized to educate students for occupational, trade and technical careers" — effectively career/vocational schools, not traditional universities. Regional accreditors are seen as the "gold standard"; ACCSC fills a role for career and technical institutions, but its accreditation has limited recognition for credit transferability.
 
 **What this means in practice:**
+
 - No regionally accredited school will accept transfer credits from a nationally accredited school.
 - Employers often look for graduates from regionally accredited institutions, as it ensures the candidate has received a quality education meeting established standards.
 
@@ -52,6 +53,7 @@ CSTU's name sounds similar to Caltech (California Institute of Technology), one 
 ---
 
 **References:**
+
 - [Wikipedia – California Science and Technology University](https://en.wikipedia.org/wiki/California_Science_and_Technology_University)
 - [EducationCorner – ACCSC Accreditation](https://educationcorner.com/accsc)
 - [Wikipedia – ACCSC](https://www.wikipedia.org/wiki/ACCSC)

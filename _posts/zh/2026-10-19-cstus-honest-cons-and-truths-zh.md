@@ -20,6 +20,7 @@ type: note
 CSTU 持有的是 ACCSC 认证（全国性认证），而非区域性认证（如覆盖加州的 WASC）。这是最大的问题。ACCSC 专门认证那些"主要以培养学生从事职业、行业和技术职业"的机构——实际上是职业/技术学校，而非传统大学。区域性认证机构被视为"黄金标准"；ACCSC 在职业和技术教育领域发挥作用，但其认证在学分转换方面的认可度有限。
 
 **这在实践中意味着什么：**
+
 - 没有区域性认证的学校会接受来自全国性认证学校的转学分。
 - 雇主通常看重毕业于区域性认证机构的候选人，因为这确保候选人接受了符合既定标准的优质教育。
 
@@ -52,6 +53,7 @@ CSTU 的名字听起来与 Caltech（California Institute of Technology，加州
 ---
 
 **参考资料：**
+
 - [Wikipedia – California Science and Technology University](https://en.wikipedia.org/wiki/California_Science_and_Technology_University)
 - [EducationCorner – ACCSC Accreditation](https://educationcorner.com/accsc)
 - [Wikipedia – ACCSC](https://www.wikipedia.org/wiki/ACCSC)
