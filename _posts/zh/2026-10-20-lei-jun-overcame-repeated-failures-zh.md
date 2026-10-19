@@ -66,7 +66,7 @@ type: note
 ### 🔑 雷军韧性的关键启示
 
 | 挑战 | 他是如何克服的 |
-|---|---|
+| --- | --- |
 | 第一家公司失败 | 加入成熟企业，从零学习 |
 | 金山身心俱疲与上市失败 | 坚持五轮融资，最终成功 |
 | 卓越网低价出售 | 接受“运气不好”，继续前行 |
@@ -79,6 +79,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [小米CEO试图追随史蒂夫·乔布斯的脚步 – 财新](https://www.caixinglobal.com/2018-07-06/xiaomi-ceo-tries-to-follow-in-steve-jobs-footsteps-101295459.html)
 - [小米以创纪录的季度销售额走上复苏之路 – 财新](https://www.caixinglobal.com/2017-07-11/xiaomi-on-comeback-trail-with-record-breaking-quarterly-sales-101113985.html)
 - [中国小米的衰落与崛起背后 – Wired/Transnational](https://transnational.live/2017/12/31/behind-the-fall-and-rise-of-chinas-xiaomi/)

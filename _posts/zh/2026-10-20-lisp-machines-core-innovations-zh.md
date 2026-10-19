@@ -16,6 +16,7 @@ type: note
 Lisp Machine 是 20 世纪 70 年代末至 80 年代专门设计的计算机，从芯片底层开始就为原生运行 Lisp 而构建。其特殊性源于多个深度交织的设计理念：
 
 **1. 硬件级 Lisp 支持**
+
 - **带标签的内存架构** — 每个内存字都携带类型标签（整数、指针、符号等），并直接内置于硬件中，从而实现安全、快速且无需软件开销的类型分派。
 - **用于 Lisp 原语的微码** — `CAR`、`CDR` 和类型检查等操作直接在微码中运行，而非编译后的 C 或汇编层。
 - **硬件辅助垃圾回收** — 垃圾回收被卸载到专用芯片上，使程序运行时能够近乎实时地进行回收。
@@ -25,6 +26,7 @@ Lisp Machine 是 20 世纪 70 年代末至 80 年代专门设计的计算机，�
 
 **3. 交互式“镜像”模型**
 整个运行中的系统是一个单一的持久化*镜像*。你可以：
+
 - **实时**重新定义任何函数，无需重启任何东西。
 - 检视并修改内存中任何运行中的对象。
 - 在修复 bug 后，从执行中途的错误处继续运行。
@@ -40,8 +42,9 @@ MIT 的 **Flavors** 系统（CLOS 的前身）就是运行在这些机器上的�
 在那个计算机还是共享分时主机的年代，Lisp Machine 为一名程序员提供了一台**专用高性能工作站**——所有算力都服务于一位开发者的思考。
 
 **主要机型：**
+
 | 机型 | 来源 |
-|---|---|
+| --- | --- |
 | MIT CADR | MIT 人工智能实验室（约 1977 年） |
 | Symbolics 3600 系列 | Symbolics 公司（约 1983 年） |
 | LMI Lambda | Lisp Machines 公司 |
@@ -53,6 +56,7 @@ MIT 的 **Flavors** 系统（CLOS 的前身）就是运行在这些机器上的�
 ---
 
 参考：
+
 - [Lisp machine - Wikipedia](https://en.wikipedia.org/wiki/Lisp_machine)
 - [Symbolics - Wikipedia](https://en.wikipedia.org/wiki/Symbolics)
 - [The Lisp Machine: A Retrospective (MIT)](https://dspace.mit.edu/handle/1721.1/41918)

@@ -56,7 +56,7 @@ type: note
 ### 总结
 
 | 挑战 | 他的应对方式 |
-|---|---|
+| --- | --- |
 | 被OpenAI解雇（2023年） | 反抗 → 保持冷静，专注于下一步，没有报复 |
 | Loopt未能扩大规模 | 接受结果，转向YC和投资 |
 | 董事会的不确定性 | 依靠团队的忠诚和信念 |
@@ -67,6 +67,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [OpenAI的萨姆·奥尔特曼谈被突然解雇的感受 – Fox Business](https://foxbusiness.com/technology/openais-sam-altman-opens-up-shock-firing)
 - [“受伤且愤怒”：萨姆·奥尔特曼谈论OpenAI董事会失败的政变 – Business Standard](https://www.business-standard.com/technology/tech-news/hurt-and-angry-sam-altman-opens-up-about-openai-board-s-failed-coup-123120100650_1.html)
 - [来自萨姆·奥尔特曼的启示：关于信念、雄心和高影响力职业 – Chasing Melody](https://chasingmelody.substack.com/p/lessons-from-sam-altman-on-belief)

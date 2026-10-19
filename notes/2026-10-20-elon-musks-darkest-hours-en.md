@@ -55,6 +55,7 @@ His key strategies were:
 ---
 
 **References:**
+
 - [Elon Musk's Failure Timeline – Inverse](https://www.inverse.com/article/44933-elon-musk-failures-graphic)
 - [Elon Musk Learned an Important Lesson During 'Very Dark Times' at Tesla – Yahoo Finance](https://finance.yahoo.com/news/elon-musk-learned-important-lesson-123052337.html)
 - [Overcoming Setbacks and Saving Tesla – Stanford eCorner](https://stvp.stanford.edu/clips/overcoming-setbacks-and-saving-tesla)

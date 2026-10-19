@@ -20,7 +20,7 @@ The source of these phrases is a Weibo post Zhang Yiming wrote, riffing on Steve
 Here's the full framework he laid out:
 
 | Drive | Focus | Type of Person |
-|---|---|---|
+| --- | --- | --- |
 | Greed | Instant results | 卑劣的投机者 — Base Speculator |
 | Achievement motivation | Ongoing process | 艰辛的攀登者 — Arduous Climber |
 | **Curiosity** | **The vast unknown** | **幸福的探索者 — Happy Explorer** |
@@ -42,6 +42,7 @@ He also cautioned that an "all-in" attitude is a form of mental laziness — rea
 ---
 
 **References:**
+
 - [张一鸣微博语录 — 腾讯新闻](https://news.qq.com/rain/a/20241030A0274H00)
 - [围观了张一鸣近10年的微博，整理出231条干货 — 澎湃新闻](https://www.thepaper.cn/newsDetail_forward_11583734)
 - [Zhang Yiming's Last Speech: Part II — Interconnected](https://interconnect.substack.com/p/zhang-yimings-last-speech-part-ii)

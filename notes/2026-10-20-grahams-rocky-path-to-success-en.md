@@ -54,7 +54,7 @@ He was also criticized for antagonizing the entire crypto community, which was s
 ### 📌 Summary
 
 | Phase | Struggle |
-|---|---|
+| --- | --- |
 | Harvard years | No direction, not suited for academia |
 | Post-PhD | Broke after painting abroad, no clear career |
 | Viaweb (1995–98) | Nearly failed multiple times; dismissed by VCs |
@@ -66,6 +66,7 @@ Graham's own philosophy — that a haphazard path teaches you more than a planne
 ---
 
 **References:**
+
 - [How Paul Graham went from hacker to half-billion dollar man](https://dailydot.com/paul-graham-hacker-to-half-billion-dollar-man)
 - [Best and Worst Decisions – Paul Graham](https://wingedpig.com/2010/04/21/best-and-worst-decisions-paul-graham)
 - [The Aha Moments That Made Y Combinator Possible – Fast Company](https://www.fastcompany.com/3002810/boom-tube-how-viki-creating-global-hulu)

@@ -59,6 +59,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [黄仁勋表示如果早知道前方的痛苦，他不会再次创立英伟达](https://finance.yahoo.com/markets/stocks/articles/jensen-huang-says-wouldnt-start-111413161.html)
 - [英伟达CEO黄仁勋始终担忧英伟达会失败](https://www.techspot.com/news/101005-nvidia-ceo-jensen-huang-constantly-worries-nvidia-fail.html)
 - [英伟达CEO寄语南洋理工毕业生：奔跑而非行走——但要做好跌倒的准备](https://blogs.nvidia.com/blog/2023/05/26/huang-ntu-commencement)

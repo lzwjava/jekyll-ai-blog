@@ -54,7 +54,7 @@ type: note
 ### 📌 总结
 
 | 阶段 | 挣扎 |
-|---|---|
+| --- | --- |
 | 哈佛时期 | 没有方向，不适合学术界 |
 | 博士毕业后 | 海外学画后身无分文，没有明确的职业 |
 | Viaweb（1995–98） | 多次濒临失败；被风投轻视 |
@@ -66,6 +66,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [保罗·格雷厄姆如何从黑客变成身价五亿美元的男人](https://dailydot.com/paul-graham-hacker-to-half-billion-dollar-man)
 - [最佳与最差决策——保罗·格雷厄姆](https://wingedpig.com/2010/04/21/best-and-worst-decisions-paul-graham)
 - [让Y Combinator成为可能的顿悟时刻——Fast Company](https://www.fastcompany.com/3002810/boom-tube-how-viki-creating-global-hulu)

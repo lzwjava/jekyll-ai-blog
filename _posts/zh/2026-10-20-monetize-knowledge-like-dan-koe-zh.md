@@ -72,7 +72,7 @@ Dan Koe 经营的是信息产品业务，面向有抱负的创业者教授营销
 ## 综合打法（应用于知识星球/付费社区）
 
 | 阶段 | 该做什么 |
-|---|---|
+| --- | --- |
 | **1. 在公开渠道建立信任** | 在开放平台上持续发布免费的高价值内容 |
 | **2. 用免费 Newsletter 预热** | 将最优质的粉丝引流到 Email——你拥有这份名单 |
 | **3. 开放付费社区** | 将更深层内容、问答、模板、抢先体验封闭起来 |
@@ -82,6 +82,7 @@ Dan Koe 经营的是信息产品业务，面向有抱负的创业者教授营销
 ---
 
 **参考资料：**
+
 - [Dan Koe 简介 – YesPress](https://yespress.io/dan-koe)
 - [Dan Koe 如何每天写作 2 小时年入 200 万美元 – beehiiv](https://blog.beehiiv.com/p/how-dan-koe-makes-2-million-per-year-writing-2-hours-per-day)
 - [为什么 90% 的 Dan Koe 追随者赚不到钱 – I Drink I Think](https://idrinkithink.substack.com/p/why-dan-koe-makes-a-ton-of-and-you)

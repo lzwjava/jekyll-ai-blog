@@ -16,6 +16,7 @@ Answer:
 Lisp Machines were purpose-built computers from the late 1970s–1980s designed from the silicon up to run Lisp natively. Their specialness came from several deeply intertwined ideas:
 
 **1. Hardware-Level Lisp Support**
+
 - **Tagged memory architecture** — every memory word carried a type tag (integer, pointer, symbol, etc.) baked into the hardware, enabling safe, fast type dispatch without software overhead.
 - **Microcode for Lisp primitives** — operations like `CAR`, `CDR`, and type checks ran in microcode, not in compiled C or assembly layers.
 - **Hardware-assisted garbage collection** — GC was offloaded to dedicated silicon, allowing near-real-time collection while the program ran.
@@ -25,6 +26,7 @@ There was no distinction between the operating system and the language runtime. 
 
 **3. The Interactive "Image" Model**
 The entire running system was a single persistent *image*. You could:
+
 - Redefine any function **live** without restarting anything.
 - Inspect and modify any running object in memory.
 - Continue from an error mid-execution after fixing the bug.
@@ -40,8 +42,9 @@ MIT's **Flavors** system (predecessor to CLOS) ran on these machines. Lisp Machi
 At a time when computers were shared timesharing mainframes, a Lisp Machine gave one programmer a **dedicated high-performance workstation** — all compute for one developer's thinking.
 
 **Key Machines:**
+
 | Machine | Origin |
-|---|---|
+| --- | --- |
 | MIT CADR | MIT AI Lab (~1977) |
 | Symbolics 3600 series | Symbolics Inc. (~1983) |
 | LMI Lambda | Lisp Machines Inc. |
@@ -53,6 +56,7 @@ The rise of cheap Unix workstations (Sun, Apollo) undercut them economically. Th
 ---
 
 References:
+
 - [Lisp machine - Wikipedia](https://en.wikipedia.org/wiki/Lisp_machine)
 - [Symbolics - Wikipedia](https://en.wikipedia.org/wiki/Symbolics)
 - [The Lisp Machine: A Retrospective (MIT)](https://dspace.mit.edu/handle/1721.1/41918)

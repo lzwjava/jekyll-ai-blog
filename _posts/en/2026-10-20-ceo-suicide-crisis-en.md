@@ -28,6 +28,7 @@ Yes, this is a documented and serious issue. C-suite executives face uniquely in
 While it seems counterintuitive — since top executives tend to have better mental health than those on lower rungs — pressure on C-level executives is undeniably mounting.
 
 Key stressors include:
+
 - Heavy workloads, frenetic schedules, and extensive overseas travel that have obliterated work-life balance, compounded by shareholder and board pressure.
 - Average CEO tenure has shortened dramatically, adding instability and urgency to already high-stakes roles.
 - Despite being surrounded by staff, CEOs often feel deeply isolated due to their position and the high-stakes decisions they must make alone.
@@ -44,6 +45,7 @@ The same compassion and push for destigmatizing mental health that employers cha
 ---
 
 **References:**
+
 - [C-Suite Suicides: When Exec Life Becomes a Nightmare – Fortune](https://fortune.com/2013/09/10/c-suite-suicides-when-exec-life-becomes-a-nightmare)
 - [Bed Bath & Beyond CFO Death: A Wake-Up Call – Fortune](https://www.fortune.com/2022/09/15/bed-bath-beyond-cfo-death-wake-up-call-mental-health-csuite)
 - [Work Pressures Push Executives to Suicide – Spear's WMS](https://www.spearswms.com/news/as-work-pressures-push-executives-to-suicide-ruthless-companies-must-learn-compassion)

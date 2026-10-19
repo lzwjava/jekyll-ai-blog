@@ -55,6 +55,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [埃隆·马斯克的失败时间线 – Inverse](https://www.inverse.com/article/44933-elon-musk-failures-graphic)
 - [埃隆·马斯克在特斯拉'非常黑暗的时期'学到的重要一课 – Yahoo Finance](https://finance.yahoo.com/news/elon-musk-learned-important-lesson-123052337.html)
 - [克服挫折，拯救特斯拉 – Stanford eCorner](https://stvp.stanford.edu/clips/overcoming-setbacks-and-saving-tesla)

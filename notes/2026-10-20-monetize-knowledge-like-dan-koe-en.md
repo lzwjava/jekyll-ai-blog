@@ -72,7 +72,7 @@ Industry average paid conversion rates hover between 0.4% and 12%, with top perf
 ## The Combined Playbook (applied to 知识星球 / paid community)
 
 | Stage | What to do |
-|---|---|
+| --- | --- |
 | **1. Build trust in public** | Post free, high-value content on open platforms consistently |
 | **2. Warm up with a free newsletter** | Move your best followers to email — you own that list |
 | **3. Open the paid community** | Gate deeper content, Q&A, templates, early access |
@@ -82,6 +82,7 @@ Industry average paid conversion rates hover between 0.4% and 12%, with top perf
 ---
 
 **References:**
+
 - [Dan Koe Profile – YesPress](https://yespress.io/dan-koe)
 - [How Dan Koe Makes $2M/yr Writing 2 Hours a Day – beehiiv](https://blog.beehiiv.com/p/how-dan-koe-makes-2-million-per-year-writing-2-hours-per-day)
 - [Why 90% of Dan Koe Followers Never Make Money – I Drink I Think](https://idrinkithink.substack.com/p/why-dan-koe-makes-a-ton-of-and-you)

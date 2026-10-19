@@ -28,6 +28,7 @@ type: note
 虽然这看起来有违常理——因为高层高管的心理健康状况通常比基层员工更好——但C-suite高管面临的压力无疑正在加剧。
 
 主要压力源包括：
+
 - 繁重的工作量、疯狂的日程安排以及大量的海外出差，彻底摧毁了工作与生活的平衡，再加上股东和董事会的压力。
 - 首席执行官的平均任期大幅缩短，为原本就高风险的职位增添了不稳定性和紧迫感。
 - 尽管身边围绕着员工，但CEO往往因为自身职位以及必须独自承担的高风险决策而深感孤立。
@@ -44,6 +45,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [C-Suite Suicides: When Exec Life Becomes a Nightmare – Fortune](https://fortune.com/2013/09/10/c-suite-suicides-when-exec-life-becomes-a-nightmare)
 - [Bed Bath & Beyond CFO Death: A Wake-Up Call – Fortune](https://www.fortune.com/2022/09/15/bed-bath-beyond-cfo-death-wake-up-call-mental-health-csuite)
 - [Work Pressures Push Executives to Suicide – Spear's WMS](https://www.spearswms.com/news/as-work-pressures-push-executives-to-suicide-ruthless-companies-must-learn-compassion)

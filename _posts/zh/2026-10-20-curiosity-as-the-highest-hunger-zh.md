@@ -20,7 +20,7 @@ type: note
 以下是他在这个框架中的完整阐述：
 
 | 驱动力 | 关注点 | 对应的人物类型 |
-|---|---|---|
+| --- | --- | --- |
 | 贪婪 | 即时结果 | 卑劣的投机者 —— Base Speculator |
 | 成就动机 | 持续的过程 | 艰辛的攀登者 —— Arduous Climber |
 | **好奇心** | **广阔的未知** | **幸福的探索者 —— Happy Explorer** |
@@ -42,6 +42,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [张一鸣微博语录 — 腾讯新闻](https://news.qq.com/rain/a/20241030A0274H00)
 - [围观了张一鸣近10年的微博，整理出231条干货 — 澎湃新闻](https://www.thepaper.cn/newsDetail_forward_11583734)
 - [Zhang Yiming's Last Speech: Part II — Interconnected](https://interconnect.substack.com/p/zhang-yimings-last-speech-part-ii)

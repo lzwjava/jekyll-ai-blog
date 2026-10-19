@@ -59,6 +59,7 @@ Huang admitted he would not have founded the company if he had known in advance 
 ---
 
 **References:**
+
 - [Jensen Huang Says He Wouldn't Start Nvidia Again If He Knew the Pain Ahead](https://finance.yahoo.com/markets/stocks/articles/jensen-huang-says-wouldnt-start-111413161.html)
 - [Nvidia CEO Jensen Huang constantly worries Nvidia will fail](https://www.techspot.com/news/101005-nvidia-ceo-jensen-huang-constantly-worries-nvidia-fail.html)
 - [NVIDIA CEO Tells NTU Grads to Run, Not Walk — But Be Prepared to Stumble](https://blogs.nvidia.com/blog/2023/05/26/huang-ntu-commencement)

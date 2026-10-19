@@ -66,7 +66,7 @@ Lei Jun said he experienced "the hardest time" since founding Xiaomi in 2010, fo
 ### 🔑 Key Lessons from Lei Jun's Resilience
 
 | Challenge | How He Overcame It |
-|---|---|
+| --- | --- |
 | First company failure | Joined an established firm, learned from scratch |
 | Kingsoft burnout & IPO failures | Persisted through 5 funding rounds, finally succeeded |
 | Joyo sold short | Accepted "bad luck," moved on |
@@ -79,6 +79,7 @@ His core philosophy: *keep learning, reflect after every failure, and never stop
 ---
 
 **References:**
+
 - [Xiaomi CEO Tries to Follow in Steve Jobs' Footsteps – Caixin](https://www.caixinglobal.com/2018-07-06/xiaomi-ceo-tries-to-follow-in-steve-jobs-footsteps-101295459.html)
 - [Xiaomi on Comeback Trail With Record-Breaking Quarterly Sales – Caixin](https://www.caixinglobal.com/2017-07-11/xiaomi-on-comeback-trail-with-record-breaking-quarterly-sales-101113985.html)
 - [Behind the Fall and Rise of China's Xiaomi – Wired/Transnational](https://transnational.live/2017/12/31/behind-the-fall-and-rise-of-chinas-xiaomi/)

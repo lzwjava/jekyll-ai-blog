@@ -56,7 +56,7 @@ He also identified not wanting to be turned down as one of the hardest life skil
 ### Summary
 
 | Challenge | How He Handled It |
-|---|---|
+| --- | --- |
 | Fired from OpenAI (2023) | Defiance → stayed calm, focused on next steps, didn't retaliate |
 | Loopt not scaling | Accepted the outcome, pivoted to YC & investing |
 | Boardroom uncertainty | Relied on team loyalty and conviction |
@@ -67,6 +67,7 @@ Altman's pattern across dark times is consistent: **feel the shock briefly, then
 ---
 
 **References:**
+
 - [OpenAI's Sam Altman opens up about shock firing – Fox Business](https://foxbusiness.com/technology/openais-sam-altman-opens-up-shock-firing)
 - ['Hurt and angry': Sam Altman opens up about OpenAI board's failed coup – Business Standard](https://www.business-standard.com/technology/tech-news/hurt-and-angry-sam-altman-opens-up-about-openai-board-s-failed-coup-123120100650_1.html)
 - [Lessons from Sam Altman: On Belief, Ambition, and High-Impact Careers – Chasing Melody](https://chasingmelody.substack.com/p/lessons-from-sam-altman-on-belief)

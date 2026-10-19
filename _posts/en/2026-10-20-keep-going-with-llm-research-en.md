@@ -22,7 +22,7 @@ LLM research and engineering sit at the intersection of these ambitions.
 Don't limit yourself to application development or a single specialization. Build expertise across the model lifecycle.
 
 | Area | What to explore | Why it matters |
-|---|---|---|
+| --- | --- | --- |
 | **Pretraining** | Tokenization, data pipelines, distributed training, scaling laws, optimization | Understand how models acquire capabilities |
 | **Post-training** | SFT, preference optimization, RL, synthetic data, evaluations | Understand how base models become useful assistants and agents |
 | **Inference** | KV cache, batching, quantization, speculative decoding, serving systems | Make models faster, cheaper, and more accessible |
@@ -127,6 +127,7 @@ I would choose one primary technical research track and one commercial track.
 For example, investigate efficient post-training or inference for a small open-weight model.
 
 Publish:
+
 - The problem and hypothesis.
 - The baseline.
 - The experimental setup.
@@ -139,6 +140,7 @@ Build a sequence of experiments that compounds into genuine expertise, rather th
 **Commercial track: Find paying customers for your AI engineering capabilities.**
 
 Offer specific services such as:
+
 - LLM inference optimization.
 - Fine-tuning and post-training.
 - AI coding agents and business agents.
