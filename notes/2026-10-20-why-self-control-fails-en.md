@@ -48,6 +48,7 @@ In short: self-control isn't just about "willpower" — it's a biological battle
 ---
 
 **References:**
+
 - [Why It's Impossible for Some to 'Just Say No' — Association for Psychological Science](https://www.psychologicalscience.org/observer/why-its-impossible-for-some-to-just-say-no)
 - [Running on Empty (Ego Depletion Study) — Psychological Science](https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2007.02004.x/)
 - [Why Self-Control Fails & What Psychology Tells Us — Dom De Lima](https://domdelima.substack.com/p/why-self-control-fails-and-what-psychology)

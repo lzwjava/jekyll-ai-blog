@@ -81,6 +81,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [应对股价波动的策略：高管行动手册](https://www.ir-impact.com/2025/10/navigating-volatile-stock-price-movements-a-playbook-for-public-company-executives-and-boards/)
 - [管理层如何应对股价暴跌？(IJMF, 2024)](https://www.emerald.com/insight/content/doi/10.1108/IJMF-05-2023-0250/full/pdf)
 - [危机时期的投资者沟通](https://5wpr.com/new/investor-communications-in-times-of-crisis/)

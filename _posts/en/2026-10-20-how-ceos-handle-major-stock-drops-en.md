@@ -86,6 +86,7 @@ A falling stock price directly hits morale, especially when employees hold stock
 ---
 
 **References:**
+
 - [Navigating Volatile Stock Price Movements: A Playbook for Executives](https://www.ir-impact.com/2025/10/navigating-volatile-stock-price-movements-a-playbook-for-public-company-executives-and-boards/)
 - [How Does Management Respond to Stock Price Crashes? (IJMF, 2024)](https://www.emerald.com/insight/content/doi/10.1108/IJMF-05-2023-0250/full/pdf)
 - [Investor Communications in Times of Crisis](https://5wpr.com/new/investor-communications-in-times-of-crisis/)

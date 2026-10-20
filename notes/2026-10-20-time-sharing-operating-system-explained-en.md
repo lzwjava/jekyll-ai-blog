@@ -22,7 +22,7 @@ The CPU's time is divided into short intervals (typically 10–100 milliseconds)
 **Key Characteristics**
 
 | Feature | Description |
-|---|---|
+| --- | --- |
 | **Multitasking** | Multiple processes run concurrently (interleaved) |
 | **Interactivity** | Users get fast, responsive feedback |
 | **Resource sharing** | CPU, memory, I/O are shared fairly |
@@ -48,7 +48,7 @@ User A ──▶ [time slice] ──▶ ...  (cycles repeat very fast)
 **Comparison with Related OS Types**
 
 | Type | 特点 | Typical Use |
-|---|---|---|
+| --- | --- | --- |
 | **Batch (批处理)** | Jobs queued, no interaction | Payroll, reports |
 | **Time-sharing (分时)** | Interactive, multi-user | Terminals, dev environments |
 | **Real-time (实时)** | Guaranteed response deadlines | Embedded, medical devices |
@@ -61,6 +61,7 @@ Every modern OS (Linux, Windows, macOS) is essentially a time-sharing system at 
 ---
 
 References:
+
 - [Time-sharing — Wikipedia](https://en.wikipedia.org/wiki/Time-sharing)
 - [Operating System Concepts (Silberschatz et al.) — OS Types Overview](https://os-book.com/)
 - [History of CTSS — MIT](https://multicians.org/ctss.html)

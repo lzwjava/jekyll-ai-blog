@@ -48,6 +48,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [为什么有些人无法“干脆说不” —— 心理科学协会](https://www.psychologicalscience.org/observer/why-its-impossible-for-some-to-just-say-no)
 - [能量耗尽（自我损耗研究）——《心理科学》](https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2007.02004.x/)
 - [为什么自我控制会失败以及心理学告诉我们什么 —— Dom De Lima](https://domdelima.substack.com/p/why-self-control-fails-and-what-psychology)

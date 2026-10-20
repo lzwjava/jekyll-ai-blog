@@ -25,7 +25,7 @@ type: note
 供参考，以下是姊妹校区的年学费标准：
 
 | 校区 | 年学费（人民币） |
-|---|---|
+| --- | --- |
 | 深圳 | ¥264,160 – ¥326,760 |
 | 广州 | ¥211,200 – ¥280,500 |
 | 南京 | ¥217,560 – ¥288,920 |
@@ -39,6 +39,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [BASIS Park Lane Harbour – OpenApply](https://search.openapply.com/schools/1671)
 - [BASIS成都学费 – Doris School](https://www.doris.school/schools/china/basis-international-and-bilingual-schools-chengdu)
 - [BASIS深圳学费 – Doris School](https://www.doris.school/schools/china/basis-international-school-shenzhen)

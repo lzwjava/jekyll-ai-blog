@@ -30,5 +30,6 @@ type: note
 ---
 
 参考资料：
+
 - [内在动机的科学 – Psychology Today](https://www.psychologytoday.com/us/basics/motivation)
 - [刻意练习：它是什么以及为何重要 – Farnam Street](https://fs.blog/deliberate-practice-guide/)

@@ -25,7 +25,7 @@ No specific boarding tuition information is publicly listed — you'd need to co
 For context, here's what sibling campuses charge annually:
 
 | Campus | Annual Tuition (RMB) |
-|---|---|
+| --- | --- |
 | Shenzhen | ¥264,160 – ¥326,760 |
 | Guangzhou | ¥211,200 – ¥280,500 |
 | Nanjing | ¥217,560 – ¥288,920 |
@@ -39,6 +39,7 @@ Textbooks and learning resources, uniforms, meals, school bus/transport, extracu
 ---
 
 **References:**
+
 - [BASIS Park Lane Harbour – OpenApply](https://search.openapply.com/schools/1671)
 - [BASIS Chengdu Fees – Doris School](https://www.doris.school/schools/china/basis-international-and-bilingual-schools-chengdu)
 - [BASIS Shenzhen Fees – Doris School](https://www.doris.school/schools/china/basis-international-school-shenzhen)

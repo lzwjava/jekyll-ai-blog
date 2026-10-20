@@ -30,5 +30,6 @@ You're not doing it *despite* it being practice — you're doing it *because* pr
 ---
 
 References:
+
 - [The Science of Intrinsic Motivation – Psychology Today](https://www.psychologytoday.com/us/basics/motivation)
 - [Deliberate Practice: What It Is and Why It Matters – Farnam Street](https://fs.blog/deliberate-practice-guide/)

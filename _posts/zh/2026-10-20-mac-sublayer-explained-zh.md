@@ -31,7 +31,7 @@ OSI 第2层 — 数据链路层
 ### MAC的作用
 
 | 职责 | 描述 |
-|---|---|
+| --- | --- |
 | **介质访问控制** | 决定设备*何时*允许在共享信道上传输（例如以太网使用CSMA/CD，Wi-Fi使用CSMA/CA） |
 | **MAC寻址** | 每个网卡（NIC）有一个唯一的48位硬件地址（例如 `AA:BB:CC:DD:EE:FF`），用于在同一本地网络中标识设备 |
 | **帧定界** | 标记数据帧的起始和结束位置 |
@@ -55,6 +55,7 @@ OSI 第2层 — 数据链路层
 ---
 
 参考资料：
+
 - [IEEE 802概述 —— MAC和LLC子层](https://standards.ieee.org/ieee/802/5956/)
 - [OSI模型 —— 数据链路层（Cloudflare）](https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/)
 - [介质访问控制 —— 维基百科](https://en.wikipedia.org/wiki/Medium_access_control)

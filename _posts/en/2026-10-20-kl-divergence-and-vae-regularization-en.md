@@ -40,7 +40,7 @@ $$D_{KL} = -\frac{1}{2} \sum \left(1 + \log\sigma^2 - \mu^2 - \sigma^2\right)$$
 ## Why This Matters — 3 Key Effects
 
 | Effect | Without KL | With KL |
-|---|---|---|
+| --- | --- | --- |
 | **Cluster gaps** | Encodings cluster in isolated islands | Distributions overlap smoothly |
 | **Interpolation** | Gaps between clusters = garbage output | Walking through latent space = meaningful transitions |
 | **Coverage** | Unused regions of latent space | Space is dense and usable |
@@ -69,6 +69,7 @@ The β coefficient controls how hard you push toward the prior — higher β = s
 ---
 
 References:
+
 - [Kingma & Welling — Auto-Encoding Variational Bayes (original VAE paper)](https://arxiv.org/abs/1312.6114)
 - [Towards Data Science — Understanding VAEs](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)
 - [Wikipedia — Kullback–Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)

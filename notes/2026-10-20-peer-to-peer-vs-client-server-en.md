@@ -24,7 +24,7 @@ These two terms describe the two fundamental architectural models for Network Op
 Every node in the network has **equal status** — each machine can act as both a **client** (requesting resources) and a **server** (providing resources) simultaneously.
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | Role | Every node is equal |
 | Resource sharing | Direct between any two nodes |
 | Management | Decentralized |
@@ -38,7 +38,7 @@ Every node in the network has **equal status** — each machine can act as both 
 There is a **clear hierarchy**: dedicated **servers** provide resources and services, while **clients** only consume them. The two roles do not overlap.
 
 | Feature | Detail |
-|---|---|
+| --- | --- |
 | Role | Server vs. Client are strictly separated |
 | Resource sharing | Through a central server |
 | Management | Centralized, easier to control |
@@ -62,5 +62,6 @@ In **对等** networks, simplicity comes at the cost of security and scalability
 ---
 
 References:
+
 - [Network Operating System - Wikipedia](https://en.wikipedia.org/wiki/Network_operating_system)
 - [Peer-to-peer vs Client-Server Networks](https://www.geeksforgeeks.org/difference-between-peer-to-peer-and-client-server-network/)

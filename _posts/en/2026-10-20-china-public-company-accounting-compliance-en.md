@@ -36,6 +36,7 @@ Article 216 also requires the company to give its accounting service provider tr
 According to the Measures for the Administration of Information Disclosure by Listed Companies, once a company is listed, it must publish its **quarterly, interim, and annual** accounts within prescribed timeframes.
 
 Specifically:
+
 - Within **two months** of the conclusion of the first half of each fiscal year, a listed company must submit a report including financial and accounting reports, business situation, major litigation, and share changes.
 - Within **four months** of the last day of each fiscal year, the annual report must include the company's general circumstances, financial and accounting reports, shareholding details of directors/supervisors/managers, and shares/bond details.
 
@@ -66,7 +67,7 @@ All three Chinese securities exchanges now require constituent companies of majo
 ### Summary
 
 | Requirement | Detail |
-|---|---|
+| --- | --- |
 | Accounting standard | ASBEs (mandatory for listed companies) |
 | Bookkeeping | Statutory books only, no dual/shadow books |
 | Audit | Annual, by licensed CPA firm |
@@ -79,6 +80,7 @@ Short answer: **Yes, 记账 needs to be meticulous.** The CSRC actively reviews 
 ---
 
 **References:**
+
 - [How to Choose Accounting Service Provider in China – China Briefing](https://www.china-briefing.com/news/how-to-choose-accounting-service-provider-china/)
 - [Corporate Governance 2026 – Han Kun Law Offices / Chambers](https://gpg-pdf.chambers.com/corporate-governance-2026/156/)
 - [CSRC Audit Supervision Review 2026 – iTiger](https://www.itiger.com/news/1110279244)

@@ -48,6 +48,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Leon Festinger's Social Comparison Theory – Simply Psychology](https://www.simplypsychology.org/social-comparison-theory.html)
 - [How to Stop Comparing Yourself to Others – Psychology Today](https://www.psychologytoday.com/us/blog/the-squeaky-wheel/201606/how-to-stop-comparing-yourself-to-others)
 - [The Comparison Trap – Harvard Health](https://www.health.harvard.edu/mind-and-mood/the-comparison-trap)

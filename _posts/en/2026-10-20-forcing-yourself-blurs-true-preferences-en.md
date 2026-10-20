@@ -30,6 +30,7 @@ Yes — in many cases, forcing yourself to act can blur your sense of authentic 
 **The core problem** is that forcing collapses the space between *"I chose this"* and *"I had to do this"* — and authentic self-knowledge depends on that distinction being clear.
 
 **References:**
+
 - [Self-Determination Theory – Deci & Ryan](https://selfdeterminationtheory.org/theory/)
 - [The Overjustification Effect – Psychology Today](https://www.psychologytoday.com/us/basics/motivation/overjustification-effect)
 - [Mere Exposure Effect – Simply Psychology](https://www.simplypsychology.org/mere-exposure-effect.html)

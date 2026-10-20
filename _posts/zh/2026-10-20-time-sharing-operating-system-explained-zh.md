@@ -22,7 +22,7 @@ CPU的时间被划分为短时间间隔（通常为10–100毫秒）。每个用
 **主要特征**
 
 | 特征 | 描述 |
-|---|---|
+| --- | --- |
 | **多任务处理** | 多个进程并发运行（交错执行） |
 | **交互性** | 用户获得快速、响应的反馈 |
 | **资源共享** | CPU、内存、I/O公平共享 |
@@ -48,7 +48,7 @@ CPU的时间被划分为短时间间隔（通常为10–100毫秒）。每个用
 **与相关操作系统类型的比较**
 
 | 类型 | 特点 | 典型用途 |
-|---|---|---|
+| --- | --- | --- |
 | **批处理** | 作业排队，无交互 | 工资计算、报告生成 |
 | **分时** | 交互式、多用户 | 终端、开发环境 |
 | **实时** | 保证响应时限 | 嵌入式、医疗设备 |
@@ -61,6 +61,7 @@ CPU的时间被划分为短时间间隔（通常为10–100毫秒）。每个用
 ---
 
 参考：
+
 - [Time-sharing — Wikipedia](https://en.wikipedia.org/wiki/Time-sharing)
 - [Operating System Concepts (Silberschatz et al.) — OS Types Overview](https://os-book.com/)
 - [History of CTSS — MIT](https://multicians.org/ctss.html)

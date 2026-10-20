@@ -30,6 +30,7 @@ type: note
 **核心问题** 在于，强迫行为模糊了 *“我选择了这个”* 与 *“我不得不做这个”* 之间的界限——而真实的自我认知恰恰依赖于这一区分的清晰性。
 
 **参考资料：**
+
 - [自我决定理论 – Deci & Ryan](https://selfdeterminationtheory.org/theory/)
 - [过度合理化效应 – Psychology Today](https://www.psychologytoday.com/us/basics/motivation/overjustification-effect)
 - [单纯曝光效应 – Simply Psychology](https://www.simplypsychology.org/mere-exposure-effect.html)

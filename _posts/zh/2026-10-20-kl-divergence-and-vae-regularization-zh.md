@@ -40,7 +40,7 @@ $$D_{KL} = -\frac{1}{2} \sum \left(1 + \log\sigma^2 - \mu^2 - \sigma^2\right)$$
 ## 为什么这很重要 — 3个关键影响
 
 | 影响 | 没有KL | 有KL |
-|---|---|---|
+| --- | --- | --- |
 | **簇间隙** | 编码聚集在孤立的岛屿中 | 分布平滑重叠 |
 | **插值** | 簇之间的间隙 = 无意义的输出 | 在潜空间中穿行 = 有意义的过渡 |
 | **覆盖度** | 潜空间的未使用区域 | 空间密集且可用 |
@@ -69,6 +69,7 @@ $$\mathcal{L} = \underbrace{\mathcal{L}_{\text{reconstruction}}}_{\text{保持�
 ---
 
 参考资料：
+
 - [Kingma & Welling — Auto-Encoding Variational Bayes（VAE原始论文）](https://arxiv.org/abs/1312.6114)
 - [Towards Data Science — Understanding VAEs](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)
 - [Wikipedia — Kullback–Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
