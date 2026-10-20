@@ -59,7 +59,7 @@ The key distinction: LeCun is not contrarian for its own sake. His critique isn'
 These three converge into something sharper than any one alone:
 
 | Element | Source | Contribution |
-|---|---|---|
+| --- | --- | --- |
 | *What* to pursue | DeepSeek | AGI's essence, not the fashion of the day |
 | *How* to think | Yin Wang | Trace to first principles; verify before trusting |
 | *How* to position | LeCun | Evidence-grounded contrarianism; be willing to be early and alone |
@@ -85,6 +85,7 @@ The synthesis only works if the contrarianism is *earned* — through genuine fi
 ---
 
 **References:**
+
 - [Yinwang.org — 如何掌握所有的程序语言 (via Juejin mirror)](https://juejin.cn/post/6844903486618861576)
 - [王垠 profile & career arc (Cloud Tencent)](https://cloud.tencent.com/developer/news/832831)
 - [Yann LeCun Leadership Style: Open Science, Contrarian Bets](https://resources.rework.com/vi/libraries/leadership-legends/yann-lecun-leadership)

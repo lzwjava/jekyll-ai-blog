@@ -20,6 +20,7 @@ type: note
 ### 关键概念
 
 **调度器类型（按时间跨度）：**
+
 - **Long-term scheduler** – 决定哪些进程被允许进入就绪队列（job scheduler）
 - **Short-term scheduler** – 决定哪个就绪进程接下来在CPU上运行（CPU scheduler，运行最频繁）
 - **Medium-term scheduler** – 处理进程在内存和外存之间的交换
@@ -29,7 +30,7 @@ type: note
 ### 调度标准
 
 | Criterion | Goal |
-|---|---|
+| --- | --- |
 | CPU Utilization | 尽可能让CPU保持忙碌 |
 | Throughput | 最大化每单位时间完成的进程数 |
 | Turnaround Time | 最小化从提交到完成的总时间 |
@@ -53,7 +54,7 @@ type: note
 ### 抢占 vs. 非抢占
 
 | | Non-Preemptive | Preemptive |
-|---|---|---|
+| --- | --- | --- |
 | 定义 | 进程自愿释放CPU之前一直保持 | 操作系统可以强制取走CPU |
 | 风险 | 长进程阻塞其他进程 | 需要context-switch开销 |
 | 示例 | FCFS, SJF | RR, SRTF |
@@ -71,6 +72,7 @@ type: note
 现代Linux使用 **CFS**，它旨在通过按 *virtual runtime* (vruntime) 排序的红黑树给每个进程“公平”的CPU时间份额。vruntime最小的进程总是在下一次运行。
 
 参考文献：
+
 - [Operating System Concepts (Silberschatz) – Chapter 5: CPU Scheduling](https://os.ecci.ucr.ac.cr/slides/Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf)
 - [Linux CFS Scheduler – Kernel Docs](https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html)
 - [Process Scheduling – OSDev Wiki](https://wiki.osdev.org/Scheduling_Algorithms)

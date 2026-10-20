@@ -55,7 +55,7 @@ type: note
 **差异总结：**
 
 | 方法 | URL | 使用场景 |
-|---|---|---|
+| --- | --- | --- |
 | workers.dev | `zhiwei-software.xxx.workers.dev` | 测试 / 无自定义域名 |
 | Custom Domain | `zhiweisoft.site` | 生产环境，所有流量 |
 | Route | `zhiweisoft.site/api/*` | 仅特定路径 |
@@ -63,6 +63,7 @@ type: note
 对于生产环境，**自定义域名**（选项 2）是最简洁的方法。
 
 **参考资料：**
+
 - [Cloudflare Workers – Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
 - [Cloudflare Workers – Routes](https://developers.cloudflare.com/workers/configuration/routing/routes/)
 - [Get started with Workers (domains & routing)](https://developers.cloudflare.com/workers/get-started/guide/)

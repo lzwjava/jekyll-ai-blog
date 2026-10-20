@@ -57,7 +57,7 @@ type: note
 这三者汇聚成比任何单一声音更锐利的东西：
 
 | 要素 | 来源 | 贡献 |
-|---|---|---|
+| --- | --- | --- |
 | *追求什么* | DeepSeek | AGI 的本质，而非时下潮流 |
 | *如何思考* | 王垠 | 追溯第一性原理；先验证再信任 |
 | *如何定位* | 杨立昆 | 基于证据的反主流；愿意早行并独行 |
@@ -83,6 +83,7 @@ type: note
 ---
 
 **参考：**
+
 - [Yinwang.org — 如何掌握所有的程序语言（via Juejin mirror）](https://juejin.cn/post/6844903486618861576)
 - [王垠简介与职业轨迹（Cloud Tencent）](https://cloud.tencent.com/developer/news/832831)
 - [Yann LeCun 领导风格：开放科学、反主流押注](https://resources.rework.com/vi/libraries/leadership-legends/yann-lecun-leadership)

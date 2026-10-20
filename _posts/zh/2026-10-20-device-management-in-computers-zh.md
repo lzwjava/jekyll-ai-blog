@@ -27,7 +27,7 @@ Device Management 是指 Operating System（OS）控制、监控和协调所有�
 **Key Components：**
 
 | Component | Role |
-|---|---|
+| --- | --- |
 | Device Driver | OS 与 Hardware 之间的 Software Interface |
 | Device Manager (Windows) | 用于查看和管理所有 Devices 的 GUI 工具 |
 | HAL (Hardware Abstraction Layer) | 对 OS 隐藏 Hardware 的差异 |
@@ -42,6 +42,7 @@ Device Management 是指 Operating System（OS）控制、监控和协调所有�
 本质上，Device Management 确保所有 Hardware Components 正确高效地工作，没有 Conflicts，使它们对 OS 和 User Applications 透明且可访问。
 
 References：
+
 - [Device Management - GeeksforGeeks](https://www.geeksforgeeks.org/device-management-in-operating-system/)
 - [What is Device Manager? - Microsoft](https://support.microsoft.com/en-us/windows/open-device-manager-a7f2db46-faaf-24f0-8b7b-9e4a6032fc8c)
 - [Linux Device Management - The Linux Documentation Project](https://tldp.org/LDP/sag/html/dev-overview.html)

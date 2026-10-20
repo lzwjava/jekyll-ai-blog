@@ -88,6 +88,7 @@ The honest answer is that neither wins outright. SGLang's RadixAttention lead is
 ---
 
 **References:**
+
 - [10 Best vLLM Alternatives for Production 2026](https://www.premai.io/blog/10-best-vllm-alternatives-for-llm-inference-in-production-2026/)
 - [vLLM in Production: Security Hardening Guide](https://medium.com/@michael.hannecke/vllm-in-production-a-security-hardening-guide-for-enterprise-deployments-56a9c2c213dd)
 - [The Silent Hyperparameter — Inference Backend Reproducibility](https://arxiv.org/pdf/2605.19537)

@@ -42,6 +42,7 @@ CEO通常没有明确的成功门槛，所以标准无限上升。对于每个�
 ---
 
 **参考资料：**
+
 - [如何作为初创创始人管理焦虑 — First Round Review](https://review.firstround.com/the-founders-guide-to-not-losing-your-mind)
 - [CEO心理健康：无声的流行病 — Harvard Business Review](https://hbr.org/2019/05/the-ceo-loneliness-epidemic)
 - [好好担忧，一次担忧 — Stanford Social Innovation Review](https://ssir.org/)

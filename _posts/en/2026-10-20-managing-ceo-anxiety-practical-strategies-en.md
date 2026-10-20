@@ -42,6 +42,7 @@ Some worry won't go away, and that's appropriate. The goal isn't to eliminate wo
 ---
 
 **References:**
+
 - [How to Manage Anxiety as a Startup Founder — First Round Review](https://review.firstround.com/the-founders-guide-to-not-losing-your-mind)
 - [CEO Mental Health: The Silent Epidemic — Harvard Business Review](https://hbr.org/2019/05/the-ceo-loneliness-epidemic)
 - [Worry Well, Worry Once — Stanford Social Innovation Review](https://ssir.org/)

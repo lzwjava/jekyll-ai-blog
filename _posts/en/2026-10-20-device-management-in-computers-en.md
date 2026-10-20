@@ -27,7 +27,7 @@ Device management refers to the process by which an operating system (OS) contro
 **Key Components:**
 
 | Component | Role |
-|---|---|
+| --- | --- |
 | Device Driver | Software interface between OS and hardware |
 | Device Manager (Windows) | GUI tool to view/manage all devices |
 | HAL (Hardware Abstraction Layer) | Hides hardware differences from the OS |
@@ -42,6 +42,7 @@ Device management refers to the process by which an operating system (OS) contro
 In essence, device management ensures all hardware components work correctly and efficiently without conflicts, making them transparent and accessible to both the OS and user applications.
 
 References:
+
 - [Device Management - GeeksforGeeks](https://www.geeksforgeeks.org/device-management-in-operating-system/)
 - [What is Device Manager? - Microsoft](https://support.microsoft.com/en-us/windows/open-device-manager-a7f2db46-faaf-24f0-8b7b-9e4a6032fc8c)
 - [Linux Device Management - The Linux Documentation Project](https://tldp.org/LDP/sag/html/dev-overview.html)

@@ -20,6 +20,7 @@ Answer:
 ### Key Concepts
 
 **Scheduler Types (by time horizon):**
+
 - **Long-term scheduler** – decides which processes are admitted into the ready queue (job scheduler)
 - **Short-term scheduler** – decides which ready process runs next on the CPU (CPU scheduler, runs most frequently)
 - **Medium-term scheduler** – handles swapping processes in/out of memory
@@ -29,7 +30,7 @@ Answer:
 ### Scheduling Criteria
 
 | Criterion | Goal |
-|---|---|
+| --- | --- |
 | CPU Utilization | Keep CPU as busy as possible |
 | Throughput | Maximize processes completed per unit time |
 | Turnaround Time | Minimize total time from submission to completion |
@@ -53,7 +54,7 @@ Answer:
 ### Preemptive vs. Non-Preemptive
 
 | | Non-Preemptive | Preemptive |
-|---|---|---|
+| --- | --- | --- |
 | Definition | Process keeps CPU until it voluntarily releases | OS can forcibly take CPU away |
 | Risk | Long processes block others | Requires context-switch overhead |
 | Example | FCFS, SJF | RR, SRTF |
@@ -71,6 +72,7 @@ When the scheduler switches from one process to another, it performs a **context
 Modern Linux uses the **CFS**, which aims to give every process a "fair" share of CPU time using a red-black tree ordered by *virtual runtime* (vruntime). The process with the smallest vruntime always runs next.
 
 References:
+
 - [Operating System Concepts (Silberschatz) – Chapter 5: CPU Scheduling](https://os.ecci.ucr.ac.cr/slides/Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf)
 - [Linux CFS Scheduler – Kernel Docs](https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html)
 - [Process Scheduling – OSDev Wiki](https://wiki.osdev.org/Scheduling_Algorithms)

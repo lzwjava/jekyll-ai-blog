@@ -55,7 +55,7 @@ If you only want the worker to handle specific paths (e.g. `zhiweisoft.site/api/
 **Summary of the difference:**
 
 | Method | URL | Use case |
-|---|---|---|
+| --- | --- | --- |
 | workers.dev | `zhiwei-software.xxx.workers.dev` | Testing / no custom domain |
 | Custom Domain | `zhiweisoft.site` | Production, all traffic |
 | Route | `zhiweisoft.site/api/*` | Only specific paths |
@@ -63,6 +63,7 @@ If you only want the worker to handle specific paths (e.g. `zhiweisoft.site/api/
 For a production site, **Custom Domain** (Option 2) is the cleanest approach.
 
 **References:**
+
 - [Cloudflare Workers – Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
 - [Cloudflare Workers – Routes](https://developers.cloudflare.com/workers/configuration/routing/routes/)
 - [Get started with Workers (domains & routing)](https://developers.cloudflare.com/workers/get-started/guide/)
