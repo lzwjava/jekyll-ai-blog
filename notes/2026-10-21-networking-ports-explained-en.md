@@ -25,7 +25,7 @@ A **port** is a logical endpoint used to identify a specific process or service 
 **Port categories:**
 
 | Range | Name | Description |
-|---|---|---|
+| --- | --- | --- |
 | 0 – 1023 | Well-known ports | Reserved for standard services (HTTP, FTP, SSH…) |
 | 1024 – 49151 | Registered ports | Used by applications (databases, game servers…) |
 | 49152 – 65535 | Dynamic/ephemeral | Temporarily assigned by the OS for outgoing connections |
@@ -33,7 +33,7 @@ A **port** is a logical endpoint used to identify a specific process or service 
 **Common examples:**
 
 | Port | Protocol | Service |
-|---|---|---|
+| --- | --- | --- |
 | 22 | TCP | SSH (remote login) |
 | 80 | TCP | HTTP (web) |
 | 443 | TCP | HTTPS (secure web) |
@@ -45,5 +45,6 @@ A **port** is a logical endpoint used to identify a specific process or service 
 When you visit `https://example.com`, your browser connects to that server on **port 443**. Your OS also assigns your browser a random ephemeral port (e.g., 52341) on your side, so the server knows where to send the response back. The full connection is identified by the 4-tuple: `(your IP, your port, server IP, server port)`.
 
 References:
+
 - [What is a Port? - Cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-a-computer-port/)
 - [Port (computer networking) - Wikipedia](https://en.wikipedia.org/wiki/Port_(computer_networking))

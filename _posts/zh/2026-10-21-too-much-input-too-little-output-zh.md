@@ -38,6 +38,7 @@ type: note
 ---
 
 参考来源：
+
 - [收藏者谬误 – Zettelkasten](https://zettelkasten.de/posts/collectors-fallacy/)
 - [测试效应（提取练习）– APA](https://www.apa.org/science/about/psa/2016/06/learning-memory)
 - [通过教别人来学习 – Farnam Street](https://fs.blog/feynman-learning-technique/)

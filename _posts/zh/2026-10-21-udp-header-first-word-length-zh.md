@@ -28,7 +28,7 @@ UDP（用户数据报协议）首部总长 **固定为 8 字节（64 位）**，
 ```
 
 | 字段 | 大小 | 描述 |
-|---|---|---|
+| --- | --- | --- |
 | **Source Port** | 16 位（2 字节） | 发送方端口 |
 | **Destination Port** | 16 位（2 字节） | 接收方端口 |
 | **Length** | 16 位（2 字节） | UDP 段总长度（首部 + 数据）；最小值为 8 |
@@ -52,7 +52,7 @@ UDP（用户数据报协议）首部总长 **固定为 8 字节（64 位）**，
 ## 与 TCP 的主要区别
 
 | 特性 | UDP | TCP |
-|---|---|---|
+| --- | --- | --- |
 | 首部大小 | 固定 8 字节 | 可变 20–60 字节 |
 | 首部长度字段 | ❌ 无 | ✅ 有（4 位，以 32 位字为单位） |
 | 连接 | 无连接 | 面向连接 |
@@ -61,6 +61,7 @@ UDP（用户数据报协议）首部总长 **固定为 8 字节（64 位）**，
 ---
 
 参考资料：
+
 - [RFC 768 – User Datagram Protocol](https://www.rfc-editor.org/rfc/rfc768)
 - [UDP – Wikipedia](https://en.wikipedia.org/wiki/UDP)
 - [TCP/IP Guide – UDP](http://www.tcpipguide.com/free/t_UDPMessageFormat.htm)

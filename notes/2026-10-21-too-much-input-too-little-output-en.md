@@ -38,6 +38,7 @@ Reading about a skill (writing, coding, swimming) builds declarative knowledge, 
 ---
 
 References:
+
 - [The Collector's Fallacy – Zettelkasten](https://zettelkasten.de/posts/collectors-fallacy/)
 - [The Testing Effect (Retrieval Practice) – APA](https://www.apa.org/science/about/psa/2016/06/learning-memory)
 - [Learning by Teaching Others – Farnam Street](https://fs.blog/feynman-learning-technique/)

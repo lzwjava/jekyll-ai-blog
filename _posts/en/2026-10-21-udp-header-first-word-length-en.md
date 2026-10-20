@@ -30,7 +30,7 @@ The UDP (User Datagram Protocol) header is **fixed at 8 bytes (64 bits)** total,
 ```
 
 | Field | Size | Description |
-|---|---|---|
+| --- | --- | --- |
 | **Source Port** | 16 bits (2 bytes) | Sender's port |
 | **Destination Port** | 16 bits (2 bytes) | Receiver's port |
 | **Length** | 16 bits (2 bytes) | Total UDP segment length (header + data); minimum = 8 |
@@ -54,13 +54,14 @@ The full **UDP header (首部) length = 8 bytes (fixed)** — unlike IP/TCP, UDP
 ## Key Differences from TCP
 
 | Feature | UDP | TCP |
-|---|---|---|
+| --- | --- | --- |
 | Header size | Fixed 8 bytes | Variable 20–60 bytes |
 | Header length field | ❌ None | ✅ Yes (4 bits, in 32-bit words) |
 | Connection | Connectionless | Connection-oriented |
 | Reliability | ❌ No | ✅ Yes |
 
 References:
+
 - [RFC 768 – User Datagram Protocol](https://www.rfc-editor.org/rfc/rfc768)
 - [UDP – Wikipedia](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
 - [TCP/IP Guide – UDP](http://www.tcpipguide.com/free/t_UDPMessageFormat.htm)
