@@ -28,7 +28,7 @@ OMSCS 是美国最实惠的认可计算机科学硕士项目之一。
 该学位要求 **30 credit hours**（10 门课程 × 3 credits 每门）：
 
 | 情况 | 学费 | 费用（估算） | **总计** |
-|----------|---------|------------|-----------|
+| ---------- | --------- | ------------ | ----------- |
 | 每学期 1 门课（10 学期） | $6,810 | ~$2,120 | **~$8,930** |
 | 每学期 2 门课（5 学期） | $6,810 | ~$2,655 | **~$9,465** |
 
@@ -46,6 +46,7 @@ OMSCS 是美国最实惠的认可计算机科学硕士项目之一。
 ---
 
 **参考资料：**
+
 - [Georgia Tech Bursar – Fall 2026 OMSCS Tuition](https://bursar.gatech.edu/student/tuition/fa26/fa26_omscs.pdf)
 - [Georgia Tech Bursar – Spring 2027 OMSCS Tuition](https://bursar.gatech.edu/student/tuition/sp27/sp27_omscs.pdf)
 - [OMSCS Cost and Payment Schedule](https://omscs.gatech.edu/cost-and-payment-schedule)

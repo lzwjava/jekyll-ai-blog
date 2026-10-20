@@ -42,6 +42,7 @@ In short, Tilde Research was the crucial early Silicon Valley research experienc
 ---
 
 **References:**
+
 - [Tilde Research – Official Website](https://tilderesearch.com)
 - [Tilde Research – About Page](https://tilderesearch.com/about)
 - [Tilde Interview Guide (2026): Inside the Khosla-Backed AI Lab](https://www.techinterview.org/companies/tilde-interview-guide/)

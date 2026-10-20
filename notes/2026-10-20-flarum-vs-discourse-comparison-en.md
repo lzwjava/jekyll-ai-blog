@@ -16,7 +16,7 @@ type: note
 Here's a side-by-side breakdown:
 
 | | **Flarum** | **Discourse** |
-|---|---|---|
+| --- | --- | --- |
 | **License** | MIT (more permissive) | GPL-2.0 |
 | **Tech Stack** | PHP + Mithril.js | Ruby on Rails + PostgreSQL + Redis |
 | **Hosting** | Standard PHP hosting | Requires Docker (more complex) |
@@ -38,6 +38,7 @@ Here's a side-by-side breakdown:
 **Bottom line:** Choose **Flarum** if you want something lightweight, easy to deploy, and elegant for smaller communities. Choose **Discourse** if you need enterprise-scale features, a larger ecosystem, and long-term commercial backing.
 
 **References:**
+
 - [Discourse vs Flarum - StackShare](https://stackshare.io/discourse/vs/flarum)
 - [Discourse vs Flarum - OpenAlternative](https://openalternative.co/compare/discourse/vs/flarum)
 - [Which is Better? Discourse or Flarum? - Discourse Meta](https://meta.discourse.org/t/which-is-better-discourse-or-flarum/71726/7)

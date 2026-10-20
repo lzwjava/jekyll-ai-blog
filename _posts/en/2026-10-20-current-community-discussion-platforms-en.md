@@ -22,7 +22,7 @@ Here's a breakdown by category:
 ### 💬 Chat-Based (Real-Time)
 
 | Platform | Open Source | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **Discord** | ❌ | Dominant chat platform; free, proprietary |
 | **Matrix / Element** | ✅ | Decentralized, encrypted; user count in the hundreds of millions, markets well to governments and public sector |
 | **Rocket.Chat** | ✅ | Self-hostable Slack alternative; released 2015 |
@@ -35,7 +35,7 @@ Here's a breakdown by category:
 ### 📋 Forum / BBS Style (Async Discussion)
 
 | Platform | Open Source | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **Discourse** | ✅ | Ranked #1 forum software in 2026; modern design, powerful moderation tools |
 | **Flarum** | ✅ | Built on Laravel; lightweight, modern design |
 | **phpBB** | ✅ | Classic free BBS; PHP-based, battle-tested |
@@ -52,7 +52,7 @@ Here's a breakdown by category:
 These platforms federate with each other — users on one can interact with users on another:
 
 | Platform | Type | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **Mastodon** | Microblogging | ~777K monthly active users as of March 2026 |
 | **Lemmy** | Reddit-like link aggregator | Steadily developing in 2026 with regular releases and growing client ecosystem; ~455 instances, ~48,600 MAU |
 | **Mbin / Kbin** | Link aggregator | Lemmy-compatible threadiverse alternative |
@@ -79,6 +79,7 @@ Among analyzed open-source software communities: Discord hosts 41%, GitHub 32%, 
 ---
 
 **References:**
+
 - [Lemmy - Wikipedia](https://en.wikipedia.org/wiki/Lemmy_(social_network))
 - [Fediverse Growth Stats (2026)](https://piefed.keyboardvagabond.com/c/fedigrow/p/272171/growth-of-the-fediverse-20260308)
 - [Best Forum Software 2026 - Toolradar](https://toolradar.com/best/forum-software)

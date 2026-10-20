@@ -42,6 +42,7 @@ Tilde Research 为 AI 系统提供全栈可解释性工具，包括通用解释�
 ---
 
 **参考资料：**
+
 - [Tilde Research – 官方网站](https://tilderesearch.com)
 - [Tilde Research – 关于我们](https://tilderesearch.com/about)
 - [Tilde 面试指南（2026）：走进 Khosla 支持的 AI 实验室](https://www.techinterview.org/companies/tilde-interview-guide/)

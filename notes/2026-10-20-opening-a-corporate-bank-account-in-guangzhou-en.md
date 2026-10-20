@@ -22,6 +22,7 @@ Opening a corporate bank account (企业银行开户) in Guangzhou after receivi
 ### Step 1 — Understand the Account Types
 
 You must open a **基本存款账户 (Basic Deposit Account / 基本户)** first — this is the primary settlement account every registered company must have. You can later add:
+
 - **一般存款账户** — for borrowing/loan proceeds
 - **专用存款账户** — for specific purposes (payroll, project funds, etc.)
 
@@ -32,7 +33,7 @@ You must open a **基本存款账户 (Basic Deposit Account / 基本户)** first
 Basic required documents include:
 
 | Document | Notes |
-|---|---|
+| --- | --- |
 | 营业执照 (Business License) | Original + copies |
 | 法定代表人身份证 | Legal Representative's ID, original + copies |
 | 经办人身份证 | Handler's ID (if not the legal rep), original + copies |
@@ -65,6 +66,7 @@ Since August 2020, 1,256 bank branches across Guangzhou (including ICBC, ABC, BO
 Applicants starting a business through the Guangzhou "Business One-Link Platform" (广州市开办企业一网通平台) can fill in corporate account information at one time. After being authorized by the enterprise, the platform delivers the information to the selected bank, and enterprises can obtain their reserved account numbers through the platform's e-Cert service, making it more convenient for withholding taxes, paying social insurance, and other matters.
 
 Platform access:
+
 - PC: `https://air.scjgj.gz.gov.cn/`
 - WeChat Mini Program: search "广州市开办企业一网通平台"
 
@@ -99,6 +101,7 @@ For small micro-enterprises (小微企业), simplified account opening (简易�
 ---
 
 **References:**
+
 - [Guangzhou Business One-Link Platform — Bank Account Notice (gz.gov.cn)](https://www.gz.gov.cn/attachment/0/101/101072/6482722.pdf)
 - [CCB Corporate Account Service Guide](https://www3.ccb.com/xm/cn/fhgg/upload//20230807_1691392682/20230807152000470266.pdf)
 - [PBOC Guangzhou — Cancellation of Enterprise Bank Account Permit in Guangdong](https://www.tid.gov.hk/english/aboutus/tradecircular/cic/asia/2019/files/ci2019385a.pdf)

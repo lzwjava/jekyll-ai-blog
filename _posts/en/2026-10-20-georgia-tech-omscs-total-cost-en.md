@@ -46,6 +46,7 @@ The total program cost is under **$7,000 in pure tuition** for the complete degr
 ---
 
 **References:**
+
 - [Georgia Tech Bursar – Fall 2026 OMSCS Tuition](https://bursar.gatech.edu/student/tuition/fa26/fa26_omscs.pdf)
 - [Georgia Tech Bursar – Spring 2027 OMSCS Tuition](https://bursar.gatech.edu/student/tuition/sp27/sp27_omscs.pdf)
 - [OMSCS Cost and Payment Schedule](https://omscs.gatech.edu/cost-and-payment-schedule)

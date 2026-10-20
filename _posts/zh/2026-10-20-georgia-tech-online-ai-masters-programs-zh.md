@@ -36,7 +36,7 @@ OMSCS是一个成熟的课程项目，由Georgia Tech计算机学院的顶级教
 **OMSCS目前提供的AI相关课程包括：**
 
 | 课程代码 | 课程名称 |
-|--------|-------|
+| -------- | ------- |
 | CS 6601 | Artificial Intelligence *(Foundational)* |
 | CS 6603 | AI, Ethics, and Society *(Foundational)* |
 | CS 7637 | Knowledge-Based AI *(Foundational)* |
@@ -62,7 +62,7 @@ OMSCS是一个成熟的课程项目，由Georgia Tech计算机学院的顶级教
 ## 总结
 
 | 项目 | 重点 | 状态 |
-|--------|-------|--------|
+| -------- | ------- | -------- |
 | **OMS AI** | 专门AI学位（跨学科） | 首批申请：2027年秋季 |
 | **OMSCS – ML专业方向** | 计算机科学学位，侧重ML | 现已开放 |
 | **OMSCS – AI专业方向** | 计算机科学学位，侧重AI | 现已开放 |
@@ -71,6 +71,7 @@ OMSCS是一个成熟的课程项目，由Georgia Tech计算机学院的顶级教
 ---
 
 **参考文献：**
+
 - [Georgia Tech OMS AI Program](https://pe.gatech.edu/degrees/artificial-intelligence)
 - [OMSCS Current Courses](https://omscs.gatech.edu/current-courses)
 - [OMSCS Machine Learning Specialization](https://omscs.gatech.edu/index%2Ephp/specialization-machine-learning)

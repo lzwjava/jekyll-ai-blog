@@ -16,7 +16,7 @@ type: note
 以下是两者的对比：
 
 | | **Flarum** | **Discourse** |
-|---|---|---|
+| --- | --- | --- |
 | **许可证** | MIT（更宽松） | GPL-2.0 |
 | **技术栈** | PHP + Mithril.js | Ruby on Rails + PostgreSQL + Redis |
 | **托管方式** | 标准 PHP 托管 | 需要 Docker（更复杂） |
@@ -38,6 +38,7 @@ type: note
 **总结：** 如果您需要轻量、易于部署且优雅的社区方案，选择 **Flarum**；如果您需要企业级功能、更大的生态系统以及长期商业支持，选择 **Discourse**。
 
 **参考资源：**
+
 - [Discourse vs Flarum - StackShare](https://stackshare.io/discourse/vs/flarum)
 - [Discourse vs Flarum - OpenAlternative](https://openalternative.co/compare/discourse/vs/flarum)
 - [Which is Better? Discourse or Flarum? - Discourse Meta](https://meta.discourse.org/t/which-is-better-discourse-or-flarum/71726/7)

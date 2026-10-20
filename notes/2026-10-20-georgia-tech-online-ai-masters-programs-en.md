@@ -36,7 +36,7 @@ The OMSCS is a well-established program comprising courses taught by world-class
 **AI-related courses currently offered in OMSCS include:**
 
 | Course | Title |
-|--------|-------|
+| -------- | ------- |
 | CS 6601 | Artificial Intelligence *(Foundational)* |
 | CS 6603 | AI, Ethics, and Society *(Foundational)* |
 | CS 7637 | Knowledge-Based AI *(Foundational)* |
@@ -62,7 +62,7 @@ The **Artificial Intelligence specialization** is designed for students with a b
 ## Summary
 
 | Program | Focus | Status |
-|--------|-------|--------|
+| -------- | ------- | -------- |
 | **OMS AI** | Dedicated AI degree (interdisciplinary) | First apps: Fall 2027 |
 | **OMSCS – ML Specialization** | CS degree with ML focus | Open now |
 | **OMSCS – AI Specialization** | CS degree with AI focus | Open now |
@@ -71,6 +71,7 @@ The **Artificial Intelligence specialization** is designed for students with a b
 ---
 
 **References:**
+
 - [Georgia Tech OMS AI Program](https://pe.gatech.edu/degrees/artificial-intelligence)
 - [OMSCS Current Courses](https://omscs.gatech.edu/current-courses)
 - [OMSCS Machine Learning Specialization](https://omscs.gatech.edu/index%2Ephp/specialization-machine-learning)

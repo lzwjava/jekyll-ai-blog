@@ -24,6 +24,7 @@ OMSCS requires "Evidence of award of a bachelor's degree, its equivalent, or hig
 In no case can work experience substitute for having earned an academic degree.
 
 Your education situation:
+
 - **Beijing Forestry University** — Bachelor's in Digital Media Arts, **dropped out** after 1 year (2013–2014). ✗
 - **Guangdong University of Foreign Studies** — Associate Degree (Self-study Exam), **still in progress** — 5 written + 2 practical exams still pending. ✗
 
@@ -34,7 +35,7 @@ You currently hold **no completed degree above middle school**. This is a hard d
 ### ✅ What You Do Have Going For You
 
 | Criteria | Your Status |
-|---|---|
+| --- | --- |
 | English proficiency | ✅ IELTS 6.5 (meets requirement) |
 | CS knowledge depth | ✅ Exceptional — 12 yrs experience, LLM training, HSBC/DBS banking systems |
 | Field alignment | ✅ Directly CS-related work |
@@ -54,5 +55,6 @@ Applicants who do not meet the preferred qualifications will be evaluated on a c
 ---
 
 **References:**
+
 - [OMSCS Admission Criteria](https://omscs.gatech.edu/admission-criteria)
 - [Zhiwei Li Resume](https://lzwjava.com/resume-en)

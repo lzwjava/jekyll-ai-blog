@@ -22,7 +22,7 @@ type: note
 ### 💬 聊天式（实时）
 
 | 平台 | 开源 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **Discord** | ❌ | 主导性聊天平台；免费，专有 |
 | **Matrix / Element** | ✅ | 去中心化、加密；用户数达数亿，在政府和公共部门市场表现良好 |
 | **Rocket.Chat** | ✅ | 可自托管的 Slack 替代品；2015 年发布 |
@@ -35,7 +35,7 @@ type: note
 ### 📋 论坛 / BBS 风格（异步讨论）
 
 | 平台 | 开源 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **Discourse** | ✅ | 2026 年排名第一的论坛软件；现代设计，强大的审核工具 |
 | **Flarum** | ✅ | 基于 Laravel 构建；轻量级，现代设计 |
 | **phpBB** | ✅ | 经典免费 BBS；基于 PHP，久经考验 |
@@ -52,7 +52,7 @@ type: note
 这些平台相互联合——一个平台上的用户可以与另一个平台上的用户互动：
 
 | 平台 | 类型 | 备注 |
-|---|---|---|
+| --- | --- | --- |
 | **Mastodon** | 微博客 | 截至 2026 年 3 月约 77.7 万月活跃用户 |
 | **Lemmy** | 类 Reddit 链接聚合器 | 2026 年稳步发展，定期发布版本，客户端生态系统不断壮大；约 455 个实例，约 4.86 万月活跃用户 |
 | **Mbin / Kbin** | 链接聚合器 | 兼容 Lemmy 的 threadiverse 替代方案 |
@@ -79,6 +79,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [Lemmy - Wikipedia](https://en.wikipedia.org/wiki/Lemmy_(social_network))
 - [Fediverse Growth Stats (2026)](https://piefed.keyboardvagabond.com/c/fedigrow/p/272171/growth-of-the-fediverse-20260308)
 - [Best Forum Software 2026 - Toolradar](https://toolradar.com/best/forum-software)
