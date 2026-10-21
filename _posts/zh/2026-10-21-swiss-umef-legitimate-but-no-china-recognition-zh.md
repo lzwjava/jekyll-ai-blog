@@ -55,7 +55,7 @@ Swiss UMEF 没有出现在 QS World Rankings、Times Higher Education 或其他�
 ### 📋 项目一览
 
 | 项目 | 时长 | 交付方式 | 入学要求 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | MBA | 15 个月 | 在线+线下活动 | 学士学位 + 2年工作经验 |
 | MSc Applied AI | 15 个月 | 在线+线下活动 | 学士学位 + 2年工作经验 |
 | MSc Applied Computer Science | 15 个月 | 在线+线下活动 | 学士学位 + 2年工作经验 |
@@ -68,7 +68,7 @@ Swiss UMEF 没有出现在 QS World Rankings、Times Higher Education 或其他�
 ### 🧭 底线
 
 | 方面 | 评估 |
-|---|---|
+| --- | --- |
 | 它是真实的、经过认证的瑞士大学吗？ | ✅ 是 |
 | 在线学位会被中国教育部认可吗？ | ❌ 否 |
 | 它是享有声望的全球排名机构吗？ | ❌ 否 |
@@ -80,6 +80,7 @@ Swiss UMEF 没有出现在 QS World Rankings、Times Higher Education 或其他�
 ---
 
 参考文献：
+
 - [Swiss UMEF IACBE Accreditation Record](https://iacbe.org/memberpdf/UMEF.pdf)
 - [DEQAR – Swiss UMEF Institution Record](https://data.deqar.eu/institution/7531)
 - [Swiss Accreditation Announcement via Croatian Partner](https://pvzg.hr/?p=7173)

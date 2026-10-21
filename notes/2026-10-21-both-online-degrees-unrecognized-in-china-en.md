@@ -28,7 +28,7 @@ The fact that CSTU appears on the CSCSE institution list **does not** mean its o
 ### Side-by-Side Comparison
 
 | Factor | Swiss UMEF | CSTU |
-|---|---|---|
+| --- | --- | --- |
 | Founded | 1984 | 2011 |
 | Location | Geneva, Switzerland | Milpitas, California (near Silicon Valley) |
 | Primary Accreditation | Swiss Accreditation Council (federal) | ACCSC (US career/vocational schools) |
@@ -63,7 +63,7 @@ CSTU's accreditor — ACCSC — is a legitimate US Dept of Education-recognized 
 ### Bottom Line
 
 | Scenario | Recommendation |
-|---|---|
+| --- | --- |
 | Need China MoE recognized degree | ❌ Neither qualifies (both are online) |
 | Tech professional wanting practical AI/CS skills | CSTU slightly better curriculum fit |
 | Business executive wanting international branding | Swiss UMEF has older pedigree & stronger accreditation |
@@ -75,6 +75,7 @@ CSTU's accreditor — ACCSC — is a legitimate US Dept of Education-recognized 
 ---
 
 References:
+
 - [CSCSE Distance Learning Policy — British Council](https://education-services.britishcouncil.org/news/market-news/china-ends-its-temporary-recognition-of-distance-learning-qualifications)
 - [Australia Dept. of Education: CSCSE Verification of Overseas Qualifications](https://www.education.gov.au/download/19496/verification-overseas-academic-qualifications-china/41942/document/pdf)
 - [CSTU Wikipedia](https://en.wikipedia.org/wiki/California_Science_and_Technology_University)

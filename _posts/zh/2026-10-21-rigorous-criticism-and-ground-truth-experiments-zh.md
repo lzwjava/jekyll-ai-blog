@@ -46,6 +46,7 @@ Wang Yin 的博客是两者兼有的有趣案例。他对 Java、C++ 和某些 C
 ---
 
 **参考文献：**
+
 - [The Role of Deliberate Practice in the Acquisition of Expert Performance — Ericsson et al. (1993)](https://doi.org/10.1037/0033-295X.100.3.363)
 - [Mindset: The New Psychology of Success — Carol Dweck (summary)](https://www.stanforddaily.com/2015/06/18/stanford-professor-carol-dwecks-mindset-changes-the-way-we-think-about-learning/)
 - [Wang Yin's blog (yinwang.org)](http://www.yinwang.org)

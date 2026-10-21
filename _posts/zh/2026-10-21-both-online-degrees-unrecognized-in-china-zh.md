@@ -28,7 +28,7 @@ CSTU出现在CSCSE机构名单上这一事实**并不**意味着其在线学位�
 ### 并列比较
 
 | 比较项目 | Swiss UMEF | CSTU |
-|---|---|---|
+| --- | --- | --- |
 | 成立时间 | 1984年 | 2011年 |
 | 地点 | 瑞士日内瓦 | 加利福尼亚州米尔皮塔斯（靠近硅谷） |
 | 主要认证 | 瑞士认证委员会（联邦） | ACCSC（美国职业/职业学校） |
@@ -63,7 +63,7 @@ CSTU的认证机构——ACCSC——是一个得到美国教育部认可的合�
 ### 结论
 
 | 场景 | 建议 |
-|---|---|
+| --- | --- |
 | 需要中国教育部认可的学位 | ❌ 两者都不符合（都是在线的） |
 | 技术专业人士寻求实用的AI/CS技能 | CSTU课程更贴合 |
 | 商业高管想要国际品牌 | Swiss UMEF有更悠久的历史和更强的认证 |
@@ -75,6 +75,7 @@ CSTU的认证机构——ACCSC——是一个得到美国教育部认可的合�
 ---
 
 参考文献：
+
 - [CSCSE Distance Learning Policy — British Council](https://education-services.britishcouncil.org/news/market-news/china-ends-its-temporary-recognition-of-distance-learning-qualifications)
 - [Australia Dept. of Education: CSCSE Verification of Overseas Qualifications](https://www.education.gov.au/download/19496/verification-overseas-academic-qualifications-china/41942/document/pdf)
 - [CSTU Wikipedia](https://en.wikipedia.org/wiki/California_Science_and_Technology_University)

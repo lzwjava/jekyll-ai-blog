@@ -55,7 +55,7 @@ Swiss UMEF does not appear in QS World Rankings, Times Higher Education, or othe
 ### 📋 The Programs at a Glance
 
 | Program | Duration | Delivery | Entry |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | MBA | 15 months | Online + offline activities | Bachelor's + 2 yrs work exp. |
 | MSc Applied AI | 15 months | Online + offline activities | Bachelor's + 2 yrs work exp. |
 | MSc Applied Computer Science | 15 months | Online + offline activities | Bachelor's + 2 yrs work exp. |
@@ -68,7 +68,7 @@ All are managed through the **China Center**, not the Geneva campus directly.
 ### 🧭 Bottom Line
 
 | Aspect | Assessment |
-|---|---|
+| --- | --- |
 | Is it a real, accredited Swiss university? | ✅ Yes |
 | Will the online degree be recognized by China's MoE? | ❌ No |
 | Is it a prestigious globally-ranked institution? | ❌ No |
@@ -80,6 +80,7 @@ If you are a Chinese professional seeking a credential recognized in China, this
 ---
 
 References:
+
 - [Swiss UMEF IACBE Accreditation Record](https://iacbe.org/memberpdf/UMEF.pdf)
 - [DEQAR – Swiss UMEF Institution Record](https://data.deqar.eu/institution/7531)
 - [Swiss Accreditation Announcement via Croatian Partner](https://pvzg.hr/?p=7173)

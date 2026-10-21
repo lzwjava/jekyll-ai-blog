@@ -46,6 +46,7 @@ The honest synthesis: be a rigorous, humble critic; assume your abilities are tr
 ---
 
 **References:**
+
 - [The Role of Deliberate Practice in the Acquisition of Expert Performance — Ericsson et al. (1993)](https://doi.org/10.1037/0033-295X.100.3.363)
 - [Mindset: The New Psychology of Success — Carol Dweck (summary)](https://www.stanforddaily.com/2015/06/18/stanford-professor-carol-dwecks-mindset-changes-the-way-we-think-about-learning/)
 - [Wang Yin's blog (yinwang.org)](http://www.yinwang.org)
