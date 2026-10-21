@@ -74,8 +74,6 @@ China's property market has faced prolonged pressure, but national trends cannot
 
 Reuters
 
-
-
 ## 3. How selling could fund your next stage
 
 Suppose you sell for ¥1.1 million and repay an ¥800,000 mortgage. That leaves approximately ¥300,000 before fees and other adjustments.
@@ -115,8 +113,6 @@ Also account for the opportunity cost of tying up your equity. Since you bought 
 [image](https://www.google.com/s2/favicons?domain=https://fgk.chinatax.gov.cn\&sz=32)
 
 China Tax
-
-
 
 ## 4. Education: don't let the degree consume your runway
 

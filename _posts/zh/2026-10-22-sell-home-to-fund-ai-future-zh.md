@@ -72,8 +72,6 @@ type: note
 
 路透社
 
-
-
 ## 3. 出售如何为你下一阶段提供资金
 
 假设你以110万元出售，并偿还80万元房贷。在扣除费用和其他调整之前，大约剩余30万元。
@@ -113,8 +111,6 @@ AI业务/研究预算
 [image](https://www.google.com/s2/favicons?domain=https://fgk.chinatax.gov.cn\&sz=32)
 
 中国税务
-
-
 
 ## 4. 学业：不要让学位消耗你的跑道
 
