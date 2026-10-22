@@ -52,6 +52,7 @@ type: note
 ### ⚡ 例外情况（什么情况下会成功）
 
 教授们 *确实* 会在以下情况下成功：
+
 - 与一位善于执行的联合创始人合作（经典的 **"黑客 + 实干家"** 组合）
 - 来自应用领域（医学、材料科学），其中问题由现实世界的痛点清晰定义
 - 早期将 CEO 角色交给知道如何执行的运营人员
@@ -66,6 +67,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [创业中的“知识诅咒” – HBS](https://www.hbs.edu/faculty/Pages/item.aspx?num=32516)
 - [为什么学者很难成为企业家 – MIT Sloan Review](https://sloanreview.mit.edu/article/why-academics-make-poor-entrepreneurs/)
 - [《创始人的困境》– Noam Wasserman（书籍）](https://press.princeton.edu/books/paperback/9780691158303/the-founders-dilemmas)

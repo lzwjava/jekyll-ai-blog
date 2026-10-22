@@ -56,7 +56,7 @@ A real legal precedent: a financial manager who set up an outside company withou
 ## ✅ Summary
 
 | Dimension | Key Point |
-|---|---|
+| --- | --- |
 | HK company registration | ✅ Fully allowed for mainland citizens |
 | Physical presence needed | ❌ Not required, can register remotely |
 | Mainland ODI filing | ⚠️ Now mandatory under new 2026 rules |
@@ -67,6 +67,7 @@ A real legal precedent: a financial manager who set up an outside company withou
 **Recommendation:** This is genuinely legal but involves multiple regulatory layers — particularly with the new July 2026 ODI rules. Consult a lawyer who covers both mainland Chinese corporate law and Hong Kong company law before proceeding, especially if your HK company's business overlaps at all with your mainland employer's.
 
 Sources:
+
 - [3E CPA — Mainland Founder HK Company Registration 2026](https://www.3ecpa.com.hk/?p=57629)
 - [Rajah & Tann — China Q2 2026: New ODI Regulations](https://cn.rajahtannasia.com/viewpoints/regional-round-up-china-q2-2026/)
 - [Deheng Law — China's New Outbound Investment Regulations](https://www.dehenglaw.com/EN/tansuocontent/0008/037069/7.aspx?MID=0902)

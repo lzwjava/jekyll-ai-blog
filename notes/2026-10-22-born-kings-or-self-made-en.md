@@ -18,11 +18,13 @@ type: note
 It's a compelling idea, and cultures across history have romanticized it — the "天生王者," the chosen one, the natural-born leader. But the honest answer is more nuanced:
 
 **The case *for* innate advantage:**
+
 - Genetics do shape traits linked to leadership and success — charisma, emotional resilience, high cognitive ability, physical presence, risk tolerance.
 - Some people are born into environments that *compound* those traits: wealth, connections, early mentorship, social capital. That's a real head start.
 - Certain personality clusters (high conscientiousness, low neuroticism, high openness) correlate with achievement and do have heritable components.
 
 **The case *against* pure destiny:**
+
 - History is full of people who looked "destined" and crumbled — and people from nothing who rose to define eras. Lincoln, Napoleon, Mandela — none were born to thrones.
 - Neuroscience and psychology now strongly support **neuroplasticity**: the brain and character are shaped heavily by experience, effort, and environment, not fixed at birth.
 - "Glory" is contextual. A person born with king-level ambition in the wrong era, wrong place, or wrong body may never get the stage.

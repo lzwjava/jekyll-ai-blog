@@ -52,6 +52,7 @@ Pivoting a startup means admitting your original idea was wrong. For someone who
 ### ⚡ The Exceptions (What Works)
 
 Professors *do* succeed when they:
+
 - Partner with a hustler co-founder (the classic **"Hacker + Hustler"** pairing)
 - Come from applied fields (medicine, materials science) where the problem is clearly defined by real-world pain
 - Surrender the CEO role early to operators who know execution
@@ -66,6 +67,7 @@ Professors *do* succeed when they:
 ---
 
 **References:**
+
 - [The "Curse of Knowledge" in Entrepreneurship – HBS](https://www.hbs.edu/faculty/Pages/item.aspx?num=32516)
 - [Why Academics Struggle as Entrepreneurs – MIT Sloan Review](https://sloanreview.mit.edu/article/why-academics-make-poor-entrepreneurs/)
 - [The Founder's Dilemmas – Noam Wasserman (book)](https://press.princeton.edu/books/paperback/9780691158303/the-founders-dilemmas)

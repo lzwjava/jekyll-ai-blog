@@ -56,7 +56,7 @@ type: note
 ## ✅ 总结
 
 | 维度 | 要点 |
-|---|---|
+| --- | --- |
 | 香港公司注册 | ✅ 允许内地公民注册 |
 | 是否需要亲自到场 | ❌ 不需要，可远程注册 |
 | 大陆ODI备案 | ⚠️ 根据2026年新规定现已强制要求 |
@@ -67,6 +67,7 @@ type: note
 **建议：** 这在法律上确实是可行的，但涉及多个监管层面——尤其是新的2026年7月 ODI 规则。在继续行动之前，建议咨询同时涵盖中国大陆公司法与香港公司法的律师，特别是如果您香港公司的业务与大陆雇主的业务有任何重叠。
 
 来源：
+
 - [3E CPA — Mainland Founder HK Company Registration 2026](https://www.3ecpa.com.hk/?p=57629)
 - [Rajah & Tann — China Q2 2026: New ODI Regulations](https://cn.rajahtannasia.com/viewpoints/regional-round-up-china-q2-2026/)
 - [Deheng Law — China's New Outbound Investment Regulations](https://www.dehenglaw.com/EN/tansuocontent/0008/037069/7.aspx?MID=0902)
