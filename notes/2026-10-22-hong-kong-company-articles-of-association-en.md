@@ -14,6 +14,7 @@ Question: What does this document mean?
 Answer: This is the **Articles of Association** of **Hong Kong Zhiwei DeepCompute Technology Limited (香智維深算科技有限公司)** — a legal constitutional document for a private company registered in Hong Kong under the Companies Ordinance (Cap. 622). Think of it as the company's internal rulebook. Here's what each major section covers:
 
 **Part A — Mandatory Articles (Basic Company Info)**
+
 - The company has **10,000 ordinary shares** with a total share capital of **HKD 10,000**, all fully paid up.
 - The sole founder member is **李智維**, who holds all 10,000 shares.
 - Members' liability is **limited** — they are only responsible for any amount unpaid on their shares (in this case, nothing, since all shares are fully paid).
@@ -21,7 +22,7 @@ Answer: This is the **Articles of Association** of **Hong Kong Zhiwei DeepComput
 **Part B — Operating Rules**
 
 | Section | What it covers |
-|---|---|
+| --- | --- |
 | Part 1 | Definitions of key legal terms |
 | Part 2 | Private company rules: max 50 members, no public share offering, directors can refuse share transfers |
 | Part 3 | Directors' powers, how they make decisions, appointment/removal, conflicts of interest, indemnity & insurance |
@@ -30,6 +31,7 @@ Answer: This is the **Articles of Association** of **Hong Kong Zhiwei DeepComput
 | Part 6 | Company seals, communications, record access, and winding-up procedures |
 
 **Key practical points:**
+
 - Directors run the business day-to-day and can delegate powers.
 - Major decisions require shareholder resolutions (ordinary or special).
 - Share transfers need director approval (they can refuse without giving reasons).

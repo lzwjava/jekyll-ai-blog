@@ -22,6 +22,7 @@ type: note
 ### 1. 选择合适的开放式机架
 
 确保它支持你的 **motherboard form factor**（主板规格）：
+
 - ATX、Micro-ATX、Mini-ITX——大多数开放式机架会列出它们支持的类型
 - 热门品牌：Thermaltake Core P 系列、Lian Li（垂直）、ASUS ROG Hyperion、TT A500
 
@@ -75,7 +76,7 @@ type: note
 ### 关键提示与注意事项
 
 | 主题 | 备注 |
-|---|---|
+| --- | --- |
 | **灰尘** | 开放式机架更容易积尘——需要更频繁地清洁 |
 | **接地** | 在接触组件前触摸金属部分（没有机箱接地） |
 | **ESD** | 由于没有金属外壳，请使用 anti-static mat/wristband（静电防护垫/腕带） |
@@ -94,6 +95,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Thermaltake Core P3 Open Frame Chassis Overview](https://www.thermaltake.com/core-p3-tempered-glass-edition.html)
 - [How to Build a PC on an Open Test Bench — Linus Tech Tips](https://www.youtube.com/results?search_query=open+frame+pc+build+test+bench)
 - [PC Part Picker: Open Air Cases](https://pcpartpicker.com/products/case/#t=10)
