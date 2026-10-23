@@ -32,7 +32,7 @@ It runs a naive tiled SGEMM, a register-blocked SGEMM, a D2D copy bandwidth test
 ## Results (WX 9100)
 
 | Test | Result | % of peak |
-|---|---|---|
+| --- | --- | --- |
 | Copy bandwidth (r+w) | **351 GB/s** | ~72% of ~484 GB/s HBM2 |
 | FP32 GEMM (naive, 1 elem/thread) | **2.22 TFLOPS** | 18% |
 | FP32 GEMM (register-tiled 4×4) | **4.12 TFLOPS** | ~34% of ~12.3 TFLOPS |

@@ -96,6 +96,7 @@ Of the 1,100+ startups Y Combinator has funded, only about 1% made it over $1 bi
 ---
 
 **References:**
+
 - [The 18 Mistakes That Kill Startups – Paul Graham](https://paulgraham.com/startupmistakes.html)
 - [Y Combinator: Justin Kan's 3 Major Startup Pitfalls – Techsauce](https://techsauce.co/tech-and-biz/fumble-with-these-and-you-may-stumble-y-combinators-justin-kan-suggests-3-major-startup-pitfalls-to-avoid)
 - [Lessons from 600+ YC Startups – Gustaf Alströmer](https://videohighlight.com/v/ZoKLofsp8u0)

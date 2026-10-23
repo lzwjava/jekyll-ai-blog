@@ -32,6 +32,7 @@ Neusoft's business model revolves around offering customized IT services and sol
 **📊 Four Main Revenue Segments (FY2025)**
 
 In 2025, the revenue of the four sectors reached:
+
 - **Healthcare & Social Security** — CNY 1.902 billion (gross margin: 34.98%)
 - **Smart Vehicle Connectivity** — CNY 4.687 billion (gross margin: 13.62%) — now the largest segment (~40% of total)
 - **Smart Cities** — CNY 2.1 billion (gross margin: 21.88%)
@@ -42,6 +43,7 @@ In 2025, the revenue of the four sectors reached:
 **🔑 Key Product Lines**
 
 The company's main product lines include:
+
 - **Healthcare**: hospital management systems, medical imaging, automated medical analysis and study cloud platforms
 - **Automotive**: intelligent cockpit systems, vehicle computing platforms, in-vehicle infotainment, cluster instruments, navigation, ADAS/ADS, EV powertrain systems, and vehicle-cloud platforms
 - **Enterprise IT**: data integration, automated testing, BPO, product engineering, cloud services, human capital management, financial management, network security
@@ -69,6 +71,7 @@ Smart vehicle connectivity — the largest business segment — has the lowest g
 ---
 
 **References:**
+
 - [Neusoft Business Overview – ROIC.ai](https://www.roic.ai/quote/600718.SS/classic)
 - [Neusoft Financials FY2025 – FinancialFilings.com](https://financialfilings.com/companies/neusoft-corporation/)
 - [Neusoft Revenue Analysis – 36Kr](https://eu.36kr.com/en/p/3889568355695494)

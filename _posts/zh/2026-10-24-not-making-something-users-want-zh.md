@@ -114,6 +114,7 @@ Y Combinator 联合创始人 Paul Graham 就这个话题写过一篇权威性的
 ---
 
 **参考资料：**
+
 - [The 18 Mistakes That Kill Startups – Paul Graham](https://paulgraham.com/startupmistakes.html)
 - [Y Combinator: Justin Kan's 3 Major Startup Pitfalls – Techsauce](https://techsauce.co/tech-and-biz/fumble-with-these-and-you-may-stumble-y-combinators-justin-kan-suggests-3-major-startup-pitfalls-to-avoid)
 - [Lessons from 600+ YC Startups – Gustaf Alströmer](https://videohighlight.com/v/ZoKLofsp8u0)

@@ -32,7 +32,7 @@ hipcc -O3 --offload-arch=gfx900 -o gpu_bench gpu_bench.hip
 ## 结果（WX 9100）
 
 | 测试项 | 结果 | 相对于峰值的百分比 |
-|---|---|---|
+| --- | --- | --- |
 | 复制带宽（读写） | **351 GB/s** | 约 ~484 GB/s HBM2 的 ~72% |
 | FP32 GEMM（朴素，每线程 1 元素） | **2.22 TFLOPS** | 18% |
 | FP32 GEMM（寄存器分块 4×4） | **4.12 TFLOPS** | 约 ~12.3 TFLOPS 的 ~34% |

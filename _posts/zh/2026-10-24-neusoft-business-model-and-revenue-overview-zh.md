@@ -71,6 +71,7 @@ Neusoft在中国整体医疗健康数据智能解决方案市场中排名前三�
 ---
 
 **参考来源：**
+
 - [Neusoft Business Overview – ROIC.ai](https://www.roic.ai/quote/600718.SS/classic)
 - [Neusoft Financials FY2025 – FinancialFilings.com](https://financialfilings.com/companies/neusoft-corporation/)
 - [Neusoft Revenue Analysis – 36Kr](https://eu.36kr.com/en/p/3889568355695494)
