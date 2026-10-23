@@ -12,6 +12,7 @@ type: note
 以下是当前进展和推荐的推进路径：
 
 ## 当前状态
+
 - ✅ M1–M3 全部已提交：GGUF 读取器 → GPU GEMM/dequant (M2) → **CPU Qwen2 推理** (M3，刚刚推送)
 - ⚠️ M3 代码是全新的，**从未实际构建/运行** —— 已提交但未经验证
 - 机器情况：**Tesla M40 24GB**（sm_52，cuBLAS 已在 M2 中验证），GitHub ✅，`hf-mirror.com` ✅，`huggingface.co` ❌（被屏蔽）

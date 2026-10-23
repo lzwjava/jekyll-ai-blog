@@ -58,7 +58,7 @@ Companies in law, medicine, finance want models tuned on their data. Real need, 
 ### The Honest Summary
 
 | What sells | Why |
-|---|---|
+| --- | --- |
 | Working agents that replace a specific job/task | Measurable ROI |
 | RAG over a company's own data | Every company has documents |
 | AI embedded in existing tools | Low switching cost |

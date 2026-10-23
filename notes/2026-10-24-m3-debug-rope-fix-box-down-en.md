@@ -26,6 +26,7 @@ type: note
 2. **Cleanup segfault** — crashes in `tokenizer_free`/heap teardown after generation (no `[cleanup] tokenizer freed`). Likely heap corruption in the forward pass (suspicious buffers: `score` sizing, unused `ctx`). **Remaining, unverified** — was mid-diagnosis with ASAN when things went sideways.
 
 **Build/hygiene fixes also applied but NOT yet committed/pushed:**
+
 - `Makefile`: added `mini-llama-m3` CPU target (`-lm`)
 - `quant.c`: misleading-indentation warning fixed
 - `qwen2.c`: unused-param warning silenced
@@ -36,10 +37,12 @@ type: note
 **The Debian box (192.168.1.137) is DOWN/unreachable** — no ping, no SSH. It disappeared right after a GCC `-fsanitize=address,undefined` compile segfaulted the compiler itself (internal compiler error, likely RAM exhaustion). Box probably crashed or is thrashing.
 
 ### What's at risk on the box (uncommitted, un-pushed)
+
 - `src/qwen2.c` (RoPE fix + warning fix), `Makefile`, `src/quant.c` — scp'd to disk ✅, but **not committed**
 - The source changes *are* safe on the local Mac at `/tmp/ww-m3/` (backup copies exist)
 
 ### Next steps (when the box comes back)
+
 1. **FIRST: commit the pending fixes** (`git add -A && commit && push`) so they're not lost
 2. Rebuild `mini-llama-m3` (plain `cc -O2`, no sanitizers) and re-run — expect "Paris" now
 3. Diagnose the segfault: use a small **address-space check by code inspection** or a lighter approach (e.g. `-fsanitize=address` alone with `-O0`, or add guard debug prints) rather than the heavy UBSan build that killed the box

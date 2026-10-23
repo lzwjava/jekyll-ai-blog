@@ -60,7 +60,7 @@ Softmax 函数使注意力变得“软”（可微、对梯度友好），而不
 ## 关键特性
 
 | 特性 | 详情 |
-|---|---|
+| --- | --- |
 | **二次复杂度** | 序列长度上为 $O(n^2)$ —— 主要瓶颈 |
 | **置换等变性** | 没有固有的顺序概念（位置编码单独添加） |
 | **多头** | 并行运行 $h$ 个注意力头，然后拼接 |
@@ -76,6 +76,7 @@ Softmax 函数使注意力变得“软”（可微、对梯度友好），而不
 ---
 
 **参考：**
+
 - [Attention Is All You Need — Vaswani et al., 2017](https://arxiv.org/abs/1706.03762)
 - [The Illustrated Transformer — Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 - [Flash Attention — Efficient Exact Attention](https://arxiv.org/abs/2205.14135)

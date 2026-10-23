@@ -58,7 +58,7 @@ Claude Code, Cursor, GitHub Copilot, and similar tools are the developer-facing 
 ### The big picture
 
 | Old model | New model |
-|---|---|
+| --- | --- |
 | Search → browse links → read → synthesize | Ask agent → get answer or action directly |
 | Post on Stack Overflow → wait for reply | Ask Claude/Copilot → instant private response |
 | Visit websites | Agents visit websites *for you* |
@@ -69,6 +69,7 @@ Whether this is good or bad is genuinely open. Stack Overflow's human-curated kn
 ---
 
 **References:**
+
 - [Stack Overflow AI Decline Graph 2026](https://www.developersdigest.tech/blog/stackoverflow-ai-decline-graph-2026)
 - [The Agent Layer Is Rewriting Software](https://opuslabs.substack.com/p/the-agent-layer-is-rewriting-software)
 - [The Agentic Web: How People (and AI Agents) Will Use Websites Next](https://www.imforza.com/blog/agentic-web/)

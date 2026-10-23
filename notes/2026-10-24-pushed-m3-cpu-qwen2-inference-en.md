@@ -14,11 +14,13 @@ All pushed. Summary:
 ## Done — `lzw@192.168.1.137` → `github.com/lzwjava/mini-llama.cpp`
 
 **Commit `fad109a`** (11 files changed, +591/−18) rebased onto the remote's newer `eb4b536`:
+
 ```
 fad109a feat: M3 - CPU Qwen2 inference: tokenizer + quantized forward pass
 eb4b536 chore: remove mini-llama-m2 binary, add to .gitignore   (was on remote)
 33853e3 feat: M2 - block dequant (Q5_0/Q8_0/Q4_K/Q6_K) + VRAM upload + real GEMM
 ```
+
 Working tree clean, `main` in sync with `origin/main`.
 
 ## What the issue was (before you asked to commit)

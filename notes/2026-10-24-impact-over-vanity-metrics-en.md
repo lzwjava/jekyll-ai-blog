@@ -14,20 +14,23 @@ Question: Does impact matter more than just publishing work — measured by view
 Answer: Yes, impact is almost always more meaningful than output alone — but with important nuance:
 
 **Why impact metrics matter:**
+
 - **Reach** (views, downloads, users) = proof people actually needed what you made
 - **Stars / forks** = signal that peers find it valuable enough to endorse or build on
 - **Revenue** = the clearest validation — someone valued it enough to pay
 - **Usage in production** = the ultimate for code; a 3-star repo used in 10,000 apps beats a 10,000-star repo nobody runs
 
 **Where the trap is:**
+
 - Stars and views are *lagging* vanity metrics — they reward what's already popular, not what's actually useful
 - Some of the most impactful code ever written (core Linux drivers, internal tools, foundational libraries) has almost no public stars
 - Revenue can be high for mediocre things (SEO spam, clickbait) and zero for genuinely transformative work (early Wikipedia, early Linux)
 - A lot of "high impact" creators optimize *for the metric* and hollow out the actual value
 
 **The honest hierarchy:**
+
 | Metric | What it actually measures |
-|---|---|
+| --- | --- |
 | Revenue | Willingness to pay — strong signal |
 | Active users / retention | Real ongoing value |
 | Downloads / views | Awareness, not always use |

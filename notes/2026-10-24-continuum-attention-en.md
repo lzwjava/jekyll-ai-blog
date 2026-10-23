@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is the paper at https://papers.cool/arxiv/2610.20586 about?
+**Question:** What is the paper at <https://papers.cool/arxiv/2610.20586> about?
 
 ---
 
@@ -33,6 +33,7 @@ Traditional softmax attention treats past tokens as a discrete set of lookup ent
 Each query induces an **exponential relevance density** along the memory curve. Integrating the density and the interpolated values yields exact normalized attention via **closed-form exponential moments**, including contributions at half-token boundaries.
 
 Key technical advantages:
+
 - Gradients follow analytically from moments of **order at most two**, enabling parallel GPU implementations while retaining quadratic sequence complexity and the standard Transformer decoder. In other words, it fits neatly into existing training infrastructure without sacrificing parallelism.
 
 ---
@@ -58,5 +59,6 @@ CA rethinks the attention mechanism from the ground up: instead of asking "which
 ---
 
 **References:**
+
 - [Continuum Attention (papers.cool)](https://papers.cool/arxiv/2610.20586)
 - [arXiv PDF](https://arxiv.org/pdf/2610.20586)

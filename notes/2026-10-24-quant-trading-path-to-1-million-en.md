@@ -35,8 +35,6 @@ KnowQuant
 
 +1
 
-
-
 Path B — Quantitative researcher using ML
 
 Research signals with statistical models, time-series analysis, deep learning, and optimization. This aligns with your interest in training models, but you must demonstrate rigorous statistical reasoning and genuine out-of-sample performance.
@@ -48,8 +46,6 @@ More difficult to enter directly. Some top firms explicitly prioritize elite aca
 Sina Finance
 
 +1
-
-
 
 Path C — Trade your own capital
 
@@ -106,8 +102,6 @@ Why this matters: quantitative strategies can look profitable in historical test
 CFA Institute
 
 +1
-
-
 
 You could implement the first version with Python, pandas or Polars, NumPy, PyTorch, and a simple vectorized backtesting engine. Don't start with an LLM predicting tomorrow's stock price. Start with a falsifiable hypothesis and a trustworthy evaluation pipeline.
 

@@ -38,6 +38,7 @@ The key structural difference in 2026: LangChain treats RAG as one runnable amon
 ---
 
 **References:**
+
 - [LlamaIndex Overview – EnterpriseDNA](https://enterprisedna.co/directories/open-source/llamaindex)
 - [What is LlamaIndex in 2026 – FutureAGI](https://futureagi.com/blog/what-is-llamaindex-2026/)
 - [LlamaIndex in 2026: Workflows & Production – FutureAGI](https://futureagi.com/blogs/exploring-llamaindex-a-powerful-tool-for-llms)

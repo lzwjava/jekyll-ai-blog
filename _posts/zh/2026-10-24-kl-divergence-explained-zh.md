@@ -30,7 +30,7 @@ $$D_{KL}(P \| Q) = \sum_{x} P(x) \log \frac{P(x)}{Q(x)}$$
 ### 关键性质
 
 | 性质 | 说明 |
-|---|---|
+| --- | --- |
 | **非负** | $D_{KL}(P \| Q) \geq 0$ 始终成立 |
 | **当且仅当相同时为零** | 只有当 $P = Q$ 时，$D_{KL}(P \| Q) = 0$ |
 | **非对称** | $D_{KL}(P \| Q) \neq D_{KL}(Q \| P)$ — 它**不是**一个真正的距离度量 |
@@ -55,7 +55,7 @@ $$D_{KL}(P \| Q) = \sum_{x} P(x) \log \frac{P(x)}{Q(x)}$$
 ### 前向 KL 与反向 KL
 
 | | $D_{KL}(P \| Q)$ | $D_{KL}(Q \| P)$ |
-|---|---|---|
+| --- | --- | --- |
 | 名称 | 前向 KL（Forward KL） | 反向 KL（Reverse KL） |
 | 行为 | **Mean-seeking**（Q 扩展以覆盖 P 的所有部分） | **Mode-seeking**（Q 集中于 P 的某个模式） |
 | 用于 | MLE、扩散模型 | Variational inference |
@@ -73,6 +73,7 @@ Q 是一个均匀分布——对于偏斜的 P 来说，它是一个很差的模
 ---
 
 参考：
+
 - [KL Divergence — Wikipedia](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
 - [KL Divergence for Machine Learning — Towards Data Science](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-understanding-kl-divergence-2b382ca2b2a8)
 - [Understanding KL Divergence (Lilian Weng's Blog)](https://lilianweng.github.io/posts/2017-08-20-flow-based-deep-generative-models/)

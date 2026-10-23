@@ -60,7 +60,7 @@ The softmax function is what makes attention *soft* (differentiable, gradient-fr
 ## Key Properties
 
 | Property | Detail |
-|---|---|
+| --- | --- |
 | **Quadratic complexity** | $O(n^2)$ in sequence length — the main bottleneck |
 | **Permutation equivariant** | No inherent notion of order (positional encodings added separately) |
 | **Multi-head** | Run $h$ attention heads in parallel, then concatenate |
@@ -76,6 +76,7 @@ The softmax function is what makes attention *soft* (differentiable, gradient-fr
 ---
 
 **References:**
+
 - [Attention Is All You Need — Vaswani et al., 2017](https://arxiv.org/abs/1706.03762)
 - [The Illustrated Transformer — Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 - [Flash Attention — Efficient Exact Attention](https://arxiv.org/abs/2205.14135)

@@ -30,7 +30,7 @@ For continuous distributions, the sum becomes an integral.
 ### Key Properties
 
 | Property | Detail |
-|---|---|
+| --- | --- |
 | **Non-negative** | $D_{KL}(P \| Q) \geq 0$ always |
 | **Zero iff identical** | $D_{KL}(P \| Q) = 0$ only when $P = Q$ |
 | **Asymmetric** | $D_{KL}(P \| Q) \neq D_{KL}(Q \| P)$ — it is **not** a true distance metric |
@@ -55,7 +55,7 @@ Think of it as the **extra bits** needed to encode samples from **P** using a co
 ### Forward vs. Reverse KL
 
 | | $D_{KL}(P \| Q)$ | $D_{KL}(Q \| P)$ |
-|---|---|---|
+| --- | --- | --- |
 | Name | Forward KL | Reverse KL |
 | Behavior | **Mean-seeking** (Q spreads to cover all of P) | **Mode-seeking** (Q concentrates on one mode of P) |
 | Used in | MLE, diffusion models | Variational inference |
@@ -73,6 +73,7 @@ Q is a uniform distribution — it's a poor model for the skewed P, so KL is not
 ---
 
 References:
+
 - [KL Divergence — Wikipedia](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
 - [KL Divergence for Machine Learning — Towards Data Science](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-understanding-kl-divergence-2b382ca2b2a8)
 - [Understanding KL Divergence (Lilian Weng's Blog)](https://lilianweng.github.io/posts/2017-08-20-flow-based-deep-generative-models/)

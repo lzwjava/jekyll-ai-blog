@@ -46,7 +46,7 @@ The lab is less a *product business* and more a **personal brand and lead genera
 ### Summary
 
 | Angle | Market demand |
-|---|---|
+| --- | --- |
 | Enterprise AI consulting | ✅ Real, underserved at this price/credibility tier |
 | GPU hardware advice | ✅ Niche but genuine |
 | Domain fine-tuning | ✅ Growing demand |

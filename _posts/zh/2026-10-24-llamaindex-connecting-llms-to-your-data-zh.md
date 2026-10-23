@@ -38,6 +38,7 @@ agent 类（`FunctionAgent`、`ReActAgent`）和 workflow primitive 将 LlamaInd
 ---
 
 **参考文献：**
+
 - [LlamaIndex Overview – EnterpriseDNA](https://enterprisedna.co/directories/open-source/llamaindex)
 - [What is LlamaIndex in 2026 – FutureAGI](https://futureagi.com/blog/what-is-llamaindex-2026/)
 - [LlamaIndex in 2026: Workflows & Production – FutureAGI](https://futureagi.com/blogs/exploring-llamaindex-a-powerful-tool-for-llms)

@@ -44,6 +44,7 @@ Agentic AI是现有技术和组织纪律的放大器，而不是替代品。在�
 ---
 
 **参考资料：**
+
 - [Software development in 2026: A hands-on look at AI agents](https://www.techtarget.com/it-infrastructure/opinion/Software-development-in-2026-A-hands-on-look-at-AI-agents)
 - [AI Agents Are Taking Over Development in 2026 — Here's What Changed](https://dev.to/mysterious_xuanwu_5a00815/ai-agents-are-taking-over-development-in-2026-heres-what-changed-4mop)
 - [AI Software Development: What Changes from 2026 to 2035](https://firstlinesoftware.com/blog/ai-software-development-2026-2035/)

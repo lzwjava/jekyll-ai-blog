@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** https://papers.cool/arxiv/2610.20586 上的这篇论文是关于什么的？
+**问题：** <https://papers.cool/arxiv/2610.20586> 上的这篇论文是关于什么的？
 
 ---
 
@@ -33,6 +33,7 @@ type: note
 每个 query 在 memory curve 上产生一个 **exponential relevance density**。对该密度及插值后的值进行积分，可通过 **closed-form exponential moments** 得到精确的归一化 attention，包括 half-token 边界处的贡献。
 
 关键技术优势：
+
 - 梯度可由**至多二阶**的 moments 解析得出，从而支持并行 GPU 实现，同时保留 quadratic sequence complexity 和标准的 Transformer decoder。换句话说，它能够无缝融入现有训练基础设施，而不牺牲并行性。
 
 ---
@@ -58,5 +59,6 @@ CA 从根本上重新思考了 attention mechanism：它不再问“哪些过去
 ---
 
 **参考文献：**
+
 - [Continuum Attention (papers.cool)](https://papers.cool/arxiv/2610.20586)
 - [arXiv PDF](https://arxiv.org/pdf/2610.20586)

@@ -14,11 +14,13 @@ type: note
 ## 完成 — `lzw@192.168.1.137` → `github.com/lzwjava/mini-llama.cpp`
 
 **提交 `fad109a`**（11 个文件更改，+591/−18）已变基到远程较新的 `eb4b536` 之上：
+
 ```
 fad109a feat: M3 - CPU Qwen2 inference: tokenizer + quantized forward pass
 eb4b536 chore: remove mini-llama-m2 binary, add to .gitignore   (was on remote)
 33853e3 feat: M2 - block dequant (Q5_0/Q8_0/Q4_K/Q6_K) + VRAM upload + real GEMM
 ```
+
 工作树干净，`main` 与 `origin/main` 同步。
 
 ## 问题所在（在你要求提交之前）

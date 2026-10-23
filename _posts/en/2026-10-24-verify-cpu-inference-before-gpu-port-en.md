@@ -12,6 +12,7 @@ type: note
 Here's the state of play and the recommended path forward:
 
 ## Current status
+
 - ✅ M1–M3 all committed: GGUF reader → GPU GEMM/dequant (M2) → **CPU Qwen2 inference** (M3, just pushed)
 - ⚠️ M3 code is brand-new and **never actually built/run** — it's committed but unverified
 - Box facts: **Tesla M40 24GB** (sm_52, cuBLAS verified in M2), GitHub ✅, `hf-mirror.com` ✅, `huggingface.co` ❌ (blocked)
@@ -26,6 +27,7 @@ Everything else (GPU port, optimization) is downstream of knowing the CPU path a
 4. **Fix whatever breaks** — likely candidates: tokenizer merge-rank handling, RMSNorm dtype edge, or KV-cache indexing.
 
 ## Then M4 (the real milestone after this)
+
 Port the verified CPU forward pass to CUDA on the M40 — the dequant/GEMM work from M2 already proves out the kernels (err 5.6e-6), so M4 is wiring `qwen2_forward_token` to `m2.cu` and adding a GPU KV cache.
 
 **Want me to execute step 1–3 now?** I'll wire the Makefile, pull the Q8_0 model via hf-mirror, build, and run a first inference test.

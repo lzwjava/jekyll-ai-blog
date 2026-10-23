@@ -58,7 +58,7 @@ Claude Code、Cursor、GitHub Copilot 以及类似工具是这种 agent 转变�
 ### The big picture
 
 | 旧模式 | 新模式 |
-|---|---|
+| --- | --- |
 | 搜索 → 浏览链接 → 阅读 → 综合 | 询问 agent → 直接获取答案或操作 |
 | 在 Stack Overflow 上发帖 → 等待回复 | 询问 Claude/Copilot → 即时私人回复 |
 | 访问网站 | Agents 为你*访问网站* |
@@ -71,6 +71,7 @@ Claude Code、Cursor、GitHub Copilot 以及类似工具是这种 agent 转变�
 ---
 
 **参考文献：**
+
 - [Stack Overflow AI 下降趋势图 2026](https://www.developersdigest.tech/blog/stackoverflow-ai-decline-graph-2026)
 - [Agent 层正在重写软件](https://opuslabs.substack.com/p/the-agent-layer-is-rewriting-software)
 - [Agentic Web：人类（以及 AI Agents）将如何接下来使用网站](https://www.imforza.com/blog/agentic-web/)

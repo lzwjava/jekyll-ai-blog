@@ -24,7 +24,9 @@ An AI agent is just software that can **perceive → decide → act** in a loop,
 ## The Workflows Businesses Actually Pay to Automate
 
 ### 📄 Document Processing
+
 The single biggest category. Every company drowns in documents.
+
 - **Invoice extraction** → reads PDF invoices, pulls line items, posts to accounting system
 - **Contract review** → flags non-standard clauses, missing dates, risky terms
 - **Medical records summarization** → pulls relevant history before a patient appointment
@@ -35,6 +37,7 @@ The single biggest category. Every company drowns in documents.
 ---
 
 ### 📧 Email & Communication Triage
+
 - Read incoming support emails → classify → draft reply → route to correct team
 - Monitor a shared inbox, extract action items, assign to Slack/Jira/Asana
 - Send follow-up sequences based on CRM status (not spam blasts — contextual, triggered)
@@ -45,6 +48,7 @@ The single biggest category. Every company drowns in documents.
 ---
 
 ### 🔄 Approval Workflows
+
 - Purchase order approval chains — agent checks budget, policy, manager hierarchy, routes accordingly
 - Leave/expense approval — reads request, checks policy, auto-approves or escalates
 - Content approval — marketing drafts reviewed against brand guidelines before going to human
@@ -54,6 +58,7 @@ The single biggest category. Every company drowns in documents.
 ---
 
 ### 📊 Reporting & Data Pipelines
+
 - Pull data from 3 sources (CRM + analytics + finance), generate weekly executive summary, email it Monday 8am
 - Monitor competitor pricing pages, alert sales when a competitor changes price
 - Scrape regulatory announcements, summarize impact on the company, send to legal team
@@ -64,6 +69,7 @@ The single biggest category. Every company drowns in documents.
 ---
 
 ### 🛠️ Dev & IT Operations
+
 - Watch error logs → classify → create Jira ticket → assign to right engineer → post in Slack
 - Automated code review comments on PRs (style, security, obvious bugs)
 - On-call runbooks — agent reads alert, checks runbook, executes first 3 steps, pages human only if needed
@@ -74,6 +80,7 @@ The single biggest category. Every company drowns in documents.
 ---
 
 ### 🧾 Sales & CRM Automation
+
 - After a sales call: transcribe → extract key points → update CRM → draft follow-up email → schedule next step
 - Lead enrichment: new lead comes in → agent researches company, role, LinkedIn, recent news → adds context to CRM
 - Proposal generation: pull client data, past interactions, product catalog → draft first version of a proposal
@@ -85,7 +92,7 @@ The single biggest category. Every company drowns in documents.
 ## The Tech Stack (What You Actually Build With)
 
 | Layer | Tools |
-|---|---|
+| --- | --- |
 | Agent framework | LangChain, LlamaIndex, CrewAI, AutoGen, or raw API calls |
 | LLM backbone | Claude, GPT-4o, Gemini, or local (Qwen, LLaMA) |
 | Tool use / function calling | Web search, browser control, file read/write, API calls |

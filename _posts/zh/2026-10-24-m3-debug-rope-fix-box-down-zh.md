@@ -26,6 +26,7 @@ type: note
 2. **清理阶段的段错误** —— 生成后在 `tokenizer_free`/堆清理（heap teardown）中崩溃（没有打印 `[cleanup] tokenizer freed`）。很可能是 forward pass 中的堆损坏（heap corruption）（可疑缓冲区：`score` 的大小计算、未使用的 `ctx`）。**仍未解决、未验证** —— 正在用 ASAN 诊断到一半时，事情开始失控。
 
 **构建/代码整洁性修复也已应用，但尚未 commit/push：**
+
 - `Makefile`：添加了 `mini-llama-m3` CPU target（`-lm`）
 - `quant.c`：修复 misleading-indentation 警告
 - `qwen2.c`：消除 unused-param 警告
@@ -36,10 +37,12 @@ type: note
 **Debian 机器（192.168.1.137）已宕机/不可达** —— ping 不通，SSH 也不通。它是在 GCC 使用 `-fsanitize=address,undefined` 编译时编译器自身发生段错误（内部编译器错误，很可能是 RAM 耗尽）之后消失的。机器很可能已崩溃，或正在剧烈 thrashing（内存抖动）。
 
 ### 机器上有丢失风险的内容（未 commit、未 push）
+
 - `src/qwen2.c`（RoPE 修复 + 警告修复）、`Makefile`、`src/quant.c` —— 已 scp 到磁盘 ✅，但 **未 commit**
 - 这些源代码改动在本地 Mac 的 `/tmp/ww-m3/` 下是安全的（存在备份副本）
 
 ### 后续步骤（等机器恢复后）
+
 1. **首先：commit 待处理的修复**（`git add -A && commit && push`），以免丢失
 2. 重新构建 `mini-llama-m3`（普通 `cc -O2`，不带 sanitizers）并重新运行 —— 现在预期会输出 "Paris"
 3. 诊断段错误：使用小规模的**代码审查式地址空间检查**，或更轻量的方法（例如仅用 `-fsanitize=address` 加 `-O0`，或添加 guard debug prints），而不是之前压垮机器的重型 UBSan 构建
