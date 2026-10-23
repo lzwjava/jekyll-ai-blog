@@ -18,7 +18,7 @@ This is a common intuition, but **user count ≠ economic scale** in the enterpr
 **Value is measured differently internally**
 
 | Metric | Consumer app | Internal platform |
-|---|---|---|
+| --- | --- | --- |
 | Scale signal | MAU / DAU | Hours saved × headcount × salary |
 | Revenue model | Direct monetization | Productivity / error reduction |
 | User count | Millions | Thousands |
@@ -36,6 +36,7 @@ If an internal tool saves 2 hours/week per engineer at a company with 10,000 eng
 **Where you *are* right:**
 
 The small user base *does* create real problems:
+
 - Harder to justify headcount for dedicated teams
 - Feedback loops are slower and less diverse
 - No network effects
@@ -44,6 +45,7 @@ The small user base *does* create real problems:
 This tension is why many companies eventually **open-source or commercialize** their internal tools (e.g., Google → Kubernetes, Facebook → React, Netflix → various OSS projects) — to escape exactly the economic trap you're describing.
 
 References:
+
 - [Why Big Tech Companies Build Internal Tools (and Why It Matters)](https://medium.com/swlh/why-big-tech-companies-build-internal-tools-and-why-it-matters-2e3d2b9bf2e3)
 - [The Economics of Internal Developer Platforms — Thoughtworks](https://www.thoughtworks.com/insights/blog/platform-engineering/economics-of-internal-developer-platforms)
 - [From Internal Tool to Open Source: The Google Kubernetes Story](https://kubernetes.io/blog/2018/07/20/the-history-of-kubernetes-the-community-behind-it/)

@@ -27,7 +27,7 @@ Both — and the blend is actually what makes founder communication *work*. Here
 **What to share vs. what to hold back:**
 
 | Share ✅ | Avoid ❌ |
-|---|---|
+| --- | --- |
 | The "origin story" — what drove you to start | Current cash flow crises in real time |
 | Early failures or wrong turns (past tense) | Conflicts with co-founders or investors |
 | What you've learned the hard way | Personal family drama unrelated to mission |
@@ -48,6 +48,7 @@ Founders like Paul Graham, Jensen Huang, and Brian Chesky are compelling communi
 ---
 
 **References:**
+
 - [The Founder's Guide to Storytelling — First Round Review](https://review.firstround.com/the-remarkable-advantage-of-abundant-thinking/)
 - [How to Talk About Your Startup — Paul Graham](http://paulgraham.com/talktousers.html)
 - [Why Vulnerability Is a Founder Superpower — a16z](https://a16z.com/2023/01/10/founder-communication/)

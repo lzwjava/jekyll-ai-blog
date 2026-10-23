@@ -16,7 +16,7 @@ type: note
 An IPv4 header has a **variable length**, determined by the **IHL (Internet Header Length)** field — a 4-bit field that specifies the header size in units of **32-bit (4-byte) words**.
 
 | Parameter | Value |
-|---|---|
+| --- | --- |
 | Minimum header length | **20 bytes** (160 bits) — no options |
 | Maximum header length | **60 bytes** (480 bits) — with options |
 | IHL field size | 4 bits → values 5–15 |
@@ -33,5 +33,6 @@ The fixed part of the header is always 20 bytes and includes fields like Version
 ---
 
 **References:**
+
 - [RFC 791 – Internet Protocol (IPv4)](https://www.rfc-editor.org/rfc/rfc791)
 - [IPv4 – Wikipedia](https://en.wikipedia.org/wiki/IPv4#Header)

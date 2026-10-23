@@ -26,7 +26,7 @@ When an IP datagram is too large to fit within the **MTU (Maximum Transmission U
 ### Key Characteristics
 
 | Property | Detail |
-|---|---|
+| --- | --- |
 | Size | 16 bits |
 | Position in header | Bytes 4–5 of the IPv4 header |
 | Assigned by | The **sending host** (typically an incrementing counter) |
@@ -67,5 +67,6 @@ All three fragments share the **same ID (1234)**, so the receiver knows they bel
 - The 16-bit space (65,536 values) can theoretically wrap around on high-speed links, which is a known limitation ([RFC 6864](https://datatracker.ietf.org/doc/html/rfc6864) discusses this).
 
 References:
+
 - [RFC 791 – Internet Protocol (IPv4 specification)](https://datatracker.ietf.org/doc/html/rfc791)
 - [RFC 6864 – Updated Specification of the IPv4 ID Field](https://datatracker.ietf.org/doc/html/rfc6864)

@@ -23,7 +23,7 @@ type: note
 **一个适合你计划的大致过程：**
 
 | 阶段 | 重点 | 示例工具 |
-|---|---|---|
+| --- | --- | --- |
 | 1 | 编程基础 + 算法 | Python, C, any CPU |
 | 2 | 计算机系统（OS, memory, networking） | Your existing machine |
 | 3 | 性能与剖析 | `perf`, `valgrind`, flame graphs |

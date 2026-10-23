@@ -14,7 +14,7 @@ type: note
 答案：这是一种常见的直觉，但在企业环境中，**用户数量 ≠ 经济规模**。原因如下：
 
 | 指标 | 消费者应用 | 内部平台 |
-|---|---|---|
+| --- | --- | --- |
 | 规模信号 | MAU / DAU | 节省的小时数 × 员工人数 × 薪资 |
 | 收入模式 | 直接货币化 | 生产力提升/错误减少 |
 | 用户数量 | 数百万 | 数千 |
@@ -40,6 +40,7 @@ type: note
 这种张力正是为什么许多公司最终将其内部工具**开源或商业化**（例如：Google → Kubernetes, Facebook → React, Netflix → 各种开源项目）——正是为了摆脱你所描述的经济陷阱。
 
 参考资料：
+
 - [为什么大型科技公司构建内部工具（以及为什么这很重要）](https://medium.com/swlh/why-big-tech-companies-build-internal-tools-and-why-it-matters-2e3d2b9bf2e3)
 - [内部开发者平台的经济学——Thoughtworks](https://www.thoughtworks.com/insights/blog/platform-engineering/economics-of-internal-developer-platforms)
 - [从内部工具到开源：Google Kubernetes的故事](https://kubernetes.io/blog/2018/07/20/the-history-of-kubernetes-the-community-behind-it/)

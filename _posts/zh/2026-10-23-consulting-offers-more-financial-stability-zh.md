@@ -25,8 +25,8 @@ type: note
 
 **真实的数据对比**
 
-|  | 咨询 | 产品 |
-|---|---|---|
+| | 咨询 | 产品 |
+| --- | --- | --- |
 | 收入时间线 | 快（几周） | 慢（数月/年） |
 | 失败率 | 低（如果你能销售） | 高（约90%初创公司失败） |
 | 上限 | 随人员规模扩大 | 理论上可无限扩展 |
@@ -45,6 +45,7 @@ type: note
 底线是：咨询本身没有任何问题。它是一种真正的业务。那些看不起它的人要么在追逐风投资金，要么自己从未支付过 payroll。
 
 **参考资料：**
+
 - [Why Consulting Businesses Outlast Most Startups — Harvard Business Review](https://hbr.org/2022/03/the-case-for-the-consulting-business-model)
 - [37signals: From Web Design Shop to Basecamp](https://world.hey.com/jason/the-37signals-history-story-fa2a4eca)
 - [Startup Failure Rates: What the Data Actually Says — CB Insights](https://www.cbinsights.com/research/startup-failure-reasons-top/)

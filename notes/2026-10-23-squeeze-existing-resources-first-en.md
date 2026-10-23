@@ -23,7 +23,7 @@ Answer: Yes, that's actually a very sound and practical approach. Here's why it 
 **A rough progression that fits your plan:**
 
 | Stage | Focus | Example Tools |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Programming fundamentals + algorithms | Python, C, any CPU |
 | 2 | Computer systems (OS, memory, networking) | Your existing machine |
 | 3 | Performance & profiling | `perf`, `valgrind`, flame graphs |

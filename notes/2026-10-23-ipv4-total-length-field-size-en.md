@@ -18,7 +18,7 @@ It indicates the total size of the IP datagram (header + payload) in bytes. Sinc
 Here is a quick reference of the relevant IPv4 header fields and their sizes:
 
 | Field | Size |
-|---|---|
+| --- | --- |
 | Version | 4 bits |
 | IHL (Header Length) | 4 bits |
 | DSCP / ECN | 8 bits |
@@ -32,5 +32,6 @@ Here is a quick reference of the relevant IPv4 header fields and their sizes:
 | Destination Address | 32 bits |
 
 References:
+
 - [RFC 791 – Internet Protocol (IETF)](https://datatracker.ietf.org/doc/html/rfc791)
 - [IPv4 Header – Wikipedia](https://en.wikipedia.org/wiki/IPv4#Packet_structure)

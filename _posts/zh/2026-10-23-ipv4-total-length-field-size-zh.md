@@ -18,7 +18,7 @@ type: note
 以下是相关 IPv4 头部字段及其大小的快速参考：
 
 | 字段 | 大小 |
-|---|---|
+| --- | --- |
 | Version | 4 bits |
 | IHL (Header Length) | 4 bits |
 | DSCP / ECN | 8 bits |
@@ -32,5 +32,6 @@ type: note
 | Destination Address | 32 bits |
 
 参考：
+
 - [RFC 791 – Internet Protocol (IETF)](https://datatracker.ietf.org/doc/html/rfc791)
 - [IPv4 Header – Wikipedia](https://en.wikipedia.org/wiki/IPv4#Packet_structure)

@@ -16,7 +16,7 @@ type: note
 IPv4 header的长度是**可变的**，由**IHL（Internet Header Length）**字段决定 — 这是一个4位字段，以**32位（4字节）字**为单位指定头部大小。
 
 | 参数 | 值 |
-|---|---|
+| --- | --- |
 | 最小header长度 | **20字节**（160位） — 无选项 |
 | 最大header长度 | **60字节**（480位） — 有选项 |
 | IHL字段大小 | 4位 → 值5–15 |
@@ -33,5 +33,6 @@ header的固定部分始终为20字节，包括Version、IHL、TTL、Protocol、
 ---
 
 **参考：**
+
 - [RFC 791 – Internet Protocol (IPv4)](https://www.rfc-editor.org/rfc/rfc791)
 - [IPv4 – Wikipedia](https://en.wikipedia.org/wiki/IPv4#Header)

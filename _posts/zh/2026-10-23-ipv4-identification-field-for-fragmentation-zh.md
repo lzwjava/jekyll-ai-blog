@@ -26,7 +26,7 @@ type: note
 ### 主要特性
 
 | 属性 | 详情 |
-|---|---|
+| --- | --- |
 | 大小 | 16 bits |
 | 头部位置 | Bytes 4–5 of the IPv4 header |
 | 分配者 | **发送主机**（通常是一个 incrementing counter） |
@@ -67,5 +67,6 @@ Original datagram (4000 bytes, ID = 1234)
 - 16位 space（65,536 values）理论上可能在高速 links 上 wrap around，这是一个已知的限制（[RFC 6864](https://datatracker.ietf.org/doc/html/rfc6864) discusses this）。
 
 参考文献：
+
 - [RFC 791 – Internet Protocol (IPv4 specification)](https://datatracker.ietf.org/doc/html/rfc791)
 - [RFC 6864 – Updated Specification of the IPv4 ID Field](https://datatracker.ietf.org/doc/html/rfc6864)

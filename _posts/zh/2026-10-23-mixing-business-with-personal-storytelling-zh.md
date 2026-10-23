@@ -27,7 +27,7 @@ type: note
 **分享 vs. 保留：**
 
 | 分享 ✅ | 避免 ❌ |
-|---|---|
+| --- | --- |
 | “起源故事”——是什么驱使你创办公司 | 实时的现金流危机 |
 | 早期的失败或错误转向（过去时） | 与联合创始人或投资者的冲突 |
 | 你在艰难中学到的东西 | 与使命无关的个人家庭戏剧 |
@@ -46,6 +46,7 @@ type: note
 像Paul Graham、Jensen Huang和Brian Chesky这样的创始人是有吸引力的沟通者，正是因为他们将个人信念和诚实的挣扎融入到商业叙事中——这标志着韧性，而不是软弱。
 
 **参考文献：**
+
 - [The Founder's Guide to Storytelling — First Round Review](https://review.firstround.com/the-remarkable-advantage-of-abundant-thinking/)
 - [How to Talk About Your Startup — Paul Graham](http://paulgraham.com/talktousers.html)
 - [Why Vulnerability Is a Founder Superpower — a16z](https://a16z.com/2023/01/10/founder-communication/)

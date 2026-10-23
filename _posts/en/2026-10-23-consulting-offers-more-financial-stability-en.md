@@ -26,7 +26,7 @@ The startup/VC culture has created a narrative where "building a product" is nob
 **The honest math**
 
 | | Consulting | Product |
-|---|---|---|
+| --- | --- | --- |
 | Revenue timeline | Fast (weeks) | Slow (months/years) |
 | Failure rate | Low (if you can sell) | High (~90% of startups fail) |
 | Ceiling | Scales with headcount | Can scale infinitely (in theory) |
@@ -45,6 +45,7 @@ Many strong tech businesses use consulting *to fund* product development — do 
 Bottom line: there's nothing wrong with consulting. It's a real business. The people who look down on it are usually either chasing VC funding or haven't made payroll themselves.
 
 **References:**
+
 - [Why Consulting Businesses Outlast Most Startups — Harvard Business Review](https://hbr.org/2022/03/the-case-for-the-consulting-business-model)
 - [37signals: From Web Design Shop to Basecamp](https://world.hey.com/jason/the-37signals-history-story-fa2a4eca)
 - [Startup Failure Rates: What the Data Actually Says — CB Insights](https://www.cbinsights.com/research/startup-failure-reasons-top/)
