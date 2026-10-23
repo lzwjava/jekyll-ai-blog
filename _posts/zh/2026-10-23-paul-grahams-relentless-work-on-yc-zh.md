@@ -50,6 +50,7 @@ Graham并没有让YC开启autopilot。2012年，当Y Combinator开始显得招�
 ---
 
 **参考资料：**
+
 - [Why did Paul Graham start Y Combinator? – Gurubase](https://gurubase.io/g/ycombinator/why-did-paul-graham-start-y-combinator)
 - [Early days of YC & Paul Graham's Journey – TechHour](https://techhour.substack.com/p/what-can-you-learn-from-the-early)
 - [The Startup Whisperer – MIT Technology Review](https://www.technologyreview.com/2012/02/23/187430/the-startup-whisperer/amp/)

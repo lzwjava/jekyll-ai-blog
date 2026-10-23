@@ -14,7 +14,7 @@ type: note
 ## 500 GB 磁盘在两台机器上均**在电气层面不可见**
 
 | 机器 | SATA 控制器 | 有链接的端口 | 空闲端口 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `.34`（MS-7996 台式机） | Intel Q170 AHCI | `ata4` = 仅 WD 1TB | ata1、ata2、ata3、ata5、ata6 — 全部**链路断开** |
 | `.137`（Debian） | Intel Q170 AHCI | `ata4` = 仅 faspeed 60GB | ata1、ata2、ata3、ata5、ata6 — 全部**链路断开** |
 
@@ -33,6 +33,7 @@ type: note
 ## 一旦正确插入 — 剩下的交给我
 
 告诉我你插的是哪台机器（或者在重新插拔后直接说“done”），然后我会：
+
 - 确认检测结果（`lsblk`/`dmesg`）
 - 分区并格式化（ext4）
 - 永久挂载（`/etc/fstab`）

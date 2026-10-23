@@ -74,6 +74,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [Learning in Adulthood – A Comprehensive Guide](https://cms.theglasshouse.org/Download_PDFS/mL053G/600233/Learning%20In%20Adulthood%20A%20Comprehensive%20Guide.pdf)
 - [Prior, Experiential and Informal Learning (IRRODL)](https://www.irrodl.org/index.php/irrodl/article/download/888/1670?inline=1)
 - [Cognitive Overload: Why Your Brain Feels Full – Drillster](https://drillster.com/en/blog/help-i-cant-learn-anymore-my-brain-is-full/)

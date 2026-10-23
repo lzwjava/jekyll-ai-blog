@@ -47,6 +47,7 @@ Breaking the cycle typically requires the son to consciously recognize the patte
 ---
 
 References:
+
 - [Enmeshment and Codependency — Psychology Today](https://www.psychologytoday.com/us/basics/enmeshment)
 - [Overprotective Parenting and Its Long-Term Effects — Verywell Family](https://www.verywellfamily.com/what-is-overprotective-parenting-1095080)
 - [Attachment Theory Overview — Simply Psychology](https://www.simplypsychology.org/attachment.html)

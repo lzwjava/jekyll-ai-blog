@@ -28,7 +28,7 @@ M40 是 Maxwell (SM 5.2) 架构。这意味着：**你必须将 PyTorch 锁定�
 ## GPU 规格对比
 
 | | M40（×2 或 ×3） | RTX 4070 |
-|---|---|---|
+| --- | --- | --- |
 | 架构 | Maxwell (SM 5.2) | Ada Lovelace (SM 8.9) |
 | 单卡 VRAM | 24 GB GDDR5 | 12 GB GDDR6X |
 | FP32 | ~7 TFLOPS | ~29 TFLOPS |
@@ -53,7 +53,7 @@ M40 **没有张量核心**，因此所有训练都以 FP32 运行——比现代
 ### 仅使用 RTX 4070（12 GB，现代/快速）
 
 | 任务 | 是否可行？ |
-|---|---|
+| --- | --- |
 | 7B QLoRA（Llama、Mistral、Qwen） | ✅ 很轻松 |
 | 13B QLoRA | ✅ 可以 |
 | 7B LoRA | ❌ 太紧张（需要约 14–18 GB） |
@@ -66,7 +66,7 @@ M40 **没有张量核心**，因此所有训练都以 FP32 运行——比现代
 ### 2× M40（合计 48 GB，使用 PyTorch ≤ 2.14）
 
 | 任务 | 是否可行？ |
-|---|---|
+| --- | --- |
 | 7B 全量微调（梯度检查点） | ✅ 紧张但可行 |
 | 13B QLoRA / LoRA | ✅ 可以（单张 M40 也可以） |
 | 30B QLoRA | ✅ 可以 |
@@ -76,7 +76,7 @@ M40 **没有张量核心**，因此所有训练都以 FP32 运行——比现代
 ### 3× M40（合计 72 GB，使用 PyTorch ≤ 2.14）
 
 | 任务 | 是否可行？ |
-|---|---|
+| --- | --- |
 | 13B 全量微调（分布式） | ✅ 可以 |
 | 70B QLoRA | ✅ 很轻松 |
 | 70B LoRA | ✅ 可行（约 45–55 GB） |
@@ -99,7 +99,7 @@ M40 **没有张量核心**，因此所有训练都以 FP32 运行——比现代
 ## 实用建议
 
 | 优先级 | 使用此 GPU | 用于此任务 |
-|---|---|---|
+| --- | --- | --- |
 | **首选** | RTX 4070 | 所有 7B–13B 模型的 QLoRA 微调，快速迭代 |
 | **次选** | 2–3× M40 | 70B QLoRA 或 13B LoRA，锁定 PyTorch 2.14 |
 | **避免** | M40 + 4070 混合 | 单个分布式训练任务 |
@@ -109,6 +109,7 @@ M40 三卡为你提供了大模型的**原始 VRAM 容量**，但对于任何需
 ---
 
 参考链接：
+
 - [PyTorch Maxwell/Pascal support dropped — CUDA 12.6 wheels ending at PyTorch 2.14](https://dev-discuss.pytorch.org/t/notice-cuda-12-6-wheels-will-no-longer-be-published-from-pytorch-2-15-drops-maxwell-pascal-volta/3432.md)
 - [GPU VRAM Requirements for LLM Fine-Tuning 2026](https://www.spheron.network/blog/gpu-vram-requirements-fine-tune-llm-2026/)
 - [LLM Hardware Requirements Guide — VRLA Tech, June 2026](https://vrlatech.com/llm-hardware-requirements-guide/)

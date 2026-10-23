@@ -22,7 +22,7 @@ type: note
 ### 🔧 微调应用
 
 | 领域 | 示例 |
-|--------|----------|
+| -------- | ---------- |
 | **领域自适应** | 医疗 NLP（临床记录、放射学）、法律文档分析、财务报告解析 |
 | **指令遵循** | 让基础 LLM 学会遵循用户指令（例如 Alpaca、Vicuna 风格的 SFT） |
 | **代码生成** | CodeLlama、StarCoder —— 在代码语料上进行微调，面向特定语言或 IDE |
@@ -36,7 +36,7 @@ type: note
 ### 🎯 RL 精调应用
 
 | 技术 | 应用 |
-|-----------|-------------|
+| ----------- | ------------- |
 | **RLHF**（基于人类反馈的强化学习） | 让 LLM 对齐到有用、无害、诚实 —— 用于 GPT-4、Claude、Gemini |
 | **RLAIF**（基于 AI 反馈的强化学习） | 在没有人工标注者的情况下扩展对齐；宪法 AI（Anthropic） |
 | **DPO**（直接偏好优化） | 轻量级的偏好对齐，广泛用于开源模型（Mistral、Zephyr） |
@@ -68,6 +68,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [RLHF: Training language models to follow instructions with human feedback (Ouyang et al., 2022)](https://arxiv.org/abs/2203.02155)
 - [Direct Preference Optimization (DPO) Paper](https://arxiv.org/abs/2305.18290)
 - [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL](https://arxiv.org/abs/2501.12948)

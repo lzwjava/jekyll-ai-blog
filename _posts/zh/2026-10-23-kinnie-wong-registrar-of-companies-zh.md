@@ -28,5 +28,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [HKICPA – Wong Kit Yee, Kinnie（理事会简介）](https://www.hkicpa.org.hk/en/About-us/Governance/Council/Current-Council/WONG-Kit-Yee-Kinnie)
 - [Corporate Registers Forum – Kinnie Wong（2025–2026）](https://www.corporateregistersforum.org/crf-executive-members/kinnie-wong/2025-2026)

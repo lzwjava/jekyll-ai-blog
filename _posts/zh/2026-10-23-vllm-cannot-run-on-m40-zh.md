@@ -24,7 +24,7 @@ Tesla M40 的 **compute capability 是 5.2（Maxwell，2015 年）**——比 vL
 ## 在 `.137` 上真正能跑 LLM 的方案（现实选项）
 
 | 方案 | 方式 | 可行性 |
-|---|---|---|
+| --- | --- | --- |
 | **llama.cpp / Ollama——仅 CPU** | GGUF 量化模型，完全不碰 GPU | ✅ **零风险，今天就能用**——但 7.7 GB 内存只能跑小模型（Qwen2.5-3B/4B、Llama-3.2-3B、Gemma-2-2B 的 Q4 量化约 2–3 GB），在 4 核 i5 上约 4–8 tok/s |
 | **llama.cpp——在 M40 上用 CUDA** | 对旧架构的容忍度比 vLLM 高得多 | ⚠️ 未知——这不是上面那种零风险方式；driver 550 上的 legacy CUDA *也许*不会卡死（设备对 UVM 的触发方式不同），但如果卡了，预计要付出 **1 次重启** 的代价 |
 | vLLM | — | ❌ 绝无可能 |

@@ -14,7 +14,7 @@ Yes — there are cheaper options, but each has a tradeoff. Here's what's availa
 ## Cheaper options compared ($/month, asia-east2, 730 h)
 
 | Option | vCPU / RAM | Compute /mo | Est. total/mo | vs. now | Tradeoff |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | **e2-small on-demand** (current) | 2 shared / 2 GB | ~$35.6 (after SUD) | **$39–42** | — | — |
 | **e2-medium SPOT** ⭐ | 2 / 4 GB | **$15.6** | **~$20** | −50% | VM can be reclaimed anytime (~30s notice, usually rare in HK) |
 | e2-small spot | 2 shared / 2 GB | $14.2 | ~$19 | −53% | same spot risk, only ~$1 cheaper than e2‑medium spot — not worth it |
@@ -32,11 +32,13 @@ Switching to **e2-medium spot** would:
 ## The catch (why I'm asking before doing it)
 
 Spot VMs have **no uptime guarantee** — GCP can terminate with ~30 s notice when capacity is needed or prices spike (in practice events are rare, but they do happen). For a live-streaming site that means:
+
 - in-flight streams drop at that moment
 - the box does **not** auto-restart (spot termination = stopped VM)
 - I'd partially mitigate with a static-IP boot script + an external watchdog that re-creates the instance when it's found down (e.g., Cloud Scheduler → Cloud Function, adds a tiny bit of complexity, a few $/mo at most)
 
 Options I'd endorse:
+
 1. **Spot e2-medium + watchdog** → ~$20/mo, best value, minor availability risk. *My recommendation.*
 2. **Stay e2-small on-demand** → ~$40/mo, no new risk (current state).
 3. **e2-micro on-demand** → cheapest *guaranteed-uptime* machine (~$20–30/mo) but 1 GB of RAM is honestly too tight for MySQL + everything else on this box; not recommended.

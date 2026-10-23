@@ -30,7 +30,7 @@ The M40 is Maxwell (SM 5.2). This means: **you must pin to PyTorch ≤ 2.14 + CU
 ## GPU Spec Comparison
 
 | | M40 (×2 or ×3) | RTX 4070 |
-|---|---|---|
+| --- | --- | --- |
 | Architecture | Maxwell (SM 5.2) | Ada Lovelace (SM 8.9) |
 | VRAM each | 24 GB GDDR5 | 12 GB GDDR6X |
 | FP32 | ~7 TFLOPS | ~29 TFLOPS |
@@ -55,7 +55,7 @@ The answer varies by a factor of ~16× depending on whether you use full fine-tu
 ### RTX 4070 Alone (12 GB, modern/fast)
 
 | Task | Possible? |
-|---|---|
+| --- | --- |
 | 7B QLoRA (Llama, Mistral, Qwen) | ✅ Comfortable |
 | 13B QLoRA | ✅ Yes |
 | 7B LoRA | ❌ Too tight (~14–18 GB needed) |
@@ -68,7 +68,7 @@ The answer varies by a factor of ~16× depending on whether you use full fine-tu
 ### 2× M40 (48 GB combined, with PyTorch ≤ 2.14)
 
 | Task | Possible? |
-|---|---|
+| --- | --- |
 | 7B full fine-tuning (gradient checkpointing) | ✅ Tight but doable |
 | 13B QLoRA / LoRA | ✅ Yes (even one M40) |
 | 30B QLoRA | ✅ Yes |
@@ -78,7 +78,7 @@ The answer varies by a factor of ~16× depending on whether you use full fine-tu
 ### 3× M40 (72 GB combined, with PyTorch ≤ 2.14)
 
 | Task | Possible? |
-|---|---|
+| --- | --- |
 | 13B full fine-tuning (distributed) | ✅ Yes |
 | 70B QLoRA | ✅ Comfortably |
 | 70B LoRA | ✅ Possible (~45–55 GB) |
@@ -101,7 +101,7 @@ The answer varies by a factor of ~16× depending on whether you use full fine-tu
 ## Practical Recommendation
 
 | Priority | Use this GPU | For this task |
-|---|---|---|
+| --- | --- | --- |
 | **1st choice** | RTX 4070 | All QLoRA fine-tuning of 7B–13B models, fast iteration |
 | **2nd choice** | 2–3× M40 | 70B QLoRA or 13B LoRA, pinned to PyTorch 2.14 |
 | **Avoid** | Mixed M40 + 4070 | Single distributed training job |
@@ -111,6 +111,7 @@ The M40 trio gives you **raw VRAM capacity** for big models, but the **RTX 4070 
 ---
 
 References:
+
 - [PyTorch Maxwell/Pascal support dropped — CUDA 12.6 wheels ending at PyTorch 2.14](https://dev-discuss.pytorch.org/t/notice-cuda-12-6-wheels-will-no-longer-be-published-from-pytorch-2-15-drops-maxwell-pascal-volta/3432.md)
 - [GPU VRAM Requirements for LLM Fine-Tuning 2026](https://www.spheron.network/blog/gpu-vram-requirements-fine-tune-llm-2026/)
 - [LLM Hardware Requirements Guide — VRLA Tech, June 2026](https://vrlatech.com/llm-hardware-requirements-guide/)

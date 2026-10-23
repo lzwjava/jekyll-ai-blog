@@ -30,5 +30,6 @@ The Chinese equivalent concept is **怨天尤人 (yuàn tiān yóu rén)** — b
 ---
 
 References:
+
 - [A bad workman blames his tools – Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/a-bad-workman-blames-his-tools)
 - [Julius Caesar, Act I, Scene II – Shakespeare](https://www.folger.edu/explore/shakespeares-works/julius-caesar/)

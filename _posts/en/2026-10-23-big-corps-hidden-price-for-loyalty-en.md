@@ -71,6 +71,7 @@ Today's professionals need to document their value, track market demand, maintai
 ---
 
 **References:**
+
 - [Is Corporate Loyalty Now a Hidden Tax?](https://my-cpe.com/insights/news-and-insights/business/is-corporate-loyalty-now-a-hidden-tax)
 - ['Loyalty Tax': Why Loyal Employees Are Being Hit Hardest by Layoffs](https://www.cpapracticeadvisor.com/2026/05/20/loyalty-tax-why-loyal-employees-are-being-hit-hardest-by-layoffs/183753/)
 - [Long-tenured Workers Are Least Prepared for Layoffs (HR Executive)](https://hrexecutive.com/long-tenured-workers-are-least-prepared-for-layoffs-new-research-finds/)

@@ -16,7 +16,7 @@ type: note
 一个页面、一个内联 `<style>` 块，总计约 52 KB。所有部分均为页内锚点：
 
 | 部分 | 内容 |
-|---|---|
+| --- | --- |
 | **Hero** | “Truth through compute — nothing but truth” + 4 项统计条（52 GB VRAM、13 个模型、约 5B tokens、12 年） |
 | **Focus areas** | 训练 · 推理与服务 · GPU 与硬件 · 咨询 |
 | **Experiments** | 6 张公开工作卡（SEC-EDGAR-GPT、nanoGPT fork、52 GB 集群、MoE、zz、FluxReel） |
@@ -34,6 +34,7 @@ type: note
 - 完全响应式 + 移动端导航处理
 
 预览：
+
 ```bash
 cd /Users/lzwjava/projects/truth-labs && python3 -m http.server 8080
 ```

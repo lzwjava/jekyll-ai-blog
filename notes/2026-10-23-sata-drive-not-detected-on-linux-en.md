@@ -14,7 +14,7 @@ Checked both Linux boxes at the port level — here's the situation:
 ## The 500 GB disk is **not electrically visible** on either machine
 
 | Machine | SATA controller | Ports with link | Free ports |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `.34` (MS-7996 desktop) | Intel Q170 AHCI | `ata4` = WD 1TB only | ata1, ata2, ata3, ata5, ata6 — all **link down** |
 | `.137` (Debian) | Intel Q170 AHCI | `ata4` = faspeed 60GB only | ata1, ata2, ata3, ata5, ata6 — all **link down** |
 
@@ -33,6 +33,7 @@ One clue: on `.34` there's history of an **exFAT `sdc2`** disk mounted ~Oct 14�
 ## Once it's plugged in properly — I'll take it from here
 
 Tell me which machine (or just say "done" after reseating), and I'll:
+
 - Confirm detection (`lsblk`/`dmesg`),
 - Partition + format it (ext4),
 - Mount permanently (`/etc/fstab`),

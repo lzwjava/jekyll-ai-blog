@@ -38,5 +38,6 @@ Scale AI 非常看重具备 internal locus of control 的人。他建议的实�
 ---
 
 **参考资料：**
+
 - [How Scale AI maintains high talent density — Paraform](https://paraform.com/blog/how-scale-ai-maintains-high-talent-density)
 - [The 4 Traits You Need to Get Hired by Alexander Wang, CEO of Scale AI — Lilys AI](https://lilys.ai/en/notes/scale-ai-ceo-20251031/four-traits-alexander-wang-hire)

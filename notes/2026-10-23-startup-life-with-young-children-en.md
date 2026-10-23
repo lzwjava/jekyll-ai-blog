@@ -22,11 +22,13 @@ type: note
 ### ✅ Can You Do It?
 
 **The honest reality:**
+
 - Startups demand time, energy, and emotional bandwidth — all things young children also need.
 - The stress is compounded: funding pressure + sleepless toddlers is genuinely hard.
 - **But** many founders argue that having a family actually sharpens focus — you can't waste time, so you prioritize ruthlessly.
 
 **Factors that help:**
+
 - A supportive co-founder (so you're not alone)
 - Strong spousal/partner support
 - Financial runway (less panic = better decisions)
@@ -44,6 +46,7 @@ Share the vision. Explain *why* you're doing this — for the family's future, p
 
 **3. Set clear expectations and boundaries**
 Agree on:
+
 - How many evenings/weekends belong to the startup vs. family
 - What "emergency work" means (when it's OK to break the rule)
 - Financial limits — how much runway before you reassess
@@ -69,6 +72,7 @@ Young kids can understand "Daddy/Mommy is building something." Simple language, 
 ---
 
 **References:**
+
 - [The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup — Noam Wasserman](https://www.amazon.com/Founders-Dilemmas-Anticipating-Foundation-Entrepreneurship/dp/0691158304)
 - [How to Build a Startup Without Sacrificing Your Family — Harvard Business Review](https://hbr.org/2014/04/how-to-build-a-startup-without-sacrificing-your-family)
 - [Startup + Family: Stories from founders who made it work — First Round Review](https://review.firstround.com/)

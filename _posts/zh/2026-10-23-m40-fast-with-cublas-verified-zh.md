@@ -21,7 +21,7 @@ cublasSgemm 4096³ : 4333.6 GFLOPS   (≈63% of the card's ~6.8 TFLOPS fp32 peak
 ## 关于 `192.168.1.137` 的修正情况
 
 | | 可用 ✅ | 永远不行 ❌ |
-|---|---|---|
+| --- | --- | --- |
 | **你自己的 CUDA 版 mini-llama.cpp** | 在 M40 上使用原生 CUDA 12.4 `sm_52` + `cuBLAS` —— **刚刚已验证** | — |
 | PyTorch/vLLM/MiniMax-H3 | — | 它们需要 torch 的 CUDA≥12 操作路径 → 我们遇到的 UVM 挂起 |
 

@@ -37,6 +37,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [Warren Buffett's Inner Scorecard — Farnam Street](https://fs.blog/warren-buffett-inner-scorecard/)
 - [Stoicism and Indifference to Praise & Criticism — Daily Stoic](https://dailystoic.com/criticism/)
 - [Ego Is the Enemy by Ryan Holiday — summary overview](https://www.ryanholiday.net/ego-is-the-enemy/)

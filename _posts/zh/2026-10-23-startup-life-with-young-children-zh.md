@@ -22,11 +22,13 @@ type: note
 ### ✅ 你能做到吗？
 
 **现实情况：**
+
 - 初创企业需要时间、精力和情感带宽——而这些也正是年幼的孩子所需要的。
 - 压力是叠加的：融资压力 + 睡眠不足的幼儿，确实很难。
 - **但**许多创始人认为，拥有家庭反而会让人更专注——因为你不能浪费时间，所以你会果断地设定优先级。
 
 **有帮助的因素：**
+
 - 一个支持你的联合创始人（这样你不是孤军奋战）
 - 伴侣/配偶的强力支持
 - 财务缓冲期（恐慌越少 = 决策越好）
@@ -44,6 +46,7 @@ type: note
 
 **3. 设定明确的期望和界限**
 商定：
+
 - 有多少个晚上/周末属于创业，多少属于家庭
 - “紧急工作”意味着什么（什么时候可以打破规则）
 - 财务限度——在重新评估之前有多少缓冲期
@@ -69,6 +72,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup — Noam Wasserman](https://www.amazon.com/Founders-Dilemmas-Anticipating-Foundation-Entrepreneurship/dp/0691158304)
 - [How to Build a Startup Without Sacrificing Your Family — Harvard Business Review](https://hbr.org/2014/04/how-to-build-a-startup-without-sacrificing-your-family)
 - [Startup + Family: Stories from founders who made it work — First Round Review](https://review.firstround.com/)

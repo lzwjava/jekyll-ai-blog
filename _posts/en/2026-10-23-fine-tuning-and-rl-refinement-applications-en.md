@@ -22,7 +22,7 @@ Fine-tuning and RL-based refinement (RLHF, DPO, PPO, GRPO, etc.) are now core to
 ### 🔧 Fine-Tuning Applications
 
 | Domain | Examples |
-|--------|----------|
+| -------- | ---------- |
 | **Domain Adaptation** | Medical NLP (clinical notes, radiology), legal document analysis, financial report parsing |
 | **Instruction Following** | Teaching a base LLM to follow user commands (e.g., Alpaca, Vicuna style SFT) |
 | **Code Generation** | CodeLlama, StarCoder — fine-tuned on code corpora for specific languages or IDEs |
@@ -36,7 +36,7 @@ Fine-tuning and RL-based refinement (RLHF, DPO, PPO, GRPO, etc.) are now core to
 ### 🎯 RL Refinement Applications
 
 | Technique | Application |
-|-----------|-------------|
+| ----------- | ------------- |
 | **RLHF** (RL from Human Feedback) | Aligning LLMs to be helpful, harmless, honest — used in GPT-4, Claude, Gemini |
 | **RLAIF** (RL from AI Feedback) | Scaling alignment without human labelers; Constitutional AI (Anthropic) |
 | **DPO** (Direct Preference Optimization) | Lighter-weight preference alignment, widely used in open-source models (Mistral, Zephyr) |
@@ -68,6 +68,7 @@ The dominant paradigm has shifted toward **test-time compute scaling + RL refine
 ---
 
 **References:**
+
 - [RLHF: Training language models to follow instructions with human feedback (Ouyang et al., 2022)](https://arxiv.org/abs/2203.02155)
 - [Direct Preference Optimization (DPO) Paper](https://arxiv.org/abs/2305.18290)
 - [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL](https://arxiv.org/abs/2501.12948)

@@ -31,5 +31,6 @@ type: note
 真正的技能在于知道哪些关系是承重的，哪些只是社交噪音。
 
 **参考文献：**
+
 - [The Strength of Weak Ties — Granovetter (1973)](https://www.jstor.org/stable/2776392) —— 关于网络何时真正起作用的基础性著作
 - [Social relationships and health — Holt-Lunstad et al.](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316) —— 关于社会关系与健康的研究

@@ -71,6 +71,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [企业忠诚度如今是否成了一种隐形税？](https://my-cpe.com/insights/news-and-insights/business/is-corporate-loyalty-now-a-hidden-tax)
 - [“忠诚税”：为什么忠诚员工在裁员中受冲击最大](https://www.cpapracticeadvisor.com/2026/05/20/loyalty-tax-why-loyal-employees-are-being-hit-hardest-by-layoffs/183753/)
 - [长期任职员工对裁员准备最不足（HR Executive）](https://hrexecutive.com/long-tenured-workers-are-least-prepared-for-layoffs-new-research-finds/)

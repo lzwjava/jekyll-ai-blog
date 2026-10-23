@@ -32,6 +32,7 @@ Done. I've built **Truth Labs** — a one-person AI research lab site in `/Users
 `bundle install` + `bundle exec jekyll build` compile cleanly; all 5 pages and CSS return 200 from `jekyll serve`.
 
 To preview locally:
+
 ```bash
 cd /Users/lzwjava/projects/truth-labs && bundle exec jekyll serve --livereload
 ```

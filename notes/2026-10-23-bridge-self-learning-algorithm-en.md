@@ -22,7 +22,7 @@ A network bridge uses a **self-learning algorithm** (also called *transparent br
 The bridge maintains a **MAC Address Table**:
 
 | MAC Address | Port | Timestamp |
-|---|---|---|
+| --- | --- | --- |
 | AA:BB:CC:DD:EE:01 | Port 1 | t=10s |
 | AA:BB:CC:DD:EE:02 | Port 3 | t=12s |
 
@@ -35,9 +35,11 @@ The bridge receives a frame on, say, Port 1.
 
 **Step 2 — Learn from Source MAC**
 The bridge reads the **source MAC address** of the frame and records:
+
 ```
 MAC Table: source_MAC → Port 1, timestamp = now
 ```
+
 If the entry already exists, it simply refreshes the timestamp.
 
 **Step 3 — Forward based on Destination MAC**
@@ -55,6 +57,7 @@ else:
 
 **Step 4 — Aging (Entry Expiry)**
 Each entry has a TTL (typically **300 seconds**). If no frame from that MAC is seen within the timeout, the entry is deleted:
+
 ```
 if now - timestamp > aging_time:
     remove entry
@@ -85,7 +88,7 @@ dest port     other ports
 ### Key Properties
 
 | Property | Detail |
-|---|---|
+| --- | --- |
 | **No pre-config needed** | The table builds itself from traffic |
 | **Flooding** | Used for unknown destinations (and broadcasts) |
 | **Aging** | Prevents stale entries when devices move |
@@ -104,6 +107,7 @@ Assume a bridge with Ports 1, 2, 3 and an empty table:
 This is why bridges start slow (lots of flooding) but become efficient quickly as the table fills.
 
 References:
+
 - [IEEE 802.1D - MAC Bridges Standard](https://www.ieee802.org/1/pages/802.1D.html)
 - [Transparent Bridging - Cisco Documentation](https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/5234-5.html)
 - [How Network Bridges Work - Cloudflare Learning](https://www.cloudflare.com/learning/network-layer/what-is-a-network-bridge/)

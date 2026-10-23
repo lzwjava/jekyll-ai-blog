@@ -14,7 +14,7 @@ type: note
 **答案：**
 
 | English Name | Chinese Name |
-|---|---|
+| --- | --- |
 | Huatai Securities | 华泰证券 |
 | Guotai Junan | 国泰君安证券 |
 | CITIC Securities | 中信证券 |

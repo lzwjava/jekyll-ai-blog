@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** How many page views does https://lzwjava.com get?
+**Question:** How many page views does <https://lzwjava.com> get?
 
 **Answer:**
 
@@ -40,4 +40,5 @@ SimilarWeb doesn't expose the raw visit count in the free view, but given lzwjav
 ---
 
 **References:**
+
 - [lzwjava.com Traffic Analytics – SimilarWeb](https://www.similarweb.com/website/lzwjava.com/)

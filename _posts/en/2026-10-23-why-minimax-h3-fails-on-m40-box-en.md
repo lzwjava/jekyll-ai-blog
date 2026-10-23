@@ -16,7 +16,7 @@ The official docs settle it — MiniMax recommends running H3 with **4 GPUs** (`
 **1. Disk — fails immediately.** `.137` has **18 GB free**. The *smallest possible* file set (int8):
 
 | File | Size |
-|---|---|
+| --- | --- |
 | `qwen3vl_32b_minimax_h3_int8_convrot.safetensors` (32B text encoder) | 27.1 GB |
 | `minimax_h3_fl2va_pruned_int8_convrot.safetensors` (diffusion) | 21.0 GB |
 | `minimax_h3_video_vae_int8` + audio_vae | 3.4 GB |
@@ -27,6 +27,7 @@ The official docs settle it — MiniMax recommends running H3 with **4 GPUs** (`
 **3. System RAM — fails.** 7.7 GB total. Comfy's standard CPU-offload path for the 32B encoder needs ~28 GB+ of host RAM.
 
 **4. GPU architecture — fails (the core reason).** Tesla M40 = **Maxwell 2015, compute capability 5.2**, and H3 demands the exact opposite of everything Maxwell is:
+
 - All weights ship **BF16/Fp8/Int8-with-Triton-ops** → M40 has **no fp16/bf16 datapath at all**
 - H3's recommended runtime is **torch cu130** (Comfy docs above); CUDA ≥12 dropped Maxwell kernels entirely; this box's driver is 550 = CUDA 12.4
 - **Empirical proof from the twin box `.34`** (previous session): both torch `2.14.1+cu130` and legacy `1.13.1+cu117` hang the driver in `nvidia_uvm` (D-state, unkillable, needs reboot). The M40 cannot even initialize *any* PyTorch CUDA context on this driver generation.

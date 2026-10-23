@@ -28,12 +28,12 @@ Tesla M40 是 2015 年的 Maxwell 架构数据中心显卡（GM200，compute cap
 
 ⚠️ .34 上需要操作：3 个卡住的进程（PID 88864 nvidia-smi、88959、89100 python）处于 D-state——kill -9 也无法移除。重启 .34 以清理卡死的 GPU driver。.137 没有被测试（相同的 GPU 架构 → 相同的结论）。
 
-### 那么，你能用 DeepSpeed 训练吗？不能——实际上不行：
+### 那么，你能用 DeepSpeed 训练吗？不能——实际上不行
 
 - 软件墙：DeepSpeed 需要支持 CUDA 的 torch；没有现代 torch 能在 Maxwell 上运行，而且这里系统安装的 driver 甚至无法初始化 CUDA compute。
 - 硬件墙：即使你降级所有东西（旧 driver + 2021 时代的栈）：1 GPU/节点，12/24 GB VRAM，4 核 i5，8–11 GB RAM，1 GbE 上行链路，每 GPU 算力 ≈ 单张 RTX 4090 的 1/12。通过 1 GbE 跑 DeepSpeed 多节点将毫无意义。
 
-### 实际选项：
+### 实际选项
 
 1. 不要用 M40 来训练——它们是显示/旧款显卡。把训练推到任何有现代 GPU 的地方。
 2. 如果必须使用这些硬件：在其中一台机器上换装现代 GPU（例如 RTX 3090/4090）——那么 DeepSpeed 就能正常工作（[.34 有 733 GB 可用空间和 915 GB 磁盘；但 12 GB RAM 对于 CPU-offload 来说仍然受限]）。

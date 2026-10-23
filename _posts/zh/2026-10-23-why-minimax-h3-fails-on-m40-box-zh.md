@@ -16,7 +16,7 @@ type: note
 **1. 磁盘——立即失败。** `.137` 只有 **18 GB 可用空间**。最小可能的文件集（int8）：
 
 | 文件 | 大小 |
-|---|---|
+| --- | --- |
 | `qwen3vl_32b_minimax_h3_int8_convrot.safetensors`（32B 文本编码器） | 27.1 GB |
 | `minimax_h3_fl2va_pruned_int8_convrot.safetensors`（扩散模型） | 21.0 GB |
 | `minimax_h3_video_vae_int8` + audio_vae | 3.4 GB |
@@ -27,6 +27,7 @@ type: note
 **3. 系统内存——失败。** 总共 7.7 GB。Comfy 对 32B 编码器的标准 CPU offload 路径需要约 28 GB 以上的主机内存。
 
 **4. GPU 架构——失败（核心原因）。** Tesla M40 = **Maxwell 2015，计算能力 5.2**，而 H3 的需求与 Maxwell 所具备的一切完全相反：
+
 - 所有权重都以 **BF16/Fp8/Int8-with-Triton-ops** 形式提供 → M40 **完全没有 fp16/bf16 数据通路**
 - H3 的推荐运行环境是 **torch cu130**（见上方 Comfy 文档）；CUDA ≥12 已彻底移除 Maxwell kernels；这台机器的驱动是 550 = CUDA 12.4
 - **来自同型号机器 `.34` 的实证（上一次会话）**：torch `2.14.1+cu130` 和旧版 `1.13.1+cu117` 都会使驱动卡在 `nvidia_uvm`（D-state，不可杀，需要重启）。在这一代驱动上，M40 甚至无法初始化*任何* PyTorch CUDA 上下文。

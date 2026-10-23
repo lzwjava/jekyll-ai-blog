@@ -16,7 +16,7 @@ Done. **Truth Labs is now a single, self-contained `index.html`** — no Jekyll,
 One page, one inline `<style>` block, ~52 KB total. All sections as in-page anchors:
 
 | Section | Content |
-|---|---|
+| --- | --- |
 | **Hero** | "Truth through compute — nothing but truth" + 4-stat band (52 GB VRAM, 13 models, ~5B tokens, 12 yrs) |
 | **Focus areas** | Training · Inference & serving · GPU & hardware · Consulting |
 | **Experiments** | 6 public-work cards (SEC-EDGAR-GPT, nanoGPT fork, 52 GB cluster, MoE, zz, FluxReel) |
@@ -34,6 +34,7 @@ One page, one inline `<style>` block, ~52 KB total. All sections as in-page anch
 - Fully responsive + mobile nav handling
 
 To preview:
+
 ```bash
 cd /Users/lzwjava/projects/truth-labs && python3 -m http.server 8080
 ```

@@ -31,5 +31,6 @@ Most people should *ruthlessly deprioritize shallow, performative relationship-b
 The real skill is knowing which relationships are load-bearing and which are just social noise.
 
 **References:**
+
 - [The Strength of Weak Ties — Granovetter (1973)](https://www.jstor.org/stable/2776392) — foundational work on when networks actually matter
 - [Social relationships and health — Holt-Lunstad et al.](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316)

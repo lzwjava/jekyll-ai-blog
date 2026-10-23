@@ -14,6 +14,7 @@ Got everything. Here's the full cost breakdown for your GCP setup.
 ## GCP monthly cost — `graphite-ally-445108-k3` (project "My Project 56412")
 
 **Your resources (measured):**
+
 - **1× Compute VM `live-server`** — `e2-medium` (2 vCPU / 4 GB), on-demand, **asia-east2 (Hong Kong)**, running since Oct 15
 - **1× boot disk** — 50 GB `pd-standard` (standard persistent disk)
 - **Daily snapshots** via policy `default-schedule-1` (14-day retention, 7 so far, ~5.5 GB stored)
@@ -21,7 +22,7 @@ Got everything. Here's the full cost breakdown for your GCP setup.
 - MySQL/Redis run as containers on the VM (no Cloud SQL), external IP is **ephemeral** → $0
 
 | Item | Quantity | Rate | Monthly |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | e2-medium CPU (2 vCPU) | 2 × 730 h | $0.030519/vCPU-h | $44.56 |
 | e2-medium RAM (4 GB) | 4 × 730 h | $0.004295/GB-h | $12.54 |
 | **Compute subtotal** | | | **$57.10** |
@@ -33,6 +34,7 @@ Got everything. Here's the full cost breakdown for your GCP setup.
 | **Estimated TOTAL** | | | **≈ $44–46/mo** |
 
 ## Key notes
+
 - **~90% of the bill is the single `e2-medium` VM (~$40 after automatic SUD)**. List price $57; GCP's automatic sustained-use discount (~30%) brings the compute down to ~$40 for a full month of uptime.
 - **Everything else is small**: disk $2.49, snapshots ~$0.25 (watch — retention is 14 days then self-prunes), GCS ~$1, egress ~$0.60.
 - **The one unknown**: if viewers stream the videos in `gs://funlive-videos` over the internet, GCS egress bills separately (~$0.12/GB out of Asia) and can dominate — that's traffic-dependent, not included above.

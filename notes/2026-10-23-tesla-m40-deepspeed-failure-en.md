@@ -13,8 +13,8 @@ type: note
 
  Both boxes have exactly one PCIe GPU, both NVIDIA Tesla M40:
 
- - .34: Tesla M40 (12 GB), driver 580.178.04, "CUDA 13.0"
- - .137: Tesla M40 24 GB, driver 550.163.01, "CUDA 12.4"
+- .34: Tesla M40 (12 GB), driver 580.178.04, "CUDA 13.0"
+- .137: Tesla M40 24 GB, driver 550.163.01, "CUDA 12.4"
 
  The Tesla M40 is a 2015 Maxwell-architecture datacenter card (GM200, compute capability
  5.2, ~6.8 TFLOPS FP32, no FP16/tensor cores).
@@ -38,15 +38,15 @@ type: note
  are in D-state — kill -9 cannot remove them. Reboot .34 to clear the wedged GPU driver.
  .137 was spared the test (same GPU arch → same verdict).
 
- ### So, can you train with DeepSpeed? No — not practically:
+### So, can you train with DeepSpeed? No — not practically
 
- - Software wall: DeepSpeed needs a CUDA-capable torch; no modern torch runs on Maxwell,
+- Software wall: DeepSpeed needs a CUDA-capable torch; no modern torch runs on Maxwell,
    and the OS-installed driver here can't even init CUDA compute.
- - Hardware wall even if you downgraded everything (old driver + 2021-era stack): 1
+- Hardware wall even if you downgraded everything (old driver + 2021-era stack): 1
    GPU/node, 12/24 GB VRAM, 4-core i5, 8–11 GB RAM, 1 GbE uplink, and per-GPU compute ≈
    1/12th of a single RTX 4090. DeepSpeed multi-node over 1 GbE would be pointless.
 
- ### Real options:
+### Real options
 
  1. Don't use the M40s for training — they're display/legacy cards. Push training to
     anywhere with a modern GPU.

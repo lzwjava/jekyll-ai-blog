@@ -21,7 +21,7 @@ That last number means: for a 7B-class model (hidden 4096), pure-GEMM time alone
 ## The corrected picture for `192.168.1.137`
 
 | | Works ✅ | Never will ❌ |
-|---|---|---|
+| --- | --- | --- |
 | **Your own mini-llama.cpp in CUDA** | raw CUDA 12.4 `sm_52` + `cuBLAS` on the M40 — **proven just now** | — |
 | PyTorch/vLLM/MiniMax-H3 | — | those need torch's CUDA≥12 op paths → the UVM hang we hit |
 
@@ -35,4 +35,5 @@ The M40 is fine — it's just **fp32-only, CC 5.2**, so your project targets exa
 4. **Expectation**: 7B q4 ≈ 10-15 tok/s, first token includes a one-time dequant+upload cost
 
 ## Ready to pull the trigger?
+
 Next step I'd suggest: download a **Qwen2.5-0.5B-Instruct GGUF (q4_K_M, ≈0.44 GB)** into `/mnt/models` (via hf-mirror) as your milestone-1 test asset, then we implement **Milestone 1: GGUF parser + proof-of-life GPU GEMM** (load a real weight tensor, `cublasSgemm` it, verify against a CPU reference). Say the word and I'll start the download + scaffold that first milestone in the repo.

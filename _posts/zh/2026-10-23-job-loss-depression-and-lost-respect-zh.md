@@ -33,6 +33,7 @@ type: note
 ---
 
 参考资料：
+
 - [Job Loss and Marriage: How Unemployment Affects Relationships](https://www.psychologytoday.com/us/blog/in-it-together/202003/when-job-loss-threatens-your-marriage)
 - [The Social Consequences of Unemployment](https://www.apa.org/monitor/2011/04/unemployment)
 - [Depression and Relationships: How It Affects Partners](https://www.helpguide.org/articles/depression/helping-someone-with-depression.htm)

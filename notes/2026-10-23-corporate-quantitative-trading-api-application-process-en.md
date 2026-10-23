@@ -40,7 +40,7 @@ Once the account is active, apply for API access through the broker. The main st
 The leading brokers supporting quantitative trading API access include Huatai Securities, Guotai Junan, CITIC Securities, and Galaxy Securities. They commonly support QMT (local deployment, Python/C++) and PTrade (cloud/server-side) platforms. The standard API requires ¥500,000 in assets; high-frequency advanced interfaces require ¥3 million or more.
 
 | Platform | Type | Best For |
-|---|---|---|
+| --- | --- | --- |
 | **QMT (迅投)** | Local | Complex strategies, Python/C++ |
 | **PTrade (恒生)** | Cloud/Server | Grid trading, automation |
 | **Broker proprietary API** | Varies | High-frequency, institutional |
@@ -58,6 +58,7 @@ The leading brokers supporting quantitative trading API access include Huatai Se
 ---
 
 **References:**
+
 - [机构开户与量化API差异说明 – 叩富问财](https://licai.cofool.com/ask/qa_4520764.html)
 - [2026年券商量化交易接口申请流程 – 叩富问财](https://licai.cofool.com/ask/qa_7321676.html)
 - [四大券商量化API接口开通实测 – 叩富问财](https://licai.cofool.com/ask/qa_6005184.html)

@@ -56,6 +56,7 @@ Training (RL teaches reasoning) → Model that can THINK → Extended reasoning 
 ```
 
 这样做之所以强大，是因为：
+
 - 困难问题（数学、代码、逻辑）**需要探索**，而不仅仅是模式匹配
 - 错误可以在**思考过程中被发现并纠正**
 - 模型可以**生成并验证多条解题路径**
@@ -82,10 +83,10 @@ RL updates the model to produce reasoning traces that lead to correct answers
 
 这被称为 **RLVR（RL with Verifiable Rewards，带可验证奖励的强化学习）**——它之所以有效，是因为数学/代码有**客观、可检查的答案**，不需要人工标注者。
 
-### Key Components:
+### Key Components
 
 | 组件 | 作用 |
-|-----------|------|
+| ----------- | ------ |
 | **Process Reward Model (PRM)** | 对推理中的每一步打分，而不仅仅是最终答案 |
 | **Outcome Reward Model (ORM)** | 仅对最终答案打分（更简单但噪声更大） |
 | **推理时的 MCTS / Beam Search** | 探索多条推理路径，选择最佳路径 |
@@ -149,6 +150,7 @@ Axis 2: Inference compute (more thinking time per question)
 ```
 
 这意义重大，因为：
+
 - **推理计算量是灵活的**——你可以把更多计算花在困难问题上，花在简单问题上的更少
 - **RL 解锁了新的能力上限**——一个推理能力强的小模型可以击败一个不擅长推理的大模型
 - **它改变了经济性**：与其训练一个大 10 倍的模型，不如在困难问题上让同一个模型运行 10 倍的时间

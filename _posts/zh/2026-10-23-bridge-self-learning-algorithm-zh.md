@@ -22,7 +22,7 @@ network bridge 使用 **self-learning algorithm**（也称为 *transparent bridg
 bridge 维护一个 **MAC Address Table**：
 
 | MAC Address | Port | Timestamp |
-|---|---|---|
+| --- | --- | --- |
 | AA:BB:CC:DD:EE:01 | Port 1 | t=10s |
 | AA:BB:CC:DD:EE:02 | Port 3 | t=12s |
 
@@ -30,17 +30,19 @@ bridge 维护一个 **MAC Address Table**：
 
 ### 分步算法
 
-**步骤 1 — frame 到达某个 port**  
+**步骤 1 — frame 到达某个 port**
 bridge 在（比如说）Port 1 上收到一个 frame。
 
-**步骤 2 — 从 Source MAC 学习**  
+**步骤 2 — 从 Source MAC 学习**
 bridge 读取 frame 的 **source MAC address** 并记录：
+
 ```
 MAC Table: source_MAC → Port 1, timestamp = now
 ```
+
 如果该条目已存在，则只需刷新 timestamp。
 
-**步骤 3 — 根据 Destination MAC 转发**  
+**步骤 3 — 根据 Destination MAC 转发**
 bridge 在其表中查找 **destination MAC**：
 
 ```
@@ -53,8 +55,9 @@ else:
     FLOOD to all ports except incoming_port  # unknown dest
 ```
 
-**步骤 4 — Aging（条目过期）**  
+**步骤 4 — Aging（条目过期）**
 每个条目都有一个 TTL（通常为 **300 秒**）。如果在超时时间内没有看到来自该 MAC 的 frame，则删除该条目：
+
 ```
 if now - timestamp > aging_time:
     remove entry
@@ -85,7 +88,7 @@ dest port     other ports
 ### 关键属性
 
 | 属性 | 详情 |
-|---|---|
+| --- | --- |
 | **无需预配置** | 表会根据流量自动构建 |
 | **Flooding** | 用于未知目的地（以及广播） |
 | **Aging** | 防止设备移动时产生陈旧条目 |
@@ -104,6 +107,7 @@ dest port     other ports
 这就是为什么 bridge 启动时较慢（大量 flooding），但随着表填充会很快变得高效。
 
 参考：
+
 - [IEEE 802.1D - MAC Bridges Standard](https://www.ieee802.org/1/pages/802.1D.html)
 - [Transparent Bridging - Cisco Documentation](https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/5234-5.html)
 - [How Network Bridges Work - Cloudflare Learning](https://www.cloudflare.com/learning/network-layer/what-is-a-network-bridge/)

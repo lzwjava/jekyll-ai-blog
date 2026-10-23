@@ -38,5 +38,6 @@ Scale AI indexes heavily on people who have an internal locus of control. The pr
 ---
 
 **References:**
+
 - [How Scale AI maintains high talent density — Paraform](https://paraform.com/blog/how-scale-ai-maintains-high-talent-density)
 - [The 4 Traits You Need to Get Hired by Alexander Wang, CEO of Scale AI — Lilys AI](https://lilys.ai/en/notes/scale-ai-ceo-20251031/four-traits-alexander-wang-hire)

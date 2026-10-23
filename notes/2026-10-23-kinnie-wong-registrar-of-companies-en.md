@@ -28,5 +28,6 @@ She succeeded **Miss Helen Tang**, who had served as Registrar of Companies from
 ---
 
 **References:**
+
 - [HKICPA – Wong Kit Yee, Kinnie (Council Profile)](https://www.hkicpa.org.hk/en/About-us/Governance/Council/Current-Council/WONG-Kit-Yee-Kinnie)
 - [Corporate Registers Forum – Kinnie Wong (2025–2026)](https://www.corporateregistersforum.org/crf-executive-members/kinnie-wong/2025-2026)

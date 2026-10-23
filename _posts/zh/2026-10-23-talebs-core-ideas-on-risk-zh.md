@@ -19,6 +19,7 @@ type: note
 
 **1. Black Swan Theory**
 塔勒布最著名的思想。“Black Swan” 是指这样的事件：
+
 - **罕见且不可预测**（超出正常预期）
 - 发生时具有**巨大影响**
 - **事后被合理化**——人们在事实*之后*构建解释，使其看起来可以预测
@@ -34,6 +35,7 @@ type: note
 
 **3. Fat Tails vs. the Bell Curve (Mediocristan vs. Extremistan)**
 塔勒布区分了两个世界：
+
 - **Mediocristan** — 由平均值支配（例如人类身高；一个异常值几乎不会动摇平均值）
 - **Extremistan** — 由极端值支配（例如财富、图书销量；一个异常值主导一切）
 
@@ -43,6 +45,7 @@ type: note
 
 **4. Antifragility**
 有些系统不只具有“robust”（在冲击中生存）或“fragile”（在压力下破裂）的特性，它们实际上会从波动性、混乱和不确定性中**获得收益并变得更强**。塔勒布称之为 **antifragile**。
+
 - Fragile：玻璃杯（在压力下破裂）
 - Robust：岩石（在压力下保持不变）
 - Antifragile：肌肉（在压力下变得更强大）
@@ -82,6 +85,7 @@ type: note
 ---
 
 参考文献：
+
 - [Fooled by Randomness (2001) — Nassim Taleb](https://www.penguinrandomhouse.com/books/176225/fooled-by-randomness-by-nassim-nicholas-taleb/)
 - [The Black Swan (2007) — Nassim Taleb](https://www.penguinrandomhouse.com/books/176226/the-black-swan-by-nassim-nicholas-taleb/)
 - [Antifragile (2012) — Nassim Taleb](https://www.penguinrandomhouse.com/books/176227/antifragile-by-nassim-nicholas-taleb/)

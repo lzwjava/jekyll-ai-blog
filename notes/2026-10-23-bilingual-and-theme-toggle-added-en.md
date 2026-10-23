@@ -14,12 +14,14 @@ Done. Both features are live in the single `index.html` (86.5 KB, still no build
 ## What was added
 
 **🌐 EN / 中文 toggle** (pill switch in the header)
+
 - Full, hand-translated Chinese version of every section — hero, stats, focus areas, experiments, the entire lab notebook (training tables, statuses, GPU builds), services, about timeline, contact, footer, nav
 - Instant in-place switch (no reload), animated anchor navigation that jumps to the matching section in the *active* language block
 - Language persists in `localStorage`; auto-detects `zh` browsers; pre-paint script prevents any flicker; `<html lang>` and page title/meta description swap correctly
 - Brand/project names (vLLM, nanoGPT, SEC-EDGAR-GPT…) intentionally stay in English
 
 **☀/☾ Dark / light mode toggle**
+
 - Light theme via CSS variables — warm paper background, dark-ink text, adjusted amber accent for contrast
 - Persists in `localStorage`; defaults respect `prefers-color-scheme`; pre-paint script prevents white flash; `theme-color` meta and header blur adapt
 
@@ -35,6 +37,7 @@ Done. Both features are live in the single `index.html` (86.5 KB, still no build
 - All 7 sections present in both languages
 
 To preview:
+
 ```bash
 cd /Users/lzwjava/projects/truth-labs && python3 -m http.server 8080
 ```

@@ -19,6 +19,7 @@ Nassim Nicholas Taleb is a Lebanese-American statistician, essayist, and former 
 
 **1. Black Swan Theory**
 Taleb's most famous idea. A "Black Swan" is an event that is:
+
 - **Rare and unpredictable** (outside normal expectations)
 - **Massively impactful** when it occurs
 - **Rationalized in hindsight** — people construct explanations *after* the fact, making it seem predictable
@@ -34,6 +35,7 @@ Humans systematically confuse **luck with skill**. Successful people often attri
 
 **3. Fat Tails vs. the Bell Curve (Mediocristan vs. Extremistan)**
 Taleb distinguishes two worlds:
+
 - **Mediocristan** — governed by averages (e.g., human height; one outlier barely moves the average)
 - **Extremistan** — governed by extremes (e.g., wealth, book sales; one outlier dominates everything)
 
@@ -83,6 +85,7 @@ Taleb is fundamentally skeptical of experts, models, and institutions that claim
 ---
 
 References:
+
 - [Fooled by Randomness (2001) — Nassim Taleb](https://www.penguinrandomhouse.com/books/176225/fooled-by-randomness-by-nassim-nicholas-taleb/)
 - [The Black Swan (2007) — Nassim Taleb](https://www.penguinrandomhouse.com/books/176226/the-black-swan-by-nassim-nicholas-taleb/)
 - [Antifragile (2012) — Nassim Taleb](https://www.penguinrandomhouse.com/books/176227/antifragile-by-nassim-nicholas-taleb/)

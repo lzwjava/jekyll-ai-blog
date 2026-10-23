@@ -50,6 +50,7 @@ In short, Graham's hard work at YC was multi-dimensional: personal mentorship, i
 ---
 
 **References:**
+
 - [Why did Paul Graham start Y Combinator? – Gurubase](https://gurubase.io/g/ycombinator/why-did-paul-graham-start-y-combinator)
 - [Early days of YC & Paul Graham's Journey – TechHour](https://techhour.substack.com/p/what-can-you-learn-from-the-early)
 - [The Startup Whisperer – MIT Technology Review](https://www.technologyreview.com/2012/02/23/187430/the-startup-whisperer/amp/)

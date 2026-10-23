@@ -61,6 +61,7 @@ Here's the counterintuitive part — the more you know, the more it can **work a
 If learning stays passive, dense, and delayed, overload becomes a cycle: too much information today, too little retrieval tomorrow, and real hesitation when it is time to act. Retrieval practice matters enormously.
 
 Practical strategies backed by research:
+
 - **Slow down and reflect** — deep reading requires disengaging from rapid input; silent deep reading enables readers to make connections and arrive at their own unique understanding of a text, providing the brain resources for deep thinking.
 - **Diversify your sources** — to counteract confirmation bias, deliberately seek out views that challenge your existing framework.
 - **Apply what you read** — some prior experience can also be a block to new learning, so treat what you "know" as provisional, not settled.
@@ -73,6 +74,7 @@ Practical strategies backed by research:
 ---
 
 **References:**
+
 - [Learning in Adulthood – A Comprehensive Guide](https://cms.theglasshouse.org/Download_PDFS/mL053G/600233/Learning%20In%20Adulthood%20A%20Comprehensive%20Guide.pdf)
 - [Prior, Experiential and Informal Learning (IRRODL)](https://www.irrodl.org/index.php/irrodl/article/download/888/1670?inline=1)
 - [Cognitive Overload: Why Your Brain Feels Full – Drillster](https://drillster.com/en/blog/help-i-cant-learn-anymore-my-brain-is-full/)

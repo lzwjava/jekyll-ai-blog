@@ -55,7 +55,7 @@ type: note
 ### 总结
 
 | 因素 | 简易途径 | 一般途径 |
-|---|---|---|
+| --- | --- | --- |
 | 债务/员工？ | 必须无债务/员工 | 任何情况均可 |
 | 公告期 | 20天 | 45天 |
 | 现实总耗时 | **2至3个月** | **6至18个月以上** |
@@ -66,6 +66,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [如何在中国注销公司 – China Briefing](https://www.china-briefing.com/news/how-to-deregister-a-company-in-china-a-guide-for-foreign-investors/)
 - [在中国关闭企业：简易注销 – China Briefing](https://www.china-briefing.com/news/closing-business-china-simplified-deregistration-procedure-step-by-step/)
 - [如何在2026年关闭在中国的企业 – Global Law Experts](https://globallawexperts.com/how-to-close-a-business-in-china/)

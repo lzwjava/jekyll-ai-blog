@@ -18,17 +18,21 @@ type: note
 ## The Old Paradigm vs. The New Paradigm
 
 ### Old Paradigm — "Train Bigger, Infer Fast"
+
 ```
 Training (expensive) → Fixed model weights → Single-pass answer (cheap)
 ```
+
 - Scale up parameters, data, and training compute
 - At inference: one forward pass → one answer
 - RL was used **only for alignment** (RLHF): making the model polite, safe, and helpful
 
 ### New Paradigm — "Train to Think, Spend Compute at Inference"
+
 ```
 Training (RL teaches reasoning) → Model that can THINK → Extended reasoning at inference → Better answer
 ```
+
 - RL is used to teach the model **how to reason**, not just how to behave
 - At inference: the model spends variable compute "thinking" before answering
 - More thinking time → better answers on hard problems
@@ -52,6 +56,7 @@ Instead of making the model larger (training-time scaling), you allow the model 
 ```
 
 This is powerful because:
+
 - Hard problems (math, code, logic) **need exploration**, not just pattern matching
 - Errors can be **caught and corrected mid-thought**
 - The model can **generate and verify multiple solution paths**
@@ -77,10 +82,10 @@ RL updates the model to produce reasoning traces that lead to correct answers
 
 This is called **RLVR (RL with Verifiable Rewards)** — and it works because math/code has **objective, checkable answers**. No human labeler needed.
 
-### Key Components:
+### Key Components
 
 | Component | Role |
-|-----------|------|
+| ----------- | ------ |
 | **Process Reward Model (PRM)** | Scores each *step* in reasoning, not just the final answer |
 | **Outcome Reward Model (ORM)** | Scores only the final answer (simpler but noisier) |
 | **MCTS / Beam Search at inference** | Explores multiple reasoning paths, picks the best |
@@ -91,6 +96,7 @@ This is called **RLVR (RL with Verifiable Rewards)** — and it works because ma
 ## 3. How Each Model Implements This
 
 ### 🔵 OpenAI o1 / o3
+
 - Trains a model to produce a **hidden chain-of-thought** (not shown to users in o1, partially in o3)
 - Uses RL with **search** during training to find reasoning traces that lead to correct answers
 - At inference: model "thinks" for variable time (seconds to minutes)
@@ -106,6 +112,7 @@ High compute → ~87%
 ```
 
 ### 🟠 DeepSeek-R1
+
 - Uses **GRPO (Group Relative Policy Optimization)** — a variant of PPO that's more efficient
 - Key innovation: trained **without a pre-built reward model** — just verifiable math/code answers
 - The model **spontaneously developed** behaviors like:
@@ -116,6 +123,7 @@ High compute → ~87%
 - Open-source, competitive with o1 at a fraction of the cost
 
 ### 🟢 Gemini 2.0 Flash Thinking
+
 - Google's implementation of extended chain-of-thought with RL training
 - Shows the reasoning trace to users (transparent thinking)
 - Optimized for **speed** (Flash = faster than Pro/Ultra) while still reasoning deeply
@@ -126,18 +134,22 @@ High compute → ~87%
 ## 4. Why This is a Paradigm Shift
 
 ### Before: Scaling Law was about Training
+
 ```
 More parameters + More data + More training FLOPs = Better model
 ```
+
 (Chinchilla scaling laws, GPT-3 → GPT-4)
 
 ### Now: Scaling has TWO dimensions
+
 ```
 Axis 1: Training compute (bigger model, more data)
 Axis 2: Inference compute (more thinking time per question)
 ```
 
 This is huge because:
+
 - **Inference compute is flexible** — you can spend more on hard problems, less on easy ones
 - **RL unlocks a new capability ceiling** — a smaller model that reasons well can beat a larger model that doesn't
 - **It changes the economics**: instead of training a 10× bigger model, you run the same model for 10× longer on hard questions
@@ -180,6 +192,7 @@ INFERENCE TIME:
 ---
 
 **References:**
+
 - [DeepSeek-R1 Paper: Incentivizing Reasoning via RL](https://arxiv.org/abs/2501.12948)
 - [OpenAI o3 and Test-Time Compute Scaling (OpenAI Blog)](https://openai.com/index/openai-o3-mini/)
 - [Scaling LLM Test-Time Compute Verbosely (Google DeepMind, 2024)](https://arxiv.org/abs/2408.03314)

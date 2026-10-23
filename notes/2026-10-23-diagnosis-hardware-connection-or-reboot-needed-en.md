@@ -21,6 +21,7 @@ Software side is now **exhaustively checked** — the disk is simply not electri
 Two very likely causes, in order:
 
 **1. Drive has no power or isn't seated** — plug a bare 3.5" drive in and it stays dead silent on the bus until it's powered and spinning. Check:
+
 - Does the drive **vibrate/spin** when powered on? No vibration → power cable not seated or the PSU port is dead.
 - SATA **data cable clicked in** at both the drive and the motherboard port (ports 1/2/3/5/6 are free — any one works).
 - Listen for clicking/clunking (dead drive).
@@ -33,6 +34,7 @@ Two very likely causes, in order:
 2. **Reboot `.137`** — you'll know it worked if the BIOS/POST drive list shows a 500 GB device, or right after boot `fdisk -l` shows it.
 
 Want me to:
+
 - **trigger the reboot** for you now (`sudo reboot` — safe, load is 0.00, nothing critical running), and re-check as soon as it comes back, or
 - keep a **live `dmesg -w` watch** running while you re-seat the cables?
 

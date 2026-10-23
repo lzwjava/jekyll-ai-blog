@@ -70,6 +70,7 @@ SpaceX的AI业务目前占公司收入的52%。其Super Intelligence部门第三
 ---
 
 **参考资料：**
+
 - [美国禁止DeepSeek进入联邦系统 – The AI Report](https://www.theaireport.ai/newsletter/us-bans-deepseek-from-fed-systems)
 - [Meta正在裁员16000人 – The AI Report](https://www.theaireport.ai/newsletter/meta-is-cutting-16-000-jobs)
 - [2026年10月已确认的AI模型发布 – AF.NET](https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/)

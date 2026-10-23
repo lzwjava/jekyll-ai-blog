@@ -70,6 +70,7 @@ An independent benchmarking organization confirmed 20 AI model releases from 16 
 ---
 
 **References:**
+
 - [US bans DeepSeek from fed systems – The AI Report](https://www.theaireport.ai/newsletter/us-bans-deepseek-from-fed-systems)
 - [Meta is cutting 16,000 jobs – The AI Report](https://www.theaireport.ai/newsletter/meta-is-cutting-16-000-jobs)
 - [Confirmed AI Model Releases for October 2026 – AF.NET](https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/)

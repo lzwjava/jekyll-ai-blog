@@ -32,6 +32,7 @@ type: note
 `bundle install` + `bundle exec jekyll build` 编译干净；所有 5 个页面和 CSS 从 `jekyll serve` 返回 200。
 
 本地预览：
+
 ```bash
 cd /Users/lzwjava/projects/truth-labs && bundle exec jekyll serve --livereload
 ```

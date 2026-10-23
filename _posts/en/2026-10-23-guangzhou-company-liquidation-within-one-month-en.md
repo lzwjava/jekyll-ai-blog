@@ -55,7 +55,7 @@ Much slower:
 ### Bottom Line
 
 | Factor | Simplified Route | General Route |
-|---|---|---|
+| --- | --- | --- |
 | Debts/employees? | Must have none | Any situation |
 | Public notice period | 20 days | 45 days |
 | Realistic total time | **2–3 months** | **6–18+ months** |
@@ -66,6 +66,7 @@ If your company is newly registered, has **no employees, no debts, no tax filing
 ---
 
 **References:**
+
 - [How to Deregister a Company in China – China Briefing](https://www.china-briefing.com/news/how-to-deregister-a-company-in-china-a-guide-for-foreign-investors/)
 - [Closing a Business in China: Simplified Deregistration – China Briefing](https://www.china-briefing.com/news/closing-business-china-simplified-deregistration-procedure-step-by-step/)
 - [How to Close a Business in China in 2026 – Global Law Experts](https://globallawexperts.com/how-to-close-a-business-in-china/)
