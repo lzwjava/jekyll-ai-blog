@@ -24,6 +24,7 @@ JIT stands for **Just-In-Time** (compilation). It appears in two overlapping way
 JIT compilation is a technique where code is **compiled at runtime** (just before execution) rather than ahead-of-time (AOT). Instead of pre-compiling everything to machine code before running, the runtime compiles code "on the fly" as it's needed.
 
 **Classic examples:**
+
 - **JVM (Java)** — Java bytecode is JIT-compiled to native machine code at runtime
 - **V8 (JavaScript)** — Chrome's engine JIT-compiles JS for performance
 - **.NET CLR** — C# IL code is JIT-compiled
@@ -38,6 +39,7 @@ JIT compilation is a technique where code is **compiled at runtime** (just befor
 JIT is heavily used in modern deep learning stacks, especially for LLM inference optimization:
 
 #### **PyTorch JIT (TorchScript)**
+
 ```python
 import torch
 
@@ -45,9 +47,11 @@ import torch
 def my_fn(x: torch.Tensor) -> torch.Tensor:
     return x * 2 + 1
 ```
+
 `torch.jit` compiles a PyTorch model/function into an **intermediate representation (IR)** that can be optimized, serialized, and run without Python overhead. Used for deploying LLMs in production.
 
 #### **JAX `@jax.jit`**
+
 ```python
 import jax
 import jax.numpy as jnp
@@ -56,16 +60,21 @@ import jax.numpy as jnp
 def forward(x):
     return jnp.dot(x, weights)
 ```
+
 JAX's `jit` traces and compiles functions via **XLA** (Accelerated Linear Algebra) to optimized GPU/TPU kernels. This is central to high-performance LLM training (Gemma, Flax-based models, etc.).
 
 #### **Triton / Custom CUDA Kernels**
+
 GPU kernel libraries like [Triton](https://triton-lang.org/) use JIT to compile custom kernels at runtime for LLM attention layers, softmax, etc.
 
 #### **`torch.compile` (PyTorch 2.0+)**
+
 The modern successor to TorchScript — a one-liner JIT compilation:
+
 ```python
 model = torch.compile(my_llm)  # JIT-compiles the whole model graph
 ```
+
 Used to speed up inference for models like LLaMA, Mistral, etc.
 
 ---
@@ -73,7 +82,7 @@ Used to speed up inference for models like LLaMA, Mistral, etc.
 ### Summary Table
 
 | Context | What JIT does |
-|---|---|
+| --- | --- |
 | JVM / V8 / .NET | Compiles bytecode → native machine code at runtime |
 | `torch.jit` | Compiles PyTorch graph → optimized IR for deployment |
 | `jax.jit` | Traces + compiles via XLA for GPU/TPU |
@@ -85,6 +94,7 @@ In the LLM world, you'll most often encounter JIT in the context of **inference 
 ---
 
 **References:**
+
 - [PyTorch JIT / TorchScript Documentation](https://pytorch.org/docs/stable/jit.html)
 - [JAX JIT Compilation Guide](https://jax.readthedocs.io/en/latest/jit-compilation.html)
 - [torch.compile (PyTorch 2.0)](https://pytorch.org/tutorials/intermediate/torch_compile_tutorial.html)

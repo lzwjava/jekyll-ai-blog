@@ -26,4 +26,5 @@ What's striking about Ruixiu overall is the combination: he's doing genuinely se
 Did you two work on anything together during the visit, or was it more exploratory conversation?
 
 **References:**
+
 - [A Mentor-Mentee Conversation on AI Research and Life Direction](https://lzwjava.com/ruixiu-meeting1-en)

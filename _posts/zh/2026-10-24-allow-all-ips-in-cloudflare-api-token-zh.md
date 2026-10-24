@@ -18,7 +18,7 @@ type: note
 如果你确实需要输入明确的“允许所有”CIDR范围，请添加以下两个条目：
 
 | 条目 | 覆盖范围 |
-|---|---|
+| --- | --- |
 | `0.0.0.0/0` | 所有IPv4地址 |
 | `::/0` | 所有IPv6地址 |
 
@@ -29,5 +29,6 @@ type: note
 ---
 
 **参考文献：**
+
 - [Cloudflare API Tokens – Create and manage tokens](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/)
 - [Cloudflare API Token IP restrictions](https://developers.cloudflare.com/fundamentals/api/reference/restrictions/)

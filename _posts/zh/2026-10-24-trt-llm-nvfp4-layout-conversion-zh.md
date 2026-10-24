@@ -55,7 +55,7 @@ layer.weight_scale = torch.nn.Parameter(
 这是在 `flashinfer.py` 中可见的*第三种*操作数布局约定：
 
 | backend | weight data prep | scale layout |
-|---|---|---|
+| --- | --- | --- |
 | cute-dsl (`process_weights_after_loading` at line 148) | `flashinfer_prepare_bf16_fp4_weights(..., backend="cute-dsl")` | own repack |
 | trtllm (this one) | `shuffle_matrix_a`, tile 128 | `shuffle_matrix_sf_a`, tile 128 |
 | b12x + your `kernels/fp4_gemv/` | standard / raw | **128×4 blockscale swizzle** (`swizzle_blockscale`) |

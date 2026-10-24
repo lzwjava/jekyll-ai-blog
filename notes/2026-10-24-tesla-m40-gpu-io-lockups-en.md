@@ -14,7 +14,7 @@ All info collected. Here's the full report for **192.168.1.34 (lzw-MS-7996)**:
 ## System Overview
 
 | Component | Detail |
-|---|---|
+| --- | --- |
 | **OS** | Ubuntu 26.04.1 LTS (resolute), kernel 7.0.0-38-generic, up 10d 17h |
 | **Board** | MSI **Z170A GAMING M5** (MS-7977) — note the hostname says MS-7996 but DMI reads MS-7977 |
 | **CPU** | Intel Core **i5-6600** @ 3.30 GHz — 1 socket, 4 cores / 4 threads, turbo 3.9 GHz, Skylake, VT-x |

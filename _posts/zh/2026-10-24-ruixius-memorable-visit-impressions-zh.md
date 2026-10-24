@@ -26,4 +26,5 @@ type: note
 你们在访问期间有一起做什么工作吗，还是更多的是探索性的对话？
 
 **参考文献：**
+
 - [A Mentor-Mentee Conversation on AI Research and Life Direction](https://lzwjava.com/ruixiu-meeting1-en)

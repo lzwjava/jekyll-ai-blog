@@ -24,7 +24,7 @@ A degree has a fixed schedule — exams, deadlines, lectures. A startup has a *r
 **Why parallelism breaks down specifically**
 
 | School | Startup |
-|---|---|
+| --- | --- |
 | Fixed curriculum | Constantly pivoting |
 | Semester-long thinking | Week-by-week survival |
 | Predictable schedule | Completely reactive |
@@ -62,6 +62,7 @@ Dropout isn't a strategy — it's a *symptom*. When a startup genuinely demands 
 ---
 
 References:
+
 - [Paul Graham — "Before the Startup"](http://paulgraham.com/before.html)
 - [Paul Graham — "Advice for Ambitious 19 Year Olds"](http://paulgraham.com/hs.html)
 - [Sam Altman — "The Days Are Long But The Decades Are Short"](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)

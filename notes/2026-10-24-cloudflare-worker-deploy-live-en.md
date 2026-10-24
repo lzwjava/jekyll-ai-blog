@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Solved — https://truthlab.cc/ is live with the newest content.**
+**Solved — <https://truthlab.cc/> is live with the newest content.**
 
 The investigation found your site was already a **Cloudflare Worker** named `truth-lab` (route `*.truthlab.cc/*`) — not Pages. So your original `npx wrangler deploy` snippet was right, and I'd mistakenly deployed a Pages project. What changed:
 

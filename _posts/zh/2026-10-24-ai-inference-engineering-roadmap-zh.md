@@ -31,6 +31,7 @@ type: note
 了解关键的推理指标：**延迟（Latency）**、**吞吐量（Throughput）**、**TTFT**（Time to First Token，首个Token生成时间）和**TPOT**（Time Per Output Token，每个输出Token生成时间）。同时学习量化和精度格式，如FP8和FP4。
 
 关键服务概念：
+
 - **连续/流式批处理** — 同时服务多个请求
 - **分块预填充（Chunked Prefill）** — 将大提示分解成块
 - **KV缓存管理** — 高吞吐服务中的核心瓶颈
@@ -58,7 +59,7 @@ PremAI 的测量结果显示，SGLang 大约为 16,200 tok/s，而 vLLM 为 12,5
 没有通用的赢家。vLLM 优化了大规模下的效率和吞吐量。SGLang 优化了结构化推理和基于 agent 的工作流程。
 
 | 用例 | 推荐引擎 |
-|---|---|
+| --- | --- |
 | 高吞吐API服务 | vLLM |
 | Agent / 多轮 / 工具调用 | SGLang |
 | 批量推理、长提示 | SGLang / LMDeploy |
@@ -91,6 +92,7 @@ PremAI 的测量结果显示，SGLang 大约为 16,200 tok/s，而 vLLM 为 12,5
 ---
 
 **参考文献：**
+
 - [Best LLM Inference Engines in 2026 — yottalabs.ai](https://www.yottalabs.ai/post/best-llm-inference-engines-in-2026-vllm-tensorrt-llm-tgi-and-sglang-compared)
 - [vLLM vs SGLang Benchmarked on H100s — techsy.io](https://techsy.io/en/blog/vllm-vs-sglang)
 - [LLM Inference Servers Compared: vLLM vs TGI vs SGLang vs Triton — premai.io](https://blog.premai.io/llm-inference-servers-compared-vllm-vs-tgi-vs-sglang-vs-triton-2026)

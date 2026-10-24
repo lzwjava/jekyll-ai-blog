@@ -25,6 +25,7 @@ endif ()
 `-virtual` 意味着 kernels 被编译成 PTX，**CUDA driver JIT-compiles** 在首次启动时将它们编译为适用于你确切 GPU 的 native code。这就是为什么同一个 build 既能在 M40 上运行，也能在现代 RTX 卡上运行。
 
 **2. CUDA backend 根据 GPU 的 compute capability 在运行时切换 kernels**
+
 - CUDA graphs 在低于 Volta 的 GPU 上被禁用（`ggml-cuda.cu:4833`）。
 - Flash attention 会回退到不需要 tensor cores 的路径（CC < 70）。
 - Quantized matmuls 为 pre-Volta GPU 选择更慢但兼容的 kernels（`mmvq.cu:1163`，例如 `Q2_K`/`Q3_K`/`IQ3_S` 在 Pascal 及更老的 GPU 上使用 fallback）。

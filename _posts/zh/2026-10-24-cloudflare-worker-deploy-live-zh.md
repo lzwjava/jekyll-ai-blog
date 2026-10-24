@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**已解决 — https://truthlab.cc/ 已上线并部署了最新内容。**
+**已解决 — <https://truthlab.cc/> 已上线并部署了最新内容。**
 
 调查发现你的站点实际上已是一个名为 `truth-lab` 的 **Cloudflare Worker**（route 为 `*.truthlab.cc/*`），而非 Pages 项目。因此，你原来的 `npx wrangler deploy` snippet 是正确的，而我之前错误地 deploy 了一个 Pages 项目。具体变更如下：
 

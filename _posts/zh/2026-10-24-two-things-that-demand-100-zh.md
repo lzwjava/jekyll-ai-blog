@@ -24,7 +24,7 @@ type: note
 **具体来说，并行为何会崩溃**
 
 | 学业 | Startup |
-|---|---|
+| --- | --- |
 | 固定的课程 | 不断转型 |
 | 学期性思维 | 周复一周的生存 |
 | 可预测的时间表 | 完全被动反应 |
@@ -62,6 +62,7 @@ type: note
 ---
 
 参考文献：
+
 - [Paul Graham — "Before the Startup"](http://paulgraham.com/before.html)
 - [Paul Graham — "Advice for Ambitious 19 Year Olds"](http://paulgraham.com/hs.html)
 - [Sam Altman — "The Days Are Long But The Decades Are Short"](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)

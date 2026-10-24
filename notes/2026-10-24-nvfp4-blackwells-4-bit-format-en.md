@@ -69,7 +69,7 @@ TensorRT Model Optimizer provides comprehensive FP4 quantization workflows, whil
 ### Summary Table
 
 | Feature | FP4 (E2M1) | MXFP4 | NVFP4 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bit width | 4 | 4 | 4 |
 | Block size | None | 32 | 16 |
 | Block scale | None | FP8 (E8M0) | FP8 (E4M3) |
@@ -78,6 +78,7 @@ TensorRT Model Optimizer provides comprehensive FP4 quantization workflows, whil
 | Hardware | Generic | Multi-vendor | Blackwell-native |
 
 **References:**
+
 - [Introducing NVFP4 for Efficient and Accurate Low-precision Inference (Edge AI & Vision)](https://www.edge-ai-vision.com/2025/07/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/)
 - [NVFP4 Concept Reference — ZeroEntropy](https://www.zeroentropy.dev/concepts/nvfp4/)
 - [The Impact of NVFP4 For LLM Inference — Nota AI](https://blog.nota.ai/insights/nvidia-blackwell-nvfp4)

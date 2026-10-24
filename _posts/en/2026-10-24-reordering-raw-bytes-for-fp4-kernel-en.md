@@ -12,6 +12,7 @@ type: note
 That's from the `FlashInferTrtllmNvFp4LinearKernel` in `vllm/model_executor/kernels/linear/nvfp4/flashinfer.py` (lines ~306-314). Breaking it down:
 
 ## The one-liner, in plain terms
+
 After the model checkpoint is loaded, this **reorders the raw bytes of the 4-bit weight matrix into the exact memory layout FlashInfer's TensorRT-LLM GEMM kernel wants**, then stores it back as a frozen `torch.nn.Parameter` so inference kernels can consume it directly.
 
 ## Each piece
@@ -27,11 +28,13 @@ FlashInfer's helper (`flashinfer.shuffle_matrix_a`) converts a logically-row-maj
 
 **`torch.nn.Parameter(..., requires_grad=False)`**
 Replaces `layer.weight` with the reshuffled tensor wrapped as a *frozen* Parameter. That matters because a `Parameter` is part of the module's state, so it:
+
 - gets moved with `module.to()` / `module.cuda()`,
 - is included in `state_dict()` / `load_state_dict()`,
 - shows up in `module.parameters()` (but won't be trained since `requires_grad=False`).
 
 ## Why this pattern exists
+
 This whole method is `process_weights_after_loading` — a post-loading hook that runs **once**. If you don't shuffle offline, you'd pay the permutation cost on every forward pass, or worse, the Triton/CuTe kernel would produce garbage because it reads memory under the assumption of the swizzled layout. So vLLM does the layout conversion eagerly at load time and stores the result in-place as the layer's weights.
 
 For contrast, the W4A16 `FlashInferCuteDslNvFp4W4A16LinearKernel` in the same file does the analogous job via `flashinfer_prepare_bf16_fp4_weights` (which pads to alignment, swizzles block scales, and folds the global scale in) — same idea, different backend layout.

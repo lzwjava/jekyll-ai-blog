@@ -20,6 +20,7 @@ Looking at your Cloudflare dashboard, there are **two likely causes**:
 ### 1. ⚠️ Route Pattern Doesn't Cover the Apex Domain (Main Issue)
 
 Your current route is:
+
 ```
 *.truthlab.cc/*
 ```
@@ -33,6 +34,7 @@ The `*.` wildcard **only matches subdomains** (e.g., `www.truthlab.cc`, `api.tru
 | `truthlab.cc/*` | Route |
 
 Or better, switch from Routes to **Custom Domains** and add both:
+
 - `truthlab.cc`
 - `*.truthlab.cc`
 
@@ -43,6 +45,7 @@ Custom Domains are simpler — Cloudflare handles DNS automatically and HTTPS is
 ### 2. DNS Must Be Proxied (Orange Cloud) for Routes to Work
 
 If you're using Routes (not Custom Domains), your `truthlab.cc` DNS record in Cloudflare must be:
+
 - **Proxied** (orange cloud ☁️), not DNS-only (grey cloud)
 - Pointing to any IP (e.g., `192.0.2.1` as a placeholder is fine — Cloudflare intercepts it)
 
@@ -60,6 +63,7 @@ Cloudflare will automatically provision SSL and wire up DNS.
 ---
 
 **References:**
+
 - [Cloudflare Workers Routes vs Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/)
 - [How route matching works (wildcard patterns)](https://developers.cloudflare.com/workers/configuration/routing/routes/#matching-behavior)
 - [Custom Domains for Workers](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)

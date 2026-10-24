@@ -14,6 +14,7 @@ This is a **radix tree (prefix tree) based KV cache manager** — it caches KV e
 ## The tree structure (`RadixTreeNode`)
 
 Each node stores:
+
 - `key` / `value`: `(page_size, num_kv_heads, head_dim)` chunks — a token sequence plus the KV indices backing it
 - `children`: map from a `key_fn(key)` fingerprint → child node
 - `ref_count`: number of active requests referencing this node (refcount > 0 = **protected**, can't be evicted)

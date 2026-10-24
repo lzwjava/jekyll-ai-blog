@@ -20,7 +20,7 @@ type: note
 ### 核心组件
 
 | 组件 | 作用 |
-|---|---|
+| --- | --- |
 | **Routing Table** | 将目的网络映射到下一跳/出接口 |
 | **Forwarding Engine** | 以线速移动数据包的硬件 |
 | **ARP Cache** | 将 IP 地址映射到下一跳的 MAC 地址 |
@@ -43,6 +43,7 @@ type: note
 ### ② 读取 IP 头部 — 递减 TTL
 
 路由器读取：
+
 - **Destination IP address** — 决定发送到哪里
 - **TTL (Time To Live)** — 每经过一跳减 1
 
@@ -55,12 +56,13 @@ type: note
 路由器查询其 **routing table**，使用 **longest prefix match**：
 
 | 目标网络 | 下一跳 | 接口 |
-|---|---|---|
+| --- | --- | --- |
 | `10.0.0.0/8` | — | `eth1` |
 | `192.168.0.0/16` | `10.0.0.1` | `eth0` |
 | `0.0.0.0/0` | `203.0.1.1` | `eth2` (默认) |
 
 最具体的匹配前缀胜出。路由器通过以下方式学习这些条目：
+
 - **Static routes** — 手动配置
 - **Dynamic protocols** — OSPF, BGP, RIP（路由器之间交换路由信息）
 
@@ -69,6 +71,7 @@ type: note
 ### ④ ARP + Re-encapsulate into a new L2 frame
 
 路由表给出 **next-hop IP**，但要在线上实际发送，路由器需要 **MAC address**。它使用 **ARP (Address Resolution Protocol)** 将 next-hop IP 解析为 MAC，然后将 **IP packet 包装在全新的 Ethernet frame** 中，包含：
+
 - **New source MAC** = 路由器出接口的 MAC
 - **New dest MAC** = 下一跳设备的 MAC
 
@@ -89,6 +92,7 @@ Routers **forward**（而不是 retransmit）。如果 router **drops** 一个 p
 ---
 
 参考资料：
+
 - [RFC 791 — Internet Protocol (IP)](https://datatracker.ietf.org/doc/html/rfc791)
 - [RFC 826 — ARP](https://datatracker.ietf.org/doc/html/rfc826)
 - [RFC 792 — ICMP](https://datatracker.ietf.org/doc/html/rfc792)

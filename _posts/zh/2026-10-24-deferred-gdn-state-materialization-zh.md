@@ -20,6 +20,7 @@ type: note
 ### 修复方案：延迟状态存储
 
 **Kernel A — `gdn_mtp`**（每层，在 forward 中）：执行与 stock 版本完全相同的计算，但不是存储 k+1 个状态槽，而是保存稍后重放所需的 *ingredients*：
+
 - 每个 token 的归一化 `k` (fp32)、`v` (bf16)、decay 和 beta（k+1 个槽位 × 16 KiB 对比 3 MiB）
 - `meta`：epoch stamp、source slot、token count、destination slots
 - 这些缓冲区具有固定地址，因此 forward 过程在 **CUDA 图中保持可捕获**（epoch 从设备内存读取）。
@@ -36,6 +37,7 @@ type: note
 ### 连接方式（in `registry.py`）
 
 仅在 `QWEN38_GDN_DEFER=1` + spec decode + TP=1/PP=1 时激活：
+
 - `GdnDefer.__init__` 分配所有固定地址缓冲区
 - `begin_step` 增加 device epoch 并写入 spec-row → batch-row 映射
 - `decode(...)` 每层运行 kernel A

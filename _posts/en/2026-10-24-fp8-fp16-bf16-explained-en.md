@@ -38,6 +38,7 @@ These are **floating-point number formats** used in machine learning to represen
 **BF16** (Brain Float 16, developed by Google Brain) — also 16 bits, but keeps the **same 8-bit exponent as FP32**, trading precision for range stability. Much safer for training because overflow is almost eliminated. Natively supported on NVIDIA A100/H100, Google TPUs, AMD MI300X.
 
 **FP8** — the newest, most aggressive format (standardized by NVIDIA/ARM/Intel in 2022). Two variants:
+
 - **E4M3** — more precision, used in the **forward pass**
 - **E5M2** — more range, used in the **backward pass / gradients**
 
@@ -58,6 +59,7 @@ Numerical Safety: FP32 > BF16 > FP16 > FP8    (larger = safer)
 ---
 
 References:
+
 - [NVIDIA FP8 Format White Paper](https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/examples/fp8_primer.html)
 - [BF16: The secret to high performance on Cloud TPUs](https://cloud.google.com/blog/products/ai-machine-learning/bfloat16-the-secret-to-high-performance-on-cloud-tpus)
 - [Mixed Precision Training (Micikevicius et al., 2018)](https://arxiv.org/abs/1710.03740)

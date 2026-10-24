@@ -22,6 +22,7 @@ In stock vLLM, the GDN MTP (multi-token prediction) decode kernel writes the ful
 ### The fix: defer the state stores
 
 **Kernel A — `gdn_mtp`** (per layer, in the forward): runs the identical compute as stock, but instead of storing the k+1 state slots, it saves the *ingredients* needed to replay later:
+
 - normalized `k` (fp32), `v` (bf16), decay & beta per token (k+1 slots × 16 KiB vs. 3 MiB)
 - `meta`: epoch stamp, source slot, token count, destination slots
 - These buffers have fixed addresses so the forward stays **capturable in a CUDA graph** (epoch is read from device memory).
@@ -38,6 +39,7 @@ In stock vLLM, the GDN MTP (multi-token prediction) decode kernel writes the ful
 ### Wiring (in `registry.py`)
 
 Activated only with `QWEN38_GDN_DEFER=1` + spec decode + TP=1/PP=1:
+
 - `GdnDefer.__init__` allocates all fixed-address buffers
 - `begin_step` bumps the device epoch and writes the spec-row → batch-row map
 - `decode(...)` runs kernel A per layer

@@ -25,6 +25,7 @@ endif ()
 `-virtual` means the kernels are compiled to PTX and the **CUDA driver JIT-compiles** them to native code for your exact GPU on first launch. That's why one build works on both an M40 and a modern RTX card.
 
 **2. The CUDA backend switches kernels based on your GPU's compute capability at runtime**
+
 - CUDA graphs are disabled below Volta (`ggml-cuda.cu:4833`).
 - Flash attention falls back to a path that doesn't need tensor cores (CC < 70).
 - Quantized matmuls select slower but compatible kernels for pre-Volta GPUs (`mmvq.cu:1163`, e.g. `Q2_K`/`Q3_K`/`IQ3_S` use the fallback on Pascal-older).

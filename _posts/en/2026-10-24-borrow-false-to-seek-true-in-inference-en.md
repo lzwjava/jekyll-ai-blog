@@ -74,7 +74,7 @@ The question the repo quietly poses is: *what is worth keeping?* The draft vocab
 ### A patient path through the code, with no deadline
 
 | Week | Wander into | The 真 underneath |
-|------|-------------|-------------------|
+| ------ | ------------- | ------------------- |
 | Whenever | `router/adapd.py` — the session homing logic | How do you decide where a thought belongs? |
 | Whenever | `vllm/v1/core/sched/qwen38_sched.py` — the latency-aware scheduler | How do you schedule attention under scarcity? |
 | Whenever | `tools/vocab_select.py` — draft vocabulary building | What is worth keeping in mind? What is noise? |
@@ -100,6 +100,7 @@ The wandering mind is not the undisciplined mind. It is the mind that allows the
 ---
 
 **References:**
+
 - [heterogeneous-inference-qwen27b README](https://github.com/Cerynitius/heterogeneous-inference-qwen27b)
 - [vLLM — High-throughput LLM Serving](https://github.com/vllm-project/vllm)
 - [Speculative Decoding — original paper by Chen et al.](https://arxiv.org/abs/2302.01318)

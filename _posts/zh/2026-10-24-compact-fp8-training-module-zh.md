@@ -18,25 +18,30 @@ type: note
 ## 关键组件
 
 **1. 量化辅助函数 — `_to_fp8` (tensorwise 缩放)**
+
 - 每个张量一个标量缩放因子：`scale = fp8_max / max(|x|)`
 - 饱和截断（PyTorch的强制类型转换默认是*环绕*，而非饱和），然后强制转换为FP8格式
 - 返回 `(fp8_data, inverse_scale)` — `_scaled_mm` 在矩阵乘法过程中乘以逆缩放因子以恢复数值范围
 - 使用float64进行除法运算，以确保 eager 模式和 `torch.compile` 之间的数值一致性（torchao也是如此做的）
 
 **2. FP8数据类型选择（NVIDIA vs AMD）**
+
 - `float8_e4m3fn`/`e4m3fnuz`：4位指数，3位尾数 → 用于**输入和权重**（需要精度）
 - `float8_e5m2`/`e5m2fnuz`：5位指数，2位尾数 → 用于**梯度**（可能数值较大，需要范围）
 - 通过 `torch.version.hip` 自动检测
 
 **3. 布局要求**
+
 - `torch._scaled_mm` 要求参数A为行主序（连续），参数B为列主序。`_to_col_major` 通过 `x.t().contiguous().t()` 实现。巧妙的是，对于连续的权重，`weight.t()` *已经*是列主序了，因此在 forward 中不需要进行拷贝。
 
 **4. `_Float8Matmul` autograd.Function** — 核心所在：
+
 - **前向传播**：将输入和权重量化为e4m3格式，调用 `_scaled_mm` 并设置 `use_fast_accum=True`（速度更快，精度略低——这对于前向传播来说可以接受），保存FP8张量和缩放因子用于反向传播
 - **反向传播**：计算 `grad_input = grad_output @ weight` 和 `grad_weight = grad_output.T @ input`，两者均使用e5m2格式（处理梯度）并设置 `use_fast_accum=False` 以保证精度
 - 标记了 `@torch._dynamo.allow_in_graph`，使得 torch.compile 将其视作一个不透明节点
 
 **5. `Float8Linear`** — `nn.Linear` 的即插即用替代方案：
+
 - 权重和偏置保持在 fp32/bf16 格式；只有矩阵乘法在 FP8 下运行
 - 将 batch 维度展平为二维（`_scaled_mm` 的要求），计算后再恢复原始形状
 - `from_float` 通过 meta device 共享原始模块的权重和偏置（无需拷贝，不占用额外内存）

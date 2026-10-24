@@ -38,6 +38,7 @@ type: note
 **BF16** (Brain Float 16, 由 Google Brain 开发) — 也是 16 bits，但保持与 FP32 **相同的 8-bit exponent**，以精度换取范围稳定性。训练中更安全，因为 overflow 几乎消除。在 NVIDIA A100/H100、Google TPUs、AMD MI300X 等设备上原生支持。
 
 **FP8** — 最新、最激进的 format（由 NVIDIA/ARM/Intel 在 2022 年标准化）。两个变体：
+
 - **E4M3** — 更多 precision，用于 **forward pass**
 - **E5M2** — 更多 range，用于 **backward pass / gradients**
 
@@ -52,6 +53,7 @@ Numerical Safety: FP32 > BF16 > FP16 > FP8    (更大 = 更安全)
 - **Data center GPUs** (A100, H100): 原生支持所有 formats
 
 参考文献：
+
 - [NVIDIA FP8 Format White Paper](https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/examples/fp8_primer.html)
 - [BF16: The secret to high performance on Cloud TPUs](https://cloud.google.com/blog/products/ai-machine-learning/bfloat16-the-secret-to-high-performance-on-cloud-tpus)
 - [Mixed Precision Training (Micikevicius et al., 2018)](https://arxiv.org/abs/1710.03740)

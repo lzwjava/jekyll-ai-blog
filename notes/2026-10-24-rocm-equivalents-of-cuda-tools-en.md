@@ -16,7 +16,7 @@ Answer:
 ## Platform / SDK
 
 | NVIDIA | AMD |
-|---|---|
+| --- | --- |
 | **CUDA** (platform) | **ROCm** (Radeon Open Compute) |
 | **CUDA API** (`cuda*` calls) | **HIP** (Heterogeneous-compute Interface for Portability) |
 
@@ -40,7 +40,7 @@ NVIDIA uses a simple integer pair (e.g. `sm_80` for Ampere, `sm_90` for Hopper).
 AMD uses **`gfx` target identifiers** tied to the LLVM AMDGPU backend:
 
 | AMD GPU | gfx target | Rough CUDA cc analog |
-|---|---|---|
+| --- | --- | --- |
 | RX 5700 (RDNA1) | `gfx1010` | — |
 | RX 6000 (RDNA2) | `gfx1030` | — |
 | RX 7000 (RDNA3) | `gfx1100` | — |
@@ -59,6 +59,7 @@ hipcc --offload-arch=gfx90a kernel.hip -o kernel
 ```
 
 Multiple targets at once (like nvcc's fat binary):
+
 ```bash
 hipcc --offload-arch=gfx90a --offload-arch=gfx1100 kernel.hip -o kernel
 ```
@@ -68,7 +69,7 @@ hipcc --offload-arch=gfx90a --offload-arch=gfx1100 kernel.hip -o kernel
 ## Quick Summary
 
 | Concept | NVIDIA | AMD |
-|---|---|---|
+| --- | --- | --- |
 | Platform | CUDA | ROCm |
 | API | CUDA Runtime | HIP |
 | Compiler | `nvcc` | `hipcc` (`amdclang++`) |

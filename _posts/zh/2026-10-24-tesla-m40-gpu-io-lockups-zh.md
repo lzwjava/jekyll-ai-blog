@@ -14,7 +14,7 @@ type: note
 ## System Overview
 
 | 组件 | 详情 |
-|---|---|
+| --- | --- |
 | **OS** | Ubuntu 26.04.1 LTS (resolute)，内核 7.0.0-38-generic，运行时间 10d 17h |
 | **Board** | MSI **Z170A GAMING M5** (MS-7977) — 注意：主机名显示为 MS-7996，但 DMI 读数为 MS-7977 |
 | **CPU** | Intel Core **i5-6600** @ 3.30 GHz — 1 个插槽，4 核 / 4 线程，睿频 3.9 GHz，Skylake 架构，VT-x |

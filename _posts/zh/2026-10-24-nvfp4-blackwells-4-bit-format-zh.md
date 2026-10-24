@@ -69,7 +69,7 @@ TensorRT Model Optimizer提供全面的FP4量化工作流程，而vLLM等框架�
 ### 总结表
 
 | 特征 | FP4 (E2M1) | MXFP4 | NVFP4 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 位宽 | 4 | 4 | 4 |
 | 块大小 | 无 | 32 | 16 |
 | 块缩放 | 无 | FP8 (E8M0) | FP8 (E4M3) |
@@ -78,6 +78,7 @@ TensorRT Model Optimizer提供全面的FP4量化工作流程，而vLLM等框架�
 | 硬件 | 通用 | 多供应商 | Blackwell原生 |
 
 **参考：**
+
 - [Introducing NVFP4 for Efficient and Accurate Low-precision Inference (Edge AI & Vision)](https://www.edge-ai-vision.com/2025/07/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/)
 - [NVFP4 Concept Reference — ZeroEntropy](https://www.zeroentropy.dev/concepts/nvfp4/)
 - [The Impact of NVFP4 For LLM Inference — Nota AI](https://blog.nota.ai/insights/nvidia-blackwell-nvfp4)

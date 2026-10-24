@@ -20,6 +20,7 @@ type: note
 ### 核函数结构
 
 **阶段 1** `_argmax_stage1` — 网格 `(M, nchunk)`，每个（行，块）一个 CTA：
+
 - 将其 4096 元素的块（行末尾之后的部分用 `-inf` 掩蔽）加载到 fp32。
 - 计算块的第一个最大索引 *以及* 块是否包含 NaN：
   - `first_nan = min(offs where isnan)` — NaN 位置
@@ -28,6 +29,7 @@ type: note
 - 存储每个块的 `(value, index)` — 或者如果发现了 NaN 则存储 `(NaN, first_nan)`。
 
 **阶段 2** `_argmax_stage2` — 网格 `(M,)`，每行一个 warp：
+
 - 加载所有 nchunk 个 `(value, index)` 对。
 - 包含 NaN 的块胜过一切（`nan_ix = min` 携带 NaN 的块索引 → 最早的块获胜，与 torch 一致，其中第一个 NaN 被视为最大值）。
 - 否则 `m = max(vals)`，`i = min(idx where vals == m)` — 由于块按索引顺序排列，**最低的全局索引赢得平局**，完全像 `torch.max().indices`。
@@ -40,6 +42,7 @@ CUDA 图填充行可能包含 **NaN logits**，而 `torch.max` 的语义是 *NaN
 ### 集成方式
 
 `vllm/model_executor/layers/logits_processor.py`：
+
 1. 由 `QWEN38_ARGMAX=1` 控制（在 `scripts/duo.sh` 中为 SPEC 布局设置，同时设置了 `DRAFT_VOCAB`）。
 2. 该函数通过 `direct_register_custom_op("qwen38_row_argmax", ...)` 注册，并带有一个 `fake_impl`，它返回一个空的 `int64[M]` 张量用于 torch.compile。
 3. 仅在 `tp_size == 1` 且 logits 为 2-D 连续（`line 247`）时使用 — 否则使用现有的 `logits.max(dim=-1)`。局部索引通过 `org_vocab_start_index` 偏移以获取全局词表索引。

@@ -14,6 +14,7 @@ type: note
 ## 树结构（`RadixTreeNode`）
 
 每个节点存储：
+
 - `key` / `value`：`(page_size, num_kv_heads, head_dim)` 块——一个 token 序列及其支持的 KV 索引
 - `children`：从 `key_fn(key)` 指纹映射到子节点的字典
 - `ref_count`：引用该节点的活跃请求数（refcount > 0 = **受保护**，不可被驱逐）

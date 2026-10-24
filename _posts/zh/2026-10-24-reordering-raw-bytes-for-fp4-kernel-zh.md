@@ -12,6 +12,7 @@ type: note
 这段代码来自 `vllm/model_executor/kernels/linear/nvfp4/flashinfer.py` 文件中的 `FlashInferTrtllmNvFp4LinearKernel` 类（约第 306-314 行）。下面来详细拆解：
 
 ## 一言以蔽之（通俗解释）
+
 在模型检查点加载后，这段代码会将 **4 位权重矩阵的原始字节重新排列，使其符合 FlashInfer 的 TensorRT-LLM GEMM kernel 所需的确切内存布局**，然后将其作为冻结的 `torch.nn.Parameter` 存回，以便推理内核可以直接使用。
 
 ## 逐一解析
@@ -27,11 +28,13 @@ FlashInfer 的辅助函数 (`flashinfer.shuffle_matrix_a`) 将一个逻辑上的
 
 **`torch.nn.Parameter(..., requires_grad=False)`**
 用重新排列后的张量替换 `layer.weight`，并将其包装为一个*冻结的* Parameter。这之所以重要，是因为 `Parameter` 是模块状态的一部分，因此它：
+
 - 会随 `module.to()` / `module.cuda()` 一起移动，
 - 包含在 `state_dict()` / `load_state_dict()` 中，
 - 出现在 `module.parameters()` 中（但由于 `requires_grad=False` 而不会被训练）。
 
 ## 为何采用这种模式
+
 这个完整的方法就是 `process_weights_after_loading`——一个在加载后**只运行一次**的钩子。如果不在加载时离线重排 (offline shuffle)，你就要在每次前向传播时都付出重排的代价；或者更糟，由于 Triton/CuTe kernel 是在假定数据已为 swizzled 布局的前提下读取内存的，它们会产生无效结果。因此，vLLM 在加载时主动进行布局转换，并将结果就地替换为该层的权重参数。
 
 作为对比，同文件中的 W4A16 `FlashInferCuteDslNvFp4W4A16LinearKernel` 通过 `flashinfer_prepare_bf16_fp4_weights` 完成了类似的工作（该函数负责对齐填充、对块缩放进行 swizzle 操作并将全局缩放融合进来）——思路相同，只是不同的后端布局。

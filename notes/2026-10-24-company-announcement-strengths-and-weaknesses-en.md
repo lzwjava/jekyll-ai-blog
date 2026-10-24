@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** Is the essay at https://lzwjava.com/ceo-en a good public essay to announce a company?
+**Question:** Is the essay at <https://lzwjava.com/ceo-en> a good public essay to announce a company?
 
 ---
 
@@ -31,7 +31,7 @@ The essay — *"With 21-Year-Old CEO, Achieve Small Goals"* (2016, Zhiwei Li) �
 ### ❌ Weaknesses (as a company announcement)
 
 | Issue | Detail |
-|---|---|
+| --- | --- |
 | **No company name** | The company being announced is never actually named. |
 | **No product description** | The business is only vaguely described as "a new direction... in cloud computing, e-commerce, and IT education." |
 | **No problem statement** | It never clearly states what customer pain the company solves. |
@@ -51,4 +51,5 @@ If the goal was to attract early co-founders who would bet on the founder person
 ---
 
 **References:**
+
 - [With 21-Year-Old CEO, Achieve Small Goals – lzwjava.com](https://lzwjava.com/ceo-en)

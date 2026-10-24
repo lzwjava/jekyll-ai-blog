@@ -74,7 +74,7 @@ KV0=66, KV1=42     # 每张卡的 KV cache 大小（GiB）
 ### 耐心地穿梭于代码中，没有截止日期
 
 | 周次 | 探索对象 | 背后的真 |
-|------|-------------|-------------------|
+| ------ | ------------- | ------------------- |
 | 随时 | `router/adapd.py` — session homing 逻辑 | 你怎么决定一个想法属于哪里？ |
 | 随时 | `vllm/v1/core/sched/qwen38_sched.py` — 延迟感知的调度器 | 在稀缺情况下你如何安排注意力？ |
 | 随时 | `tools/vocab_select.py` — 草稿词汇构建 | 哪些值得记住？哪些是噪音？ |
@@ -100,6 +100,7 @@ KV0=66, KV1=42     # 每张卡的 KV cache 大小（GiB）
 ---
 
 **References:**
+
 - [heterogeneous-inference-qwen27b README](https://github.com/Cerynitius/heterogeneous-inference-qwen27b)
 - [vLLM — High-throughput LLM Serving](https://github.com/vllm-project/vllm)
 - [Speculative Decoding — original paper by Chen et al.](https://arxiv.org/abs/2302.01318)

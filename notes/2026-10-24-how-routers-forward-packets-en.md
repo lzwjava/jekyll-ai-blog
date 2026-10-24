@@ -20,7 +20,7 @@ A router is a **Layer 3 (Network Layer)** device that connects different network
 ### Core Components
 
 | Component | Role |
-|---|---|
+| --- | --- |
 | **Routing Table** | Maps destination networks → next-hop / outgoing interface |
 | **Forwarding Engine** | Hardware that moves packets at line speed |
 | **ARP Cache** | Maps IP addresses → MAC addresses for next hops |
@@ -43,6 +43,7 @@ When a packet arrives on a router interface, the router **strips the Ethernet (L
 ### ② Read the IP header — decrement TTL
 
 The router reads:
+
 - **Destination IP address** — to decide where to send it
 - **TTL (Time To Live)** — decremented by 1 each hop
 
@@ -55,12 +56,13 @@ If TTL hits **0**, the packet is dropped and an **ICMP "Time Exceeded"** message
 The router consults its **routing table** using **longest prefix match**:
 
 | Destination | Next Hop | Interface |
-|---|---|---|
+| --- | --- | --- |
 | `10.0.0.0/8` | — | `eth1` |
 | `192.168.0.0/16` | `10.0.0.1` | `eth0` |
 | `0.0.0.0/0` | `203.0.1.1` | `eth2` (default) |
 
 The most specific matching prefix wins. The router learns these entries via:
+
 - **Static routes** — manually configured
 - **Dynamic protocols** — OSPF, BGP, RIP (routers exchange routes with each other)
 
@@ -69,6 +71,7 @@ The most specific matching prefix wins. The router learns these entries via:
 ### ④ ARP + Re-encapsulate into a new L2 frame
 
 The routing table gives a **next-hop IP**, but to actually send on the wire the router needs a **MAC address**. It uses **ARP (Address Resolution Protocol)** to resolve the next-hop IP → MAC, then **wraps the IP packet in a brand-new Ethernet frame** with:
+
 - **New source MAC** = router's outgoing interface
 - **New dest MAC** = next-hop device's MAC
 
@@ -89,6 +92,7 @@ Routers **forward** (not retransmit). If a router **drops** a packet (queue full
 ---
 
 References:
+
 - [RFC 791 — Internet Protocol (IP)](https://datatracker.ietf.org/doc/html/rfc791)
 - [RFC 826 — ARP](https://datatracker.ietf.org/doc/html/rfc826)
 - [RFC 792 — ICMP](https://datatracker.ietf.org/doc/html/rfc792)

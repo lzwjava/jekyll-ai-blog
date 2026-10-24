@@ -20,6 +20,7 @@ type: note
 ### 1. ⚠️ Route Pattern未覆盖Apex Domain（主要问题）
 
 你当前的Route是：
+
 ```
 *.truthlab.cc/*
 ```
@@ -33,6 +34,7 @@ type: note
 | `truthlab.cc/*` | Route |
 
 或者，更好的做法是从Routes切换到 **Custom Domains**，并添加两者：
+
 - `truthlab.cc`
 - `*.truthlab.cc`
 
@@ -43,6 +45,7 @@ Custom Domains更简单——Cloudflare会自动处理DNS并包含HTTPS。
 ### 2. DNS必须Proxied（Orange Cloud）Routes才能工作
 
 如果你使用Routes（而不是Custom Domains），你的Cloudflare中 `truthlab.cc` 的DNS record必须是：
+
 - **Proxied**（orange cloud ☁️），而不是DNS-only（grey cloud）
 - 指向任意IP（例如 `192.0.2.1` 作为placeholder即可——Cloudflare会拦截它）
 
@@ -60,6 +63,7 @@ Cloudflare会自动provision SSL并配置DNS。
 ---
 
 **参考：**
+
 - [Cloudflare Workers Routes vs Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/)
 - [How route matching works (wildcard patterns)](https://developers.cloudflare.com/workers/configuration/routing/routes/#matching-behavior)
 - [Custom Domains for Workers](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)

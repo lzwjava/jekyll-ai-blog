@@ -18,26 +18,31 @@ type: note
 ---
 
 ### 1. 前沿实验室（OpenAI、Anthropic、xAI、Mistral、DeepMind）
+
 这些是角色的起源——构建GPU集群、分布式训练系统和低层推理优化。前沿实验室如OpenAI、Anthropic、xAI和Mistral不再仅仅是模型公司；它们正在成为基础设施企业。他们的基础设施工程师处理集群编排、CUDA级调优和容错训练运行。
 
 ---
 
 ### 2. 超大规模提供商（AWS、Google Cloud、Microsoft Azure）
+
 四个科技巨头预计在2026年在AI基础设施上花费约7250亿美元，这个金额超过除二十个国家外所有国家的GDP。为了吸收这些资本支出，他们需要基础设施工程师来构建和运营GPU数据中心、定制AI芯片（TPU、Trainium等）以及模型服务平台。例如，Amazon宣布计划招聘11,000名软件开发者和工程师以支持AWS运营——这是针对技能的调整而非总体增长。
 
 ---
 
 ### 3. GPU云 / 计算提供商
+
 像Together AI、Modal、Lambda Labs和Crusoe这样的公司处于超大规模提供商和最终用户之间。Modal筹集了3.55亿美元用于无服务器GPU基础设施，Together AI在旧金山和阿姆斯特丹都有开放的AI基础设施工程师职位。他们需要工程师来构建高效的多租户GPU调度、自动伸缩和成本优化系统。
 
 ---
 
 ### 4. AI工具与平台公司
+
 向量数据库（Pinecone、Weaviate）、MLOps平台和评估框架都需要基础设施工程师来使他们的产品可扩展。这些工具公司招聘后端和基础设施工程师、开发者关系人员和技术写作者。
 
 ---
 
 ### 5. 国防、医疗、金融与企业
+
 特别是在EMEA地区，银行、国防主承包商和关键基础设施运营商越来越不信任美国托管的AI用于他们最敏感的工作流程——这推动了对本地或主权AI基础设施的需求。Anduril、Shield AI和Palantir都出现在职位列表中。还有一些临床AI初创公司招聘高级工程师来构建可扩展的后端和ML基础设施。
 
 ---
@@ -57,6 +62,7 @@ type: note
 ---
 
 **参考：**
+
 - [The AI Companies Quietly Hiring Beyond OpenAI and Nvidia](https://www.metaintro.com/blog/ai-companies-hiring-beyond-openai-nvidia-2026)
 - [MLOps / Infrastructure Engineer Jobs at AI Startups](https://www.fastaijobs.com/jobs/role/mlops-infra-engineer)
 - [AI Infrastructure Staffing: Building Teams for the AI Compute Boom](https://www.kore1.com/category/ai/page/7/)

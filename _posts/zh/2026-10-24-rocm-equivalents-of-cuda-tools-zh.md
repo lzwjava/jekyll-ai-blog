@@ -16,7 +16,7 @@ type: note
 ## Platform / SDK
 
 | NVIDIA | AMD |
-|---|---|
+| --- | --- |
 | **CUDA** (platform) | **ROCm** (Radeon Open Compute) |
 | **CUDA API** (`cuda*` calls) | **HIP** (Heterogeneous-compute Interface for Portability) |
 
@@ -35,7 +35,7 @@ HIP是直接等同于CUDA的programming model。Code通常可以通过`hipify-pe
 NVIDIA使用simple integer pair（例如，`sm_80`用于Ampere，`sm_90`用于Hopper）。AMD使用**`gfx` target identifiers** tied to LLVM AMDGPU backend:
 
 | AMD GPU | gfx target | Rough CUDA cc analog |
-|---|---|---|
+| --- | --- | --- |
 | RX 5700 (RDNA1) | `gfx1010` | — |
 | RX 6000 (RDNA2) | `gfx1030` | — |
 | RX 7000 (RDNA3) | `gfx1100` | — |
@@ -62,7 +62,7 @@ hipcc --offload-arch=gfx90a --offload-arch=gfx1100 kernel.hip -o kernel
 ## Quick Summary
 
 | Concept | NVIDIA | AMD |
-|---|---|---|
+| --- | --- | --- |
 | Platform | CUDA | ROCm |
 | API | CUDA Runtime | HIP |
 | Compiler | `nvcc` | `hipcc` (`amdclang++`) |

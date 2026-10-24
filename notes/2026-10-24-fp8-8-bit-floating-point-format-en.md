@@ -32,6 +32,7 @@ With only 8 bits total, you have to make a hard trade-off between **range** (exp
 ## Two FP8 Variants
 
 ### E4M3 — "More Precision"
+
 ```
 [ 1 sign | 4 exponent | 3 mantissa ]
 Max value: ±448
@@ -39,6 +40,7 @@ Used in: forward pass (activations, weights)
 ```
 
 ### E5M2 — "More Range"
+
 ```
 [ 1 sign | 5 exponent | 2 mantissa ]
 Max value: ±57,344
@@ -64,7 +66,7 @@ So FP8 can only represent **256 distinct values** total. It's a very rough appro
 ## So Why Use It?
 
 | Benefit | Detail |
-|---------|--------|
+| --------- | -------- |
 | 🚀 **2× faster** than FP16 | Less data to move through memory |
 | 💾 **Half the memory** of FP16 | Fit larger models on same GPU |
 | ⚡ **Higher throughput** | H100 GPU does 4× more FP8 ops than FP16 |
@@ -87,5 +89,6 @@ So FP8 can only represent **256 distinct values** total. It's a very rough appro
 ---
 
 References:
+
 - [NVIDIA FP8 Primer](https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/examples/fp8_primer.html)
 - [FP8 Formats for Deep Learning (2022 paper)](https://arxiv.org/abs/2209.05433)

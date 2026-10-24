@@ -21,7 +21,7 @@ type: note
 **与DRAM相比的主要特性：**
 
 | | SRAM | DRAM |
-|---|---|---|
+| --- | --- | --- |
 | 速度 | 更快 | 更慢 |
 | 成本 | 更高 | 更低 |
 | 密度 | 更低（每比特晶体管更多） | 更高 |
@@ -29,10 +29,12 @@ type: note
 | 典型用途 | CPU缓存 (L1/L2/L3) | 主系统RAM |
 
 **常见用途：**
+
 - CPU缓存 (L1, L2, L3)
 - 微控制器中的寄存器和缓冲区
 - 网络设备（路由器、交换机）
 - 速度比容量更重要的嵌入式系统
 
 参考资料：
+
 - [Static random-access memory – Wikipedia](https://en.wikipedia.org/wiki/Static_random-access_memory)

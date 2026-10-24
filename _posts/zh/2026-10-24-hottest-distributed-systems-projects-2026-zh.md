@@ -71,6 +71,7 @@ type: note
 ---
 
 **References:**
+
 - [libhunt.com – Top Distributed System Projects](https://www.libhunt.com/topic/distributed-systems)
 - [kai-waehner.de – Data Streaming Trends Q3 2026](https://www.kai-waehner.de/?p=10518)
 - [linkedin.com – Open Source Data Infra Projects to Watch in 2026](https://vn.linkedin.com/in/giang-vu-1403)

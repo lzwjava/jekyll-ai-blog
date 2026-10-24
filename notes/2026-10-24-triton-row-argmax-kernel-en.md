@@ -20,6 +20,7 @@ Stock `logits.max(dim=-1)` is a **1-CTA-per-row reduction**. On this model's voc
 ### The kernel structure
 
 **Stage 1** `_argmax_stage1` — grid `(M, nchunk)`, one CTA per (row, chunk):
+
 - Loads its 4096-element chunk (masked with `-inf` past the row end) into fp32.
 - Computes the chunk's first max index *and* whether the chunk holds a NaN:
   - `first_nan = min(offs where isnan)` — NaN position
@@ -28,6 +29,7 @@ Stock `logits.max(dim=-1)` is a **1-CTA-per-row reduction**. On this model's voc
 - Stores per-chunk `(value, index)` — or `(NaN, first_nan)` if it found one.
 
 **Stage 2** `_argmax_stage2` — grid `(M,)`, one warp per row:
+
 - Loads all nchunk `(value, index)` pairs.
 - A chunk with NaN beats everything (`nan_ix = min` of NaN-carrying chunk indices → earliest chunk wins, matching torch where the first NaN is the max).
 - Otherwise `m = max(vals)`, `i = min(idx where vals == m)` — since chunks are in index order, **lowest global index wins ties**, exactly like `torch.max().indices`.
@@ -40,6 +42,7 @@ CUDA-graph padding rows can hold **NaN logits**, and `torch.max` semantics say *
 ### Wiring
 
 `vllm/model_executor/layers/logits_processor.py`:
+
 1. Gated by `QWEN38_ARGMAX=1` (set in `scripts/duo.sh` for the SPEC layout, along with `DRAFT_VOCAB`).
 2. The function is registered via `direct_register_custom_op("qwen38_row_argmax", ...)` with a `fake_impl` that returns an `int64[M]` empty tensor for torch.compile.
 3. It's only used when `tp_size == 1` and logits are 2-D contiguous (`line 247`) — otherwise stock `logits.max(dim=-1)` runs. The local index is shifted by `org_vocab_start_index` to get the global vocab index.

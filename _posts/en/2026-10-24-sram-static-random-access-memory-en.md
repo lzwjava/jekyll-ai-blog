@@ -21,7 +21,7 @@ Answer: **SRAM** stands for **Static Random-Access Memory**. It is a type of com
 **Key traits compared to DRAM:**
 
 | | SRAM | DRAM |
-|---|---|---|
+| --- | --- | --- |
 | Speed | Faster | Slower |
 | Cost | Higher | Lower |
 | Density | Lower (more transistors per bit) | Higher |
@@ -29,10 +29,12 @@ Answer: **SRAM** stands for **Static Random-Access Memory**. It is a type of com
 | Typical use | CPU cache (L1/L2/L3) | Main system RAM |
 
 **Common uses:**
+
 - CPU caches (L1, L2, L3)
 - Registers and buffers in microcontrollers
 - Networking equipment (routers, switches)
 - Embedded systems where speed matters more than capacity
 
 References:
+
 - [Static random-access memory – Wikipedia](https://en.wikipedia.org/wiki/Static_random-access_memory)

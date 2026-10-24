@@ -20,19 +20,23 @@ China's AI infra hiring market is extremely hot — and structurally very simila
 ### Who Is Hiring (China Edition)
 
 **Chinese Frontier / Model Labs**
+
 - **DeepSeek** is arguably the most aggressive. It recently announced plans to double the size of every department, with specific openings for **supercomputing cluster R&D engineers, server-side development engineers, and pre-training data engineers**. It has also publicly posted its first on-site data center infrastructure roles in Inner Mongolia, signaling physical data center expansion. Most recently, it launched an "unprecedented" hiring spree for ~150 senior back-end engineers specifically to rebuild backend systems strained by user scale.
 - Tencent hired multiple engineers from ByteDance's Seed AI team across domains including visual AI platforms, **infrastructure engineering**, and training systems, as it accelerates development of its Hunyuan models.
 - **Moonshot AI, Zhipu AI, Baichuan, Minimax** — all the "六小虎" (six AI tigers) are actively competing for the same infra talent pool.
 
 **Big Tech Platforms (BAT + ByteDance)**
+
 - Baidu has AI-related positions accounting for more than 90% of its openings, spanning large-language models, AI agents, multimodal systems, **AI infrastructure**, and autonomous driving.
 - Alibaba's AI-related positions account for more than 80% of openings, and it continues to recruit for **AI infrastructure, computing-resource scheduling, and agent development**.
 - ByteDance launched its campus recruitment drive offering over 5,000 positions, with a 23% increase in R&D hiring, covering algorithm, frontend, and AI infra roles across Douyin, Feishu, CapCut, and Volcano Engine.
 
 **Huawei (the unique Chinese player)**
+
 - Huawei's role is unlike anything in the US market. Huawei's Beijing Research Institute employs over 15,000 people focused on Ascend AI chips, HarmonyOS, and cloud infrastructure. With Nvidia largely locked out of China, Huawei is both a chip supplier and an infrastructure builder — meaning its infra engineers are doing the work that in the US is split across Nvidia, AWS, and the frontier labs.
 
 **Semiconductor / Chip Companies**
+
 - Chip design roles averaged 550,000 yuan annually, driven by demand for computing infrastructure. In the face of US export controls on advanced foreign-made chips, Chinese semiconductor companies are racing to develop alternatives, driving a scramble for engineering talent.
 - DeepSeek itself is reportedly hiring chip-design engineers to build its own inference chips, though recruitment has been done privately without job postings on public hiring platforms.
 
@@ -55,6 +59,7 @@ AI infrastructure engineers at the senior specialist level earn RMB 800,000 to 1
 ---
 
 **References:**
+
 - [DeepSeek embarks on 'unprecedented' hiring spree](https://scmp.com/tech/big-tech/article/3366740/deepseek-embarks-unprecedented-hiring-spree-it-overhauls-backend-systems)
 - [DeepSeek ramps up hiring ahead of V4 launch](https://www.scmp.com/tech/big-tech/article/3349741/deepseek-ramps-hiring-ahead-v4-launch-questions-swirl-over-chip-strategy)
 - [Chinese tech giants widen AI talent hunt](https://english.henan.gov.cn/2026/08-06/3383375.html)
