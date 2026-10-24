@@ -14,10 +14,12 @@ nanochat isn't a fork of nanoGPT — it's its **successor/spiritual evolution** 
 ## Scope ("full-stack" vs pretrain-only)
 
 **nanoGPT** — one job:
+
 - `train.py` (pretrain on OpenWebText, DDP, autocast, AdamW), `model.py` (GPT-2 block, learned positional embeddings), `sample.py`, data-prep scripts
 - Single stage: pretraining → sample text. That's it.
 
 **nanochat** (~7000 lines) covers every LLM stage:
+
 - Tokenization: trains its **own BPE tokenizer** in GPT-4 style (`tokenizer.py`, `scripts/tok_train.py`) vs nanoGPT's tiktoken dependency
 - Pretraining (`base_train.py`), **SFT** (`chat_sft.py`), **RL** (`chat_rl.py`), **eval** (CORE score, bits-per-byte, MMLU/GSM8K/ARC/humaneval tasks), and a **chat CLI** (`chat_cli.py`)
 - An inference **engine with KV cache** (`engine.py`) and sandboxed **Python code execution** as a tool (`execution.py`)
@@ -30,7 +32,7 @@ nanochat: you set a single `--depth` integer; everything else (width, heads, LR,
 ## Model architecture & training differences (`gpt.py`, `optim.py`)
 
 | | nanoGPT | nanochat |
-|---|---|---|
+| --- | --- | --- |
 | Positional encodings | learned | **rotary embeddings** |
 | Attention | full causal | causal with **per-layer sliding window** (tiled) |
 | QK scaling | 1/√d | split scale, `q *= 1.2` |

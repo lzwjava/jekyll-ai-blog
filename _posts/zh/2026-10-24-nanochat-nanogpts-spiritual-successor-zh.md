@@ -14,10 +14,12 @@ nanochat 并非 nanoGPT 的分支——它是其**继承者和精神上的进化
 ## 范畴（"全栈" vs 仅预训练）
 
 **nanoGPT** — 单一任务：
+
 - `train.py`（在 OpenWebText 上预训练，DDP，autocast，AdamW），`model.py`（GPT-2 块，学习式位置嵌入），`sample.py`，数据准备脚本
 - 单一阶段：预训练 → 文本采样。仅此而已。
 
 **nanochat**（约 7000 行）涵盖了 LLM 的每个阶段：
+
 - 分词 (Tokenization)：训练**自己的 BPE 分词器**，风格类似 GPT-4（`tokenizer.py`，`scripts/tok_train.py`），而非 nanoGPT 所使用的 tiktoken 依赖
 - 预训练（`base_train.py`），**SFT**（`chat_sft.py`），**RL**（`chat_rl.py`），**评估**（CORE 评分，bits-per-byte，MMLU/GSM8K/ARC/humaneval 任务），以及**聊天 CLI**（`chat_cli.py`）
 - 带有 **KV cache** 的推理引擎（`engine.py`）和作为工具的沙盒化 **Python 代码执行**（`execution.py`）
@@ -30,7 +32,7 @@ nanochat：你只需设置一个 `--depth` 整数；其他所有参数（宽度�
 ## 模型架构与训练差异（`gpt.py`，`optim.py`）
 
 | | nanoGPT | nanochat |
-|---|---|---|
+| --- | --- | --- |
 | 位置编码 | 学习式 | **旋转位置嵌入 (RoPE)** |
 | 注意力机制 | 全因果 | 因果 + **每层滑动窗口**（平铺） |
 | QK 缩放 | 1/√d | 分离缩放，`q *= 1.2` |

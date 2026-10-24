@@ -43,6 +43,7 @@ NVIDIA H100/H200和Blackwell GPU拥有专用的**FP8 Tensor Cores**，其提供�
 ### 5. 训练稳定性技术
 
 FP8的有限范围需要谨慎处理：
+
 - **每张量/每通道缩放**——每个张量都有自己的缩放因子
 - **延迟缩放**——缩放因子定期更新，以避免溢出/下溢
 - **主权重保留在BF16/FP32**——优化器状态保持较高精度；仅计算使用FP8
@@ -61,6 +62,7 @@ INT8是定点数，在推理中表现良好，但**不适用于训练**（梯度
 | 风险        | 梯度下溢（通过缩放缓解） | 轻微精度损失（通过校准缓解） |
 
 参考文献：
+
 - [NVIDIA Transformer Engine – FP8 训练](https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/index.html)
 - [FP8 深度学习格式 (Micikevicius 等人, 2022)](https://arxiv.org/abs/2209.05433)
 - [NVIDIA H100 Tensor Core GPU 架构白皮书](https://resources.nvidia.com/en-us-tensor-core/gtc22-whitepaper-hopper)
