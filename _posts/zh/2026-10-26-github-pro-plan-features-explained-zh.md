@@ -61,7 +61,7 @@ Copilot（AI 代码补全/聊天助手）是一项 **单独的附加订阅**—�
 ### 快速汇总表
 
 | 功能 | GitHub Free | GitHub Pro |
-|---|---|---|
+| --- | --- | --- |
 | Required reviewers | 仅公共 | ✅ 私有也可以 |
 | Protected branches | 仅公共 | ✅ 私有也可以 |
 | Wikis / Pages / Code Owners | 仅公共 | ✅ 私有也可以 |
@@ -74,5 +74,6 @@ Copilot（AI 代码补全/聊天助手）是一项 **单独的附加订阅**—�
 ---
 
 **参考资料：**
+
 - [GitHub's Plans – GitHub Docs](https://docs.github.com/en/get-started/learning-about-github/githubs-plans)
 - [GitHub Copilot Pricing 2026](https://nocode.mba/posts/github-copilot-pricing)

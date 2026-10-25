@@ -17,8 +17,6 @@ Eckhart Tolle
 
 +1
 
-
-
 Its central idea is simple:
 
 > You can plan for the future, learn from the past, and pursue ambitious goals without letting your mind destroy your peace in the present.
@@ -130,8 +128,6 @@ These seven ideas summarize the book's major themes of presence, awareness, ego,
 Eckhart Tolle Official Site
 
 +2
-
-
 
 ## What the book means for your life
 

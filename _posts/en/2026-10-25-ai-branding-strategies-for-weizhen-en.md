@@ -20,7 +20,7 @@ Here are several levels at which you can inject an AI feel:
 ### 1. 🔤 Rename / Tweak the Name Itself
 
 | Option | Characters | Meaning | Feel |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **维真智能** | 维真 + 智能 | "Authentic Intelligence" | Most natural AI pivot — swap 软件 for 智能 |
 | **维智科技** | 维 + 智 + 科技 | "Upholding Intelligence · Tech" | Sharper, modern |
 | **真智科技** | 真 + 智 + 科技 | "Genuine Intelligence Tech" | Clean, punchy |
@@ -55,7 +55,7 @@ Even without changing the name, your visual identity can feel AI-native:
 ### 4. 💡 Inspired by Top Chinese AI Brand Names
 
 | Company | Name Logic | Lesson |
-|---|---|---|
+| --- | --- | --- |
 | 文心一言 (ERNIE Bot) | Literary + philosophical | Poetic depth works |
 | 通义千问 (Qwen) | Universal meaning + accessibility | Broad vision language |
 | 智谱AI | 智 (intelligence) + 谱 (spectrum) | Simple, memorable pairing |
@@ -74,5 +74,6 @@ Even without changing the name, your visual identity can feel AI-native:
 This keeps your original values (authenticity, integrity) while clearly positioning you in the AI space.
 
 **References:**
+
 - [Chinese AI company naming trends — 36Kr](https://36kr.com)
 - [How top Chinese tech firms brand their AI products — TechNode](https://technode.com)

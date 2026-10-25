@@ -16,21 +16,24 @@ type: note
 **提交 `fff7458`** 位于 192.168.1.34 (`~/projects/mini-llama.cpp`)，仓库 `lzwjava/mini-llama.cpp`：
 
 | 文件 | 变更 |
-|---|---|
+| --- | --- |
 | `src/m3_gpu.cu` | **NEW** — 在 M40 上完整的 Qwen2 前向：RMSNorm → QKV (cuBLAS) → RoPE(NEOX) → attention + fp32 KV cache → silu-MLP → LM head；以及为 norm/rope/attn/mlp 提供的 custom sm_52 kernels |
 | `src/qwen2.c` | **RoPE bugfix** → NEOX 半分割对 `(v[i], v[i+32])`（与 llama.cpp 的 `LLM_ARCH_QWEN2 → LLAMA_ROPE_TYPE_NEOX` 一致）；你之前的交错版本导致残差流数值爆炸（到第 6 层时 rms 从 0.2 涨到 36） |
 | `src/qwen2.h`, `tokenizer.h` | extern "C" 保护（nvcc 链接修复） |
 | `Makefile` | `mini-llama-m3`（CPU）+ `mini-llama-m3-gpu` 目标 |
 
 **验证结果：**
+
 ```
 pos00..pos10: maxabs ~1e-4, top1 cpu=gpu   (11/11, 100% 一致)
 ```
+
 GPU 与 CPU 在全部 24 层中在浮点舍入级别上一致，涵盖 prompt 处理及贪心生成阶段。
 
 ## ⚠️ 遗留问题（已在 README 中记录，尚未解决）
 
 CPU 和 GPU 实现（以及一个独立的 numpy 参考实现）彼此一致——但**与 llama.cpp** 在模型输出的实际*含义*上**不一致**：
+
 - llama.cpp 贪心原始模式：`"The capital of France is" → " Paris. It is the largest city in Europe..."`（top1 令牌 12095 `ĠParis`）
 - 我们的 CPU+GPU：top1 = 122007 `èĹ¿`（乱码）
 
@@ -39,6 +42,7 @@ CPU 和 GPU 实现（以及一个独立的 numpy 参考实现）彼此一致—�
 **因此，诚实的现状是：** M3 的*工程层面*已完成且内部一致；但其*模型语义*仍落后 llama.cpp 的缓存内部机制大约 1 层。如果您想让 M3 与 llama.cpp 达到真正的比特级对等（bit-parity），这是剩下唯一需要处理的线索。
 
 ## 附：盒子内的其他内容
+
 - 完整的 llama.cpp 已作为参考构建（位于 `~/projects/llama.cpp`，包含一个 `dbg-logits` 工具以及其加载器中的一个 instrumentation 补丁——如果你希望我撤销这些，请告诉我）
 - CUDA toolkit 12.4, cmake/ninja, gguf-py 已安装
 - 所有内容均已在本地提交；**准备好后请 push 到 GitHub**（`git push` — 未经你同意我不会 push）

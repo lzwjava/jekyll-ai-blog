@@ -61,7 +61,7 @@ Copilot (the AI code completion / chat assistant) is a **separate add-on subscri
 ### Quick Summary Table
 
 | Feature | GitHub Free | GitHub Pro |
-|---|---|---|
+| --- | --- | --- |
 | Required reviewers | Public only | ✅ Private too |
 | Protected branches | Public only | ✅ Private too |
 | Wikis / Pages / Code Owners | Public only | ✅ Private too |
@@ -74,5 +74,6 @@ Copilot (the AI code completion / chat assistant) is a **separate add-on subscri
 ---
 
 **References:**
+
 - [GitHub's Plans – GitHub Docs](https://docs.github.com/en/get-started/learning-about-github/githubs-plans)
 - [GitHub Copilot Pricing 2026](https://nocode.mba/posts/github-copilot-pricing)

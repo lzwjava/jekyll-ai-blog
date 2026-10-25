@@ -12,13 +12,16 @@ type: note
 嗨！快速状态更新 — 我们正全力投入 M3 GPU 的开发工作中。当前情况如下：
 
 ## 已完成 ✅
+
 - **M3 基础工作**：已克隆仓库，构建了 `mini-llama-m3`（你的 CPU 前向传播）并将其接入 Makefile，下载了模型，安装了 CUDA toolkit + nvcc 12.4（挺过了安装中途的一次崩溃）
 - **在本机上构建了 llama.cpp** 作为黄金参考标准
 
 ## 我正在调试的问题 🔍
+
 你提交的 **CPU 前向传播（qwen2.c）输出是垃圾数据** — 对于输入 *"The capital of France is"*，它输出了 `èĹ¿anaå®ĩØ¯Ø§...`，而 llama.cpp（即使采用贪心解码，即使完全不使用模板）却能清晰地输出 *"Paris. It is the largest city in Europe..."*
 
 我已经全面验证并排除了以下因素：
+
 - ✅ 分词器（往返测试完美无缺）
 - ✅ 权重与反量化 — 与 llama.cpp **字节完全一致**（通过插桩补丁转储了 llama.cpp 自身的 mmap 字节：`db 96 89 03 3e ed a5 20...`，与我的读取器和 gguf-py 完全吻合）
 - ✅ 前向结构（与 llama.cpp 的 qwen2 图完全逐操作对应）

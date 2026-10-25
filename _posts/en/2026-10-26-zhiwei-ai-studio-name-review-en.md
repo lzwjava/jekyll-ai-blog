@@ -16,7 +16,7 @@ type: note
 Breaking it down first:
 
 | Part | Pinyin | Meaning |
-|---|---|---|
+| --- | --- | --- |
 | 智 | Zhì | Intelligence, wisdom |
 | 维 | Wéi | Maintain, uphold; also "dimension" |
 | AI | AI | Artificial Intelligence |
@@ -36,7 +36,7 @@ Breaking it down first:
 ### ⚠️ Things to Consider
 
 | Concern | Detail |
-|---|---|
+| --- | --- |
 | **Scale perception** | 工作室 ("studio") feels small and indie — excellent for a boutique/agency, but may limit perceived scale if you plan to grow into a larger company |
 | **"智维" availability** | 智维 is a relatively common character combo — worth checking trademark/domain availability |
 | **AI in the middle feels slightly awkward** | 智维 · AI · 工作室 has three separate "chunks" — could feel a bit segmented visually |
@@ -47,7 +47,7 @@ Breaking it down first:
 ### 🔧 Possible Tweaks
 
 | Variant | Feel |
-|---|---|
+| --- | --- |
 | **智维AI工作室** (no spaces) | Tighter, cleaner as a single unit |
 | **智维Studio** | More international, drops the formality |
 | **智维创作室** | 创作 = creative work; better if you're a creative AI studio |
@@ -64,5 +64,6 @@ Breaking it down first:
 **Score: 8 / 10** — clean, meaningful, modern. Just verify the trademark is clear before committing.
 
 **References:**
+
 - [Chinese AI startup naming trends — 36Kr](https://36kr.com)
 - [How to name a tech studio in China — TechNode](https://technode.com)
