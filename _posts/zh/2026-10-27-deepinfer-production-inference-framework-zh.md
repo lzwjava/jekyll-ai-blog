@@ -28,6 +28,7 @@ DeepInfer 是 DeepSeek-AI 内部生产推理引擎的开源版本——正是这
 ## 核心特性与用途
 
 DeepInfer 提供离线推理，具备支撑规模化服务所需的核心特性，包括：
+
 - **优化内核** — FlashMLA、DeepGEMM、DeepEP、TileKernels、DeepSelect
 - **并行性** — Attention DP / balanced CP、MoE EP + EPLB
 - **DSpark 推测解码**，带置信度调度验证
@@ -46,7 +47,7 @@ DeepInfer 提供离线推理，具备支撑规模化服务所需的核心特性�
 ## 行业应用
 
 | 领域 | 应用 |
-|---|---|
+| --- | --- |
 | **科技 / 云** | 大规模自托管 LLM 服务，减少对封闭 API 的依赖 |
 | **企业 AI** | 面向数据敏感型工作负载的本地私有化部署 |
 | **金融** | 批量文档分析、投资研究、合同审查 |
@@ -69,6 +70,7 @@ DeepInfer 提供离线推理，具备支撑规模化服务所需的核心特性�
 ---
 
 **参考资料：**
+
 - [DeepSeek Open-Sources DeepInfer – DEV Community](https://dev.to/techpulse01239/deepseek-open-sources-deepinfer-its-production-inference-engine-4571)
 - [What's Actually Inside DeepInfer – DEV Community](https://dev.to/tiaforge/deepinfer-whats-actually-inside-deepseeks-newly-open-sourced-inference-engine-35m1)
 - [DeepInfer GitHub Repository](https://github.com/deepseek-ai/DeepInfer)

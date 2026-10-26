@@ -28,6 +28,7 @@ The repo has already accumulated over 17,600 GitHub stars.
 ## Core Features & Usages
 
 DeepInfer provides offline inference with the core features needed for serving at scale, including:
+
 - **Optimized kernels** — FlashMLA, DeepGEMM, DeepEP, TileKernels, DeepSelect
 - **Parallelism** — Attention DP / balanced CP, MoE EP + EPLB
 - **DSpark speculative decoding** with confidence-scheduled verification
@@ -46,7 +47,7 @@ The framework was initially built primarily on vLLM, with additional inspiration
 ## Industry Applications
 
 | Sector | Application |
-|---|---|
+| --- | --- |
 | **Tech / Cloud** | Self-hosted LLM serving at scale, replacing reliance on closed APIs |
 | **Enterprise AI** | On-premise private deployment for data-sensitive workloads |
 | **Finance** | Batch document analysis, investment research, contract review |
@@ -69,6 +70,7 @@ Key advantages that make it compelling for industry:
 ---
 
 **References:**
+
 - [DeepSeek Open-Sources DeepInfer – DEV Community](https://dev.to/techpulse01239/deepseek-open-sources-deepinfer-its-production-inference-engine-4571)
 - [What's Actually Inside DeepInfer – DEV Community](https://dev.to/tiaforge/deepinfer-whats-actually-inside-deepseeks-newly-open-sourced-inference-engine-35m1)
 - [DeepInfer GitHub Repository](https://github.com/deepseek-ai/DeepInfer)

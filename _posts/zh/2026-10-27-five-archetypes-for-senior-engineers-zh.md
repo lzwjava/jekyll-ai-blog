@@ -26,7 +26,7 @@ type: note
 大多数大型科技公司都有平行的个人贡献者（IC）晋升阶梯：
 
 | 级别 | 头衔 | 职责范围 | 薪酬 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | L4 | Staff Engineer | 跨团队技术领导 | $180K–$350K+ |
 | L5 | Principal Engineer | 公司级技术战略 | $250K–$500K+ |
 | L6 | Distinguished Engineer / Fellow | 行业标准制定 | $350K–$700K+ |
@@ -34,6 +34,7 @@ type: note
 这些是*保持技术路线*并攀登IC阶梯而非转入管理层的工程师。Distinguished Engineer制定最高层级的技术战略，影响行业标准，担任公司领导层的技术顾问，甚至推动整个行业向前发展。大多数工程师从未达到这一级别——这需要长期显著的技术卓越、创新、领导力和行业认可。
 
 **这一层级的真实例子：**
+
 - **Jeff Dean**（1968年出生，约58岁）——谷歌首席科学家，共同创建了MapReduce、Bigtable、TensorFlow。仍然活跃在最高技术层面。
 - **Linus Torvalds**（1969年出生，约57岁）——仍然亲自维护着Linux内核，这是历史上最具影响力的代码库之一。
 - **John Carmack**（1970年出生，约56岁）——传奇图形引擎创作者（Doom、Quake），在Oculus/Meta从事VR多年，现在独立进行AI研究。
@@ -63,6 +64,7 @@ type: note
 来自成功年长工程师的最一致见解：在40岁之前成为你所在领域的专家或专才。那些拥抱终身学习并始终尽最大努力的人会因为他们的经验而受到重视。许多工程师表示，自40岁以来的10多年里，他们做出了最好的工作。
 
 成功的40/50多岁工程师的关键特质：
+
 - **技术深度**：在某个领域*加上*广泛的架构理解
 - **系统思维**——他们能看到初级工程师忽略的二级效应
 - **沟通能力**——他们能将深奥的技术决策转化为商业领导者能理解的语言
@@ -82,7 +84,7 @@ Staff/Principal/Distinguished Engineer承担技术领导和指导的责任，并
 ## 总结表格
 
 | 典型类型 | 代表人物 | 他们做什么 |
-|---|---|---|
+| --- | --- | --- |
 | IC Fellow / Distinguished | Jeff Dean, Linus Torvalds | 编写代码、设计系统、制定技术战略 |
 | 深度领域专家（Deep SME） | IBM、Oracle、Cadence的资深工程师 | 完全掌握一个领域 |
 | 工程领导者 | CTO、工程副总裁 | 在保持技术性的同时领导团队 |
@@ -90,6 +92,7 @@ Staff/Principal/Distinguished Engineer承担技术领导和指导的责任，并
 | 行业人物 | 开源作者、研究人员 | 超越任何公司塑造行业 |
 
 **参考来源：**
+
 - [职业生涯后期的工程师：50岁之后的道路 — techinterview.org](https://www.techinterview.org/post/3233475156/late-career-engineers-past-50/)
 - [软件工程技术轨道：Staff、Principal和架构师路径 — simeononsecurity.com](https://simeononsecurity.com/software-development-career-playbook/growing-as-a-developer/software-engineering-technical-tracks/)
 - [Staff、Principal、Distinguished：工程职业级别详解 — shiftmag.dev](https://shiftmag.dev/staff-principal-distinguished-engineering-career-levels-explained-3565/)

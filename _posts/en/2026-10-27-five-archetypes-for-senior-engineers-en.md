@@ -26,7 +26,7 @@ This is actually one of the most interesting questions in tech careers. The real
 Most large tech companies operate a parallel individual contributor (IC) ladder:
 
 | Level | Title | Scope | Comp |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | L4 | Staff Engineer | Cross-team technical leadership | $180K–$350K+ |
 | L5 | Principal Engineer | Company-wide technical strategy | $250K–$500K+ |
 | L6 | Distinguished Engineer / Fellow | Industry-defining standards | $350K–$700K+ |
@@ -34,6 +34,7 @@ Most large tech companies operate a parallel individual contributor (IC) ladder:
 These are the engineers who *stayed technical* and climbed the IC ladder instead of going into management. A distinguished engineer sets the highest-level technical strategy, influences industry standards, serves as a technical advisor to company leadership, and even moves the entire industry forward. Most engineers never reach this level — it requires a long history of significant technical excellence, innovation, leadership, and industry recognition.
 
 **Real examples in this tier:**
+
 - **Jeff Dean** (born 1968, ~58) — Google's Chief Scientist, co-created MapReduce, Bigtable, TensorFlow. Still technically active at the highest level.
 - **Linus Torvalds** (born 1969, ~57) — Still personally maintains the Linux kernel, one of the most impactful codebases in history.
 - **John Carmack** (born 1970, ~56) — Legendary graphics engine creator (Doom, Quake), spent years at Oculus/Meta on VR, now independent doing AI research.
@@ -73,6 +74,7 @@ A subset become figures who shape the industry *beyond* any single company — w
 The most consistent insight from older engineers who thrived: focus on being an expert or specialist in your area by 40. Those who embrace lifelong learning and do their best work always are valued for their experience. Many engineers report doing their best work in the 10+ years since turning 40.
 
 Key traits of successful 40s/50s engineers:
+
 - **Technical depth** in one domain *plus* broad architectural understanding
 - **Systems thinking** — they see second-order effects junior engineers miss
 - **Communication** — they can translate deeply technical decisions for business leaders
@@ -96,7 +98,7 @@ The engineers who *beat* this trend are those who kept learning, stayed technica
 ## Summary Table
 
 | Archetype | Who | What They Do |
-|---|---|---|
+| --- | --- | --- |
 | IC Fellow / Distinguished | Jeff Dean, Linus Torvalds | Code, architect systems, define tech strategy |
 | Deep SME | Senior engineers at IBM, Oracle, Cadence | Own one domain completely |
 | Engineering Leader | CTOs, VPs Eng | Lead teams while staying technical |
@@ -106,6 +108,7 @@ The engineers who *beat* this trend are those who kept learning, stayed technica
 ---
 
 **References:**
+
 - [Late-Career Engineers: The Path Past 50 — techinterview.org](https://www.techinterview.org/post/3233475156/late-career-engineers-past-50/)
 - [Software Engineering Technical Tracks: Staff, Principal, and Architect Paths — simeononsecurity.com](https://simeononsecurity.com/software-development-career-playbook/growing-as-a-developer/software-engineering-technical-tracks/)
 - [Staff, Principal, Distinguished: Engineering Career Levels Explained — shiftmag.dev](https://shiftmag.dev/staff-principal-distinguished-engineering-career-levels-explained-3565/)
