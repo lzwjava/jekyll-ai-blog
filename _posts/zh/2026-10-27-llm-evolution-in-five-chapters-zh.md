@@ -30,6 +30,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [LLM演变五个时代 — arXiv LAAF论文](https://arxiv.org/pdf/2608.27102)
 - [DeepSeek R1：梳理炒作 — IBM](https://www.ibm.com/think/topics/deepseek)
 - [LLM历史里程碑2022–2026 — CloudInsight](https://cloudinsight.cc/en/blog/llm-guide)

@@ -28,12 +28,14 @@ It's a fork/descendant of **vLLM** (explicitly acknowledged in code comments: "D
 ## Architecture
 
 **Python core** (`deepinfer/`):
+
 - `engine/llm_engine.py` (~1K lines) — the orchestrator: scheduler loop, request lifecycle, batch processing, async (zero-overhead) scheduling, stats, profiling
 - `worker/` — `model_runner.py`, `worker.py`, `cache_engine.py`, plus **CUDA graph runners** for prefill/decode and a flash-decoding graph runner
 - `model_executor/models/deepseek.py` — the model itself, built from V4 modules: MoE MLP, MTP (multi-token prediction), **DFlash** draft model, **Engram** (ngram matching), **HC** (hybrid-cross? attention/heads), YOCO cross-layers, and multimodal embedding support
 - `model_executor/layers/` — sampler, attention backends, tilelang_ops (custom TileLang kernels)
 
 **C++ engine** (`csrc/engine/`) — the hot path, exposed via pybind11:
+
 - `scheduler.hpp` — zero-overhead batch scheduler, block manager, flops estimator
 - `prepare_sample.cpp` / `mtp_varlen.hpp` — sampling prep and MTP variable-length verification
 - `zos.cpp` (ZOS status), sequence/request-output handling

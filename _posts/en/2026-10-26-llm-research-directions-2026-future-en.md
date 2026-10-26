@@ -66,7 +66,7 @@ Smaller models are catching up — a 7B model today can hit scores that took 70B
 ## 🔮 Future Predictions
 
 | Horizon | Prediction |
-|---|---|
+| --- | --- |
 | **2027** | Agentic AI goes mainstream in enterprise; but ~40% of projects get canceled due to cost/ROI pressure |
 | **2027–2028** | World Models + MLLMs dominate embodied AI research (robotics, simulation) |
 | **2028** | Training data scarcity becomes critical — by 2028, the amount of available text will equal the data needed to train LLMs, forcing synthetic data and architectural innovation |
@@ -80,6 +80,7 @@ Smaller models are catching up — a 7B model today can hit scores that took 70B
 ---
 
 **References:**
+
 - [Top LLM Trends 2026 — Turing.com](https://www.turing.com/resources/top-llm-trends)
 - [Top 10 LLM Research Papers of 2026 — Analytics Vidhya](https://www.analyticsvidhya.com/blog/2026/05/top-llm-research-papers-2026/)
 - [LLM Research Papers 2026 (Jan–May) — Sebastian Raschka](https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1)

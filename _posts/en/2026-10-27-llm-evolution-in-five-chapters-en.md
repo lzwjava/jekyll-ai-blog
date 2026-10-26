@@ -30,6 +30,7 @@ The arc is clear: from scale → alignment → multimodal → open-source → re
 ---
 
 **References:**
+
 - [LLM Evolution Five Eras — arXiv LAAF Paper](https://arxiv.org/pdf/2608.27102)
 - [DeepSeek R1: Sorting Through the Hype — IBM](https://www.ibm.com/think/topics/deepseek)
 - [LLM Historical Milestones 2022–2026 — CloudInsight](https://cloudinsight.cc/en/blog/llm-guide)

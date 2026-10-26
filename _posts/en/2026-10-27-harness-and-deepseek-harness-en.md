@@ -46,6 +46,7 @@ The monorepo ships 49 packages — core, llm, mcp, sandbox, context, plan, goal,
 VentureBeat positioned it as an open-source rival to Claude Code. It launched the same day as DeepSeek V4-Pro, pairing the model and its harness as a bundled duo.
 
 To install and run it:
+
 ```bash
 npx @deepseek-ai/dsh web
 ```
@@ -57,6 +58,7 @@ npx @deepseek-ai/dsh web
 ---
 
 **References:**
+
 - [DeepSeek Harness Explained — Orca Router](https://www.orcarouter.ai/blog/deepseek-harness-explained)
 - [DSH Usage Guide — Orca Router](https://www.orcarouter.ai/ar/blog/deepseek-dsh-usage)
 - [DeepSeek Harness 开放测试报道 — 澎湃新闻](https://m.thepaper.cn/newsDetail_forward_33783308)

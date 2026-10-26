@@ -33,6 +33,7 @@ type: note
 > 一家私募股权公司对一家零售连锁店进行 **leveraged buyout**，大量借债购买其100%的股份并将其私有化。
 
 References:
+
 - [Buyout 定义 – Investopedia](https://www.investopedia.com/terms/b/buyout.asp)
 - [Leveraged Buyout (LBO) – Investopedia](https://www.investopedia.com/terms/l/leveragedbuyout.asp)
 - [Management Buyout (MBO) – Investopedia](https://www.investopedia.com/terms/m/managementbuyout.asp)

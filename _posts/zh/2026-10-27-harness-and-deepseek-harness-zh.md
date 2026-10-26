@@ -46,6 +46,7 @@ DSH 团队将模型描述为“Agent 的灵魂”，而 harness “赋予 Agent 
 VentureBeat 将其定位为 Claude Code 的开源竞争对手。它与 DeepSeek V4-Pro 同一天发布，将模型和 harness 作为捆绑组合一起推出。
 
 要安装并运行它：
+
 ```bash
 npx @deepseek-ai/dsh web
 ```
@@ -53,6 +54,7 @@ npx @deepseek-ai/dsh web
 **简而言之：** “Harness” = 让模型变成有用 agent 的 scaffolding。DSH = DeepSeek 开源的该类 scaffolding，是他们对标 Claude Code 的方案，于 2026 年 8 月发布。
 
 **参考链接：**
+
 - [DeepSeek Harness Explained — Orca Router](https://www.orcarouter.ai/blog/deepseek-harness-explained)
 - [DSH Usage Guide — Orca Router](https://www.orcarouter.ai/ar/blog/deepseek-dsh-usage)
 - [DeepSeek Harness 开放测试报道 — 澎湃新闻](https://m.thepaper.cn/newsDetail_forward_33783308)

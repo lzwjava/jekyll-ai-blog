@@ -33,6 +33,7 @@ There are several common types:
 > A private equity firm conducts a **leveraged buyout** of a retail chain, borrowing heavily to purchase 100% of its shares and take it private.
 
 References:
+
 - [Buyout Definition – Investopedia](https://www.investopedia.com/terms/b/buyout.asp)
 - [Leveraged Buyout (LBO) – Investopedia](https://www.investopedia.com/terms/l/leveragedbuyout.asp)
 - [Management Buyout (MBO) – Investopedia](https://www.investopedia.com/terms/m/managementbuyout.asp)

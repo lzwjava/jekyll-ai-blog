@@ -66,7 +66,7 @@ Multimodal LLMs（MLLMs）和World Models（WMs）的突破为embodied AI研究�
 ## 🔮 未来预测
 
 | 时间范围 | 预测 |
-|---|---|
+| --- | --- |
 | **2027** | Agentic AI在企业中成为主流；但约40%的项目因成本/ROI压力被取消 |
 | **2027–2028** | World Models + MLLMs主导embodied AI研究（机器人、模拟） |
 | **2028** | 训练数据稀缺变得至关重要——到2028年，可用文本量将等同于训练LLM所需的数据量，迫使synthetic data和架构创新 |
@@ -80,6 +80,7 @@ Multimodal LLMs（MLLMs）和World Models（WMs）的突破为embodied AI研究�
 ---
 
 **References:**
+
 - [2026年顶级LLM趋势 — Turing.com](https://www.turing.com/resources/top-llm-trends)
 - [2026年十大LLM研究论文 — Analytics Vidhya](https://www.analyticsvidhya.com/blog/2026/05/top-llm-research-papers-2026/)
 - [LLM研究论文2026（1月–5月）— Sebastian Raschka](https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1)
