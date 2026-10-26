@@ -44,6 +44,7 @@ type: note
 核心洞察在于：失败本身并不是真正的恐惧——真正让人恐惧的是失败对一个人而言*意味着*什么，关乎他们自身以及他们在世界中的位置。把失败重新定义为数据和反馈，而不是评判，是区分成长者与停滞者的关键。
 
 **参考文献：**
+
 - [Carol Dweck — Mindset: The New Psychology of Success](https://www.mindsetonline.com)
 - [Psychology Today — Fear of Failure (Atychiphobia)](https://www.psychologytoday.com/us/basics/fear-of-failure)
 - [Harvard Business Review — Why We Fear Failure (and What to Do About It)](https://hbr.org/topic/subject/failure)

@@ -20,7 +20,7 @@ type: note
 倦怠是一种**长期、未解决的压力的状态**，会导致三种核心症状，该概念最初由心理学家赫伯特·弗罗伊登伯格于1974年提出，后由研究员克里斯蒂娜·马斯拉赫正式化：
 
 | 维度 | 感受 |
-|---|---|
+| --- | --- |
 | **精疲力竭** | 感到情绪上和身体上都被耗尽，没有什么可以再付出的了 |
 | **愤世嫉俗 / 去人格化** | 对工作和人变得疏离、消极或冷漠 |
 | **效能降低** | 感到自己没有效率、没有成就感，好像自己的努力无关紧要 |
@@ -68,6 +68,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [世界卫生组织——倦怠是一种“职业现象”：国际疾病分类](https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases)
 - [马斯拉赫， C. & 莱特， M.P. ——《关于倦怠的真相》（书籍）](https://www.wiley.com/en-us/The+Truth+About+Burnout%3A+How+Organizations+Cause+Personal+Stress+and+What+to+Do+About+It-p-9780787908874)
 - [今日心理学——倦怠](https://www.psychologytoday.com/us/basics/burnout)

@@ -20,7 +20,7 @@ type: note
 Here's why this works cleanly for your company:
 
 | Factor | 知识城支行 (previous question) | **增城支行 ✅** |
-|---|---|---|
+| --- | --- | --- |
 | Branch location | 黄埔区 | **增城区** |
 | Your company location | 增城区中新镇 | **增城区中新镇** |
 | District match | ❌ Cross-district | ✅ **Same district** |
@@ -31,6 +31,7 @@ Since both your company (增城区中新镇福中路) and this branch (增城区
 This is the natural and straightforward choice for 广州智维深算信息技术有限公司 to open a 对公账户.
 
 References:
+
 - [广州本地宝 — 招商银行增城支行](https://gz.bendibao.com/wangdian/dian/5637463.shtm)
 - [广州金融服务地址名录2025](https://m.city8.com/gz/financial/67/)
 - [广州住房公积金中心经办网点](https://gjj.gz.gov.cn/ywwd/dkjgjbwd/content/post_3476115.html)

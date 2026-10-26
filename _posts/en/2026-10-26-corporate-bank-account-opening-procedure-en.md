@@ -20,7 +20,7 @@ Here's the full step-by-step process for opening a 基本存款账户 (the prima
 **Step 1 — Decide the Account Type**
 
 | Type | Purpose | Limit |
-|---|---|---|
+| --- | --- | --- |
 | 基本存款账户 | Main daily operating account (payroll, payments, taxes) | **1 per company** across all banks |
 | 一般存款账户 | Secondary accounts (for loans, etc.) | Multiple allowed |
 
@@ -33,7 +33,7 @@ As a new company you almost certainly want the **基本户** first.
 Core documents required:
 
 | Document | Notes |
-|---|---|
+| --- | --- |
 | 营业执照正本 + 副本 | Original + photocopies |
 | 法定代表人身份证 | Original; legal rep should attend in person |
 | 经办人身份证 | If someone other than the legal rep handles it |
@@ -50,6 +50,7 @@ Banks also typically require a filled application form and may request photos of
 **Step 3 — Make an Appointment (预约)**
 
 Call 招商银行增城支行 at **(020) 82747632** or visit in person first to:
+
 - Confirm the exact document checklist for your company type
 - Book a specific time slot (reduces waiting)
 
@@ -98,5 +99,6 @@ After the account is open, you'll need to:
 - If you're a newly registered company without a fixed office yet, CMB offers a **simplified account (简易账户)** requiring only the business license and legal rep's ID. This can be upgraded to a full account once your business is operational.
 
 References:
+
 - [招商银行简易开户 — 第一财经](https://www.yicai.com/news/101247686.html)
 - [对公开户流程说明 — 叩富问财](https://licai.cofool.com/ask/qa_6755079.html)

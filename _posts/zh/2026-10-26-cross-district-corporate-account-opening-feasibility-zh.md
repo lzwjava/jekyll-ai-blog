@@ -35,7 +35,7 @@ type: note
 **3. 实用建议**
 
 | 选择 | 说明 |
-|---|---|
+| --- | --- |
 | ✅ 首先直接致电知识城支行 | 明确询问他们是否接受运营地址在增城区的公司。有些支行比较灵活；其他支行则局限于其区域。 |
 | ✅ 招商银行在增城区有支行 | 根据列表，招商银行在增城设有支行（锦绣支行、荔乡支行、新塘解放路支行等）——对于地址在增城区中新镇福中路的公司来说，这些支行可能是更直接的选择。 |
 | ⚠️ 不要假设 | 即使没有监管限制，知识城支行也没有义务为服务区域以外的公司开户。 |
@@ -43,6 +43,7 @@ type: note
 **结论：** 这*并非不可能*，但知识城支行可能会将您指引到增城区的一家招商银行支行，因为您的注册/运营地址在那里。致电支行 **020-82087222**（招商银行广州分行总号）或亲自前往确认是最快的解决方法。
 
 参考文献：
+
 - [招商银行简易开户 - 第一财经](https://www.yicai.com/news/101247686.html)
 - [中新广州知识城 - CapitaLand](https://www.capitaland.com/cn/zh/development/our-portfolio/integrateddevelopment-urbandevelopment/chinasingapore-guangzhou-knowledge-city.html)
 - [增城区招商银行网点 - 本地宝](https://m.gz.bendibao.com/wangdian/yinhang/zengcheng/)

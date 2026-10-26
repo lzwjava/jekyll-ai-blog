@@ -30,6 +30,7 @@ Torvalds 将他的沟通风格辩护为典型的芬兰风格，认为礼貌是�
 ---
 
 **参考文献：**
+
 - [Linus Torvalds: 令人耳目一新的技术领袖 – Digitec/Galaxus](https://www.digitec.ch/en/page/linus-torvalds-the-refreshingly-different-tech-leader-43050)
 - [Linus Torvalds 捍卫其羞辱 Linux 内核开发者的权利 – Notre Dame Ethics at Work](https://ethicsatwork.nd.edu/resources/linus-torvalds-defends-his-right-to-shame-linux-kernel-developers/)
 - [关于 Linus Torvalds、技术与企业沟通 – ds9a.nl](https://ds9a.nl/articles/posts/linus-communications/)

@@ -26,6 +26,7 @@ What is well-documented is that:
 The exact quote about parents *persistently* urging him toward a big-company job even post-success doesn't appear in verified interviews I can find. It's possible you heard a paraphrased or embellished version of his broader remarks about immigrant-parent expectations. If you recall *where* you heard it (a specific interview or podcast), I can look it up more precisely.
 
 **References:**
+
 - [Nvidia CEO Jensen Huang: 'to be a CEO is a lifetime of sacrifice' – Fortune](https://fortune.com/2025/11/17/nvidia-ceo-jensen-huang-sacrifice-leadership-reality)
 - [Jensen Huang's Best Career Advice – Fortune](https://dc.fortune.com/2024/05/24/nvidia-ceo-jensen-huangs-best-career-advice-came-from-an-elderly-gardener/)
 - [Before Nvidia, Jensen Huang Was a 9-Year-Old Janitor – Fortune](https://www.fortune.com/2025/12/05/jensen-huang-nine-year-old-janitor-before-nvidia-joe-rogan-podcast)

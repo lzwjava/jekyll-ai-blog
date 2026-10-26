@@ -20,7 +20,7 @@ type: note
 Burnout is a state of **chronic, unresolved stress** that results in three core symptoms, first defined by psychologist Herbert Freudenberger in 1974 and later formalized by researcher Christina Maslach:
 
 | Dimension | What It Feels Like |
-|---|---|
+| --- | --- |
 | **Exhaustion** | Feeling emotionally and physically drained, with nothing left to give |
 | **Cynicism / Depersonalization** | Becoming detached, negative, or indifferent toward work and people |
 | **Reduced Efficacy** | Feeling ineffective, unaccomplished, like your efforts don't matter |
@@ -68,6 +68,7 @@ It's important to distinguish burnout from ordinary tiredness: **regular fatigue
 ---
 
 **References:**
+
 - [WHO — Burn-out an "occupational phenomenon": International Classification of Diseases](https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases)
 - [Maslach, C. & Leiter, M.P. — The Truth About Burnout (book)](https://www.wiley.com/en-us/The+Truth+About+Burnout%3A+How+Organizations+Cause+Personal+Stress+and+What+to+Do+About+It-p-9780787908874)
 - [Psychology Today — Burnout](https://www.psychologytoday.com/us/basics/burnout)

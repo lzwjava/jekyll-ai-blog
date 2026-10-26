@@ -26,6 +26,7 @@ type: note
 关于即使在成功后父母*持续*敦促他去大公司工作的确切引述，在我能找到的经过验证的采访中并没有出现。你听到的可能是他关于移民父母期望的更广泛言论的转述或润色版本。如果你记得在哪里听到的（某个具体采访或播客），我可以更精确地查找。
 
 **参考资料：**
+
 - [Nvidia CEO Jensen Huang: 'to be a CEO is a lifetime of sacrifice' – Fortune](https://fortune.com/2025/11/17/nvidia-ceo-jensen-huang-sacrifice-leadership-reality)
 - [Jensen Huang's Best Career Advice – Fortune](https://dc.fortune.com/2024/05/24/nvidia-ceo-jensen-huangs-best-career-advice-came-from-an-elderly-gardener/)
 - [Before Nvidia, Jensen Huang Was a 9-Year-Old Janitor – Fortune](https://www.fortune.com/2025/12/05/jensen-huang-nine-year-old-janitor-before-nvidia-joe-rogan-podcast)

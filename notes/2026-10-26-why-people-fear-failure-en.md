@@ -44,6 +44,7 @@ The mind tends to extrapolate worst-case scenarios: *"If I fail this, my career 
 The core insight is that failure itself isn't the real fear — it's what failure *means* to a person about themselves and their standing in the world. Reframing failure as data and feedback, rather than judgment, is what separates people who grow from those who stay stuck.
 
 **References:**
+
 - [Carol Dweck — Mindset: The New Psychology of Success](https://www.mindsetonline.com)
 - [Psychology Today — Fear of Failure (Atychiphobia)](https://www.psychologytoday.com/us/basics/fear-of-failure)
 - [Harvard Business Review — Why We Fear Failure (and What to Do About It)](https://hbr.org/topic/subject/failure)

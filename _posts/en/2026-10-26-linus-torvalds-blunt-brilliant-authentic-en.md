@@ -34,6 +34,7 @@ So: **brilliant, passionate, principled, blunt — and not conventionally "kind,
 ---
 
 **References:**
+
 - [Hall of Fame: Linus Torvalds – Search Guard](https://search-guard.com/blog/hall-of-fame-linus-torvalds/)
 - [Linus Torvalds: The Refreshingly Different Tech Leader – Digitec](https://www.digitec.ch/en/page/linus-torvalds-the-refreshingly-different-tech-leader-43050)
 - [Just For Fun – Linus Torvalds Personality Overview](https://sbrc2017.ufpa.br/trip/just-for-fun-linus-torvalds)

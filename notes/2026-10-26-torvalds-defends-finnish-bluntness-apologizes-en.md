@@ -30,6 +30,7 @@ The episode illustrated a broader tension: the line between cultural directness 
 ---
 
 **References:**
+
 - [Linus Torvalds: the refreshingly different tech leader – Digitec/Galaxus](https://www.digitec.ch/en/page/linus-torvalds-the-refreshingly-different-tech-leader-43050)
 - [Linus Torvalds defends his right to shame Linux kernel developers – Notre Dame Ethics at Work](https://ethicsatwork.nd.edu/resources/linus-torvalds-defends-his-right-to-shame-linux-kernel-developers/)
 - [On Linus Torvalds, technical & corporate communications – ds9a.nl](https://ds9a.nl/articles/posts/linus-communications/)

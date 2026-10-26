@@ -20,7 +20,7 @@ This is a notable differentiator among Chinese business leaders. Here are the mo
 ### ⭐ Tier 1 — Truly Fluent English + Globally Recognized
 
 | Executive | Company | Why They Stand Out |
-|---|---|---|
+| --- | --- | --- |
 | **Jack Ma** | Alibaba (co-founder) | Former English teacher; legendary public speaker at Davos, UN, and global stages |
 | **Robin Li (Li Yanhong)** | Baidu (CEO) | MS from SUNY Buffalo; frequently appears on mainstream US media, especially during earnings season |
 | **Shou Zi Chew** | TikTok / ByteDance (CEO) | Singapore-born; can easily navigate the halls of Chinese tech companies and the boardrooms of banks like Goldman Sachs; Harvard MBA; testified confidently before US Congress |
@@ -33,7 +33,7 @@ This is a notable differentiator among Chinese business leaders. Here are the mo
 ### ⭐ Tier 2 — Strong Global Mindset, Working English
 
 | Executive | Company | Note |
-|---|---|---|
+| --- | --- | --- |
 | **Zhang Yiming** | ByteDance (founder) | Has given English interviews; known for intellectual, globally-minded thinking |
 | **Lei Jun** | Xiaomi (CEO) | Understands the importance of communications with English-speaking audiences — made a famous English speech in India ("Are you OK?") that became a meme, but shows his effort |
 | **Wang Chuanfu** | BYD (CEO & founder) | More technical/engineering-focused; global mindset shown through rapid international EV expansion |
@@ -51,6 +51,7 @@ The most globally recognized Chinese executive today is arguably **Shou Zi Chew*
 ---
 
 **References:**
+
 - [SCMP – Chinese Tech Leaders and English](https://amp.scmp.com/tech/tech-leaders-and-founders/article/1777704/zuckerbergs-chinese-lei-juns-english-tech-leaders)
 - [Fortune – ByteDance's Shouzi Chew as TikTok CEO](https://dc.fortune.com/2021/04/30/new-tiktok-ceo-bytedance-shouzi-chew)
 - [Babbel – Tech Leaders Who Speak More Than One Language](https://www.babbel.com/en/magazine/6-tech-leaders-who-speak-more-than-one-language)

@@ -20,6 +20,7 @@ type: note
 ### 理解这一哲学
 
 大多数人要么：
+
 - 努力工作却因休息感到愧疚 → 长期倦怠
 - 大量玩乐却因担心自己做得不够而焦虑 → 低满足感
 
@@ -53,7 +54,7 @@ type: note
 ### 平衡公式
 
 | 工作模式 | 玩乐模式 |
-|---|---|
+| --- | --- |
 | 专注、截止日期、自律 | 自由、好奇、投入 |
 | 产出驱动 | 体验驱动 |
 | 对分心说“不” | 对内疚说“不” |
@@ -63,6 +64,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [恢复的科学：为什么休息让你更有生产力 – 哈佛商业评论](https://hbr.org/2016/06/if-youre-not-outside-your-comfort-zone-you-wont-learn-anything)
 - [为什么玩乐是正经事 – 国家地理](https://www.nationalgeographic.com/magazine/article/play-science-health-benefits)
 - [工作与生活的平衡不是目标 — 哈佛商业评论](https://hbr.org/2014/01/integrate-your-work-and-life-rather-than-balance-them)

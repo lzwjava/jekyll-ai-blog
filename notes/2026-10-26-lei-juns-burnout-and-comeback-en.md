@@ -38,6 +38,7 @@ In short, the 16-year grind at Kingsoft — including near-bankruptcies, competi
 ---
 
 **References:**
+
 - [Lei Jun – Wikipedia](https://en.wikipedia.org/wiki/Lei_Jun)
 - [Lei Jun: A "game-changer" at a critical juncture – Fudan University](https://www.fudan.edu.cn/en/2019/1031/c344a102626/page.psp)
 - [Lei Jun Has Been Told His Ideas Were Too Small… – Startup Fortune](https://startupfortune.com/lei-jun-has-been-told-his-ideas-were-too-small-too-late-and-too-obvious-he-built-two-giants-anyway/)

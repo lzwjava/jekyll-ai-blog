@@ -35,7 +35,7 @@ However, in **practice**:
 **3. Practical Recommendation**
 
 | Option | Notes |
-|---|---|
+| --- | --- |
 | ✅ Call the 知识城支行 directly first | Ask explicitly if they accept companies with an 增城区 operating address. Some branches are flexible; others defer to their zone. |
 | ✅ CMB has branches in 增城区 | From listings, CMB has branches in 增城 (锦绣支行, 荔乡支行, 新塘解放路支行, etc.) — these may be a more straightforward path for a company at 增城区中新镇福中路. |
 | ⚠️ Do not assume | The 知识城支行 is not obligated to open accounts for companies outside its service area, even if there's no regulatory block. |
@@ -43,6 +43,7 @@ However, in **practice**:
 **Bottom line:** It is *not impossible*, but the 知识城支行 may redirect you to a CMB branch in 增城区 since your registered/operating address is there. Calling the branch at **020-82087222** (招商银行广州分行总号) or visiting in person to confirm is the fastest resolution.
 
 References:
+
 - [招商银行简易开户 - 第一财经](https://www.yicai.com/news/101247686.html)
 - [中新广州知识城 - CapitaLand](https://www.capitaland.com/cn/zh/development/our-portfolio/integrateddevelopment-urbandevelopment/chinasingapore-guangzhou-knowledge-city.html)
 - [增城区招商银行网点 - 本地宝](https://m.gz.bendibao.com/wangdian/yinhang/zengcheng/)

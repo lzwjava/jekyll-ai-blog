@@ -20,7 +20,7 @@ type: note
 ### ⭐ 第一梯队 — 真正流利的英语 + 全球认可
 
 | 高管 | 公司 | 突出原因 |
-|---|---|---|
+| --- | --- | --- |
 | **Jack Ma** | Alibaba（联合创始人） | 前英语教师；在达沃斯、联合国和全球舞台上的传奇演讲家 |
 | **Robin Li（Li Yanhong）** | Baidu（CEO） | MS from SUNY Buffalo；频繁出现在美国主流媒体，尤其是在财报季 |
 | **Shou Zi Chew** | TikTok / ByteDance（CEO） | 新加坡出生；能轻松游走于中国科技公司的大厅和如高盛等银行的会议室；Harvard MBA；在美国国会自信作证 |
@@ -31,7 +31,7 @@ type: note
 ### ⭐ 第二梯队 — 强大的全球视野，实用英语水平
 
 | 高管 | 公司 | 说明 |
-|---|---|---|
+| --- | --- | --- |
 | **Zhang Yiming** | ByteDance（创始人） | 曾接受英语采访；以知性、全球化的思维著称 |
 | **Lei Jun** | Xiaomi（CEO） | 理解与英语受众沟通的重要性——曾在印度用英语发表著名演讲（"Are you OK?"），成为一个meme，但体现了他付出的努力 |
 | **Wang Chuanfu** | BYD（CEO兼创始人） | 更偏向技术/工程；通过快速的国际EV扩张展现全球视野 |
@@ -47,6 +47,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [SCMP – Chinese Tech Leaders and English](https://amp.scmp.com/tech/tech-leaders-and-founders/article/1777704/zuckerbergs-chinese-lei-juns-english-tech-leaders)
 - [Fortune – ByteDance's Shouzi Chew as TikTok CEO](https://dc.fortune.com/2021/04/30/new-tiktok-ceo-bytedance-shouzi-chew)
 - [Babbel – Tech Leaders Who Speak More Than One Language](https://www.babbel.com/en/magazine/6-tech-leaders-who-speak-more-than-one-language)

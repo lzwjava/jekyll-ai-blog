@@ -39,7 +39,7 @@ type: note
 ### 🔑 关键公司详情
 
 | 公司 | 行业 | 全球亮点 |
-|---|---|---|
+| --- | --- | --- |
 | **Huawei** | Telecom / Tech | 在 100 多个国家设有办事处；Fortune 500 第 81 位 |
 | **BYD** | Electric Vehicles | 在泰国、新加坡、巴西、欧洲销售强劲（EV registrations 增长 +270%） |
 | **Lenovo** | PCs / Tech | 全球各地设有办事处；始终保持全球影响力前列 |
@@ -62,6 +62,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [2026 China Enterprises Global Impact Report – Jiemian](https://en.jiemian.com/article/14583093.html)
 - [Beijing Fortune Global 500 HQ Rankings – Beijing.gov.cn](https://english.beijing.gov.cn/latest/news/202608/t20260804_4807832.html)
 - [Shenzhen Fortune 500 Companies – Shenzhen Gov](https://qh.sz.gov.cn/en/news/content/post_12924208.html)

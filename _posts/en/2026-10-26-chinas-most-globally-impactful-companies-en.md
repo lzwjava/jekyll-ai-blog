@@ -39,7 +39,7 @@ These companies are entering a new phase of globalization — moving beyond expo
 ### 🔑 Key Companies in Detail
 
 | Company | Sector | Global Highlights |
-|---|---|---|
+| --- | --- | --- |
 | **Huawei** | Telecom / Tech | Offices in 100+ countries; #81 on Fortune 500 |
 | **BYD** | Electric Vehicles | Strong sales in Thailand, Singapore, Brazil, Europe (+270% EV registrations) |
 | **Lenovo** | PCs / Tech | Offices globally; consistently top globally impactful |
@@ -62,6 +62,7 @@ Huawei was the highest-ranked Chinese high-tech company by revenue, reporting ov
 ---
 
 **References:**
+
 - [2026 China Enterprises Global Impact Report – Jiemian](https://en.jiemian.com/article/14583093.html)
 - [Beijing Fortune Global 500 HQ Rankings – Beijing.gov.cn](https://english.beijing.gov.cn/latest/news/202608/t20260804_4807832.html)
 - [Shenzhen Fortune 500 Companies – Shenzhen Gov](https://qh.sz.gov.cn/en/news/content/post_12924208.html)

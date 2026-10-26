@@ -20,6 +20,7 @@ type: note
 ### Understanding the Philosophy
 
 Most people either:
+
 - Work hard but feel guilty resting → chronic burnout
 - Play a lot but feel anxious they're not doing enough → low fulfillment
 
@@ -53,7 +54,7 @@ Not every weekend needs a side project, a self-improvement course, or a networki
 ### The Balance Formula
 
 | Work Mode | Play Mode |
-|---|---|
+| --- | --- |
 | Focus, deadlines, discipline | Freedom, curiosity, presence |
 | Output-driven | Experience-driven |
 | Say no to distractions | Say no to guilt |
@@ -63,6 +64,7 @@ The philosophy only works if you actually **honor both sides**. If you play hard
 ---
 
 **References:**
+
 - [The Science of Recovery: Why Rest Makes You More Productive – Harvard Business Review](https://hbr.org/2016/06/if-youre-not-outside-your-comfort-zone-you-wont-learn-anything)
 - [Why Play is Serious Business – National Geographic](https://www.nationalgeographic.com/magazine/article/play-science-health-benefits)
 - [Work-Life Balance Isn't the Goal — HBR](https://hbr.org/2014/01/integrate-your-work-and-life-rather-than-balance-them)

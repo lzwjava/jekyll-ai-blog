@@ -34,6 +34,7 @@ Linus Torvalds 体现了严肃的技术成就与顽皮个性的结合如何带�
 ---
 
 **参考资料：**
+
 - [Hall of Fame: Linus Torvalds – Search Guard](https://search-guard.com/blog/hall-of-fame-linus-torvalds/)
 - [Linus Torvalds: The Refreshingly Different Tech Leader – Digitec](https://www.digitec.ch/en/page/linus-torvalds-the-refreshingly-different-tech-leader-43050)
 - [Just For Fun – Linus Torvalds Personality Overview](https://sbrc2017.ufpa.br/trip/just-for-fun-linus-torvalds)
