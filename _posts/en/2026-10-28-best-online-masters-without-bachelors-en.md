@@ -33,8 +33,6 @@ Sources: [CU Boulder program and tuition](https://online.colorado.edu/computer-s
 
 University of Colorado Boulder+4
 
-
-
 The most important finding is that CU Boulder offers a route that does not depend on traditional transcript-based admission. That makes it unusually relevant to you.
 
 ## 2. My top recommendation: CU Boulder MS-AI
@@ -59,15 +57,11 @@ Official sources: [MS-AI program](https://www.colorado.edu/cs/academics/online-p
 
 University of Colorado Boulder+2
 
-
-
 This is the unusual part: the university lets you begin without a traditional graduate application or bachelor's degree. You earn admission by completing three one-credit pathway courses, achieving at least a B in each, and maintaining the required 3.0 GPA. Those credits count toward the degree.&#x20;
 
 [image](https://www.google.com/s2/favicons?domain=https://www.colorado.edu\&sz=32)
 
 University of Colorado Boulder
-
-
 
 The AI curriculum includes machine learning, deep learning, reinforcement learning, intelligent agents, and AI-related electives. That makes it relevant to your LLM and agent engineering work.
 
@@ -80,8 +74,6 @@ CSTU is not necessarily illegitimate. Its official site reports ACCSC accreditat
 [image](https://www.google.com/s2/favicons?domain=https://www.cstu.edu\&sz=32)
 
 CSTU.edu+1
-
-
 
 However, its published prices are:
 
@@ -105,8 +97,6 @@ CSTU also explicitly requires a completed bachelor's degree or equivalent for ad
 
 CSTU.edu+1
 
-
-
 So, for your circumstances, it has two disadvantages: higher cost and no obvious alternative admissions route.
 
 Before paying either school, verify CSTU's current accreditation term directly with ACCSC. Its historical accreditation and current renewal are separate questions.
@@ -125,8 +115,6 @@ Excellent brand recognition and a broad computer science curriculum. But Georgia
 
 OMSCS
 
-
-
 [Official admissions and FAQ](https://www.omscs.gatech.edu/prospective-student-faqs?utm_source=chatgpt.com)
 
 [UT Austin snags $840M defense grant | Urbanize Austin](https://images.openai.com/static-rsc-4/x6ob7inE8fArFzK-1eNH8rFK1gM3S9cTUlsSHJAC_2Edh677THOO490NCS-JpUxPuWlprP7eO49rfN__B76GUDm1j5FrStX-1mOUfHyZdOHnb3udSnLdWjeyiA456HMU9bLfDp12FnfaS4l0xF5q6pgikZif4R33_Nr5GvNVReY?purpose=inline)
@@ -141,8 +129,6 @@ Published tuition is $10,000. Its admissions guidance generally expects a bachel
 
 Computer & Data Science Online
 
-
-
 [Official admissions guide](https://cdso.utexas.edu/apply?utm_source=chatgpt.com)
 
 For completeness, Illinois is also a strong option, but its online MCS requires a bachelor's equivalent. I would not spend application fees there until you have a qualifying credential.&#x20;
@@ -150,8 +136,6 @@ For completeness, Illinois is also a strong option, but its online MCS requires 
 [image](https://www.google.com/s2/favicons?domain=https://siebelschool.illinois.edu\&sz=32)
 
 Illinois+1
-
-
 
 ## 5. Your highest-leverage education strategy
 

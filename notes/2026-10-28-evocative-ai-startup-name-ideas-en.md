@@ -14,26 +14,31 @@ Question: What's a fancy AI startup name?
 Answer: Here are some evocative options across different vibes:
 
 **Sleek & Technical**
+
 - **Vektor** — precision, direction, momentum
 - **Axionix** — sounds like axiom + matrix
 - **Lumiq** — luminous intelligence
 
 **Mysterious & Premium**
+
 - **Noctis AI** — from Latin *nox* (night); elegant darkness
 - **Aetheron** — ether + neuron; otherworldly intelligence
 - **Obscura Labs** — depth and discovery
 
 **Bold & Futuristic**
+
 - **Synthex** — synthetic excellence
 - **Novacortex** — new brain; next-gen cognition
 - **Zerith** — invented, sharp, zero to zenith
 
 **Warm & Human**
+
 - **Kindra AI** — kind + kindred; approachable intelligence
 - **Auracle** — aura + oracle
 - **Mira Systems** — from *mirabilis* (wonderful)
 
 **One-word Power Plays**
+
 - **Qualo** — quality + halo
 - **Praxis** — turning ideas into action
 - **Solven** — solving everything, elegantly

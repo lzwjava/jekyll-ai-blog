@@ -27,8 +27,6 @@ Work on GPU utilization, distributed inference, KV-cache management, batching, q
 
 OpenAI
 
-
-
 [NVIDIA's CUTLASS refines GPU control with flexible, high-performance matrix multiplication toolkit | Noah Intelligence](https://images.openai.com/static-rsc-4/y-GTm5_F2Nv8dqzHmmYQvQAkj-gvKmveqm-hR337OYeMi_NLQRriq1ihXmTHCi7CXQaoL8DaScLCoN0JlxOFfsv-9WM-ol4YzXzL21mf8LlZ5F8RJ8PR1gRR_IG86oYJ_8If51XPG3rYORNEAE2Bl1fruauEwoz69eHqG-J65aU?purpose=inline)
 
 2\. Research engineer / model-training engineer
@@ -44,8 +42,6 @@ Build production AI systems for real customers. Your enterprise engineering, con
 [image](https://www.google.com/s2/favicons?domain=https://openai.com\&sz=32)
 
 OpenAI
-
-
 
 ## How I would approach the next 12 months
 

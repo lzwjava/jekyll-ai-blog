@@ -14,26 +14,31 @@ type: note
 回答：这里有一些不同风格的选择：
 
 **简洁与技术感**
+
 - **Vektor** — 精准、方向、动力
 - **Axionix** — 听起来像 axiom + matrix
 - **Lumiq** — 智能之光
 
 **神秘与高端**
+
 - **Noctis AI** — 源自拉丁语 *nox*（夜晚）；优雅的暗黑感
 - **Aetheron** — ether + neuron；超凡智能
 - **Obscura Labs** — 深度与探索
 
 **大胆与未来感**
+
 - **Synthex** — 合成卓越
 - **Novacortex** — 新大脑；下一代认知
 - **Zerith** — 自创词，锐利，从零到巅峰
 
 **温暖与人性化**
+
 - **Kindra AI** — kind + kindred；亲切易近的智能
 - **Auracle** — aura + oracle
 - **Mira Systems** — 源自 *mirabilis*（奇妙）
 
 **单字强效**
+
 - **Qualo** — quality + halo
 - **Praxis** — 将想法转化为行动
 - **Solven** — 优雅地解决一切

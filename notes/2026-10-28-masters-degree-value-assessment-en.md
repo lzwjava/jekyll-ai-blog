@@ -24,8 +24,6 @@ Your resume also clearly identifies the main formal gap: you left university wit
 
 Zhiwei Li+1
 
-
-
 My conclusion: a master's degree could improve your access to opportunities, but the size of that improvement depends heavily on which employers and career paths you target.
 
 ## 1. What changes if you earn a CSTU master's?
@@ -66,23 +64,17 @@ CSTU's published 2025 student-achievement disclosure reports a 100% graduation/r
 
 cstu.edu
 
-
-
 CSTU also states that it is accredited by ACCSC, an accreditor recognized by the U.S. Department of Education.&#x20;
 
 [image](https://www.google.com/s2/favicons?domain=https://www.chea.org\&sz=32)
 
 Council for Higher Education Accreditation+1
 
-
-
 But accreditation and market reputation are different things. Before enrolling, confirm the school's current status in the [official ACCSC directory](https://www.accsc.org/seeking-accreditation/search-accredited-schools/?utm_source=chatgpt.com) and ask target employers or graduate programs whether they accept its degree.&#x20;
 
 [image](https://www.google.com/s2/favicons?domain=https://www.accsc.org\&sz=32)
 
 ACCSC
-
-
 
 My financial assessment:
 

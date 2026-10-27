@@ -16,7 +16,7 @@ This one is different from the previous case: the domain checks out as a genuine
 ### 1. Registry data (SWITCH RDAP — `.ch` is the Swiss registry)
 
 | Item | Value | Reading |
-|---|---|---|
+| --- | --- | --- |
 | Status | `active` | Registered |
 | **Registration date** | **2022-11-08** | Recent for a school claiming a 1984 founding |
 | Registrar | **GoDaddy.com LLC (US)** | Not a Swiss registrar |
@@ -25,7 +25,7 @@ This one is different from the previous case: the domain checks out as a genuine
 ### 2. DNS / infrastructure
 
 | Item | Value | Reading |
-|---|---|---|
+| --- | --- | --- |
 | A records | `185.230.63.186/.107/.171` | **Wix.com** hosting |
 | SOA | `ns0.wixdns.net` | Wix again |
 | MX | `aspmx.l.google.com` | Google Workspace mail |

@@ -33,8 +33,6 @@ type: note
 
 科罗拉多大学博尔德分校+4
 
-
-
 最重要的发现是，CU Boulder提供了一条不依赖传统成绩单录取的路径。这对你来说特别有意义。
 
 ## 2. 我的首选推荐：CU Boulder MS-AI
@@ -59,15 +57,11 @@ type: note
 
 科罗拉多大学博尔德分校+2
 
-
-
 这里的不同寻常之处在于：大学允许你无需传统的研究生申请或本科学位就开始学习。你只需要完成三门1学分的路径课程，每门课达到B及以上，并保持要求的3.0 GPA，即可获得录取。这些学分会计入学位。&#x20;
 
 [image](https://www.google.com/s2/favicons?domain=https://www.colorado.edu\&sz=32)
 
 科罗拉多大学博尔德分校
-
-
 
 AI课程包括机器学习、深度学习、强化学习、智能体以及AI相关选修课。这与你的LLM和智能体工程工作密切相关。
 
@@ -80,8 +74,6 @@ CSTU并非一定不正规。其官网显示获得了ACCSC认证，加州2024年�
 [image](https://www.google.com/s2/favicons?domain=https://www.cstu.edu\&sz=32)
 
 CSTU.edu+1
-
-
 
 然而，其公布的费用为：
 
@@ -105,8 +97,6 @@ CSTU还明确要求完成本科学位或同等学历才能申请其硕士项目�
 
 CSTU.edu+1
 
-
-
 因此，针对你的情况，它有两个劣势：费用更高，且没有明显的替代录取途径。
 
 在向任何一所学校付费之前，请直接向ACCSC核实CSTU当前的认证状态。其历史认证与当前续期是两回事。
@@ -125,8 +115,6 @@ CSTU.edu+1
 
 OMSCS
 
-
-
 [官方录取与常见问题](https://www.omscs.gatech.edu/prospective-student-faqs?utm_source=chatgpt.com)
 
 [UT Austin获得8.4亿美元国防资助 | Urbanize Austin](https://images.openai.com/static-rsc-4/x6ob7inE8fArFzK-1eNH8rFK1gM3S9cTUlsSHJAC_2Edh677THOO490NCS-JpUxPuWlprP7eO49rfN__B76GUDm1j5FrStX-1mOUfHyZdOHnb3udSnLdWjeyiA456HMU9bLfDp12FnfaS4l0xF5q6pgikZif4R33_Nr5GvNVReY?purpose=inline)
@@ -141,8 +129,6 @@ UT Austin — 在线MSCS
 
 计算机与数据科学在线
 
-
-
 [官方录取指南](https://cdso.utexas.edu/apply?utm_source=chatgpt.com)
 
 为完整起见，伊利诺伊大学也是一个强有力的选择，但其在线MCS要求本科学位或同等学历。在获得合格资历之前，我不会在那里花费申请费。&#x20;
@@ -150,8 +136,6 @@ UT Austin — 在线MSCS
 [image](https://www.google.com/s2/favicons?domain=https://siebelschool.illinois.edu\&sz=32)
 
 伊利诺伊+1
-
-
 
 ## 5. 你的最高杠杆教育策略
 
