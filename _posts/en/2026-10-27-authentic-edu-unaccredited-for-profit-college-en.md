@@ -30,7 +30,7 @@ type: note
 ### 3. DNS / infrastructure
 
 | Item | Value | Reading |
-|---|---|---|
+| --- | --- | --- |
 | A record (www + apex) | `18.118.195.140` | AWS us-east-2 (Ohio) |
 | Name servers | `awsdns-*` | Routed via AWS Route 53 |
 | MX | `aspmx.l.google.com` | Real Google Workspace mail |

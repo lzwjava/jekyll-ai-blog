@@ -30,7 +30,7 @@ type: note
 ### 3. DNS / 基础设施
 
 | 项目 | 值 | 解读 |
-|---|---|---|
+| --- | --- | --- |
 | A记录 (www + apex) | `18.118.195.140` | AWS us-east-2 (俄亥俄州) |
 | 名称服务器 | `awsdns-*` | 通过AWS Route 53路由 |
 | MX | `aspmx.l.google.com` | 真实的Google Workspace邮件 |
