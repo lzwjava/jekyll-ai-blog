@@ -43,8 +43,6 @@ Beijing's AI ecosystem is substantial: its government reported more than ¥95 bi
 
 Beijing Government English Portal+1
 
-
-
 For someone who wants to train models, work on inference, explore post-training, and eventually build an AI company, that concentration matters.
 
 However, a stronger ecosystem only helps if you can turn proximity into a job, customers, research opportunities, or valuable relationships. Moving to Beijing without a concrete plan could simply increase your expenses.
@@ -74,8 +72,6 @@ Beijing generally costs more than Guangzhou, particularly for housing. One Octob
 [image](https://www.google.com/s2/favicons?domain=https://www.expatistan.com\&sz=32)
 
 Expatistan, cost of living comparisons+1
-
-
 
 I would not add a permanent relocation, a new rental, moving expenses, and disruption to your children's routines before you have a credible income plan.
 

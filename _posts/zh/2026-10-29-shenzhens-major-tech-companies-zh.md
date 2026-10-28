@@ -22,7 +22,7 @@ type: note
 ### 🏢 主要公司
 
 | Company | Sector | Known For |
-|---|---|---|
+| --- | --- | --- |
 | **Tencent** | 互联网/社交/游戏 | 微信、QQ、游戏巨头 |
 | **Huawei** | 电信/智能手机 | 5G设备、Mate系列手机、HarmonyOS |
 | **DJI** | 无人机/机器人 | 全球第一大消费级无人机制造商 |
@@ -47,6 +47,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [深圳政府：APEC主办城市与未来产业](https://www.sz.gov.cn/en_szgov/business/news/content/post_12929533.html)
 - [CES 2026：深圳的科技展示](https://www.eyeshenzhen.com/content/2026-01/08/content_31896173.htm)
 - [IMD：值得关注的5家深圳企业](https://www.imd.org/ibyimd/asian-hub/5-shenzhen-based-companies-to-watch/)

@@ -74,7 +74,7 @@ AutoTrust的**JEV-27B-VL**是其开源权重视觉决策模型，在2026年10月
 **摘要表格：**
 
 | 初创公司 | 模型 | 特色 |
-|---|---|---|
+| --- | --- | --- |
 | TypeSafe AI | Jev 1.13 | 决策模型（非LLM） |
 | AutoTrust AI | JEV-9B/27B/35B | 开源权重Jev蒸馏模型 |
 | Sarvam AI | Sarvam-30B/105B | 多语言（印度语言） |
@@ -85,6 +85,7 @@ AutoTrust的**JEV-27B-VL**是其开源权重视觉决策模型，在2026年10月
 ---
 
 **参考来源：**
+
 - [Jev（AI模型）— Wikipedia](https://en.wikipedia.org/wiki/Jev_(AI_model))
 - [TypeSafe AI携4000万美元走出隐身模式 — SiliconAngle](https://siliconangle.com/2026-09-16/typesafe-ai-exits-stealth-with-40m-to-build-ai-for-use-by-software/)
 - [TypeSafe以75亿美元估值融资8.7亿美元 — NewsBytesApp](https://www.newsbytesapp.com/news/business/creator-of-non-text-jev-ai-model-raises-870m/story)

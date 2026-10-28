@@ -40,6 +40,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [China's Economy Q1 2026 Shows Resilience](https://www.hellenicshippingnews.com/china-economy-chinas-economy-in-first-quarter-of-2026-shows-resilience-amid-global-slowdown-concerns/)
 - [Xinhua: China Posts Resilient H1 Growth](https://eng.yidaiyilu.gov.cn/p/0E9QGP3H.html)
 - [China Sets Lower 2026 Growth Target as Challenges Loom](https://www.castanetkamloops.net/news/Business/601957/China-sets-a-lower-economic-growth-target-of-45-to-5-for-2026-as-challenges-loom)

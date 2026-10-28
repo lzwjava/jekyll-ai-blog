@@ -35,5 +35,6 @@ So yes — four characters, but they carry a whole philosophy.
 ---
 
 **References:**
+
 - [家和万事兴 — Chinese Text Project](https://ctext.org)
 - [Family Harmony and Well-being (Confucian Ethics overview) — Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/confucius/)

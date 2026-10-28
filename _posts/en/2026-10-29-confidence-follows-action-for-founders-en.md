@@ -52,6 +52,7 @@ The startup can fail without you being a failure. This distinction is non-negoti
 ---
 
 **References:**
+
 - [The Founder's Dilemmas – Noam Wasserman (HBS)](https://hbswk.hbs.edu/item/the-founders-dilemmas)
 - [Paul Graham – Before the Startup](http://paulgraham.com/before.html)
 - [YC Startup Library](https://www.ycombinator.com/library)

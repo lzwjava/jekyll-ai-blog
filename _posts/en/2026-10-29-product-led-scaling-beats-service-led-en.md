@@ -44,6 +44,7 @@ So yes — ByteDance's model is fundamentally more scalable because its revenue 
 ---
 
 **References:**
+
 - [How ByteDance Took Over the World – The Hustle](https://thehustle.co/03152022-bytedance)
 - [Import AI: ByteDance's HeteroScale](https://bedwards.github.io/hex-index/article/0480c54d-a5b5-4d61-a27a-00479aab02b0/index.html)
 - [The Productivity Gap: Indian IT Firms vs Global Tech](https://www.indiabusinesstrade.in/?p=5348)

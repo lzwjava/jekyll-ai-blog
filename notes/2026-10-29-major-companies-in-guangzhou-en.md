@@ -79,6 +79,7 @@ Here's a much more comprehensive breakdown by sector:
 By total tech valuation, Guangzhou's tech ecosystem is ranked #34 globally, #12 in Asia-Pacific, and #5 in China, with a combined tech valuation of $117 billion. The top companies by valuation are NetEase ($81B), XPeng Motors ($12B), Vipshop ($6.2B), Miaoshou Doctor ($4.3B), and MINISO ($3.6B).
 
 **References:**
+
 - [Guangzhou Tech Ecosystem – TrueUp](https://trueup.io/location/guangzhou)
 - [EHang – Wikipedia](https://en.wikipedia.org/wiki/EHang)
 - [GAC Group – Wikipedia](https://en.wikipedia.org/wiki/GAC_Group)

@@ -22,7 +22,7 @@ type: note
 **为什么有些三四十岁的人仍然“孩子气”：**
 
 | 模式 | 表现 |
-|---|---|
+| --- | --- |
 | **Enmeshment** | 父母和孩子的情绪融合在一起——没有持续的联系或认可，他们就无法正常运作 |
 | **Helicopter parenting 的遗留影响** | 父母解决了所有问题，因此成年子女从未培养出挫折耐受能力 |
 | **经济依赖** | 金钱是牵绳；独立尝试起来太冒险 |
@@ -40,6 +40,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Bowen Family Systems Theory – Psychology Today](https://www.psychologytoday.com/us/therapy-types/bowen-family-systems)
 - [Individuation: What It Is and How It Affects Your Development – Healthline](https://www.healthline.com/health/individuation)
 - [Enmeshment: Signs, Effects, and How to Cope – Verywell Mind](https://www.verywellmind.com/enmeshment-definition-signs-effects-5207452)

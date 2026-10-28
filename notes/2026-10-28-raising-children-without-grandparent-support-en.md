@@ -73,6 +73,7 @@ The practical combo most independent young couples in Shenzhen/Guangzhou use is:
 ---
 
 **References:**
+
 - [Shenzhen Childcare Initiatives – Shenzhen Gov](https://www.sz.gov.cn/en_szgov/news/latest/content/post_11429176.html)
 - [China's Childcare Shortage – The World of Chinese](https://www.theworldofchinese.com/2023/02/the-tall-task-of-solving-chinas-childcare-shortage/)
 - [Guangzhou Kindergarten Fees – Life of Guangzhou](https://www.lifeofguangzhou.com/content/202510/30/170602_54889793.htm)

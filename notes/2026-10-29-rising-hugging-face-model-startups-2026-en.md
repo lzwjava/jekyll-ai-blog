@@ -74,7 +74,7 @@ On September 3, 2026, **NVIDIA announced an agreement to acquire Hugging Face fo
 **Summary Table:**
 
 | Startup | Model(s) | Specialty |
-|---|---|---|
+| --- | --- | --- |
 | TypeSafe AI | Jev 1.13 | Decision models (non-LLM) |
 | AutoTrust AI | JEV-9B/27B/35B | Open-weight Jev distillations |
 | Sarvam AI | Sarvam-30B/105B | Multilingual (Indian languages) |
@@ -85,6 +85,7 @@ On September 3, 2026, **NVIDIA announced an agreement to acquire Hugging Face fo
 ---
 
 **References:**
+
 - [Jev (AI model) — Wikipedia](https://en.wikipedia.org/wiki/Jev_(AI_model))
 - [TypeSafe AI exits stealth with $40M — SiliconAngle](https://siliconangle.com/2026-09-16/typesafe-ai-exits-stealth-with-40m-to-build-ai-for-use-by-software/)
 - [TypeSafe raises $870M at $7.5B valuation — NewsBytesApp](https://www.newsbytesapp.com/news/business/creator-of-non-text-jev-ai-model-raises-870m/story)

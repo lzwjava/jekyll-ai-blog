@@ -38,6 +38,7 @@ Also **November 26–28, 2026**, at Shenzhen International Convention and Exhibi
 **December 13, 2026**, 9:00 AM–6:00 PM in Shenzhen. This developer-focused event brings together devs, tech experts, and product innovators from across the Greater Bay Area. Topics include Generative AI & Agents (Gemini, RAG, multimodal), AI-assisted development, cloud/data technologies, Android/Flutter/Web, and open-source ecosystems.
 
 **Recurring Meetups:**
+
 - **AI Tinkerers Shenzhen** — a regular meetup for hands-on builders focused on live code demos, technical discussions, and no-pitch networking.
 - **Shenzhen Tech Mixer and Social (Tech / AI / Data / IT)** — recurring Friday evening networking events at Long Bar, Raffles Shenzhen.
 
@@ -46,6 +47,7 @@ Also **November 26–28, 2026**, at Shenzhen International Convention and Exhibi
 ### 🟠 Guangzhou
 
 **Recurring Meetup:**
+
 - **Guangzhou Tech Mixer and Social (Tech / AI / Data / IT)** — regular afterwork drinks and networking events for tech/IT workers in the city.
 
 *(Most of Guangzhou's bigger 2026 tech expos — such as the AI Application Conference and Smart City Conference — already took place earlier in the year.)*
@@ -53,6 +55,7 @@ Also **November 26–28, 2026**, at Shenzhen International Convention and Exhibi
 ---
 
 **References:**
+
 - [DevFest Shenzhen 2026 – Greater Bay Developers](https://allai.events/event/greater-bay-developers-building-whats-next)
 - [AI Tinkerers Shenzhen](https://shenzhen.aitinkerers.org/)
 - [China Hi-Tech Fair (CHTF) 2026](https://www.mexc.com/news/539784)

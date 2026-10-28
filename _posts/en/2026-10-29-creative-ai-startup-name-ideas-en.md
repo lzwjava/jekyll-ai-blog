@@ -18,6 +18,7 @@ Here are 20 name ideas across different styles:
 ---
 
 **🔵 Truth / Clarity**
+
 - **VeritasAI** — Latin for "truth," sophisticated & global
 - **LucidMind** — clear, transparent intelligence
 - **ClarosAI** — from "clarus" (clear, bright)
@@ -26,6 +27,7 @@ Here are 20 name ideas across different styles:
 ---
 
 **🟣 Power / Precision**
+
 - **NexusAI** — the connecting hub of intelligence
 - **ApexMind** — top-tier cognitive power
 - **AxonAI** — nerve signal, fast & precise
@@ -34,6 +36,7 @@ Here are 20 name ideas across different styles:
 ---
 
 **🟢 Future / Nova**
+
 - **NovaCog** — new cognitive era
 - **OrbitAI** — expansive, always-circling intelligence
 - **VelaAI** — "sail" in Latin, forward-moving
@@ -42,6 +45,7 @@ Here are 20 name ideas across different styles:
 ---
 
 **🟡 Portmanteau / Punchy**
+
 - **Cognify** — cognition + simplify
 - **Intellex** — intelligent + reflex
 - **Luminos** — luminous AI
@@ -50,6 +54,7 @@ Here are 20 name ideas across different styles:
 ---
 
 **⚡ One-Word Brands**
+
 - **Navi** — navigate + AI assistant feel
 - **Kairo** — modern spin on "Cairo" / Greek "kairos" (the right moment)
 - **Mira** — to see / admire (clean, global)
@@ -60,7 +65,7 @@ Here are 20 name ideas across different styles:
 **Top 3 picks for a serious AI corp:**
 
 | Name | Why |
-|------|-----|
+| ------ | ----- |
 | **VeritasAI** | Trustworthy, global, premium feel |
 | **NexusAI** | Scalable, B2B-friendly |
 | **LucidMind** | Consumer-friendly, memorable |

@@ -38,17 +38,20 @@ APEC经济领导人会议将于**2026年11月18日至19日**在深圳举行，�
 **2026年12月13日**上午9:00至下午6:00在深圳举行。这场以开发者为核心的活动汇聚了大湾区各地的开发者、技术专家和产品创新者。议题包括Generative AI与Agents（Gemini、RAG、multimodal）、AI辅助开发、云/数据技术、Android/Flutter/Web以及开源生态。
 
 **定期聚会：**
+
 - **AI Tinkerers Shenzhen** —— 一个面向动手实践者的定期聚会，专注于现场代码演示、技术讨论以及无推销式社交。
 - **Shenzhen Tech Mixer and Social (Tech / AI / Data / IT)** —— 每周五晚上在Raffles Shenzhen的Long Bar举办的定期社交活动。
 
 ### 🟠 广州
 
 **定期聚会：**
+
 - **Guangzhou Tech Mixer and Social (Tech / AI / Data / IT)** —— 为城市中的科技/IT从业者定期举办的下班后酒会及社交活动。
 
 *（2026年广州较大型的科技展会——如AI应用大会和智慧城市大会——大多已于今年早些时候举行。）*
 
 **参考链接：**
+
 - [DevFest Shenzhen 2026 – Greater Bay Developers](https://allai.events/event/greater-bay-developers-building-whats-next)
 - [AI Tinkerers Shenzhen](https://shenzhen.aitinkerers.org/)
 - [China Hi-Tech Fair (CHTF) 2026](https://www.mexc.com/news/539784)

@@ -36,6 +36,7 @@ The quality of the relationship is the deciding factor for emotional health — 
 ---
 
 **References:**
+
 - [Happiness and Relationships – SAGE Encyclopedia](https://sk.sagepub.com/ency/edvol/embed/humanrelationships/chpt/happiness-relationships)
 - [The Secret to a Happier Relationship – Psychology Today](https://www.psychologytoday.com/gb/blog/happy-together/202203/the-secret-to-a-happier-relationship)
 - [New Study Proves Being Single Beats a Bad Relationship – AFHU](https://www.afhu.org/2026/06/01/new-study-proves-being-single-beats-a-bad-relationship/)

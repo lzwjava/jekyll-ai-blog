@@ -20,7 +20,7 @@ Shenzhen's startup scene is on fire in 2026, ranking #3 in China and #26 globall
 ### 🤖 Robotics & AI
 
 | Startup | What They Do | Highlight |
-|---|---|---|
+| --- | --- | --- |
 | **EngineAI** | Humanoid robots for industrial & service use | Showcased robots at CES 2026; founded just in 2023 |
 | **LimX Dynamics** | Advanced legged robotics | Part of Shenzhen's fast-growing robot cluster |
 | **D-Robotics** | AI inference chips for robotics | Spun out of ByteDance's hardware division |
@@ -47,7 +47,7 @@ Shenzhen's startup scene is on fire in 2026, ranking #3 in China and #26 globall
 ### ⚡ Energy & Hardware
 
 | Startup | What They Do | Highlight |
-|---|---|---|
+| --- | --- | --- |
 | **EcoFlow** | Portable power stations & solar | Won Best of Innovation at CES 2026 |
 | **Orbbec Technology** | 3D sensing / depth cameras | Used in robots, AR/VR, and industrial machines |
 
@@ -56,7 +56,7 @@ Shenzhen's startup scene is on fire in 2026, ranking #3 in China and #26 globall
 ### 📦 Logistics & E-Commerce
 
 | Startup | What They Do |
-|---|---|
+| --- | --- |
 | **Dorabot** | AI-powered warehouse & logistics robots |
 | **Hive Box** | Smart parcel locker network ($130M raised) |
 | **Jusda** | Supply chain tech (Foxconn's logistics arm) |
@@ -76,6 +76,7 @@ Shenzhen's startups extend the city's strong hardware base into new areas, with 
 ---
 
 **References:**
+
 - [SpinQ Series D — $147M raise](https://dealroom.co/news/136839-spinq-raises-147m-series-d-hitting-294m-in-six-months/)
 - [Even Realities hits unicorn status at $1B](https://parsers.vc/startup/evenrealities.com/)
 - [Best Shenzhen startups 2026 — Seedtable](https://seedtable.com/companies/city/ShenZhen)

@@ -79,6 +79,7 @@ type: note
 按科技估值总量计算，广州的科技生态系统在全球排名第34位，在亚太地区排名第12位，在中国排名第5位，科技总估值为1170亿美元。估值最高的公司分别为：网易（810亿美元）、小鹏汽车（120亿美元）、唯品会（62亿美元）、妙手医生（43亿美元）和名创优品（36亿美元）。
 
 **参考来源：**
+
 - [广州科技生态系统 – TrueUp](https://trueup.io/location/guangzhou)
 - [亿航 – 维基百科](https://en.wikipedia.org/wiki/EHang)
 - [广汽集团 – 维基百科](https://en.wikipedia.org/wiki/GAC_Group)

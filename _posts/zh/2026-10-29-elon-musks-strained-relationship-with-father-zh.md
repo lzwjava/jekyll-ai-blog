@@ -58,6 +58,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [埃隆·马斯克称父亲“邪恶”——Benzinga/Webull](https://www.webull.ca/zh/news-detail/14061155184296960)
 - [埃隆·马斯克疏远的父亲被指控性虐待儿童——Rolling Stone AU](https://au.rollingstone.com/culture/culture-news/elon-musk-father-errol-accused-child-sex-abuse-84052)
 - [埃隆·马斯克的父亲坚称不为他感到骄傲——The Daily Beast](https://www.thedailybeast.com/elon-musks-father-errol-insists-he-isnt-proud-of-him/)

@@ -42,6 +42,7 @@ A multilevel meta-analysis confirmed robust positive associations between parent
 ---
 
 **References:**
+
 - [Parenting practices, social skills and peer relationships in adolescence — *Social Behavior and Personality*](https://sbp-journal.com/index.php/sbp/article/view/1150)
 - [Configurations of Adolescents' Peer Experiences: Associations With Parent–Child Relationship Quality — *Journal of Research on Adolescence*, 2016](https://doi.org/10.1111/jora.12206)
 - [Linking Parent–Child and Peer Relationship Quality to Empathy in Adolescence: A Multilevel Meta-Analysis — *Journal of Youth and Adolescence*, 2019](https://doi.org/10.1007/s10964-019-00993-5)

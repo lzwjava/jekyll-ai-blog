@@ -34,6 +34,7 @@ So to directly answer: yes, he was effectively forced out of the military, then 
 ---
 
 **References:**
+
 - [Ren Zhengfei — CNBC Interview Transcript](https://www.cnbc.com/2019/04/15/cnbc-transcript-ren-zhengfei-huawei-founder-and-ceo.html)
 - [Huawei Founder on Joining the PLA — SCMP](https://cdn4.i-scmp.com/tech/big-tech/article/2182332/huawei-founder-ren-zhengfei-why-he-joined-chinas-communist-party-and)
 - [The Origin of Huawei: When Desperation Becomes Strategy — Future Startup](https://futurestartup.com/2025/10/19/the-origin-of-huawei-when-desperation-becomes-strategy/)

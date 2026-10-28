@@ -36,10 +36,12 @@ People do generate AI images locally on their own systems using tools like Stabl
 This is the more "home datacenter" approach. Instead of generating content yourself, you *rent your GPU's power* to others (AI developers, researchers) via marketplace platforms.
 
 **Platforms:**
+
 - Platforms like Vast.ai, RunPod, and io.net let hobbyists at home as well as full GPU farms list hardware and earn. H100s and H200s bring in $2.15–$4.00+ per GPU-hour.
 - After platform fees (7% on RunPod, ~15% on Vast.ai, ~20% on io.net) and electricity costs, consumer cards like an RTX 4090 clear roughly $5–$25/day after costs, while datacenter-grade cards can net much more.
 
 **Real numbers (2026):**
+
 - A realistic estimate for a home host on Vast.ai: an RTX 4090 nets around +$30/month and an RTX 5090 around +$35/month, after electricity at ~18 cents/kWh and ~30% utilization.
 - Electricity, hardware depreciation, platform fees, internet, cooling, and a home office allocation are all deductible business expenses if you treat this as self-employment income.
 
@@ -50,6 +52,7 @@ This is the more "home datacenter" approach. Instead of generating content yours
 A real discussion from September 2026 shows people asking: with an RTX 5090 costing over €5,000, is there a realistic way to make the GPU pay for itself? Consensus: even €100–€300/month would make a €5k GPU feel worthwhile over a few years — but it's a slow payback, not a windfall.
 
 Key challenges:
+
 - **Electricity is the killer.** High electricity rates in most US/EU countries compress margins sharply.
 - **Market saturation.** Stock photo platforms are flooded with AI images, pushing per-download rates down.
 - **Hardware cost.** Consumer GPUs (RTX 4090, 5090) cost $1,500–$3,000+. Datacenter-grade GPUs (H100, B200) cost tens of thousands.

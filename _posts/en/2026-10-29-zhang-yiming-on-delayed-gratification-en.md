@@ -58,7 +58,7 @@ Zhang Yiming has gone so far as to say: "People whose level of delayed gratifica
 ### Summary Table
 
 | Area | Immediate Temptation (❌) | Delayed Reward (✅) |
-|---|---|---|
+| --- | --- | --- |
 | Career | Higher salary at big foreign firm | Growth at a fast-moving startup |
 | Life Goals | Buying an apartment ASAP | Investing time in skill development |
 | Business | Short-term profit | Long-term product & algorithm investment |
@@ -67,6 +67,7 @@ Zhang Yiming has gone so far as to say: "People whose level of delayed gratifica
 ---
 
 **References:**
+
 - [张一鸣延迟满足感 — digitaling.com](https://www.digitaling.com/articles/70174.html)
 - [张一鸣延迟满足感 — 163.com](https://m.163.com/dy/article/J58B9QJS0511D0QS.html)
 - [ByteDance Seed AI Strategy — jiemian.com](https://m.jiemian.com/article/14893121.html)

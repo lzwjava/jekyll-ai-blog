@@ -20,7 +20,7 @@ type: note
 ### 🤖 机器人与AI
 
 | 初创公司 | 业务领域 | 亮点 |
-|---|---|---|
+| --- | --- | --- |
 | **EngineAI** | 用于工业和服务业的人形机器人 | 在2026年CES上展示了机器人；成立于2023年 |
 | **LimX Dynamics** | 先进的腿式机器人技术 | 是深圳快速增长机器人集群的一部分 |
 | **D-Robotics** | 用于机器人的AI推理芯片 | 从字节跳动的硬件部门分拆而来 |
@@ -47,7 +47,7 @@ type: note
 ### ⚡ 能源与硬件
 
 | 初创公司 | 业务领域 | 亮点 |
-|---|---|---|
+| --- | --- | --- |
 | **EcoFlow** | 便携式电站与太阳能 | 在2026年CES上获得最佳创新奖 |
 | **Orbbec Technology** | 3D传感 / 深度相机 | 用于机器人、AR/VR和工业机器 |
 
@@ -56,7 +56,7 @@ type: note
 ### 📦 物流与电子商务
 
 | 初创公司 | 业务领域 |
-|---|---|
+| --- | --- |
 | **Dorabot** | AI驱动的仓储与物流机器人 |
 | **Hive Box** | 智能快递柜网络（已融资1.3亿美元） |
 | **Jusda** | 供应链技术（富士康的物流部门） |
@@ -76,6 +76,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [SpinQ Series D — $147M raise](https://dealroom.co/news/136839-spinq-raises-147m-series-d-hitting-294m-in-six-months/)
 - [Even Realities hits unicorn status at $1B](https://parsers.vc/startup/evenrealities.com/)
 - [Best Shenzhen startups 2026 — Seedtable](https://seedtable.com/companies/city/ShenZhen)

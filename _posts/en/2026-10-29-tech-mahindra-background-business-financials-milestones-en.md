@@ -35,15 +35,13 @@ Following the Satyam accounting scandal, Tech Mahindra emerged as the winning bi
 
 ### 📊 Key Financials (FY2026)
 
-
 | Metric | Value |
-|---|---|
+| --- | --- |
 | Revenue | ₹56,847 crore (~US$5.9 billion) |
 | Operating Income | ₹6,845 crore (~US$710 million) |
 | Net Income | ₹4,805 crore (~US$500 million) |
 | Total Assets | ₹49,369 crore (~US$5.1 billion) |
 | Employees | ~148,731 (March 2025) |
-
 
 ---
 
@@ -70,5 +68,6 @@ Tech Mahindra has been highly acquisitive, with deals spanning telecom, banking,
 ---
 
 **References:**
+
 - [Tech Mahindra — Wikipedia](https://en.wikipedia.org/wiki/Tech_Mahindra)
 - [Tech Mahindra Official Website](https://www.techmahindra.com)

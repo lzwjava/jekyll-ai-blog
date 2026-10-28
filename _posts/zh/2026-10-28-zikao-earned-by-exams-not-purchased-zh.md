@@ -36,7 +36,7 @@ type: note
 **总结**
 
 | 方面 | 实际情况 |
-|---|---|
+| --- | --- |
 | 谁在考 | 工薪阶层、农村家庭、错过大学的成年人 |
 | 入学门槛 | 无——对所有公民开放 |
 | 费用 | 非常低（总共几百元人民币） |
@@ -48,6 +48,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [高等教育自学考试 – Wikipedia](https://en.wikipedia.org/wiki/Self-Taught_Higher_Education_Examinations)
 - [2026年自考学费及报考条件 – 教育在线](https://www.eol.cn/zikao/xzkwyw/2025101720535.html)
 - [2026年自考特点解析 – 教育在线](https://www.eol.cn/zikao/zkdt/20251008165737.html)

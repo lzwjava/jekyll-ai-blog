@@ -41,6 +41,7 @@ ASU competes athletically as the **Sun Devils** in **NCAA Division I**.
 ---
 
 **References:**
+
 - [ASU Overview – ASU News](https://news.asu.edu/content/asu-overview)
 - [ASU FY 2026 Annual Budget Overview](https://azregents.edu/sites/default/files/reports/FY-2026-budget-ASU.pdf)
 - [Arizona State University – World Economic Forum](https://weforum.org/organizations/arizona-state-university)

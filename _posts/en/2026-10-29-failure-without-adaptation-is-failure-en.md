@@ -38,4 +38,5 @@ The tragedy isn't failure. It's failing to notice *why* you failed.
 ---
 
 *References:*
+
 - No external sources needed — this is a synthesis of well-established thinking on resilience, learning loops, and deliberate practice (Carol Dweck, growth mindset; Nassim Taleb, antifragility).

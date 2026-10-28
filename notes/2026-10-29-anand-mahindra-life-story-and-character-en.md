@@ -89,6 +89,7 @@ Beyond business, he is known for a passion for photography, filmmaking, and kaba
 ---
 
 **References:**
+
 - [Anand Mahindra — Wikipedia](https://en.wikipedia.org/wiki/Anand_Mahindra)
 - [Anand Mahindra Success Story — Finschool by 5paisa](https://5paisa.com/finschool/?p=63337)
 - [Rising Together: Anand Mahindra's Creative Philosophy — McKinsey](https://www.mckinsey.com/featured-insights/future-of-asia/rising-together-anand-mahindras-creative-philosophy)

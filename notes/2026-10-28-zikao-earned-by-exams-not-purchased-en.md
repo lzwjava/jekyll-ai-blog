@@ -36,7 +36,7 @@ So the degree is **not purchased** — it is earned through a series of national
 **Bottom line**
 
 | Aspect | Reality |
-|---|---|
+| --- | --- |
 | Who uses it | Working class, rural families, adults who missed college |
 | Entry barrier | None — open to all citizens |
 | Cost | Very low (few hundred RMB total) |
@@ -48,6 +48,7 @@ The "老实" framing fits — it's a route for people who play by the rules, stu
 ---
 
 **References:**
+
 - [Self-Taught Higher Education Examinations – Wikipedia](https://en.wikipedia.org/wiki/Self-Taught_Higher_Education_Examinations)
 - [2026年自考学费及报考条件 – 教育在线](https://www.eol.cn/zikao/xzkwyw/2025101720535.html)
 - [2026年自考特点解析 – 教育在线](https://www.eol.cn/zikao/zkdt/20251008165737.html)

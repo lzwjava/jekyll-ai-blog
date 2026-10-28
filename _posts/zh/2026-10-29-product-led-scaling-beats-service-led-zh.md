@@ -44,6 +44,7 @@ TCS的每名员工收入约为49,902美元，Infosys为60,164美元。这些数�
 ---
 
 **参考资料：**
+
 - [ByteDance如何征服世界 – The Hustle](https://thehustle.co/03152022-bytedance)
 - [Import AI: ByteDance的HeteroScale](https://bedwards.github.io/hex-index/article/0480c54d-a5b5-4d61-a27a-00479aab02b0/index.html)
 - [生产力差距：印度IT公司 vs 全球科技](https://www.indiabusinesstrade.in/?p=5348)

@@ -42,6 +42,7 @@ It won't be automatic for everyone. There is a dangerous split forming between c
 ---
 
 **References:**
+
 - [The Rise of AI Agents: The 24/7 Businesses Built by One Person](https://aimoneymachine.beehiiv.com/p/the-rise-of-ai-agents-the-24-7-businesses-built-by-one-person)
 - [AI as a Force Multiplier: How Small Teams Compete with Large Enterprises in 2026](https://noqta.tn/en/blog/ai-force-multiplier-small-teams-mena-2026)
 - [7 AI Agent Trends Reshaping Business 2026](https://arahi.ai/blog/7-ai-agent-trends-reshaping-business-2026)

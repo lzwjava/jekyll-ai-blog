@@ -29,8 +29,6 @@ type: note
 
 Apple招聘信息+2
 
-
-
 你的背景给了你几个可能的切入点：
 
 - AI基础设施：推理优化、服务部署、GPU利用率和智能体运行时。
@@ -64,8 +62,6 @@ Apple招聘信息+2
 [image](https://www.google.com/s2/favicons?domain=https://www.beijing.gov.cn\&sz=32)
 
 首都之窗_北京市人民政府门户网站+1
-
-
 
 在签署租约之前，联系你考虑的具体区的教育部门，确认两个女儿的入学资格，而不仅仅是看某所学校是否看起来有名额。
 

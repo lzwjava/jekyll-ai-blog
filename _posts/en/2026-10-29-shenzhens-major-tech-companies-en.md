@@ -24,7 +24,7 @@ Shenzhen is China's "Silicon Valley." High-tech companies headquartered there in
 ### 🏢 The Big Names
 
 | Company | Sector | Known For |
-|---|---|---|
+| --- | --- | --- |
 | **Tencent** | Internet / Social / Gaming | WeChat, QQ, gaming giant |
 | **Huawei** | Telecom / Smartphones | 5G equipment, Mate phones, HarmonyOS |
 | **DJI** | Drones / Robotics | World's #1 consumer drone maker |
@@ -49,6 +49,7 @@ At CES 2026, Chinese firms claimed more than 100 out of 247 total innovation awa
 ---
 
 **References:**
+
 - [Shenzhen Government: APEC host city & future industries](https://www.sz.gov.cn/en_szgov/business/news/content/post_12929533.html)
 - [CES 2026: Shenzhen's tech showcase](https://www.eyeshenzhen.com/content/2026-01/08/content_31896173.htm)
 - [IMD: 5 Shenzhen-based companies to watch](https://www.imd.org/ibyimd/asian-hub/5-shenzhen-based-companies-to-watch/)

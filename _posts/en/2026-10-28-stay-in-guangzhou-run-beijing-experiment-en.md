@@ -29,8 +29,6 @@ There is a real opportunity worth testing. Current listings include foundation-m
 
 Careers at Apple+2
 
-
-
 Your background gives you several possible entry points:
 
 - AI infrastructure: inference optimization, serving, GPU utilization, and agent runtimes.
@@ -64,8 +62,6 @@ Your older daughter is approaching primary-school age. Beijing's 2026 enrollment
 [image](https://www.google.com/s2/favicons?domain=https://www.beijing.gov.cn\&sz=32)
 
 首都之窗_北京市人民政府门户网站+1
-
-
 
 Before signing a lease, contact the education authority for the specific district you are considering. Confirm eligibility for both daughters, not just whether a school appears to have available places.
 

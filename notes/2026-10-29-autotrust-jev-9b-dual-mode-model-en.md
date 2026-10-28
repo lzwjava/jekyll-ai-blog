@@ -44,7 +44,7 @@ Because the blocks stay separate, adding System 1 costs System 2 nothing: HumanE
 ### 📊 Key Performance Highlights
 
 | Metric | Value |
-|---|---|
+| --- | --- |
 | Mean KL to TypeSafe Jev 1.13 (teacher) | **≈ 0.019** (near-indistinguishable) |
 | Yes/No AUROC (`noul`) | **0.994** |
 | Choice top-1 agreement with teacher | **90.2%** |
@@ -62,6 +62,7 @@ On one B200, a single decision takes a median ~90 ms, against 238–301 ms measu
 JEV-9B now takes images. Every step is one System 1 decision: camera image or screenshot in, a probability for every action out, in a single forward pass (about 0.2 s on one GPU).
 
 Key vision demos include:
+
 - **Robot arm pick-and-place** from camera images (MuJoCo simulation, ~165 ms/decision)
 - **Computer use** (screenshot → element to click), completing 95% of 60 random multi-step tasks (shop, settings, mail; 3–7 clicks each), about 0.2 s per click.
 
@@ -90,4 +91,5 @@ For routing, moderation, topic triage and short option lists, JEV-9B gives nearl
 ---
 
 **References:**
+
 - [autotrust/JEV-9B · Hugging Face](https://huggingface.co/autotrust/JEV-9B)

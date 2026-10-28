@@ -24,5 +24,6 @@ So the "whole team move to Hangzhou" was technically true, but the entire headco
 VANCL's official flagship store on Douyin now has 1.453 million followers.
 
 **References:**
+
 - [十年还清十亿债务，雷军"榜一大哥"陈年经历了什么？— 36氪](https://36kr.com/p/3483646317075328)
 - [十年还清十亿债务，雷军"榜一大哥"陈年经历了什么？— 腾讯新闻](https://news.qq.com/rain/a/20250926A09ADV00)

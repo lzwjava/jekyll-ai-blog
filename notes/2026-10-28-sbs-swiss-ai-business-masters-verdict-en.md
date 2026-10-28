@@ -17,8 +17,6 @@ Based on the SBS brochure you uploaded, the program has the following structure.
 
 2026瑞士商学院简章合集(1).pdf
 
-
-
 Tuition quoted by you
 
 # ¥62,800
@@ -52,8 +50,6 @@ The important distinction is that this is an AI for business degree, not a techn
 
 2026瑞士商学院简章合集(1).pdf
 
-
-
 ## 2. The biggest issue: accreditation, price and your missing bachelor's degree
 
 I checked the school's current official website, and three things deserve attention.
@@ -64,29 +60,21 @@ First, the institution has legitimate Swiss accreditation. SBS is listed as inst
 
 SBS Swiss Business School+1
 
-
-
 Second, the quoted price needs verification. The official program page currently lists tuition of CHF 17,400, plus a CHF 150 application fee and CHF 2,250 administration fee. That's substantially different from ¥62,800. The Chinese brochure and the current official online program page may describe different enrollment arrangements, so you need written confirmation of exactly which degree and delivery arrangement the ¥62,800 covers.&#x20;
 
 [image](https://www.google.com/s2/favicons?domain=https://www.sbs.edu\&sz=32)
 
 SBS Swiss Business School
 
-
-
 Third, your lack of a bachelor's degree is the critical admission risk. The Chinese brochure says applicants with a bachelor's degree and three years of work experience, or a college diploma and five years of work experience, can apply. It also mentions exceptional applications from candidates with at least ten years of management experience.&#x20;
 
 2026瑞士商学院简章合集(1).pdf
-
-
 
 However, the official program page says a bachelor's degree is normally required and applicants without one will be reviewed by admissions. It also mentions a preparatory pathway for some applicants. That is not a guarantee that you qualify. Get written confirmation that SBS itself will admit you and award the full MSc after you complete the program.&#x20;
 
 [image](https://www.google.com/s2/favicons?domain=https://www.sbs.edu\&sz=32)
 
 SBS Swiss Business School
-
-
 
 ## 3. Does it fit your career?
 
@@ -112,8 +100,6 @@ China's education authorities state that overseas qualifications obtained throug
 [image](https://www.google.com/s2/favicons?domain=https://portal.cscse.edu.cn\&sz=32)
 
 CSCSE+1
-
-
 
 That does not mean the degree is invalid. It means you must distinguish three different things:
 

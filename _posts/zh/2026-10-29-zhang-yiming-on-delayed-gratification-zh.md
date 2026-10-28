@@ -58,7 +58,7 @@ type: note
 ### 总结表
 
 | 领域 | 即时诱惑（❌） | 延迟回报（✅） |
-|---|---|---|
+| --- | --- | --- |
 | 职业 | 外企高薪 | 快速发展初创公司的成长 |
 | 人生目标 | 尽快买房 | 投资时间提升技能 |
 | 商业 | 短期利润 | 长期产品与算法投入 |
@@ -67,6 +67,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [张一鸣延迟满足感 — 数英网](https://www.digitaling.com/articles/70174.html)
 - [张一鸣延迟满足感 — 网易](https://m.163.com/dy/article/J58B9QJS0511D0QS.html)
 - [字节跳动Seed AI战略 — 界面新闻](https://m.jiemian.com/article/14893121.html)

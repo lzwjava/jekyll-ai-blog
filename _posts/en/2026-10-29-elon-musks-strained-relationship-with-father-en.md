@@ -58,6 +58,7 @@ In short, this is one of the most publicly hostile father-son relationships in t
 ---
 
 **References:**
+
 - [Elon Musk Called His Father 'Evil' – Benzinga/Webull](https://www.webull.ca/zh/news-detail/14061155184296960)
 - [Elon Musk's Estranged Father Accused of Child Sex Abuse – Rolling Stone AU](https://au.rollingstone.com/culture/culture-news/elon-musk-father-errol-accused-child-sex-abuse-84052)
 - [Elon Musk's Father Insists He Isn't Proud of Him – The Daily Beast](https://www.thedailybeast.com/elon-musks-father-errol-insists-he-isnt-proud-of-him/)

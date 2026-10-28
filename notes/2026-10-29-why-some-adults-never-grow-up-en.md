@@ -24,7 +24,7 @@ Yes — psychologically speaking, leaving your parents (emotionally, not just ph
 **Why some 30–40 year olds stay "child-like":**
 
 | Pattern | What it looks like |
-|---|---|
+| --- | --- |
 | **Enmeshment** | Parent and child's emotions are fused — they can't function without constant contact or approval |
 | **Helicopter parenting legacy** | Parents solved every problem, so the adult child never developed frustration tolerance |
 | **Financial dependence** | Money is the leash; independence feels too risky to attempt |
@@ -42,6 +42,7 @@ It's not about geography or contact frequency. It's about whether you've built y
 ---
 
 **References:**
+
 - [Bowen Family Systems Theory – Psychology Today](https://www.psychologytoday.com/us/therapy-types/bowen-family-systems)
 - [Individuation: What It Is and How It Affects Your Development – Healthline](https://www.healthline.com/health/individuation)
 - [Enmeshment: Signs, Effects, and How to Cope – Verywell Mind](https://www.verywellmind.com/enmeshment-definition-signs-effects-5207452)
