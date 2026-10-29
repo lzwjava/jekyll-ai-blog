@@ -71,6 +71,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [《低风险创业》- 豆瓣读书页面](https://book.douban.com/subject/33395019/)
 - [虎嗅 — 书评与解析](https://www.huxiu.com/brief/187735.html)
 - [人人都是产品经理 — 低成本兼职创业方法论](https://www.woshipm.com/chuangye/2927469.html)

@@ -25,8 +25,6 @@ These recommendations align with established founder reading lists and practical
 
 The Founders Library+2
 
-
-
 ## 1. The six books I'd prioritize for you
 
 [The Mom Test: How to t... | Startups Wiki](https://images.openai.com/static-rsc-4/1ZCmpEwEkLAwfbng6lQS4W6PbXq59lEBYIJGBQQBwnuBF5cS0Q6jV9g5054BhsrETNmHToku0LF1TTKxWX4Ox9VxRhA79iPXdhlZmjPv2gI5_3LK5tD2QPvz6_tKsS0qbNWZ4AutN7nH74vPn-qOR5pZ3hXG4xCPPvwMh4V6EUI?purpose=inline)
@@ -126,8 +124,6 @@ Interviews with startup founders about their early days. Read it to understand h
 [image](https://www.google.com/s2/favicons?domain=https://www.founders-library.com\&sz=32)
 
 The Founders Library+1
-
-
 
 ## 3. Free reading I'd put ahead of several books
 

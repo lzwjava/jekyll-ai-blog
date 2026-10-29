@@ -71,6 +71,7 @@ Some reviewers note that while the framework is insightful, Fan Deng's success w
 ---
 
 **References:**
+
 - [《低风险创业》- Douban Book Page](https://book.douban.com/subject/33395019/)
 - [虎嗅 — Book Summary & Analysis](https://www.huxiu.com/brief/187735.html)
 - [人人都是产品经理 — 低成本兼职创业方法论](https://www.woshipm.com/chuangye/2927469.html)

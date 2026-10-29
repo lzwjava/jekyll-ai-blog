@@ -32,10 +32,12 @@ Ignoring DFM (面向制造的设计) in early design stages is a primary cause o
 **4. Quality Control Is Make-or-Break**
 
 The article states: *most startup failures trace back to quality control.* Two failure modes:
+
 - Ship bad product → users destroy your reputation
 - Refuse to ship → company loses everything it invested
 
 A vivid example: a phone maker ships components to a CM factory for assembly. If the finished units are all defective:
+
 - Refuse to pay the assembly fee → the factory holds your components hostage in their warehouse
 - Sue the factory → by the time the court rules, the phone model is already obsolete (smartphones cycle fast)
 
@@ -46,7 +48,7 @@ Either way, you lose.
 The author's two-part solution:
 
 | Strategy | Detail |
-|---|---|
+| --- | --- |
 | **Use only top-tier CMs** | Never compromise on factory quality to save money |
 | **Use interest alignment** | Have the CM purchase certain materials (e.g., casings/enclosures) so they share financial risk — if quality fails, the factory also loses money, creating a built-in incentive to maintain standards |
 

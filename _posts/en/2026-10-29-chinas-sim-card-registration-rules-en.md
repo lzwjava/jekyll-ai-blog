@@ -20,11 +20,13 @@ China has strict **real-name registration (实名制)** rules for all SIM cards,
 ### 📋 Legal Requirements
 
 **For Chinese Citizens:**
+
 - Telecom giants China Telecom, China Mobile, China Unicom, and China Railcom are required to register all users by verifying accounts against state-issued identification cards (身份证, shenfenzheng).
 - Since December 1, 2019, mobile users purchasing SIM cards in China must also undergo a mandatory facial recognition procedure, per MIIT policy.
 - Chinese citizens are generally limited to **5 SIM cards total** per national ID across all operators.
 
 **For Foreigners:**
+
 - Foreigners can bring their passports or Foreign Permanent Resident ID Cards to service branches of China Telecom, China Mobile, and China Unicom to purchase a SIM card and activate mobile communication services.
 - Any individual with a valid passport can apply for a maximum of **five SIM cards**, each with a different phone number.
 - Since 2024, foreigners no longer need a residence permit or Chinese ID to get a SIM card — the store will scan your passport and take a photo for real-name registration, which is required by Chinese law.
@@ -38,7 +40,7 @@ China has strict **real-name registration (实名制)** rules for all SIM cards,
 ### ⚠️ Important Limits & Warnings
 
 | Category | SIM Card Limit |
-|---|---|
+| --- | --- |
 | Chinese citizen (per person) | ~5 cards total (across all carriers) |
 | Foreigner (per passport) | Up to 5 cards |
 | Corporate/Business account | Higher limits available |
@@ -57,6 +59,7 @@ China has strict **real-name registration (实名制)** rules for all SIM cards,
 ---
 
 **References:**
+
 - [Beijing Government – Guide for Purchasing SIM Cards](https://english.beijing.gov.cn/quickguideservices/purchasingsimcards)
 - [GoKunming – New China-wide Telecom Laws](https://www.gokunming.com/cn/blog/item/3046/new-china-wide-telecom-laws-go-into-effect)
 - [Sixth Tone – Facial Recognition for SIM Cards](https://www.sixthtone.com/news/1004916)

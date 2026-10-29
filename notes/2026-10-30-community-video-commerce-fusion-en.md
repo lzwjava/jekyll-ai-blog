@@ -68,7 +68,7 @@ AI is no longer just a competitive edge — it's the foundation of modern digita
 ## Summary Table
 
 | Channel | What it's used for |
-|---|---|
+| --- | --- |
 | **TikTok / Douyin** | Short video, search discovery, TikTok Shop |
 | **WeChat 视频号** | China video + livestream commerce, private domain |
 | **Instagram Reels / YouTube Shorts** | Short video reach, brand awareness |
@@ -81,6 +81,7 @@ The overall direction: **less interruption advertising, more content-native comm
 ---
 
 **References:**
+
 - [TikTok Marketing Guide 2026 – Metricool](https://metricool.com/tiktok-marketing/)
 - [7 Digital Marketing Trends 2026 – 99dollarsocial](https://www.99dollarsocial.com/blog/7-digital-marketing-social-media-trends-cant-ignore)
 - [How WeChat Monetizes in 2026 – Marketing to China](https://marketingtochina.com/5-ways-wechat-will-monetize/)

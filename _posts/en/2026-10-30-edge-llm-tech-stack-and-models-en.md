@@ -22,7 +22,7 @@ type: note
 The current hardware landscape for edge LLM inference spans a wide range of devices:
 
 | Device | RAM | Best Workload |
-|---|---|---|
+| --- | --- | --- |
 | MacBook M3 | 16–36 GB | Up to 70B (MLX, llama.cpp) |
 | Windows Laptop (NPU) | 16 GB | 7B class (ONNX) |
 | NVIDIA Jetson AGX Orin | 16–64 GB | 13B (TensorRT) |
@@ -37,7 +37,7 @@ Four main edge targets exist in 2026: **Apple ANE**, **Qualcomm Hexagon**, **Web
 The seven runtimes that actually matter in 2026:
 
 | Runtime | Best For | Notes |
-|---|---|---|
+| --- | --- | --- |
 | **llama.cpp** | CPU / max portability | GGUF format, runs on x86, ARM, Apple Silicon, even Raspberry Pi |
 | **Ollama** | Developer DX / prototyping | Wraps llama.cpp with HTTP API; crossed 165k GitHub stars in 2026 because `ollama run deepseek-r1` just works |
 | **MLX** | Apple Silicon | Achieves the highest sustained generation throughput on Apple Silicon |
@@ -57,6 +57,7 @@ The standard per-platform setup in 2026:
 - **Windows / Linux laptop** → Ollama + llama.cpp
 
 For NVIDIA Jetson:
+
 - Jetson AGX Thor → **TensorRT Edge-LLM SDK** (production)
 - Jetson AGX Orin 64GB → TensorRT-LLM / Edge-LLM
 - Jetson Orin Nano / NX → llama.cpp (CUDA), 7B @ Q4_K_M ceiling
@@ -69,7 +70,7 @@ For NVIDIA Jetson:
 Quantization format choice per target:
 
 | Target | Format |
-|---|---|
+| --- | --- |
 | Apple ANE | INT4 weights + FP16 activations (Core ML) |
 | Qualcomm Hexagon | QNN INT8 / INT4 |
 | WebGPU / WebLLM | Q4 MLC (q4f16_1) |
@@ -98,6 +99,7 @@ The "true innovation and production viability for edge AI in 2026 lies not in sc
 ---
 
 **References:**
+
 - [Edge LLM Runtime Stack 2026: llama.cpp, Ollama, TensorRT, ExecuTorch, MLX, LiteRT-LM](https://edgeaistack-site.pages.dev/blog/edge-llm-runtime-stack-2026/)
 - [Inference at the Edge: Running LLMs on Consumer GPUs](https://web-9ja.pages.dev/blog/inference-at-edge-llms-consumer-gpus)
 - [Edge and On-Device LLM Inference Docs](https://llm-docs.github.io/docs/edge-on-device-inference)

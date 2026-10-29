@@ -56,6 +56,7 @@ In short, 英华达 (IAC) is the Taiwan-based ODM powerhouse that, alongside Fox
 ---
 
 **References:**
+
 - [Inventec Appliances Corp — CB Insights](https://www.cbinsights.com/company/inventec-appliances)
 - [Inventec Appliances Corporate Profile — irasia.com](https://irasia.com/listco/tw/inventec/profile.htm)
 - [Xiaomi Mi 1 — Baidu Encyclopedia (EN)](https://baike.baidu.com/en/item/Xiaomi%20Mi%201/1425920)

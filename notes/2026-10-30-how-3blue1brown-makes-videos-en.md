@@ -44,7 +44,7 @@ The GitHub repo `3b1b/videos` contains all the code used to generate the explana
 **Summary of tools:**
 
 | Tool | Purpose |
-|------|---------|
+| ------ | --------- |
 | **Manim** (Python library) | Core animation engine |
 | **LaTeX** | Math equations rendering |
 | **MathPix** | Convert equations → LaTeX |
@@ -52,6 +52,7 @@ The GitHub repo `3b1b/videos` contains all the code used to generate the explana
 | **GitHub** | Open source code sharing |
 
 **References:**
+
 - [3Blue1Brown FAQ (official)](https://www.3blue1brown.com/faq/)
 - [How I animate 3Blue1Brown — Manim demo](https://recapio.com/digest/how-i-animate-3blue1brown-a-manim-demo-with-ben-sparks-by-3blue1brown)
 - [Manim on Wikipedia](https://www.wikiwand.com/en/articles/Manim)

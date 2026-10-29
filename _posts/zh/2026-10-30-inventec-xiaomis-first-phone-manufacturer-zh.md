@@ -56,6 +56,7 @@ IAC目前专注于**3D打印服务、智能可穿戴设备、无人机（UAV）�
 ---
 
 **参考资料：**
+
 - [Inventec Appliances Corp — CB Insights](https://www.cbinsights.com/company/inventec-appliances)
 - [Inventec Appliances Corporate Profile — irasia.com](https://irasia.com/listco/tw/inventec/profile.htm)
 - [Xiaomi Mi 1 — 百度百科（英文版）](https://baike.baidu.com/en/item/Xiaomi%20Mi%201/1425920)

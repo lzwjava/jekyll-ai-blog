@@ -20,6 +20,7 @@ type: note
 ### 🏗️ Architecture
 
 The core architectural changes include:
+
 - **Rotary embeddings (RoPE)** replacing learned positional embeddings
 - **QK-Norm** (normalizing queries and keys before dot product)
 - **ReLU²** activation (squaring the ReLU output) instead of GELU
@@ -56,7 +57,6 @@ Later records layer on:
 
 ### 🔢 Precision / Numerics
 
-
 - **FP8** for the LM head, MLP forward and backward passes, and QKV projections
 - **Asymmetric logit rescale** and **logit softcapping** (lowered from 30 → 15 → asymmetric)
 - **BFloat16 activations** and cross-entropy computation
@@ -65,7 +65,6 @@ Later records layer on:
 ---
 
 ### 📐 Training Schedule Tricks
-
 
 - Align training batch starts with **EoS tokens** and set a **max document length**
 - **Gradient accumulation** for 2 steps for embedding and LM head before updating
@@ -80,7 +79,6 @@ Later records layer on:
 
 ### 🚀 Systems / Kernel Tricks
 
-
 - **FlexAttention** (extending context from 1024 to 64K), then upgraded to **Flash Attention 3**
 - **Overlap computation and gradient communication** (async gradient all-reduce → reduce scatter)
 - **Fused Triton kernels** for ReLU², softcapped cross-entropy, QK-norm + RoPE + KeyOffset
@@ -92,6 +90,7 @@ Later records layer on:
 The world record has fallen from 45 minutes all the way to under 40 seconds on 8×H100s, with each increment documented in the repo's world record table. It's a living benchmark where nearly every trick above was proven out by a real timing improvement.
 
 **References:**
+
 - [KellerJordan/modded-nanogpt (GitHub)](https://github.com/KellerJordan/modded-nanogpt)
 - [Muon optimizer writeup](https://kellerjordan.github.io/posts/muon/)
 - [World record history (wiki)](https://github.com/KellerJordan/modded-nanogpt/wiki)

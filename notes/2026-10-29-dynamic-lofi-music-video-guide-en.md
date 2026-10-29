@@ -26,6 +26,7 @@ The lofi visual style typically features looping character animations (often stu
 **Lofi Girl** (formerly ChilledCow) is a French YouTube channel established in 2017. It provides 24/7 livestreams of lo-fi hip hop music, accompanied by a Japanese-style animation of a girl (officially named Jade) studying or relaxing in her bedroom with a cat on the window. Its success lies in its ability to create a consistent, unobtrusive atmosphere conducive to focus and relaxation. The main live stream was viewed 218 million times in February 2020, and over 668 million times by July 2022.
 
 **Typical visual elements include:**
+
 - Rainy windows, desk setups, city nights, and other cozy indoor/outdoor scenes rendered as smooth 2D loop animations with parallax effects.
 
 **Common uses:**
@@ -36,6 +37,7 @@ In short, it's the genre of endlessly-looping, cozy animated scenes paired with 
 ---
 
 **References:**
+
 - [Lofi Girl – Wikipedia](https://en.wikipedia.org/wiki/Lofi_Girl)
 - [What Is Lo-Fi Music And How Did It Become So Popular? – Grunge](https://grunge.com/1400303/what-is-lo-fi-music-why-popular)
 - [What Is "Lofi" and Why It Works for Video – Magic Hour](https://magichour.ai/templates/details/cluybwc7c08o8ypfzj12pqtrr-chill-lofi-dj)

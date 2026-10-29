@@ -38,7 +38,7 @@ The real picture is nuanced — **overall demand is recovering, but the professi
 ### 💡 The Big Picture: Restructuring, Not Elimination
 
 | Role Type | Trend |
-|---|---|
+| --- | --- |
 | Junior / entry-level | ⬇️ Shrinking fast |
 | Senior / architect | ⬆️ Strong growth |
 | AI/ML Engineer | 🚀 Explosive growth |
@@ -56,6 +56,7 @@ A wage premium for AI skills now stands at **62%**, and jobs requiring AI skills
 ---
 
 **References:**
+
 - [The State of the 2026 Software Engineering Market – Lemon.io](https://lemon.io/blog/software-engineering-job-market/)
 - [How AI is changing the software developer job market – DEV Community](https://dev.to/adilsoukaini/how-ai-is-changing-the-software-developer-job-market-1p0m)
 - [AI is automating coding. So why are software developer job postings on the rise? – CNBC](https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html)

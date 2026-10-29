@@ -26,6 +26,7 @@ Lofi 视觉风格通常包含循环人物动画（常见主题为学习、放松
 **Lofi Girl**（前身为 ChilledCow）是一个成立于 2017 年的法国 YouTube 频道。它提供 24/7 全天候 lo-fi hip hop 音乐直播，配以一位日式风格动画女孩（官方名称为 Jade）在卧室中学习或放松、窗台上有一只猫的画面。其成功之处在于能够营造一种稳定、不打扰的氛围，有助于专注和放松。主直播间在 2020 年 2 月观看次数达 2.18 亿次，到 2022 年 7 月已超过 6.68 亿次。
 
 **典型的视觉元素包括：**
+
 - 雨窗、书桌场景、城市夜景，以及其他舒适的室内/室外场景，以带有视差效果的流畅 2D 循环动画呈现。
 
 **常见用途：**
@@ -36,6 +37,7 @@ Lofi 视觉风格通常包含循环人物动画（常见主题为学习、放松
 ---
 
 **参考资料：**
+
 - [Lofi Girl – Wikipedia](https://en.wikipedia.org/wiki/Lofi_Girl)
 - [What Is Lo-Fi Music And How Did It Become So Popular? – Grunge](https://grunge.com/1400303/what-is-lo-fi-music-why-popular)
 - [What Is "Lofi" and Why It Works for Video – Magic Hour](https://magichour.ai/templates/details/cluybwc7c08o8ypfzj12pqtrr-chill-lofi-dj)

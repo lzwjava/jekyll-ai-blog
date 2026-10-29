@@ -38,7 +38,7 @@ type: note
 ### 💡 宏观视角：重构而非淘汰
 
 | 角色类型 | 趋势 |
-|---|---|
+| --- | --- |
 | 初级 / 入门级 | ⬇️ 快速萎缩 |
 | 高级 / 架构师 | ⬆️ 强劲增长 |
 | AI/ML 工程师 | 🚀 爆发式增长 |
@@ -56,6 +56,7 @@ AI技能的薪资溢价目前为**62%**，且需要AI技能的岗位增长了**6
 ---
 
 **参考文献：**
+
 - [The State of the 2026 Software Engineering Market – Lemon.io](https://lemon.io/blog/software-engineering-job-market/)
 - [How AI is changing the software developer job market – DEV Community](https://dev.to/adilsoukaini/how-ai-is-changing-the-software-developer-job-market-1p0m)
 - [AI is automating coding. So why are software developer job postings on the rise? – CNBC](https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html)

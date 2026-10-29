@@ -44,6 +44,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [第一代小米移动电源往事：为金属外壳不遗余力 开了近200套模具 — 快科技](https://news.mydrivers.com/1/714/714193.htm)
 - [第一代小米移动电源往事 — 百科TA说](https://wapbaike.baidu.com/tashuo/browse/content?id=446bcbc9858099eec344b278)
 - [张峰：小米移动电源1年狂卖2000万支的内幕 — 新浪博客](https://blog.sina.com.cn/s/blog_6bbb4b000102vlxa.html)

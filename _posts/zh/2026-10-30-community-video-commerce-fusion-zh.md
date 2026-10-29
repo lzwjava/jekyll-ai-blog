@@ -68,7 +68,7 @@ AI不再只是竞争优势——它是2026年现代数字营销的基础。AI被
 ## 汇总表
 
 | 渠道 | 用途 |
-|---|---|
+| --- | --- |
 | **TikTok / 抖音** | 短视频、搜索发现、TikTok Shop |
 | **微信视频号** | 中国视频+直播电商、私域 |
 | **Instagram Reels / YouTube Shorts** | 短视频触达、品牌认知 |
@@ -81,6 +81,7 @@ AI不再只是竞争优势——它是2026年现代数字营销的基础。AI被
 ---
 
 **参考资料：**
+
 - [TikTok营销指南2026 – Metricool](https://metricool.com/tiktok-marketing/)
 - [2026年7大数字营销趋势 – 99dollarsocial](https://www.99dollarsocial.com/blog/7-digital-marketing-social-media-trends-cant-ignore)
 - [微信如何在2026年变现 – Marketing to China](https://marketingtochina.com/5-ways-wechat-will-monetize/)

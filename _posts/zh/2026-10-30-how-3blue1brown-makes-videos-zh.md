@@ -44,7 +44,7 @@ GitHub 仓库 `3b1b/videos` 包含用于生成 3Blue1Brown 上所有解释性数
 **工具总结：**
 
 | 工具 | 用途 |
-|------|---------|
+| ------ | --------- |
 | **Manim**（Python 库） | 核心动画引擎 |
 | **LaTeX** | 数学公式渲染 |
 | **MathPix** | 将方程转换为 LaTeX |
@@ -52,6 +52,7 @@ GitHub 仓库 `3b1b/videos` 包含用于生成 3Blue1Brown 上所有解释性数
 | **GitHub** | 开源代码分享 |
 
 **参考链接：**
+
 - [3Blue1Brown 常见问题（官方）](https://www.3blue1brown.com/faq/)
 - [How I animate 3Blue1Brown — Manim demo](https://recapio.com/digest/how-i-animate-3blue1brown-a-manim-demo-with-ben-sparks-by-3blue1brown)
 - [Manim 在维基百科上](https://www.wikiwand.com/en/articles/Manim)

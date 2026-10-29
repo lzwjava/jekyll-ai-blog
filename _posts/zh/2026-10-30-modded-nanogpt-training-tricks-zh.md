@@ -20,6 +20,7 @@ Keller Jordan 的 [Modded-nanoGPT](https://github.com/KellerJordan/modded-nanogp
 ### 🏗️ 架构
 
 核心架构改动包括：
+
 - **旋转位置编码（RoPE）** 取代学习式位置嵌入
 - **QK-Norm**（在点积之前对查询和键进行归一化）
 - **ReLU²** 激活（对 ReLU 输出取平方）取代 GELU
@@ -56,7 +57,6 @@ Keller Jordan 的 [Modded-nanoGPT](https://github.com/KellerJordan/modded-nanogp
 
 ### 🔢 精度 / 数值
 
-
 - **FP8** 用于 LM 输出头、MLP 前向和反向传播以及 QKV 投影
 - **非对称 logit 重新缩放** 和 **logit 软上限**（从 30 → 15 → 非对称逐步降低）
 - **BFloat16 激活** 和交叉熵计算
@@ -65,7 +65,6 @@ Keller Jordan 的 [Modded-nanoGPT](https://github.com/KellerJordan/modded-nanogp
 ---
 
 ### 📐 训练调度技巧
-
 
 - 将训练批次起始与 **EoS token** 对齐，并设置 **最大文档长度**
 - 对嵌入和 LM 输出头进行 **2 步梯度累积** 后再更新
@@ -80,7 +79,6 @@ Keller Jordan 的 [Modded-nanoGPT](https://github.com/KellerJordan/modded-nanogp
 
 ### 🚀 系统 / 内核技巧
 
-
 - **FlexAttention**（将上下文从 1024 扩展到 64K），随后升级到 **Flash Attention 3**
 - **计算与梯度通信重叠**（异步梯度全归约 → 归约散射）
 - **融合 Triton 内核** 用于 ReLU²、软上限交叉熵、QK-norm + RoPE + KeyOffset
@@ -92,6 +90,7 @@ Keller Jordan 的 [Modded-nanoGPT](https://github.com/KellerJordan/modded-nanogp
 世界纪录已从 45 分钟一路降至 8×H100 上的 40 秒以内，每一次提升都记录在仓库的世界纪录表中。这是一个活着的基准，上述几乎每一个技巧都通过真实的耗时改进得到了验证。
 
 **参考资料：**
+
 - [KellerJordan/modded-nanogpt（GitHub）](https://github.com/KellerJordan/modded-nanogpt)
 - [Muon 优化器说明](https://kellerjordan.github.io/posts/muon/)
 - [世界纪录历史（wiki）](https://github.com/KellerJordan/modded-nanogpt/wiki)

@@ -48,6 +48,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [中国电子往事——小米与英华达的故事（腾讯新闻/上观新闻）](https://news.qq.com/rain/a/20231013A00VTJ00)
 - [刘德：小米运用的不是商业理论，是军事理论（大业设计）](https://www.daye.hk/index.php/news/read/id/615)
 - [揭秘小米供应链：从初期无人看好到富士康主动要求合作（中国贸易金融网）](http://www.sinotf.com/GB/SupplyChain/1085/2014-04-28/3OMDAwMDE3MzY3OA.html)

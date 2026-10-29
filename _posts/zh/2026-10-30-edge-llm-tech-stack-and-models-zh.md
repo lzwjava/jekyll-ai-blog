@@ -22,7 +22,7 @@ type: note
 当前边缘 LLM 推理的硬件格局涵盖多种设备：
 
 | 设备 | 内存 | 最佳负载 |
-|---|---|---|
+| --- | --- | --- |
 | MacBook M3 | 16–36 GB | 最高 70B（MLX、llama.cpp） |
 | Windows 笔记本电脑（NPU） | 16 GB | 7B 级别（ONNX） |
 | NVIDIA Jetson AGX Orin | 16–64 GB | 13B（TensorRT） |
@@ -37,7 +37,7 @@ type: note
 2026 年真正重要的七个运行时：
 
 | 运行时 | 最适合 | 说明 |
-|---|---|---|
+| --- | --- | --- |
 | **llama.cpp** | CPU / 最大可移植性 | GGUF 格式，可在 x86、ARM、Apple Silicon 甚至 Raspberry Pi 上运行 |
 | **Ollama** | 开发者体验 / 原型开发 | 封装 llama.cpp 并提供 HTTP API；2026 年 GitHub 星标突破 16.5 万，因为 `ollama run deepseek-r1` 开箱即用 |
 | **MLX** | Apple Silicon | 在 Apple Silicon 上实现最高持续生成吞吐量 |
@@ -70,7 +70,7 @@ NVIDIA Jetson 平台：
 各目标平台的量化格式选择：
 
 | 目标平台 | 格式 |
-|---|---|
+| --- | --- |
 | Apple ANE | INT4 权重 + FP16 激活（Core ML） |
 | Qualcomm Hexagon | QNN INT8 / INT4 |
 | WebGPU / WebLLM | Q4 MLC（q4f16_1） |
@@ -99,6 +99,7 @@ NVIDIA Jetson 平台：
 ---
 
 **参考资料：**
+
 - [Edge LLM Runtime Stack 2026: llama.cpp, Ollama, TensorRT, ExecuTorch, MLX, LiteRT-LM](https://edgeaistack-site.pages.dev/blog/edge-llm-runtime-stack-2026/)
 - [Inference at the Edge: Running LLMs on Consumer GPUs](https://web-9ja.pages.dev/blog/inference-at-edge-llms-consumer-gpus)
 - [Edge and On-Device LLM Inference Docs](https://llm-docs.github.io/docs/edge-on-device-inference)
