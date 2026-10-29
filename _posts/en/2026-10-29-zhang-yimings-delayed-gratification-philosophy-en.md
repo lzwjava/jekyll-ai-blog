@@ -84,4 +84,5 @@ The point: delayed gratification isn't just about money or careers. It's a **cha
 ---
 
 **References:**
+
 - [张一鸣：10年面试2000人，发现混得好的人都有同一特质 — digitaling.com](https://www.digitaling.com/articles/70174.html)

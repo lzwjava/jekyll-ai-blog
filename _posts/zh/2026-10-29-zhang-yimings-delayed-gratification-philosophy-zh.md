@@ -84,4 +84,5 @@ type: note
 ---
 
 **参考资料：**
+
 - [张一鸣：10年面试2000人，发现混得好的人都有同一特质 — digitaling.com](https://www.digitaling.com/articles/70174.html)

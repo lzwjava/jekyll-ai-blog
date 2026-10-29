@@ -39,6 +39,7 @@ More and more schools are offering dual degrees — the opportunity to pursue tw
 ---
 
 **References:**
+
 - [What Percentage of People Have 2 Masters Degrees](https://inspirepearls.com/blogs/people/what-percentage-of-people-have-2-masters-degrees)
 - [Dual Masters vs Concurrent Masters Program](https://strapi-blog-frontend-develop.pages.dev/degrees/dual-masters-vs-concurrent-masters-program-explaining-the-difference)
 - [Should You Get a Second Master's Degree? – Monroe University](https://monroeu.edu/news/should-you-get-second-masters-degree)
