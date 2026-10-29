@@ -48,7 +48,7 @@ type: note
 ### 🛤️ 如今普通中国人的4条主要致富途径
 
 | 途径 | 具体方式 | 典型时间线 |
-|---|---|---|
+| --- | --- | --- |
 | **创业者** | 自建企业（制造业、电商、服务业） | 5-15年 |
 | **房地产投资者** | 早期在一、二线城市买房，享受房价增值 | 10-20年 |
 | **股市投资者** | 投资A股、基金或IPO | 不确定（高风险） |
@@ -73,6 +73,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [中国的百万富翁们：他们是谁？——eChinaCities](https://www.echinacities.com/china-news/Chinas-Multi-Millionaires-Who-Are-They-and-Where-Do-They-Live)
 - [中国最富有企业家的成功之路](https://zeeuwsemusea.nl/index.php/forum/welcome-mat/57160-inside-the-success-of-china-s-wealthiest-entrepren)
 - [中国的财富陷阱：富裕的国家，贫穷的公民——Pulse](https://www.pulse.bot/global-economy/blogs/chinas-wealth-trap-rich-state-poor-citizens-8f855856-1f50-4f62-87ed-2a1b5f452cce/)

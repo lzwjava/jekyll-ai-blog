@@ -34,6 +34,7 @@ type: note
 ### 3. 微小的胜利在神经学上是真实的
 
 信心是通过行动重建的，而不是等待感觉准备好。大脑将完成的微小任务视为真正的胜利。从以下开始：
+
 - 打一个你一直回避的电话
 - 清偿一小笔债务，无论多小
 - 完成一份工作申请或技能课程
@@ -51,6 +52,7 @@ type: note
 ### 5. 寻求财务清晰，而非财务完美
 
 当全貌未知时，焦虑会增加。即使数字很糟糕，知道它们也比恐惧更可控。考虑：
+
 - 在一个地方列出所有债务
 - 联系贷款机构关于重组或困难计划（大多数都有）
 - 访问非营利信用咨询机构（免费或低成本）
@@ -62,6 +64,7 @@ type: note
 ### 6. 保护和重建体能
 
 抑郁和绝望被睡眠剥夺、营养不良和缺乏活动放大——所有这些在长期压力下都很常见。即使在这里适度的改进也能改变情绪baseline：
+
 - 定期步行（即使每天20分钟）有强有力的证据表明能减少抑郁
 - 保持作息规律稳定情绪调节
 - 减少alcohol，尽管感觉像是解脱，但它是一种depressant
@@ -93,6 +96,7 @@ type: note
 ---
 
 **参考文献：**
+
 - [Psychology Today – Rebuilding Self-Esteem After Financial Loss](https://www.psychologytoday.com/us/blog/financial-therapy/201801/how-financial-stress-affects-your-mental-health)
 - [NFCC – National Foundation for Credit Counseling (free nonprofit counseling)](https://www.nfcc.org/)
 - [Mental Health Foundation – Money and Mental Health](https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/money-and-mental-health)

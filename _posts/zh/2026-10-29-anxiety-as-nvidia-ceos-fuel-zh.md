@@ -26,6 +26,7 @@ Huang 自己也解释了背后的心理：“我更多是由不想失败所驱�
 ---
 
 **参考来源：**
+
 - [Nvidia CEO Jensen Huang 表示他不断担心公司会失败](https://www.techspot.com/community/topics/nvidia-ceo-jensen-huang-says-he-constantly-worries-that-the-company-will-fail.283314/)
 - [最具价值公司的CEO每周工作7天，处于“焦虑状态”](https://www.entrepreneur.com/business-news/nvidia-ceo-jensen-huang-works-7-days-a-week-in-state-of/500526)
 - [传记作者：“焦虑是他的燃料”](https://www.newsbytesapp.com/news/business/jensen-huang-runs-nvidia-on-anxiety-not-positive-thinking/story)

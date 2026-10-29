@@ -33,7 +33,7 @@ The person's company had outsourced its accounting, but they chose not to renew 
 **Key concepts explained:**
 
 | Term | Meaning |
-|---|---|
+| --- | --- |
 | 代开增值税发票 | Tax bureau issues a VAT invoice *on your behalf* (for small companies without their own invoicing authority) |
 | 季度报税 | Mandatory quarterly tax return filing |
 | 三方协议 | Tripartite agreement between company, bank, and tax bureau for auto-deducting taxes |
@@ -42,5 +42,6 @@ The person's company had outsourced its accounting, but they chose not to renew 
 In short: this is a vivid, firsthand account of China's notoriously layered tax bureaucracy — where each step reveals a new prerequisite, offices close early, and a task that "should" take one visit ends up consuming an entire work week.
 
 **References:**
+
 - [China VAT Invoice System Overview – Deloitte](https://www2.deloitte.com/cn/en/pages/tax/articles/vat-invoice-in-china.html)
 - [How Tax Filing Works for Small Businesses in China – China Briefing](https://www.china-briefing.com/news/china-tax-compliance-small-businesses/)

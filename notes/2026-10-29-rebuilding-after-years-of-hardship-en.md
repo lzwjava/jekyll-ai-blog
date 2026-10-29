@@ -34,6 +34,7 @@ Unemployment, debt, and financial stress are *situations*, not character verdict
 ### 3. Tiny Wins Are Neurologically Real
 
 Confidence is rebuilt through *action*, not waiting to feel ready. The brain registers small completed tasks as genuine wins. Start with:
+
 - Making one phone call you've been avoiding
 - Clearing one small debt, no matter how minor
 - Completing one job application or skill course
@@ -51,6 +52,7 @@ Financial hardship in many cultures carries deep shame, which is one of the most
 ### 5. Get Financial Clarity, Not Financial Perfection
 
 Anxiety increases when the full picture is unknown. Even if the numbers are bad, *knowing* them is more manageable than dread. Consider:
+
 - Writing out all debts in one place
 - Contacting lenders about restructuring or hardship programs (most have them)
 - Visiting a nonprofit credit counselor (free or low cost)
@@ -62,6 +64,7 @@ Clarity isn't the same as solving it — but it restores a sense of control.
 ### 6. Protect and Rebuild Physical Energy
 
 Depression and hopelessness are amplified by sleep deprivation, poor nutrition, and inactivity — all common under prolonged stress. Even modest improvements here change the emotional baseline:
+
 - Regular walking (even 20 minutes daily) has strong evidence for reducing depression
 - Maintaining a sleep schedule stabilizes mood regulation
 - Reducing alcohol, which is a depressant despite feeling like relief
@@ -93,6 +96,7 @@ Confidence doesn't come back all at once. It comes back in the form of: *"I did 
 ---
 
 **References:**
+
 - [Psychology Today – Rebuilding Self-Esteem After Financial Loss](https://www.psychologytoday.com/us/blog/financial-therapy/201801/how-financial-stress-affects-your-mental-health)
 - [NFCC – National Foundation for Credit Counseling (free nonprofit counseling)](https://www.nfcc.org/)
 - [Mental Health Foundation – Money and Mental Health](https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/money-and-mental-health)

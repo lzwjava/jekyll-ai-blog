@@ -22,7 +22,7 @@ The passage is laying out a **Green Card timeline** for a family whose immigrati
 ### The Core Timeline
 
 | Stage | Detail |
-|---|---|
+| --- | --- |
 | **Spring 2027** | Wife enrolls (F-1 visa) |
 | **Spring 2029** | Graduates after 2 years |
 | **2029** | Enters **OPT** (Optional Practical Training, up to 3 years for STEM) |
@@ -44,6 +44,7 @@ Enroll → Graduate → OPT → H-1B drawn → PERM filed → Priority date assi
 ```
 
 If the wife **delays enrollment by 2 years** (Spring 2029 instead of Spring 2027):
+
 - Every downstream step shifts by 2 years
 - The priority date she files under will also be 2 years later
 - But crucially, **the backlog doesn't stand still** — more applicants pile in each year, so the wait may grow from 5 years to **5+n years**
@@ -62,7 +63,7 @@ The earlier you secure your priority date in the EB-2 China queue, the more queu
 ### Summary
 
 | | Start Spring 2027 | Start Spring 2029 |
-|---|---|---|
+| --- | --- | --- |
 | OPT starts | ~2029 | ~2031 |
 | Priority date filed | ~2030–2033 | ~2032–2035 |
 | Green Card (est.) | ~2036–2039 | ~2038–2042+ |

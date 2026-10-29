@@ -32,6 +32,7 @@ BenchLM，一个独立的AI benchmarking组织，确认了2026年10月来自16�
 ### 📰 This Week's Headlines (Week of Oct 26)
 
 本周的突出故事包括：
+
 - **Marissa Mayer**推出了**Dazzle**，一个从camera rolls构建personal AI的工具
 - **AI高管**在Washington引起了关于潜在dangers的frustration
 - **Musk comments**使CoreWeave、Nebius和IREN的stocks进入了red
@@ -57,6 +58,7 @@ BenchLM，一个独立的AI benchmarking组织，确认了2026年10月来自16�
 ---
 
 **参考文献：**
+
 - [BenchLM: 确认的2026年10月AI Model Releases](https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/)
 - [SiliconReport: 2026年10月Wire Archive](https://www.siliconreport.com/wire/archive/2026-10)
 - [The Hans India: 2026年10月即将到来的AI Updates](https://www.thehansindia.com/tech/upcoming-ai-updates-in-october-2026-major-developments-to-watch-1127036)

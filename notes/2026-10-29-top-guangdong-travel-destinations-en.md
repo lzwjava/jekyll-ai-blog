@@ -27,6 +27,7 @@ A few extra tips:
 ---
 
 **References:**
+
 - [Discover Guangdong: 10 Curated Travel Routes](https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/NewsPolicies/Latestnews/content/post_12726723.html)
 - [Top 10 Attractions in Guangdong – Tour Beijing](https://tour-beijing.com/blog/?p=16054)
 - [In-depth Guide to Top 10 Guangdong Destinations – Travel China Guide](https://www.travelchinaguide.com/cityguides/top-10-guangdong-destinations.htm)

@@ -48,7 +48,7 @@ For decades, wealth in China was dominated by real estate, but the new elite inc
 ### 🛤️ The 4 Main Paths for Ordinary Chinese Today
 
 | Path | How | Typical Timeline |
-|---|---|---|
+| --- | --- | --- |
 | **Entrepreneur** | Build a business (manufacturing, e-commerce, services) | 5–15 years |
 | **Real Estate** | Buy property early in tier-1/2 cities, ride price appreciation | 10–20 years |
 | **Stock Market** | Invest in A-shares, funds, or IPOs | Variable (high risk) |
@@ -73,6 +73,7 @@ Unlike the West where the "Saver-Investor" path is very accessible, China's firs
 ---
 
 **References:**
+
 - [China's Multi-Millionaires: Who Are They? – eChinaCities](https://www.echinacities.com/china-news/Chinas-Multi-Millionaires-Who-Are-They-and-Where-Do-They-Live)
 - [Inside the Success of China's Wealthiest Entrepreneurs](https://zeeuwsemusea.nl/index.php/forum/welcome-mat/57160-inside-the-success-of-china-s-wealthiest-entrepren)
 - [China's Wealth Trap: Rich State, Poor Citizens – Pulse](https://www.pulse.bot/global-economy/blogs/chinas-wealth-trap-rich-state-poor-citizens-8f855856-1f50-4f62-87ed-2a1b5f452cce/)

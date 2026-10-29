@@ -33,7 +33,7 @@ type: note
 **关键概念解释：**
 
 | 术语 | 含义 |
-|---|---|
+| --- | --- |
 | 代开增值税发票 | 税务局代表您开具增值税发票（适用于没有自己开票权限的小公司） |
 | 季度报税 | 强制性季度税务申报 |
 | 三方协议 | 公司、银行和税务局之间的三方协议，用于自动扣税 |
@@ -42,5 +42,6 @@ type: note
 简而言之：这是一份鲜活的第一手记录，反映了中国层层叠叠、出了名的税务官僚体系——每一步都会出现新的前置条件，办公室很早就下班，本来“应该”一次就能办完的任务最终耗去了整整一个工作周。
 
 **参考资料：**
+
 - [中国增值税发票系统概述 – Deloitte](https://www2.deloitte.com/cn/en/pages/tax/articles/vat-invoice-in-china.html)
 - [中国小企业税务申报方式 – China Briefing](https://www.china-briefing.com/news/china-tax-compliance-small-businesses/)

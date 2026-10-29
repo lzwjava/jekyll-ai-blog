@@ -47,6 +47,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [ByteDance History – MediaDB](https://mediadb.eu/en/2024/04/30/4-bytedance-ltd)
 - [ByteDance Revenue & Valuation – Multiples.vc](https://multiples.vc/private-comps/bytedance)
 - [ByteDance 2019 Revenue Report – KR Asia](https://kr-asia.com/tiktok-parent-bytedance-rakes-in-usd-20-billion-revenue-in-2019-up-180-year-on-year-report)

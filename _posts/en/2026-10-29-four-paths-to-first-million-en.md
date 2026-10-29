@@ -54,7 +54,7 @@ No matter which path someone takes, a few behaviors consistently appear:
 ### ⏱️ Timeline Summary
 
 | Path | Avg. Time to $1M |
-|---|---|
+| --- | --- |
 | Dreamer-Entrepreneur | ~12 years |
 | Virtuoso | ~20 years |
 | Big Company Climber | ~21 years |
@@ -65,6 +65,7 @@ The fastest route carries the most risk; the slowest is the most reliable. Most 
 ---
 
 **References:**
+
 - [4 Paths to Becoming a Millionaire – The Motley Fool](https://fool.com/the-ascent/personal-finance/articles/4-paths-to-becoming-a-millionaire/)
 - [I Spent 5 Years Interviewing 225 Millionaires – NBC San Diego](https://www.nbcsandiego.com/news/business/money-report/i-spent-5-years-interviewing-225-millionaires-here-are-the-4-types-of-rich-people-and-their-top-habits/3011750/)
 - [How to Make Your First Million: Realistic Strategies – SelfEmployed.com](https://www.selfemployed.com/path-to-your-first-million-realistic-strategies/)

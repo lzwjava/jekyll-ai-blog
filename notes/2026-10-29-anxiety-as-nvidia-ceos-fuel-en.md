@@ -26,6 +26,7 @@ So yes — constant worry is essentially his management philosophy, and it seems
 ---
 
 **References:**
+
 - [Nvidia CEO Jensen Huang says he constantly worries the company will fail](https://www.techspot.com/community/topics/nvidia-ceo-jensen-huang-says-he-constantly-worries-that-the-company-will-fail.283314/)
 - [The CEO of the Most Valuable Company Works 7 Days a Week in a 'State of Anxiety'](https://www.entrepreneur.com/business-news/nvidia-ceo-jensen-huang-works-7-days-a-week-in-state-of/500526)
 - [Biographer: 'Anxiety is his fuel'](https://www.newsbytesapp.com/news/business/jensen-huang-runs-nvidia-on-anxiety-not-positive-thinking/story)

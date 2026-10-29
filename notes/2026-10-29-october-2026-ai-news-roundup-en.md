@@ -32,6 +32,7 @@ BenchLM, an independent AI benchmarking organization, confirmed the release of *
 ### 📰 This Week's Headlines (Week of Oct 26)
 
 Standout stories from this week include:
+
 - **Marissa Mayer** unveiled **Dazzle**, a tool to build personal AI from camera rolls
 - **AI executives** drew Washington frustration over potential dangers
 - **Musk comments** sent CoreWeave, Nebius, and IREN stocks into the red
@@ -57,6 +58,7 @@ At **SF Tech Week** in mid-October, attendees reflected a mixed mood — excitem
 ---
 
 **References:**
+
 - [BenchLM: Confirmed AI Model Releases for October 2026](https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/)
 - [SiliconReport: October 2026 Wire Archive](https://www.siliconreport.com/wire/archive/2026-10)
 - [The Hans India: Upcoming AI Updates in October 2026](https://www.thehansindia.com/tech/upcoming-ai-updates-in-october-2026-major-developments-to-watch-1127036)

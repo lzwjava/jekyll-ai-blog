@@ -25,6 +25,7 @@ Each pays a share based on their income. Example: if you earn 60% of household i
 One spouse handles the mortgage; the other covers other major expenses (utilities, childcare, groceries). The contributions balance out differently but aim for overall fairness.
 
 **Key considerations:**
+
 - **Both names on the mortgage?** Both are legally responsible for the full debt regardless of internal agreements.
 - **Ownership stake:** If one pays more, does that give them a larger equity share? This should be discussed and possibly documented.
 - **Changing circumstances:** Income changes, career breaks, or child-rearing roles may shift what's "fair" over time.
