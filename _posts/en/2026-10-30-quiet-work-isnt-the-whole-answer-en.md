@@ -35,5 +35,6 @@ If you're frustrated that others aren't on time, that's often a sign the collabo
 So: yes, quiet solo work is powerful. But it's a *tool*, not the whole answer.
 
 References:
+
 - [Deep Work by Cal Newport — summary](https://www.calnewport.com/books/deep-work/)
 - [Async-first communication culture (GitLab handbook)](https://handbook.gitlab.com/handbook/company/culture/all-remote/asynchronous/)

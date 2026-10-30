@@ -14,6 +14,7 @@ This agent project is **nano-vllm** — a from-scratch reimplementation of vLLM'
 ## The core loop (LLMEngine → Scheduler → ModelRunner)
 
 **1. You call `llm.generate(prompts, sampling_params)`** (`llm.py` → `engine/llm_engine.py`). This:
+
 - tokenizes each prompt into a `Sequence`
 - dumps them into the `Scheduler`'s waiting queue
 - then repeatedly calls `step()` until every sequence finishes

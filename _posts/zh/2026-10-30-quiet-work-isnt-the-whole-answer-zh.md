@@ -35,5 +35,6 @@ type: note
 所以：是的，安静的独自工作很强大。但它是一种*工具*，而不是全部答案。
 
 参考文献：
+
 - [Deep Work by Cal Newport — summary](https://www.calnewport.com/books/deep-work/)
 - [Async-first communication culture (GitLab handbook)](https://handbook.gitlab.com/handbook/company/culture/all-remote/asynchronous/)

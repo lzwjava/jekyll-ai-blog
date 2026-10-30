@@ -14,6 +14,7 @@ type: note
 ## 核心循环（LLMEngine → Scheduler → ModelRunner）
 
 **1. 你调用 `llm.generate(prompts, sampling_params)`**（`llm.py` → `engine/llm_engine.py`）。它会：
+
 - 把每个 prompt 分词成一个 `Sequence`
 - 把它们放入 Scheduler 的等待队列
 - 然后反复调用 `step()`，直到每个 sequence 都完成
