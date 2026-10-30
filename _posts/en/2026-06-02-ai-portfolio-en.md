@@ -216,9 +216,9 @@ Shared inside a global bank, the project garnered **200+ views** internally. A p
 
 ### OpenRouter — Past Year
 
-2.28B tokens consumed, $239 spend, 155K API requests across multiple models.
+3.35B tokens consumed, $239 spend, 155K API requests across multiple models.
 
-![OpenRouter Activity Dashboard — 2.28B tokens, $239 spend, 155K requests over 1 year](/assets/images/ai-portfolio/openrouter-activity.png)
+![OpenRouter Activity Dashboard — 3.35B tokens, $239 spend, 155K requests over 1 year](/assets/images/ai-portfolio/openrouter-activity.png)
 
 ### DeepSeek — Past Year
 
@@ -254,12 +254,12 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 
 | Platform | Tokens | Period | Cost |
 | ---------- | -------- | -------- | ------ |
-| OpenRouter | 2.28B | Past year | $239 |
+| OpenRouter | 3.35B | Past year | $239 |
 | DeepSeek | 629M | Past year | — |
 | SSSAICode (Claude) | 115M+ | April 2026 | $171.53 |
 | Xiaomi MIMO | 1.25B | May–Jun 2026 | Free 4.6B credit |
 | Others (GitHub Copilot, etc.) | 726M | Past year | — |
-| **Total** | **~5.0B** | **Past year** | **—** |
+| **Total** | **~6.1B** | **Past year** | **—** |
 
 ---
 
