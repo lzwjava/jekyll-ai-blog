@@ -22,9 +22,10 @@ The model is downloading (~4.36 GB, ETA ~10 min).
  …or paste your sudo password and I'll continue (install → build with -DGGML_HIP=ON -DAMDGPU_TARGETS=gfx900 → run inference).
 
  Everything else is ready:
- - ✅ ~/projects/llama.cpp cloned (eb4e244)
- - ✅ cmake 4.4.4 installed via uv
- - ✅ ROCm/HIP 7.1 detected at /usr, GPU gfx900 (WX 9100, 16 GB VRAM)
- - ⏳ Model downloading → ~/projects/llama.cpp/models/Qwen2.5-7B-Instruct-Q4_K_M.gguf
+
+- ✅ ~/projects/llama.cpp cloned (eb4e244)
+- ✅ cmake 4.4.4 installed via uv
+- ✅ ROCm/HIP 7.1 detected at /usr, GPU gfx900 (WX 9100, 16 GB VRAM)
+- ⏳ Model downloading → ~/projects/llama.cpp/models/Qwen2.5-7B-Instruct-Q4_K_M.gguf
 
  Once you unblock the package, I'll finish the build and run a test inference.

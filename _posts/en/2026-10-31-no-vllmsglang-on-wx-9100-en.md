@@ -19,9 +19,11 @@ Short answer: **No — not practically.** The WX 9100 (Vega 10, `gfx900`) is out
 `gfx900` is not on it. SGLang's ROCm path is likewise CDNA-only (MI210/250/300) plus RDNA3.
 
 **2. rocBLAS on this box has no gfx900 kernels** — we already hit this exact wall with llama.cpp:
+
 ```
 available TensileLibrary: gfx908, gfx90a, gfx942, gfx1030, gfx1100, gfx1101, gfx1151, gfx1200, gfx1201
 ```
+
 No `gfx900`. vLLM/SGLang sit on PyTorch → hipBLAS/rocBLAS, so they'd fail the same way (or earlier).
 
 **3. No PyTorch ROCm wheel for gfx900.** Official `torch` ROCm wheels don't include `gfx900`, so even plain PyTorch-on-GPU isn't available out of the box here (confirmed: no `torch` installed).
@@ -31,7 +33,7 @@ No `gfx900`. vLLM/SGLang sit on PyTorch → hipBLAS/rocBLAS, so they'd fail the 
 ## What this means
 
 | Option | WX 9100 (gfx900) |
-|--------|------------------|
+| -------- | ------------------ |
 | llama.cpp (HIP, MMQ) | ✅ **already working** |
 | Ollama | ✅ (it's llama.cpp under the hood) |
 | vLLM | ❌ unsupported |

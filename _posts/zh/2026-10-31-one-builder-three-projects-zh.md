@@ -16,6 +16,7 @@ type: note
 **源文件：`deck.md`** — 纯 Markdown 文件，可在任意编辑器中编辑并重新导出。
 
 **6 张幻灯片 · 中英双语 · 与视频匹配的暗色主题**（背景色 #0a0a0b + 金色 #e3b341）：
+
 1. **封面** — Three Projects, One Builder / 三个项目 · 一位建造者
 2. **议程** — 01 Truth Lab · 02 Truth Software · 03 lzwjava.com
 3. **Truth Lab 求真实验室** — 从头训练语言模型 · 52GB 集群 · 诚实实验 → truthlab.cc
@@ -24,6 +25,7 @@ type: note
 6. **行动号召** — 构建诚实之物 · 所有网址 · 联系方式 · 基于 token 的定价
 
 **导出至 `output/` 目录：**
+
 - `announcement.pdf`（6 页，16:9 比例，已验证中文渲染正常）
 - `announcement.html`（浏览器视图）
 - `announcement.pptx`（PowerPoint 格式）

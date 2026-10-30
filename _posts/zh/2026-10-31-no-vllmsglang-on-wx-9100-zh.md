@@ -19,9 +19,11 @@ type: note
 `gfx900` 不在其中。同样地，SGLang 的 ROCm 路径也仅限于 CDNA（MI210/250/300）加上 RDNA3。
 
 **2. 此机器上的 rocBLAS 没有 gfx900 内核** — 我们在 llama.cpp 中已经遇到了同样的障碍：
+
 ```
 available TensileLibrary: gfx908, gfx90a, gfx942, gfx1030, gfx1100, gfx1101, gfx1151, gfx1200, gfx1201
 ```
+
 没有 `gfx900`。vLLM/SGLang 依赖于 PyTorch → hipBLAS/rocBLAS，因此它们会以相同的方式（或更早）失败。
 
 **3. 没有适用于 gfx900 的 PyTorch ROCm wheel。** 官方 `torch` ROCm wheel 不包括 `gfx900`，因此即使是在此处开箱即可使用的普通 PyTorch on GPU 也不可用（已确认：未安装 `torch`）。
@@ -31,7 +33,7 @@ available TensileLibrary: gfx908, gfx90a, gfx942, gfx1030, gfx1100, gfx1101, gfx
 ## 这意味着什么
 
 | 选项 | WX 9100 (gfx900) |
-|--------|------------------|
+| -------- | ------------------ |
 | llama.cpp (HIP, MMQ) | ✅ **已正常工作** |
 | Ollama | ✅ （底层是 llama.cpp） |
 | vLLM | ❌ 不支持 |

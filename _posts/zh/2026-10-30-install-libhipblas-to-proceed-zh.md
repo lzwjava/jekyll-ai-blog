@@ -22,6 +22,7 @@ type: note
 …或者粘贴你的sudo密码，我会继续（install → build with -DGGML_HIP=ON -DAMDGPU_TARGETS=gfx900 → run inference）。
 
 其他一切都已就绪：
+
 - ✅ ~/projects/llama.cpp cloned (eb4e244)
 - ✅ cmake 4.4.4 via uv installed
 - ✅ ROCm/HIP 7.1 detected at /usr, GPU gfx900 (WX 9100, 16 GB VRAM)

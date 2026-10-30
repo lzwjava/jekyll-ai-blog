@@ -14,24 +14,28 @@ Question: What are good GitHub repo names for an AI-powered video creation and p
 Answer: Here are some options across different vibes:
 
 **Factory / Pipeline theme**
+
 - `video-factory`
 - `clip-forge`
 - `reel-factory`
 - `vid-pipeline`
 
 **AI emphasis**
+
 - `ai-reel`
 - `ai-video-craft`
 - `neural-cut`
 - `llm-director`
 
 **Polish / Refine theme**
+
 - `video-polish`
 - `reel-polish`
 - `clip-refiner`
 - `vid-studio`
 
 **Catchy / Brand-worthy**
+
 - `reelcraft`
 - `clipsmith`
 - `framecraft`
@@ -43,7 +47,7 @@ Answer: Here are some options across different vibes:
 **My top picks:**
 
 | Name | Why |
-|------|-----|
+| ------ | ----- |
 | `clipforge` | Short, memorable, implies creation |
 | `reelcraft` | Sounds professional, no separator needed |
 | `vidforge` | Punchy, clear purpose |

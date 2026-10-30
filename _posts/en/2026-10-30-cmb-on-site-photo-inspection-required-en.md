@@ -27,10 +27,8 @@ The bank's account manager will come to your office to take photos. The address 
 
 **Typical CMB Opening Flow**
 
-
 1. After getting your business license and company seals, **contact a nearby CMB branch to schedule an appointment**, then coordinate with the account manager on a time for the on-site photo visit.
 2. After the on-site photo is done, bring: business license (original), legal representative's ID (original), online banking administrator's ID, company articles of association, lease contract, and property certificate copy — to the bank branch to complete the process. Usually 1–2 trips.
-
 
 **Bank's Post-Opening Follow-up**
 
@@ -43,6 +41,7 @@ CMB does support a "simplified account opening" service for small micro-enterpri
 ---
 
 **Practical Tips:**
+
 - Make a simple company name sign/banner before the photo visit
 - Keep the legal representative's phone reachable at all times during the process
 - Prepare lease contract or property documents for the office space
@@ -50,6 +49,7 @@ CMB does support a "simplified account opening" service for small micro-enterpri
 ---
 
 **References:**
+
 - [银行开户需要上门检查拍照 (Toutiao)](https://www.toutiao.com/zixun/7533842935410984979)
 - [招商银行支持简易账户开立 (第一财经)](https://www.yicai.com/news/101247686.html)
 - [企业银行开户流程说明 (Douyin)](https://www.douyin.com/shipin/7281900353258375183)
