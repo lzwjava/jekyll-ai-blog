@@ -31,5 +31,6 @@ type: note
 日语版本（神様/kami-sama）在日本的服务文化中通常被更字面地理解，这就是为什么日本客户服务以其卓越著称——但即使在日本，业内人士也争论这是否有些过度。
 
 参考文献：
+
 - [“顾客永远是对的”的起源](https://hbr.org/2011/11/why-the-customer-is-not-always)
 - [顾客永远是对的吗？](https://www.forbes.com/sites/forbesbusinesscouncil/2021/07/19/is-the-customer-always-right/)

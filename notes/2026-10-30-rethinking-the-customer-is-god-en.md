@@ -31,5 +31,6 @@ A more balanced modern view: **Customers are the reason you exist, but not infal
 The Japanese version (神様/kami-sama) is often taken more literally in service culture there, which is why Japanese customer service is famously exceptional — but even in Japan, industry insiders debate whether it goes too far.
 
 References:
+
 - [The Origin of "The Customer Is Always Right"](https://hbr.org/2011/11/why-the-customer-is-not-always)
 - [Is the Customer Always Right?](https://www.forbes.com/sites/forbesbusinesscouncil/2021/07/19/is-the-customer-always-right/)

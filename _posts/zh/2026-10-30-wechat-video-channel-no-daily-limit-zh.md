@@ -28,5 +28,6 @@ type: note
 - 在实际操作中，单个账号的账号状态和认证状态可能会影响实际上限。
 
 **参考链接：**
+
 - [微信视频号发布规则 — Digitaling](https://www.digitaling.com/articles/341137.html)
 - [微信视频号最长可发布1小时视频 — 界面新闻](https://m.jiemian.com/article/6574895.html)

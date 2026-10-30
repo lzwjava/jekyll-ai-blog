@@ -54,6 +54,7 @@ Hyperbolic 于2024年8月完成了700万美元的种子轮融资。随后，Jasp
 ---
 
 参考来源：
+
 - [了解 Hyperbolic CEO Jasper Zhang](https://hyperbolic.xyz/blog/meet-hyperbolic-ceo-jasper-zhang-making-open-access-ai-a-reality-for-everyone-everywhere)
 - [关于 Jasper Zhang 的一切 – UseTheBitcoin](https://usethebitcoin.com/crypto-personalities/jasper-zhang-hyperbolic-ceo/)
 - [Jasper Zhang 在 AI Engineer 演讲者页面](https://www.ai.engineer/speakers/dr-jasper-zhang)

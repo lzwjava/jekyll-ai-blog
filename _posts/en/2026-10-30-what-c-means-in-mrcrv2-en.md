@@ -22,6 +22,7 @@ type: note
 In linguistics and NLP, **coreference** means that two or more expressions refer to the **same entity**.
 
 > Example:
+>
 > - *"Write a poem about penguins. ... Now give me **that poem** again."*
 > - "that poem" **co-refers** to the earlier poem-about-penguins request.
 
@@ -34,6 +35,7 @@ In linguistics and NLP, **coreference** means that two or more expressions refer
 In MRCR, models must navigate long conversations where the user asks for writing (poems, riddles, essays) on various topics, and must reproduce the specific output ("needle") that matches one of those requests — distinguishing it from confounding similar ones, like "the poem about penguins" vs. "the poem about flamingos."
 
 So the **"C" (Coreference)** challenge is:
+
 - The model sees many rounds of conversation
 - A query refers back to **one specific earlier exchange** (e.g., "the first poem about penguins")
 - The model must correctly **resolve which prior response** the query is co-referring to
@@ -46,12 +48,13 @@ The "Multi-Round" part means this coreference spans across **many turns** in a v
 ### Full name breakdown
 
 | Part | Meaning |
-|---|---|
+| --- | --- |
 | **Multi-Round** | Across many conversation turns |
 | **Coreference** | Expressions referring back to the same earlier item |
 | **Resolution** | Correctly identifying *which* item is being referred to |
 | **v2** | Enhanced version with more needles and longer contexts |
 
 **References:**
+
 - [Michelangelo Paper (arXiv:2409.12640)](https://arxiv.org/abs/2409.12640)
 - [MRCR Leaderboard - LLM Stats](https://llm-stats.com/benchmarks/mrcr)

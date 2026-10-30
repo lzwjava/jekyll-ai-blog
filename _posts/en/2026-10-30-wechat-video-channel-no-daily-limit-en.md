@@ -22,10 +22,12 @@ However, there are **per-video technical limits** to be aware of:
 - **Caption:** Up to 1,000 characters
 
 **Practical notes:**
+
 - While there's no hard daily cap published, posting excessively in a short period may trigger spam detection.
 - Content quality and originality matter — WeChat's algorithm favors original content and may suppress accounts that mass-upload low-quality or duplicated videos.
 - Individual account standing and verification status may affect actual limits in practice.
 
 **References:**
+
 - [微信视频号发布规则 — Digitaling](https://www.digitaling.com/articles/341137.html)
 - [微信视频号最长可发布1小时视频 — 界面新闻](https://m.jiemian.com/article/6574895.html)

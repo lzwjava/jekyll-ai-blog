@@ -58,6 +58,7 @@ Hyperbolic raised a $7M Seed round in August 2024. Then Jasper Zhang and Yuchen 
 ---
 
 References:
+
 - [Meet Hyperbolic CEO Jasper Zhang](https://hyperbolic.xyz/blog/meet-hyperbolic-ceo-jasper-zhang-making-open-access-ai-a-reality-for-everyone-everywhere)
 - [Everything to Know About Jasper Zhang – UseTheBitcoin](https://usethebitcoin.com/crypto-personalities/jasper-zhang-hyperbolic-ceo/)
 - [Jasper Zhang on AI Engineer speakers page](https://www.ai.engineer/speakers/dr-jasper-zhang)
