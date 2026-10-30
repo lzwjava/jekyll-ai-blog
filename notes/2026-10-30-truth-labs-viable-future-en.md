@@ -44,8 +44,6 @@ These are concrete assets.&#x20;
 
 A one-person AI research lab
 
-
-
 ## 1. Why I think this is a real opportunity
 
 There is an interesting structural change happening in the AI industry.
@@ -129,8 +127,6 @@ Your current website already describes a similar approach: scoped experiments, m
 [image](https://www.google.com/s2/favicons?domain=https://truthlab.cc\&sz=32)
 
 A one-person AI research lab
-
-
 
 ## 3. What I would specialize in
 

@@ -32,8 +32,6 @@ The replacement application is handled by the local Public Security Bureau's Exi
 
 National Intellectual Administration+1
 
-
-
 ### 2. You may be able to apply entirely online
 
 Online replacement available in Guangzhou
@@ -63,8 +61,6 @@ For eligible online applications, the published processing target is 4 working d
 [image](https://www.google.com/s2/favicons?domain=https://www.nia.gov.cn\&sz=32)
 
 National Intellectual Administration
-
-
 
 ### 3. If you need to apply in person in Guangzhou
 

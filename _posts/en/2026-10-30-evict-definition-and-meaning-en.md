@@ -14,15 +14,18 @@ Question: What does "evict" mean?
 Answer: **Evict** means to **legally force someone to leave a place**, usually a rental property or land.
 
 **Core meaning:**
+
 - To remove a tenant from a property, typically because they failed to pay rent, violated lease terms, or the landlord wants the property back.
 
 **Examples:**
+
 - *"The landlord evicted the tenant for not paying rent for three months."*
 - *"The family was evicted from their apartment."*
 
 **Related forms:**
+
 | Word | Form | Meaning |
-|------|------|---------|
+| ------ | ------ | --------- |
 | evict | verb | the action |
 | eviction | noun | the process/event |
 | evicted | past tense | already removed |

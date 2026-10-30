@@ -22,6 +22,7 @@ The HKDSE is a public examination in Hong Kong, held since 2012, used to assess 
 DSE subjects are divided into 3 categories: Category A (senior secondary subjects), Category B (applied learning subjects), and Category C (other language subjects). Candidates can choose up to 8 subjects from these 3 categories.
 
 The 4 **core subjects** are:
+
 - Chinese Language
 - English Language
 - Mathematics
@@ -47,6 +48,7 @@ Hong Kong's education authorities are also planning to establish an internationa
 In short, the DSE is Hong Kong's equivalent of the A-Levels (UK) or Gaokao (mainland China) — the key gateway to university education.
 
 **References:**
+
 - [2026 DSE written exams to begin on Apr 8 – TVB News](https://news.tvb.com/en/1150143-2026DSEwrittenexamstobeginonApr8candidatenumbersrise5)
 - [Record 24 top scorers in 2026 DSE – The Standard](https://www.thestandard.com.hk/news/article/337167/)
 - [DSE 2026 overview – HK01](https://www.hk01.com/DSE專區/937559/dse-2026-報名日期至10-8-自修生及學校考生報考資格-考試費一覽)

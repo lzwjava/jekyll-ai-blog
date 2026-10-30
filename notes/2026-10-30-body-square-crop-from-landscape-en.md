@@ -14,6 +14,7 @@ Done. New image created:
 **`image/photo_6126_body_600x600.jpg`** (600×600, quality 95, 300 DPI, 65 KB)
 
 How it was made from `IMG_6126.JPG` (5184×3456):
+
 - Detected the person with macOS Vision → full body box (1190,530)–(4125,3453), center **(2658,1991)**
 - Square source crop centered on the **body center**, height = body height × 1.05 → crop `x=1124..4192, y=387..3456` (3068×3069)
 - Resampled with Lanczos to exactly **600×600**

@@ -22,6 +22,7 @@ HKDSE是香港自2012年起举办的一项公共考试，用于评估中六（12
 DSE科目分为3类：甲类（高中科目）、乙类（应用学习科目）和丙类（其他语言科目）。考生可从这3类科目中选择最多8门科目。
 
 4门**核心科目**为：
+
 - 中文
 - 英文
 - 数学
@@ -47,6 +48,7 @@ DSE科目分为3类：甲类（高中科目）、乙类（应用学习科目）�
 简而言之，DSE相当于英国的A-Levels或中国大陆的Gaokao——是进入大学教育的关键门户。
 
 **参考文献：**
+
 - [2026年DSE书面考试将于4月8日开始 – TVB News](https://news.tvb.com/en/1150143-2026DSEwrittenexamstobeginonApr8candidatenumbersrise5)
 - [2026年DSE创纪录24名顶尖成绩者 – The Standard](https://www.thestandard.com.hk/news/article/337167/)
 - [DSE 2026概述 – HK01](https://www.hk01.com/DSE專區/937559/dse-2026-報名日期至10-8-自修生及學校考生報考資格-考試費一覽)

@@ -46,6 +46,7 @@ He dismisses AI achieving human-like vision as "marketing hype," asserting curre
 **The bottom line:** Yin Wang is most valuable when read as a *technical provocateur* — someone who forces you to question lazy assumptions about OOP, testing dogma, or framework hype. He's least valuable when he writes about people, society, and success, because those essays substitute rhetorical contempt for actual argument.
 
 References:
+
 - [Yin Wang: On So-Called Success](https://lzwjava.com/success-en)
 - [Yin Wang's Contrarian Tech Views](https://lzwjava.github.io/yin-wang-tech-views-en)
 - [From Hero Worship to Critical Thinking](https://lzwjava.github.io/hero-worship-to-critical-thinking-en)

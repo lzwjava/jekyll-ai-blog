@@ -30,8 +30,6 @@ type: note
 
 国家移民管理局+1
 
-
-
 ### 2. 您可能可以完全在线申请
 
 广州可在线补发
@@ -61,8 +59,6 @@ type: note
 [image](https://www.google.com/s2/favicons?domain=https://www.nia.gov.cn\&sz=32)
 
 国家移民管理局
-
-
 
 ### 3. 如需在广州亲自办理
 

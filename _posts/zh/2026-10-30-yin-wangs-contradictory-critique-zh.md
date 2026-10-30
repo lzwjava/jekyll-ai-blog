@@ -46,6 +46,7 @@ type: note
 **归根结底：** 把王垠视为*技术挑衅者*时，他最有价值——他会迫使你质疑关于 OOP、测试教条或框架炒作的懒惰假设。当他写关于人、社会和成功的文章时，他的价值最低，因为这些文章用修辞上的轻蔑代替了真正的论证。
 
 参考链接：
+
 - [王垠：论所谓成功](https://lzwjava.com/success-en)
 - [王垠的反主流技术观点](https://lzwjava.github.io/yin-wang-tech-views-en)
 - [从英雄崇拜到批判性思维](https://lzwjava.github.io/hero-worship-to-critical-thinking-en)
