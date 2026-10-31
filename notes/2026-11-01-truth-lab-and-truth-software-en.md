@@ -16,5 +16,6 @@ type: note
 Guangzhou Zhiwei DeepCompute Information Technology Co., Ltd. operates two businesses: **Truth Lab**, an AI research lab that pretrains small language models and consults on applied AI; and **Truth Software**, an AI-driven consultancy that designs and builds mobile apps, web platforms, and AI agents for clients.
 
 **References:**
+
 - [truthlab.cc](https://truthlab.cc)
 - [truthsoft.dev](https://truthsoft.dev)

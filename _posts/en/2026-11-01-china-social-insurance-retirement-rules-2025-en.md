@@ -20,7 +20,7 @@ China has recently reformed its retirement system, effective **January 1, 2025**
 ## ✅ Minimum Contribution Years (养老保险缴费年限)
 
 | Period | Minimum Years Required |
-|---|---|
+| --- | --- |
 | Before 2030 | **15 years** |
 | From 2030 onward (gradual) | Increasing to **20 years** (+6 months per year) |
 
@@ -43,7 +43,7 @@ For female employees, the statutory retirement age will be raised from **50 to 5
 ## 📌 Summary Table
 
 | Gender | Position | Old Age | New Age (by 2039) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Male | All | 60 | **63** |
 | Female | Non-management (worker) | 50 | **55** |
 | Female | Management/Technical | 55 | **58** |
@@ -58,6 +58,7 @@ For female employees, the statutory retirement age will be raised from **50 to 5
 ---
 
 **References:**
+
 - [Linklaters – China's Retirement Age Increase 2025](https://www.linklaters.com/knowledge/publications/alerts-newsletters-and-guides/2024/october/30/a-new-chapter-for-chinas-workforce)
 - [Hogan Lovells – Statutory Retirement Age Reform in China](https://jdsupra.com/legalnews/statutory-retirement-age-reform-in-china-2190578)
 - [Pension Benefits in China – HelloPebl](https://help.hellopebl.com/en-US/pebl/article/PeVRo1vR-pension-benefits-in-china)

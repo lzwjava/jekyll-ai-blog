@@ -32,15 +32,18 @@ type: note
 ## 分步指南：创建页面
 
 **步骤 1 — 访问公司页面创建（桌面）**
+
 1. 登录你的个人 LinkedIn 账户
 2. 点击**工作图标**（右上角的 9 个点）
 3. 从下拉菜单中选择 **"创建公司页面"**
 
 **步骤 2 — 选择页面类型**
+
 - **公司** — 适用于大多数企业（选择此项）
 - **展示页面** — 连接到现有公司页面的子页面（不适用于新设置）
 
 **步骤 3 — 填写公司详细信息**
+
 - 公司名称
 - LinkedIn URL
 - 公司网站
@@ -55,12 +58,12 @@ type: note
 ## 给香港/中国公司的建议
 
 | 项目 | 建议 |
-|---|---|
+| --- | --- |
 | **公司名称** | 使用英文 + 可选中文（例如 "ABC Tech 科技"） |
 | **标志** | 300×300 像素 |
 | **横幅** | 1128×191 像素 |
 | **语言** | 将页面语言设置为英文以覆盖全球 |
-| **电子邮件** | 使用你的公司域名邮箱（例如 you@yourcompany.com）以增加可信度 |
+| **电子邮件** | 使用你的公司域名邮箱（例如 <you@yourcompany.com>）以增加可信度 |
 
 ---
 
@@ -71,6 +74,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [How to Create a LinkedIn Company Page – Complete 2026 Guide](https://businessho.com/how-to-create-a-company-page-on-linkedin/)
 - [Step-by-Step LinkedIn Company Page Guide (SocialRails 2026)](https://socialrails.com/blog/linkedin-create-company-page-guide)
 - [Business Insider – How to Create a Company Page on LinkedIn](https://www.businessinsider.nl/how-to-create-a-company-page-on-linkedin)

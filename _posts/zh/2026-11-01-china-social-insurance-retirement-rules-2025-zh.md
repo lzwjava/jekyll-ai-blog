@@ -20,7 +20,7 @@ type: note
 ## ✅ 最低缴费年限（养老保险缴费年限）
 
 | 时期 | 最低所需年数 |
-|---|---|
+| --- | --- |
 | 2030年之前 | **15年** |
 | 从2030年起（逐步） | 增加到**20年**（每年增加6个月） |
 
@@ -37,7 +37,7 @@ type: note
 ## 📌 汇总表
 
 | 性别 | 职位 | 旧年龄 | 新年龄（到2039年） |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 男性 | 所有 | 60 | **63** |
 | 女性 | 非管理职位（工人） | 50 | **55** |
 | 女性 | 管理/技术职位 | 55 | **58** |
@@ -50,6 +50,7 @@ type: note
 ---
 
 **参考：**
+
 - [Linklaters – China's Retirement Age Increase 2025](https://www.linklaters.com/knowledge/publications/alerts-newsletters-and-guides/2024/october/30/a-new-chapter-for-chinas-workforce)
 - [Hogan Lovells – Statutory Retirement Age Reform in China](https://jdsupra.com/legalnews/statutory-retirement-age-reform-in-china-2190578)
 - [Pension Benefits in China – HelloPebl](https://help.hellopebl.com/en-US/pebl/article/PeVRo1vR-pension-benefits-in-china)

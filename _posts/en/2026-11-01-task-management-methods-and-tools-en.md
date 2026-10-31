@@ -44,7 +44,7 @@ Assign every task a specific time slot on your calendar, instead of keeping a lo
 The best to-do list apps in 2026 are **Todoist** (overall best), **TickTick** (best for time-blocking), and **Motion** (best for AI scheduling). For simple, free options, **Microsoft To Do** and **Apple Reminders** excel.
 
 | App | Best For |
-|---|---|
+| --- | --- |
 | **Todoist** | General use, clean UI, natural language input |
 | **TickTick** | Built-in Pomodoro timer, habit tracking, calendar |
 | **Motion** | AI auto-schedules your tasks |
@@ -60,6 +60,7 @@ In 2026, AI-powered task suggestions, voice capture, and smart scheduling are be
 ## 🗂 Non-Software Approaches
 
 Many people still use **low-tech methods**:
+
 - **Paper notebook / planner** — writing by hand helps memory
 - **Sticky notes** — for visible, immediate reminders
 - **Whiteboard** — daily tasks written on a board nearby
@@ -77,6 +78,7 @@ The "best" task app is the one that matches how your brain works and gets out of
 ---
 
 **References:**
+
 - [The 7 best to-do list apps in 2026 — Zapier](https://zapier.com/blog/best-todo-list-apps.md)
 - [GTD, PARA or Zettelkasten: Which productivity system fits? — YourStory](https://yourstory.com/2026/01/choose-right-productivity-system-gtd-para-zettelkasten-second-brain)
 - [Best task management apps 2026 — Parse.gl](https://www.parse.gl/prompts/p/what-is-the-best-task-management-app--eb013fd3-b269-4500-8802-62fdd0ae411e)

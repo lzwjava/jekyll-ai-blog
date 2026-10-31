@@ -28,6 +28,7 @@ Answer: Yes, Anthropic is growing extremely fast — but it's actually much lean
 No technology company has ever done this. Not Google. Not Meta. Not Microsoft. Not Salesforce. Not even OpenAI.
 
 References:
+
 - [Anthropic Form S-1 Analysis — Revenue Per Employee Tops $6.6M](https://fourweekmba.com/ai-anthropics-revenue-per-employee-tops-6-6m-with-5300-staff/)
 - [Anthropic Only Has 5,000 Employees — SaaStr](https://www.saastr.com/anthropic-only-has-5000-employees/)
 - [Anthropic Employee Statistics — Sci-Tech Today](https://www.sci-tech-today.com/stats/how-many-people-work-in-anthropic-statistics/)

@@ -52,6 +52,7 @@ You may be thinking of Greg Brockman's Cheeky Pint appearance, or perhaps confus
 ---
 
 References:
+
 - [OpenAI Code Red – Fortune](https://fortune.com/2025/12/09/openai-coo-brad-lightcap-interivew-code-red-force-focus-enterprise-chatgpt-fortune-brainstorm/)
 - [Senior Staff Departures – Computing.co.uk](https://www.computing.co.uk/news/2026/openai-focus-chatgpt-senior-staff-exodus)
 - [OpenAI Math Breakthrough – buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026)

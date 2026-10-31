@@ -24,7 +24,7 @@ Yes, 51社保 is legitimate. Here's the full landscape of options, from DIY to f
 Handle everything directly via government portals. Best if you have only 1–3 people and time to learn.
 
 | Tool | What It Does |
-|---|---|
+| --- | --- |
 | **广东政务服务网** (gdsi.gov.cn) | Register social insurance, add/remove employees |
 | **广州住房公积金管理中心** (gzhfgj.gz.gov.cn) | Housing fund registration & monthly payments |
 | **广州税务局电子税务局** | Pay social insurance (now collected by tax bureau) |
@@ -67,7 +67,7 @@ A listed company (stock: 834067) with 20 years in HR services, covering 300+ cit
 ## Which One for a Guangzhou Early-Stage Startup?
 
 | Stage | Recommendation |
-|---|---|
+| --- | --- |
 | Solo founder, no employees yet | DIY via government portals or **灵活就业** self-enrollment |
 | 1–5 employees | **51社保** SaaS or **亲亲小保** — low cost, easy to start |
 | 5–20 employees | **51社保** or **人力窝** outsourcing — saves real admin time |
@@ -84,6 +84,7 @@ Any platform that says they'll enroll your employees under *their* company name 
 ---
 
 **References:**
+
 - [2026年人力资源服务公司口碑榜](https://news.sina.cn/sx/2026-04-29/detail-inhwefva7733848.d.html)
 - [51Shebao – Startup Intros](https://startupintros.com/orgs/51shebao)
 - [eRoad Software Series C3 – KrASIA](https://kr-asia.com/china-brief-hr-saas-vendor-eroad-software-closes-usd-28-3-million-series-c3-round)

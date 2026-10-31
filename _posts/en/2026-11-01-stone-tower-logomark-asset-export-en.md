@@ -12,6 +12,7 @@ type: note
 Done. I extracted the Stone Tower logomark from the HTML mockup and exported a ready-to-serve asset set in `/Users/lzwjava/projects/employment-files/logo/dist/`:
 
 **Vector (recommended — crisp at any size)**
+
 - `truthsoft-tower.svg` — light tower, 3:5 ratio (54×90 viewBox)
 - `truthsoft-tower-dark.svg` — dark-toned variant
 - `truthsoft-square.svg` — tower centered on a 90×90 canvas (favicon source)
@@ -23,6 +24,7 @@ Done. I extracted the Stone Tower logomark from the HTML mockup and exported a r
 **Natural 3:5 logo PNGs** — `truthsoft-logo-90x150.png`, `truthsoft-logo-180x300.png` (2× for retina), plus `-dark` variants
 
 **Extras**
+
 - `preview.html` — open in a browser to eyeball every size
 - `README.txt` — copy-paste `<head>` snippet, PWA `site.webmanifest`, and header-brand markup
 

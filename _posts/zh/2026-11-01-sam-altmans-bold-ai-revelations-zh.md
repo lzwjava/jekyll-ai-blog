@@ -52,6 +52,7 @@ Altman 说 OpenAI 的愿景是拥有**万亿个略微超人类的 agents**，它
 ### 🔑 大局观
 
 该剧集清晰地揭示了 OpenAI 的战略方向：
+
 - **Capability**：不是一个超级心智，而是大规模 agent fleets 并行从事科学和工程工作
 - **Infrastructure**：最终自我复制的 data centers
 - **Math/Science**：AI 已经产生比学术界能吸收的更多的结果——瓶颈现在是 **digestion**，而不是 **discovery**
@@ -61,6 +62,7 @@ Altman 说 OpenAI 的愿景是拥有**万亿个略微超人类的 agents**，它
 ---
 
 参考文献：
+
 - [OpenAI 722 Math Manuscripts — OfficeChai](https://officechai.com/ai/looking-up-at-stars-with-extra-awe-tonight-sam-altman-after-openai-publishes-300-math-proofs-including-quasi-riemann-hypothesis/)
 - [OpenAI Solves Erdős Problem — BestAITools](https://www.bestaitools.com/openai-model-solves-decades-old-geometry-problem-using-unexpected-mathematical-approach/)
 - [Cheeky Pint — Greg Brockman Episode (OpenAI)](https://www.audioscrape.com/podcast/cheeky-pint/episode/openai-cofounder-greg-brockman-on-the-scaling-hypothesis-and-refactoring-as-a-killer-ai-use-case-51600)

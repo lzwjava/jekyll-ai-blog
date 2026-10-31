@@ -20,7 +20,7 @@ Good news — India resumed issuing tourist visas to Chinese citizens from July 
 ### 🗂️ Visa Types Available for Chinese Citizens
 
 | Type | Purpose | Notes |
-|------|---------|-------|
+| ------ | --------- | ------- |
 | **Tourist Visa** | Leisure travel | Standard embassy visa |
 | **e-B-4 Business Visa** | Manufacturing/production business | Online application only |
 | **Student / Immigration Visa** | Study or residency | Requires Indian mission |
@@ -36,6 +36,7 @@ The Indian Embassy in Beijing announced that Chinese citizens can apply for tour
 **Step 2 — Prepare Your Documents**
 
 Typical requirements:
+
 - Valid Chinese passport (6+ months validity)
 - Passport-size photo
 - Completed visa application form
@@ -63,6 +64,7 @@ India rolled out a new **e-B-4 (e-Production Investment Business) Visa** from Ja
 ---
 
 **References:**
+
 - [India Says Visa Access for Chinese Tourists Is Fully Functional – GoAsia](https://goasia.cc/en/news/india-chinese-tourist-business-visas-fully-functional)
 - [India Introduces e-B-4 Visa for Chinese Nationals – NewsBytesApp](https://www.newsbytesapp.com/news/india/india-introduces-new-e-business-visa-for-chinese-nationals/story)
 - [India Visa Requirements for Chinese Citizens 2026 – VisaRequirements.info](https://visarequirements.info/countries/china/india/)

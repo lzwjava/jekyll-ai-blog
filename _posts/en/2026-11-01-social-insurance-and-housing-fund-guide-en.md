@@ -24,7 +24,7 @@ Here's a practical breakdown covering registration, rates, and your options as a
 China mandates **Five Insurances + One Housing Fund** for all employees, including founders who draw a salary:
 
 | Type | Employer Rate | Employee Rate |
-|---|---|---|
+| --- | --- | --- |
 | Pension (养老) | 15% | 8% |
 | Medical (医疗) | 6%* | 2% |
 | Unemployment (失业) | 0.5–1% | 0.5% |
@@ -52,6 +52,7 @@ The Housing Fund contribution base lower limit is **¥2,500/month** (effective f
 To hire staff, your company needs a social insurance/social credit number. You'll need to bring: business license, ID of the legal representative, RMB bank account documents, then enter employee details into the Social Insurance Bureau's system.
 
 **Practical steps:**
+
 1. Register at the **Guangzhou Social Insurance Bureau** (广州市社会保险基金管理中心) — can be done online via 广东政务服务网
 2. Register for Housing Fund at the **Guangzhou Housing Provident Fund Management Center** (广州住房公积金管理中心, website: `gzhfgj.gz.gov.cn`)
 3. Enroll each employee within **30 days of hiring**
@@ -63,7 +64,7 @@ According to the *Housing Provident Fund Management Regulations*, newly establis
 ## 4. Your Situation as a Founder
 
 | Scenario | What to Do |
-|---|---|
+| --- | --- |
 | **You take a salary from the company** | Must enroll in 五险一金 just like any employee |
 | **You take no salary (zero payroll)** | Technically no obligation as an "employee," but you still need to enroll others you hire |
 | **You want personal social insurance coverage** | Can enroll as **灵活就业人员** (self-employed/flexible worker) for pension + medical only |
@@ -82,6 +83,7 @@ For flexible/self-employed individuals in Guangzhou, social insurance mainly cov
 ---
 
 **References:**
+
 - [Guangzhou 2026 Medical Insurance Rate Adjustment](https://cbgc.scol.com.cn/news/7196988)
 - [Guangdong Social Insurance Base 2026](https://www.huichenglawyer.com/pufaku/4745.html)
 - [Guangzhou Housing Fund Base Adjustment 2025](https://cbgc.scol.com.cn/news/6021222)

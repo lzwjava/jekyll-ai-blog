@@ -21,9 +21,9 @@ type: note
 
 **为什么评论比发帖更有利于建立存在感：**
 
-*   回复的权重是点赞的 **15 倍以上**——大多数人专注于发帖，却忽略了这一杠杆最高的增长策略。
-*   在你所在的领域内，对更大的账号进行回复，并给出真正有用的评论。在 X 上，增长来自于通过回复和转发展现自己，而不是在真空中发帖。
-*   对话是 2026 年 X 平台上被发现的基础。
+* 回复的权重是点赞的 **15 倍以上**——大多数人专注于发帖，却忽略了这一杠杆最高的增长策略。
+* 在你所在的领域内，对更大的账号进行回复，并给出真正有用的评论。在 X 上，增长来自于通过回复和转发展现自己，而不是在真空中发帖。
+* 对话是 2026 年 X 平台上被发现的基础。
 
 **思维转变：** 不要想“广播 → 受众”。要思考“加入对话 → 赢得关注 → 然后人们关注你”。对人保持真正的好奇心是恰到好处的能量——不要只是附和，要增加新的价值。
 
@@ -32,7 +32,7 @@ type: note
 ---
 
 **参考文献：**
-- [How to Grow Your Twitter Following From Zero in 2026](https://www.lilachbullock.com/grow-twitter-following-from-zero/)
-- [How to Go Viral on X (Twitter) in 2026](https://posteverywhere.ai/blog/how-to-go-viral-on-x)
-- [Twitter X Content Strategy and Ranking Factors](https://knowledge-space.pages.dev/seo-marketing/twitter-x-content-strategy-and-ranking-factors/)
-- [X Twitter Marketing Strategy 2026](https://socialrails.com/blog/x-twitter-marketing-strategy)
+* [How to Grow Your Twitter Following From Zero in 2026](https://www.lilachbullock.com/grow-twitter-following-from-zero/)
+* [How to Go Viral on X (Twitter) in 2026](https://posteverywhere.ai/blog/how-to-go-viral-on-x)
+* [Twitter X Content Strategy and Ranking Factors](https://knowledge-space.pages.dev/seo-marketing/twitter-x-content-strategy-and-ranking-factors/)
+* [X Twitter Marketing Strategy 2026](https://socialrails.com/blog/x-twitter-marketing-strategy)

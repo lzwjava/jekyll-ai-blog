@@ -52,6 +52,7 @@ The most futuristic claim: Altman envisions AI acting as the "brain" controlling
 ### 🔑 The Big Picture
 
 The episode reveals OpenAI's strategic direction clearly:
+
 - **Capability**: Not one super-mind, but massive fleets of agents doing science and engineering in parallel
 - **Infrastructure**: Data centers that eventually reproduce themselves
 - **Math/Science**: AI is already producing more results than the academic world can absorb — the bottleneck is now **digestion**, not **discovery**
@@ -61,6 +62,7 @@ Fields Medalist Cédric Villani called the Navier-Stokes claim "a cataclysm unli
 ---
 
 References:
+
 - [OpenAI 722 Math Manuscripts — OfficeChai](https://officechai.com/ai/looking-up-at-stars-with-extra-awe-tonight-sam-altman-after-openai-publishes-300-math-proofs-including-quasi-riemann-hypothesis/)
 - [OpenAI Solves Erdős Problem — BestAITools](https://www.bestaitools.com/openai-model-solves-decades-old-geometry-problem-using-unexpected-mathematical-approach/)
 - [Cheeky Pint — Greg Brockman Episode (OpenAI)](https://www.audioscrape.com/podcast/cheeky-pint/episode/openai-cofounder-greg-brockman-on-the-scaling-hypothesis-and-refactoring-as-a-killer-ai-use-case-51600)

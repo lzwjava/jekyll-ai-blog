@@ -24,7 +24,7 @@ type: note
 直接通过政府门户网站处理一切。如果只有1-3人并且有时间学习，这是最佳选择。
 
 | 工具 | 功能 |
-|---|---|
+| --- | --- |
 | **广东政务服务网** (gdsi.gov.cn) | 注册社保、增减员工 |
 | **广州住房公积金管理中心** (gzhfgj.gz.gov.cn) | 公积金登记及月度缴费 |
 | **广州税务局电子税务局** | 缴纳社保（现已由税务局代收） |
@@ -67,7 +67,7 @@ type: note
 ## 对于广州早期初创公司应该选择哪个？
 
 | 阶段 | 建议 |
-|---|---|
+| --- | --- |
 | 只有创始人，尚无员工 | 通过政府门户网站DIY或**灵活就业**自行注册 |
 | 1-5名员工 | **51社保** SaaS或**亲亲小保** — 成本低，容易上手 |
 | 5-20名员工 | **51社保**或**人力窝**外包 — 节省大量管理时间 |
@@ -84,6 +84,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [2026年人力资源服务公司口碑榜](https://news.sina.cn/sx/2026-04-29/detail-inhwefva7733848.d.html)
 - [51Shebao – Startup Intros](https://startupintros.com/orgs/51shebao)
 - [eRoad Software Series C3 – KrASIA](https://kr-asia.com/china-brief-hr-saas-vendor-eroad-software-closes-usd-28-3-million-series-c3-round)

@@ -44,7 +44,7 @@ Zettelkasten 是一个*个人知识管理*系统，用于笔记、研究和整�
 2026 年最好的待办清单应用是 **Todoist**（总体最佳）、**TickTick**（最适合时间分块）和 **Motion**（最适合 AI 调度）。对于简单、免费的选项，**Microsoft To Do** 和 **Apple Reminders** 表现突出。
 
 | 应用 | 最佳用途 |
-|---|---|
+| --- | --- |
 | **Todoist** | 通用用途、简洁界面、自然语言输入 |
 | **TickTick** | 内置番茄钟计时器、习惯跟踪、日历 |
 | **Motion** | AI 自动调度您的任务 |
@@ -78,6 +78,7 @@ Zettelkasten 是一个*个人知识管理*系统，用于笔记、研究和整�
 ---
 
 **References:**
+
 - [The 7 best to-do list apps in 2026 — Zapier](https://zapier.com/blog/best-todo-list-apps.md)
 - [GTD, PARA or Zettelkasten: Which productivity system fits? — YourStory](https://yourstory.com/2026/01/choose-right-productivity-system-gtd-para-zettelkasten-second-brain)
 - [Best task management apps 2026 — Parse.gl](https://www.parse.gl/prompts/p/what-is-the-best-task-management-app--eb013fd3-b269-4500-8802-62fdd0ae411e)

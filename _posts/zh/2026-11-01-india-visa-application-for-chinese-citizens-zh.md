@@ -20,7 +20,7 @@ type: note
 ### 🗂️ 中国公民可用的签证类型
 
 | 类型 | 目的 | 备注 |
-|------|---------|-------|
+| ------ | --------- | ------- |
 | **旅游签证** | 休闲旅行 | 标准使馆签证 |
 | **e-B-4 Business Visa** | 制造业/生产业务 | 仅在线申请 |
 | **学生/移民签证** | 学习或居住 | 需要印度使领馆 |
@@ -36,6 +36,7 @@ type: note
 **步骤2 — 准备文件**
 
 典型要求：
+
 - 有效的中国护照（有效期6个月以上）
 - 护照尺寸照片
 - 填写完整的签证申请表
@@ -63,6 +64,7 @@ e-Visa途径的处理时间可能为1-3天；标准使馆处理时间不定。
 ---
 
 **参考文献：**
+
 - [印度表示中国游客的签证准入已完全恢复 – GoAsia](https://goasia.cc/en/news/india-chinese-tourist-business-visas-fully-functional)
 - [印度为中国国民推出e-B-4签证 – NewsBytesApp](https://www.newsbytesapp.com/news/india/india-introduces-new-e-business-visa-for-chinese-nationals/story)
 - [印度对中国公民的签证要求2026 – VisaRequirements.info](https://visarequirements.info/countries/china/india/)

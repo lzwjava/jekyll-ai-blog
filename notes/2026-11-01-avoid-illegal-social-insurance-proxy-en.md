@@ -42,6 +42,7 @@ So: using 51社保 to **administer** your real employees' social insurance = fin
 When choosing a service provider, make sure they hold a **《人力资源服务许可证》** (HR Service License) and/or **《劳务派遣经营许可证》** (Labor Dispatch License), and sign a formal written service agreement.
 
 Ask specifically:
+
 - Do they have a Guangzhou local operating license?
 - Are contributions paid directly to the social insurance bureau under your company's name, or under theirs?
 - Can you verify payments on the government portal (广东政务服务网)?
@@ -62,6 +63,7 @@ The four common traps:
 For your actual employees, 51社保 covers the full employment lifecycle: onboarding, attendance tracking, payroll calculation, social insurance and housing fund contributions, and provides employees with online access to check their labor contracts, attendance, and salary details.
 
 For an early-stage Guangzhou company with just a few employees, the main value is:
+
 - Saves you from learning complex local rules
 - Handles monthly contribution adjustments automatically
 - Covers compliance when you have employees in multiple cities
@@ -71,7 +73,7 @@ For an early-stage Guangzhou company with just a few employees, the main value i
 ## 📋 5. Bottom Line: What to Check Before Signing
 
 | Question | Why It Matters |
-|---|---|
+| --- | --- |
 | Are contributions paid under **my company's social credit number**? | Must be — not under the agency's name |
 | Do they have a **Guangzhou HR service license**? | Ensures local compliance |
 | Is the fee structure transparent? | Watch for hidden charges |
@@ -83,6 +85,7 @@ For a small founder-stage company, 51社保 or similar services are reasonable �
 ---
 
 **References:**
+
 - [51社保荣获MeetHR 2025-2026十大影响力品牌](https://news.sina.cn/sx/2026-08-31/detail-iniqexuv9007885.d.html)
 - [社保代缴最新政策2026规定](https://www.huichenglawyer.com/pufaku/6644.html)
 - [2026社保代缴行业现状与核心痛点](https://c.m.163.com/news/a/L2S367MV0556DF0Q.html)

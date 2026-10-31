@@ -10,6 +10,7 @@ type: note
 ---
 
 Everything checks out:
+
 - **Icon PNGs**: content is perfectly centered (bbox 228×202 at offset +14,+27 inside 256×256 → center 128,128), with transparent frame around the near-white box — ideal for favicons/app icons.
 - **Full logo PNGs**: proper aspect ratio, transparent outside the design.
 

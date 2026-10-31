@@ -12,6 +12,7 @@ type: note
 已完成。我从HTML mockup中提取了Stone Tower的logo标志，并将一组可直接使用的资源导出到了`/Users/lzwjava/projects/employment-files/logo/dist/`：
 
 **矢量（推荐——在任何尺寸下都清晰）**
+
 - `truthsoft-tower.svg` — 浅色塔，3:5比例（54×90 viewBox）
 - `truthsoft-tower-dark.svg` — 暗色变体
 - `truthsoft-square.svg` — 塔中心对齐在90×90画布上（favicon源）
@@ -23,6 +24,7 @@ type: note
 **自然3:5 logo PNG** — `truthsoft-logo-90x150.png`、`truthsoft-logo-180x300.png`（2倍用于视网膜屏），以及`-dark`变体
 
 **其他**
+
 - `preview.html` — 在浏览器中打开以预览所有尺寸
 - `README.txt` — 复制粘贴`<head>`代码片段、PWA的`site.webmanifest`以及header-brand标记
 

@@ -10,6 +10,7 @@ type: note
 ---
 
 一切检查无误：
+
 - **Icon PNGs**：内容完美居中（在 256×256 空间内，bbox 228×202 的 offset 为 +14,+27 → center 128,128），在 near-white box 周围有 transparent frame——非常适合用于 favicons/app icons。
 - **Full logo PNGs**：具有正确的 aspect ratio，design area 外为 transparent。
 
