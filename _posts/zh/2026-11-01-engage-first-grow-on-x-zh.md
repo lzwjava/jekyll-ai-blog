@@ -32,6 +32,7 @@ type: note
 ---
 
 **参考文献：**
+
 * [How to Grow Your Twitter Following From Zero in 2026](https://www.lilachbullock.com/grow-twitter-following-from-zero/)
 * [How to Go Viral on X (Twitter) in 2026](https://posteverywhere.ai/blog/how-to-go-viral-on-x)
 * [Twitter X Content Strategy and Ranking Factors](https://knowledge-space.pages.dev/seo-marketing/twitter-x-content-strategy-and-ranking-factors/)
