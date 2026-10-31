@@ -117,6 +117,26 @@ layout: default
     {% endif %}
   </p>
 
+  <div style="margin: 12px 0;">
+    <p style="margin-bottom: 10px;">
+      {% if page.lang == "zh" %}
+        🌍 我们为博客读者创建了微信和 WhatsApp 交流群，欢迎扫码加入！群里有来自中国、新加坡、美国等全球各地的朋友，一起聊技术、聊 AI，结识志同道合的人。
+      {% else %}
+        🌍 We created WeChat and WhatsApp groups for blog readers — welcome aboard! Scan the QR codes to join and meet visitors from China, Singapore, USA and around the globe to talk technology, AI, and connect with like-minded people.
+      {% endif %}
+    </p>
+    <div style="display: flex; flex-wrap: wrap; gap: 64px; justify-content: center;">
+      <div style="text-align: center;">
+        <img src="/assets/images/group/wechat_group.jpg" alt="WeChat Group QR Code" loading="lazy" style="width: auto; height: 200px; max-width: 100%; object-fit: contain; border-radius: 8px;">
+        <p style="margin-top: 6px; font-weight: 600;">{% if page.lang == "zh" %}微信群{% else %}WeChat Group{% endif %}</p>
+      </div>
+      <div style="text-align: center;">
+        <img src="/assets/images/group/whatsapp_group.jpg" alt="WhatsApp Group QR Code" loading="lazy" style="width: auto; height: 200px; max-width: 100%; object-fit: contain; border-radius: 8px;">
+        <p style="margin-top: 6px; font-weight: 600;">{% if page.lang == "zh" %}WhatsApp 群{% else %}WhatsApp Group{% endif %}</p>
+      </div>
+    </div>
+  </div>
+
   <hr>
 
   {{ content }}
