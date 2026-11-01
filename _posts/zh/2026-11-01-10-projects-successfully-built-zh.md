@@ -14,7 +14,7 @@ type: note
 ## 构建报告 (`~/projects`)
 
 | # | 项目 | 说明 | 构建 | 产物 | 验证 |
-|---|------|------|------|------|------|
+| --- | ------ | ------ | ------ | ------ | ------ |
 | 1 | **fmt** | C++ 格式化库 | ✅ 9秒 | `libfmt.a` | 小程序运行 → `fmt works: 42` |
 | 2 | **spdlog** | 快速 C++ 日志库 | ✅ 10秒 | `libspdlog.a` | 库文件存在 |
 | 3 | **nlohmann/json** | C++ JSON 库 | ✅ 2秒 | `single_include/` | 头文件就绪 |
@@ -29,6 +29,7 @@ type: note
 **总磁盘占用：** ~1.75 GB · 全部使用 `-j4` 在此设备上构建。
 
 ### 备注
+
 - **9/10 一次性构建成功。** `stable-diffusion.cpp` 首次失败是因为浅克隆跳过了其 **ggml 子模块** — 通过 `git submodule update --init --recursive` 修复，然后重新构建。
 - 所有构建均为 **仅 CPU 版本**。`whisper.cpp` 和 `stable-diffusion.cpp` 均支持我们用于 llama.cpp 的相同 ROCm/HIP 路径（`-DGGML_HIP=ON -DGGML_CUDA_FORCE_MMQ=ON -DAMDGPU_TARGETS=gfx900`），如需 GPU 加速可启用。
 - 工具链：gcc 15 / make / cmake 4.4.4 (uv)。此设备未安装 autotools/Rust/Go，因此我选择了基于 CMake/Make 的项目。如需，可 `apt install` 这些工具链并添加 Rust/Go 经典项目（ripgrep、fzf、tmux）。
