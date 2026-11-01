@@ -14,7 +14,7 @@ type: note
 ## 新页面结构（单个 `index.html`）
 
 | 部分 | 内容 |
-|---|---|
+| --- | --- |
 | **#lines** (new) | 四条业务线的概览网格 |
 | **#ml** — 业务线 01 · 模型训练与推理 (new) | 从头预训练（GPT-2 124M/760M），LoRA/SFT/RLHF，vLLM/SGLang/llama.cpp serving，GPU 工作站，数据处理管道，公开证据（SEC-EDGAR-GPT，benchmarks） |
 | **#ai-transform** — 业务线 02 · AI 转型咨询 | 保留，重新启动 |

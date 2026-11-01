@@ -86,7 +86,7 @@ In a sentence ending with '...no substitutes', a specific FFN key activates. If 
 Unlike a hash map where you either find a key or not, this is **differentiable / soft**:
 
 | Hard dictionary | FFN (soft) |
-|---|---|
+| --- | --- |
 | Exact key match | Dot product similarity |
 | Returns one value | Returns weighted mix of many values |
 | Fixed entries | Learned during training |
@@ -124,6 +124,7 @@ The output of a feed-forward layer is a **composition of its memories**, which i
 This means factual knowledge (e.g., "capital of France = Paris") is literally **encoded in the weights of W₁ and W₂** — which is why you can sometimes "edit" a model's factual knowledge by modifying specific FFN weight entries.
 
 **References:**
+
 - [Geva et al. (2021) — Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913)
 - [ZeroEntropy — Feedforward Network explainer](https://www.zeroentropy.dev/concepts/feedforward-network/)
 - [Geva et al. (2022) — Transformer Feed-Forward Layers Build Predictions by Promoting Concepts](https://arxiv.org/abs/2203.14680)

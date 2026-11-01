@@ -29,6 +29,7 @@ FFN(x) = ReLU(x · W₁ + b₁) · W₂ + b₂
 ```
 
 In GPT-style models, the hidden dimension is typically **4× the model dimension**:
+
 - If model dim = 768, FFN hidden dim = 3072
 
 ---
@@ -36,7 +37,7 @@ In GPT-style models, the hidden dimension is typically **4× the model dimension
 ### Key Roles of FFN
 
 | Role | Explanation |
-|---|---|
+| --- | --- |
 | **Non-linearity** | Attention is mostly linear; FFN introduces the non-linear capacity the model needs to learn complex functions |
 | **Per-token processing** | FFN operates on each token **independently** (unlike attention which mixes tokens). It refines each token's representation in isolation |
 | **Knowledge storage** | Research (Geva et al., 2021 *"Transformer FFN are Key-Value Memories"*) shows FFN layers act as **factual memory** — storing world knowledge in their weights |
@@ -69,6 +70,7 @@ Value layer (W₂): emits stored "knowledge" when pattern matches
 In summary, the FFN is the **computation and memory engine** of each transformer block — while attention routes information between tokens, the FFN is where the actual "thinking" and knowledge retrieval happens.
 
 **References:**
+
 - [Geva et al. (2021) — Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913)
 - [The Illustrated Transformer — Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 - [Attention Is All You Need (Vaswani et al., 2017)](https://arxiv.org/abs/1706.03762)

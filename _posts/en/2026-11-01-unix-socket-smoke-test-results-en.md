@@ -14,7 +14,7 @@ Smoke run done. Working tree is clean (HEAD = `482279b server : add support for 
 ## Results — works
 
 | Test | Command | Result |
-|---|---|---|
+| --- | --- | --- |
 | Build | `cmake --build build --target whisper-server whisper-cli` | OK |
 | Start on socket | `whisper-server -m models/ggml-tiny.en.bin --host /tmp/whisper-smoke.sock` | socket created, `whisper server listening at unix://...` |
 | Static file `GET /` | `curl --unix-socket .../` | 200, 2130 bytes |
@@ -30,9 +30,11 @@ Smoke run done. Working tree is clean (HEAD = `482279b server : add support for 
 ## Issues found
 
 1. **Stale socket file blocks restart** (main issue). After shutdown (both SIGINT and SIGTERM) the `.sock` file is left on disk, so the next start on the same path fails:
+
    ```
    couldn't bind to unix socket: /tmp/whisper-smoke.sock   (exit code 1)
    ```
+
    `httplib.h` never `unlink()`s on bind/close, and the `clean_up` lambda in `examples/server/server.cpp:1305` only prints timings and frees the ctx. A stale file from a crashed/killed server has the same effect. Workaround today: `rm` the file first, or use the abstract namespace (`--host @name.sock`).
 
 2. **Unhelpful error for over-long paths.** With a path > 107 bytes, `create_socket()` in `httplib.h:3544` returns `INVALID_SOCKET` silently, so the user only sees the generic `couldn't bind to unix socket: <long path>` with no hint about `sun_path` limits. Same for a non-existent parent directory.

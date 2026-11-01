@@ -84,7 +84,7 @@ Output: adds "Paris" signal to the prediction
 与 hash map 不同（你要么找到 key，要么没有），这是 **differentiable / soft**：
 
 | Hard dictionary | FFN (soft) |
-|---|---|
+| --- | --- |
 | Exact key match | Dot product similarity |
 | Returns one value | Returns weighted mix of many values |
 | Fixed entries | Learned during training |
@@ -122,6 +122,7 @@ feed-forward layer 的 output 是其 memories 的 **composition**，随后通过
 这意味着 factual knowledge（例如，"capital of France = Paris"）实际上被 **encoded in the weights of W₁ and W₂** — 这就是为什么有时你可以通过修改特定的 FFN weight entries 来 "edit" 一个 model 的 factual knowledge。
 
 **参考文献：**
+
 - [Geva et al. (2021) — Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913)
 - [ZeroEntropy — Feedforward Network explainer](https://www.zeroentropy.dev/concepts/feedforward-network/)
 - [Geva et al. (2022) — Transformer Feed-Forward Layers Build Predictions by Promoting Concepts](https://arxiv.org/abs/2203.14680)

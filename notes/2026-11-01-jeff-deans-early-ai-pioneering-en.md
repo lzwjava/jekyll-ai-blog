@@ -26,5 +26,6 @@ type: note
 So yes — he was deeply involved in AI **well before** the modern deep learning boom, making his commitment to the field notably early and sustained.
 
 **References:**
+
 - [Jeff Dean – Wikipedia](https://en.wikipedia.org/wiki/Jeff_Dean)
 - [Jeffrey Dean – Google Research](https://research.google/people/jeff/)

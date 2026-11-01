@@ -24,5 +24,6 @@ type: note
 - **2018年以后：** 2018年4月，Dean被任命为谷歌人工智能部门的负责人，后来在DeepMind与Google Brain合并后成为谷歌首席科学家。
 
 **参考文献：**
+
 - [Jeff Dean – Wikipedia](https://en.wikipedia.org/wiki/Jeff_Dean)
 - [Jeffrey Dean – Google Research](https://research.google/people/jeff/)

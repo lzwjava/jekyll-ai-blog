@@ -60,7 +60,7 @@ Yin Wang is a compelling example of the knowledge-first model: his blog consiste
 ## Applying Yin Wang's Philosophy to a Startup
 
 | Yin Wang Principle | Startup Application |
-|---|---|
+| --- | --- |
 | **Independent thinking** | Don't copy competitors blindly — find what's *actually* true about your market |
 | **Reject hype** | Don't chase trend-driven ideas (AI for AI's sake); solve a real, verifiable pain |
 | **Simplicity over complexity** | Build the simplest product that works; fight feature bloat |
@@ -80,6 +80,7 @@ In short: Yin Wang's philosophy is best used as a **thinking discipline** for a 
 ---
 
 **References:**
+
 - [Wisdom of Programming by Wang Yin](https://lzwjava.github.io/wisdom-of-programming-wangyin-en)
 - [Yin Wang's Contrarian Tech Views](https://lzwjava.github.io/yin-wang-tech-views-en)
 - [Build Knowledge, Not Attention](https://lzwjava.github.io/build-knowledge-not-attention-en)

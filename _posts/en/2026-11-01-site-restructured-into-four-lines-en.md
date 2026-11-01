@@ -14,7 +14,7 @@ Done. Here's what changed — the site is now **truth-software**, reorganized ar
 ## New page structure (one `index.html`)
 
 | Section | Content |
-|---|---|
+| --- | --- |
 | **#lines** (new) | Overview grid of the four business lines |
 | **#ml** — 业务线 01 · 模型训练与推理 (new) | Pretraining from scratch (GPT-2 124M/760M), LoRA/SFT/RLHF, vLLM/SGLang/llama.cpp serving, GPU workstations, data pipelines, public evidence (SEC-EDGAR-GPT, benchmarks) |
 | **#ai-transform** — 业务线 02 · AI 转型咨询 | kept, re-kickered |
@@ -24,6 +24,7 @@ Done. Here's what changed — the site is now **truth-software**, reorganized ar
 | **#team** (new) | Found the founder path timeline *从 NOIP 到 nanoGPT* (8 entries) |
 
 ## Also
+
 - Hero/meta/title/nav/footer rewritten around the four lines; nav now: 关于 · 业务线 · 训练与推理 · AI 转型 · AI 应用 · 应用开发 · 案例 · 实验室 · 团队 · 计价 · 联系
 - ~130 new EN strings in `i18n.js` (longest-key-first mechanism preserved), plus fixed a few **pre-existing untranslated** works cards (SEC-EDGAR GPT, 趣直播)
 - New CSS in `style.css` for lines/lab-table/quote/timeline (light + dark themes)

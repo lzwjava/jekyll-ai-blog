@@ -35,7 +35,7 @@ Today, LLM use cases range from summarizing sales calls and generating productio
 **By capability:**
 
 | Capability | Examples |
-|---|---|
+| --- | --- |
 | Text understanding | Summarization, classification, Q&A |
 | Code generation | Copilot, code review, bug fixing |
 | Voice/speech | Autonomous voice agents, call centers |
@@ -69,6 +69,7 @@ This means LLMs are now being used not just to answer questions, but to **autono
 **In short:** GPU/AI/LLM tech is now a general-purpose platform applicable to virtually any domain — from healthcare diagnostics and financial analysis, to software engineering, education, customer service, and creative media.
 
 **References:**
+
 - [How LLMs Are Transforming Industries: Real-World Use Cases in 2026](https://natepatel.blogspot.com/2025/11/how-llms-are-transforming-industries.html)
 - [7 LLM Use Cases and Applications in 2026 – AssemblyAI](https://assemblyai.com/blog/llm-use-cases)
 - [Why Powerful GPUs Are Fueling the Explosive AI Boom in 2026](https://www.frugaltesting.com/blog/why-powerful-gpus-are-fueling-the-explosive-ai-boom-in-2026)

@@ -14,7 +14,7 @@ type: note
 ## 结果 — 成功
 
 | Test | Command | Result |
-|---|---|---|
+| --- | --- | --- |
 | 构建 | `cmake --build build --target whisper-server whisper-cli` | 成功 |
 | 启动 socket 服务 | `whisper-server -m models/ggml-tiny.en.bin --host /tmp/whisper-smoke.sock` | socket 已创建，`whisper server listening at unix://...` |
 | 静态文件 `GET /` | `curl --unix-socket .../` | 200, 2130 字节 |
@@ -30,9 +30,11 @@ type: note
 ## 发现的问题
 
 1. **过期的 socket 文件会阻止重启**（主要问题）。关闭（无论是 SIGINT 还是 SIGTERM）后，`.sock` 文件会留在磁盘上，因此下次在同一路径启动时会失败：
+
    ```
    couldn't bind to unix socket: /tmp/whisper-smoke.sock   (exit code 1)
    ```
+
    `httplib.h` 在 `bind`/`close` 时从未调用 `unlink()`，而 `examples/server/server.cpp:1305` 中的 `clean_up` lambda 只打印计时结果并释放 ctx。崩溃或被终止的服务器留下的陈旧文件也会产生同样的效果。目前的解决方法：先 `rm` 该文件，或者使用抽象命名空间（`--host @name.sock`）。
 
 2. **路径过长时错误提示不明显。** 当路径超过 107 字节时，`httplib.h:3544` 中的 `create_socket()` 会静默返回 `INVALID_SOCKET`，因此用户只会看到通用的 `couldn't bind to unix socket: <long path>` 错误，没有任何关于 `sun_path` 限制的提示。父目录不存在时也是如此。

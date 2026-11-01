@@ -35,7 +35,7 @@ GPUs 可以同时处理数千个 operations，与顺序执行的 CPUs 不同。M
 **By capability:**
 
 | 能力 | Examples |
-|---|---|
+| --- | --- |
 | Text understanding | Summarization, classification, Q&A |
 | Code generation | Copilot, code review, bug fixing |
 | Voice/speech | Autonomous voice agents, call centers |
@@ -69,6 +69,7 @@ Support teams 使用 LLMs 来 draft responses、summarize tickets、classify int
 **简而言之：** GPU/AI/LLM tech 现在是一个 general-purpose platform，适用于 virtually any domain — 从 healthcare diagnostics 和 financial analysis，到 software engineering、education、customer service 和 creative media。
 
 **References:**
+
 - [How LLMs Are Transforming Industries: Real-World Use Cases in 2026](https://natepatel.blogspot.com/2025/11/how-llms-are-transforming-industries.html)
 - [7 LLM Use Cases and Applications in 2026 – AssemblyAI](https://assemblyai.com/blog/llm-use-cases)
 - [Why Powerful GPUs Are Fueling the Explosive AI Boom in 2026](https://www.frugaltesting.com/blog/why-powerful-gpus-are-fueling-the-explosive-ai-boom-in-2026)

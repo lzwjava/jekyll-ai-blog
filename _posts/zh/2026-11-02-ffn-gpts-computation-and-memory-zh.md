@@ -29,6 +29,7 @@ FFN(x) = ReLU(x · W₁ + b₁) · W₂ + b₂
 ```
 
 在 GPT 风格的模型中，隐藏维度通常是 **模型维度的 4 倍**：
+
 - 若模型维度 = 768，则 FFN 隐藏维度 = 3072
 
 ---
@@ -36,7 +37,7 @@ FFN(x) = ReLU(x · W₁ + b₁) · W₂ + b₂
 ### FFN 的关键作用
 
 | 角色 | 解释 |
-|---|---|
+| --- | --- |
 | **Non-linearity** | Attention 在很大程度上是线性的；FFN 引入了模型学习复杂函数所需的非线性能力 |
 | **Per-token processing** | FFN **独立**作用于每个 token（与混合 token 的 attention 不同）。它单独精炼每个 token 的表示 |
 | **Knowledge storage** | 研究（Geva 等人，2021，《Transformer FFN Are Key-Value Memories》）表明 FFN 层起到**事实记忆**的作用 — 在其权重中存储世界知识 |
@@ -69,6 +70,7 @@ Value layer (W₂): 当模式匹配时发射存储的“知识”
 总之，FFN 是每个 Transformer 块的**计算和记忆引擎**——attention 在 token 之间路由信息，而 FFN 是实际“思考”和知识检索发生的地方。
 
 **参考文献：**
+
 - [Geva et al. (2021) — Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913)
 - [The Illustrated Transformer — Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 - [Attention Is All You Need (Vaswani et al., 2017)](https://arxiv.org/abs/1706.03762)

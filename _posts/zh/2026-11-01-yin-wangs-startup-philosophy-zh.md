@@ -60,7 +60,7 @@ type: note
 ## 将王垠的哲学应用于创业
 
 | 王垠原则 | 创业应用 |
-|---|---|
+| --- | --- |
 | **独立思考** | 不要盲目复制竞争对手——找出关于你的市场的*真实*情况 |
 | **拒绝炒作** | 不要追逐趋势驱动的想法（为AI而AI）；解决一个真实的、可验证的痛点 |
 | **简洁胜于复杂** | 构建最简单可用的产品；抵制功能膨胀 |
@@ -80,6 +80,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [王垠的编程智慧](https://lzwjava.github.io/wisdom-of-programming-wangyin-en)
 - [王垠的反主流科技观点](https://lzwjava.github.io/yin-wang-tech-views-en)
 - [建立知识，而非注意力](https://lzwjava.github.io/build-knowledge-not-attention-en)
