@@ -1,3 +1,11 @@
+/* QR Code Group */
+.qr-group-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 256px;
+    justify-content: center;
+}
+
 /* Project Name and Tagline */
 .project-name,
 .project-tagline {
