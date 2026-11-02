@@ -60,7 +60,7 @@ type: post
 | ---------- | --- |
 | 微信@lzwjava | ~6200 |
 | 微信@lzwjava2048 | ~4500 |
-| [LinkedIn](https://www.linkedin.com/in/lzwjava) | 280 |
+| [LinkedIn](https://www.linkedin.com/in/lzwjava) | 956 |
 | 微信公众号平台 | 2156 |
 | 微信视频号平台 | 861 |
 | [X](https://mobile.twitter.com/lzwjava) | 470 |
