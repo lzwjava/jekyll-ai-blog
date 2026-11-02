@@ -44,6 +44,7 @@ GGML_VK_DISABLE_FUSION=1 ./build/bin/sd-cli \
 当 ggml Vulkan **融合功能**（默认开启）启用时，AMD GPU **会因 Vulkan device-lost 错误而崩溃**（`vk::Queue::submit: ErrorDeviceLost`）。设置 `GGML_VK_DISABLE_FUSION=1` 可使其稳定。这是 RADV/Vega10 的驱动程序问题，而非项目缺陷。
 
 已验证的其他后端：
+
 - `Vulkan0`（Intel iGPU）：无需环境变量即可正常工作，但速度较慢（约 4.2 秒/步，AMD 约 0.6 秒/步）。
 - `CPU`：正常工作，256×256 下约 3.9 秒/步。
 

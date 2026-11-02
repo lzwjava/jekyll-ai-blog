@@ -44,6 +44,7 @@ GGML_VK_DISABLE_FUSION=1 ./build/bin/sd-cli \
 The AMD GPU **crashes with a Vulkan device-lost error** (`vk::Queue::submit: ErrorDeviceLost`) when ggml Vulkan **fusion is enabled** (the default). Setting `GGML_VK_DISABLE_FUSION=1` makes it stable. This is a RADV/Vega10 driver issue, not a project bug.
 
 Other backends verified:
+
 - `Vulkan0` (Intel iGPU): works without the env var, but slower (~4.2 s/it vs ~0.6 s/it on AMD).
 - `CPU`: works, ~3.9 s/it at 256×256.
 

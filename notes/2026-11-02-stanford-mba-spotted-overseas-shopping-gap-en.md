@@ -38,6 +38,7 @@ According to co-founder Mao Wenchao, the name Xiaohongshu was also inspired by h
 In short, he returned because he **spotted a real gap**: millions of Chinese consumers going abroad with no good resource for overseas shopping, and he had both the business insight (from Bain) and the entrepreneurial culture (from Stanford) to act on it.
 
 **References:**
+
 - [Mao Wenchao – Wikipedia](https://en.wikipedia.org/wiki/Mao_Wenchao)
 - [TikTok Ban | Xiaohongshu: Who's its CEO and how was it founded?](https://www.ourchinastory.com/en/13869/TikTok-Ban%EF%BD%9CXiaohongshu-Who-s-its-CEO-and-how-was-it-founded)
 - [m.fx361.com – Seeing Red](https://m.fx361.com/news/2018/0122/4723922.html)

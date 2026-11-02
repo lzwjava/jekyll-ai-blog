@@ -38,6 +38,7 @@ Mao Wenchao 自愿支付了 100 万元人民币的赔偿金后辞职，随后于
 简而言之，他之所以回国，是因为他发现了一个真正的市场空白：数百万中国消费者走出国门，却没有任何好的海外购物资源。而他既具备（来自 Bain 的）商业洞察力，也拥有（来自 Stanford 的）创业文化来采取行动。
 
 **参考来源：**
+
 - [Mao Wenchao – Wikipedia](https://en.wikipedia.org/wiki/Mao_Wenchao)
 - [TikTok Ban | Xiaohongshu: Who's its CEO and how was it founded?](https://www.ourchinastory.com/en/13869/TikTok-Ban%EF%BD%9CXiaohongshu-Who-s-its-CEO-and-how-was-it-founded)
 - [m.fx361.com – Seeing Red](https://m.fx361.com/news/2018/0122/4723922.html)
