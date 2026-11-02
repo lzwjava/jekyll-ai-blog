@@ -59,7 +59,7 @@ Social Impact:
 | ---------- | --- |
 | WeChat@lzwjava | ~6200 |
 | WeChat@lzwjava2048 | ~4500 |
-| [LinkedIn](https://www.linkedin.com/in/lzwjava) | 280 |
+| [LinkedIn](https://www.linkedin.com/in/lzwjava) | 951 |
 | WeChat Subscription platform | 2156 |
 | WeChat Video platform | 861 |
 | [X](https://mobile.twitter.com/lzwjava) | 470 |
