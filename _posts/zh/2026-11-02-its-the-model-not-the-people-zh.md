@@ -36,6 +36,7 @@ Ethena 构建了一个累积绩效加薪公式——每 6 个月，加薪会根�
 更深层的真相是：软件工程中的传统雇佣本质上**将产出社会化，并将等待时间个体化**。公司立即从高绩效者身上获益；工程师却要等 2–3 年，头衔才跟上。这个差距就是不公正之处——而它是结构性的，不是个人性的。
 
 参考资料：
+
 - [Engineering levels at Carta](https://medium.com/building-carta/engineering-levels-at-carta-d33db2a55a20)
 - [Fixing salaries, levels, and promotions — LeadDev](https://leaddev.com/career-paths-progression-promotion/fixing-salaries-levels-and-promotions-your-engineering-org)
 - [Ethena's public engineering salary formula](https://www.goethena.com/post/a-public-and-transparent-formula-for-engineering-salaries-ethena)

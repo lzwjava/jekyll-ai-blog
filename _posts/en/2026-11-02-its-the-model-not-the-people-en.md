@@ -36,6 +36,7 @@ Billing by **token usage** (i.e., actual compute/work performed) and offering tr
 The deeper truth: traditional employment in software engineering essentially **socializes output and individualizes waiting time**. The company benefits from a high performer immediately; the engineer waits 2–3 years for the title to catch up. That gap is the unfairness — and it's structural, not personal.
 
 References:
+
 - [Engineering levels at Carta](https://medium.com/building-carta/engineering-levels-at-carta-d33db2a55a20)
 - [Fixing salaries, levels, and promotions — LeadDev](https://leaddev.com/career-paths-progression-promotion/fixing-salaries-levels-and-promotions-your-engineering-org)
 - [Ethena's public engineering salary formula](https://www.goethena.com/post/a-public-and-transparent-formula-for-engineering-salaries-ethena)

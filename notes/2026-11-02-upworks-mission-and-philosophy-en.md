@@ -56,6 +56,7 @@ In short, Upwork's philosophy is simple: **talent is everywhere, but opportunity
 ---
 
 **References:**
+
 - [Upwork Mission – Comparably](https://www.comparably.com/companies/upwork/mission)
 - [Upwork 2025 Impact Report](https://www.upwork.com/mc/documents/2025-impact-report.pdf)
 - [Upwork Careers Page](https://upwork.com/careers)

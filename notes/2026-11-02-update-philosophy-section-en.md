@@ -12,6 +12,7 @@ type: note
 Done. Changes made:
 
 **`index.html`** — Replaced the company philosophy block:
+
 - Removed the `公司哲学` tag and `又快又好 —— 快，绝不牺牲质量` headline
 - Replaced the 3 original cards (快是承诺 / 好是底线 / 自动化与AI的杠杆) with the 6 cards you provided (🧭 求真 · 随时协作, 👥 为真实用户而建, 🙌 尊重已有的成果, 🌱 以年为单位思考, 🤝 把客户当作协作者, 🤍 透明是产品的一部分)
 - Kept the `philosophy__cards` class on the grid so the band's padding/alignment styling stays intact

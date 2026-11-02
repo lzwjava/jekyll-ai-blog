@@ -28,7 +28,7 @@ His net worth is approximately **$184 million** (as of March 2024), and he holds
 ### Summary
 
 | | Details |
-|---|---|
+| --- | --- |
 | **Founder** | Dr. Yu Hong Chen (陈宇红) |
 | **Founded** | February 2000 |
 | **Current Role** | Chairman & CEO |
@@ -40,5 +40,6 @@ His net worth is approximately **$184 million** (as of March 2024), and he holds
 ---
 
 **References:**
+
 - [Yu Hong Chen – MarketScreener](https://uk.marketscreener.com/insider/YU-HONG-CHEN-A06UAE/)
 - [Yu Hong Chen Experience – MarketScreener](https://uk.marketscreener.com/insider/YU-HONG-CHEN-A06UAE/experience/)

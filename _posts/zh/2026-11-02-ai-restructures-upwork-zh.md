@@ -64,7 +64,7 @@ Upwork 的 Future Workforce Index 2026 发现，**38% 的技能型工作者现�
 ## 🗂️ 总结：赢家与输家
 
 | 品类 | AI 影响 |
-|---|---|
+| --- | --- |
 | 通用写作、基础设计 | ❌ 快速下滑 |
 | AI 集成与咨询 | ✅ 需求 +178% |
 | AI 视频/图像工作 | ✅ 需求 +329% |
@@ -79,6 +79,7 @@ Upwork 的 Future Workforce Index 2026 发现，**38% 的技能型工作者现�
 ---
 
 **参考文献：**
+
 - [AI 正在改变自由职业平台 – TryUncle](https://tryuncle.com/learn/ai-at-work/how-ai-is-changing-freelance-platforms-like-upwork-and-fiverr)
 - [Upwork 40% 的任务有 AI 辅助 – CallSphere](https://www.callsphere.ai/blog/ai-agents-gig-economy-40-percent-upwork-tasks-ai-assisted)
 - [Upwork Future Workforce Index 2026](https://investors.upwork.com/node/13166/pdf)

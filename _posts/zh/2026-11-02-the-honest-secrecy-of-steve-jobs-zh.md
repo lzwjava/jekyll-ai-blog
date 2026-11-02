@@ -54,6 +54,7 @@ Apple 的成功是“只有一个**彻底的控制狂**才可能做到”的事�
 ---
 
 **参考资料：**
+
 - [Steve Jobs 传记：一个复杂人物的坦率肖像 – Phys.org](https://phys.org/news/2011-10-steve-jobs-bio-candid-portrait.html)
 - [Steve Jobs：好的、坏的、隐秘的一面 – InternetNews](https://internetnews.com/it-management/steve-jobs-the-good-the-bad-the-secretive)
 - [传记作者：Jobs 才华横溢、脾气尖锐、古怪 – Macworld](https://www.macworld.com/article/1163198/biographer_jobs_brilliant_prickly_eccentric.html)

@@ -12,11 +12,13 @@ type: note
 是的，logo 在浏览器标签页中显示正常。已验证：
 
 **文件存在且有效**
+
 - `logo/favicon.ico` — 有效的 ICO，包含 5 种尺寸（16×16、24×24、32×32、48×48、64×64）
 - `logo/deepcompute-icon.png` — 256×256 RGBA PNG（现代浏览器优先选择的 fallback 图标）
 - `logo/apple-touch-icon.png` — 180×180，用于 iOS/iPhone
 
 **HTML 中的引用**（`index.html` 和 `portfolio.html` 两者中均有）：
+
 ```html
 <link rel="icon" href="logo/favicon.ico" sizes="any">
 <link rel="icon" href="logo/deepcompute-icon.png" type="image/png">

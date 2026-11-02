@@ -19,10 +19,10 @@ India has been the world's go-to destination for software outsourcing for over t
 
 India's IT sector surpassed $300 billion in revenue for the first time in fiscal 2026, driven by rapid AI-driven changes. North American firms remain the main engine of India's expansion, accounting for two-thirds of new setups.
 
-### Top Indian IT Outsourcing Giants:
+### Top Indian IT Outsourcing Giants
 
 | Company | Scale | Key Strength |
-|---|---|---|
+| --- | --- | --- |
 | **TCS** (Tata Consultancy Services) | ~613,000 employees | Enterprise, banking, airlines |
 | **Infosys** | ~324,000 employees | Digital consulting, AI |
 | **HCLTech** | ~223,000 employees | Infrastructure, engineering |
@@ -41,10 +41,10 @@ TCS runs proprietary platforms alongside services, which matters for clients who
 
 China is a global leader in emerging technologies such as AI, big data, and IoT, making it a strong choice for companies seeking innovative and large-scale software development solutions. Backed by massive government investment in tech and a growing base of experienced engineers, China continues to rise as a serious player in the software outsourcing space. Rates: $30–$60/hour. Best for AI/ML, IoT, R&D-intensive projects and enterprises seeking large-scale, high-performance software systems.
 
-### Notable Chinese IT Outsourcing Companies:
+### Notable Chinese IT Outsourcing Companies
 
 | Company | Notes |
-|---|---|
+| --- | --- |
 | **Neusoft** | One of China's oldest and largest IT outsourcing firms |
 | **DHC Software** | Enterprise solutions for global clients |
 | **ChinaSoft International** | Listed, major IT services provider |
@@ -64,6 +64,7 @@ India's offshore technology centers alone generated **$98.4 billion** in revenue
 ---
 
 **References:**
+
 - [Top IT Outsourcing Companies in India – Wisemonk](https://www.wisemonk.io/blogs/top-it-outsourcing-companies-in-india)
 - [Top 50 IT Outsourcing Companies 2026 – Stealth Agents](https://stealthagents.com/top-50-it-outsourcing-companies)
 - [India Offshore Tech Revenue $98.4B FY26 – Communications Today](https://www.communicationstoday.co.in/india-offshore-tech-revenue-hits-98-4b-in-fy26-nasscom/)

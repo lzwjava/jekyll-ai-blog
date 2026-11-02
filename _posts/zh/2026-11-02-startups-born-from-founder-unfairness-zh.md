@@ -57,6 +57,7 @@ Kathryn Finney 曾相信，她过去的商业成就和经验会帮助她在科�
 共同点：**不公平是一种强大的燃料**。当创始人感到被不公正对待——无论是因歧视、糟糕的系统，还是被忽视——这种愤怒往往会成为打造更好事物的最真实动力。
 
 参考资料：
+
 - [Bumble 创始人故事 – CNBC](https://www.cnbc.com/2022/07/06/bumble-ceo-whitney-wolfe-herd-being-underestimated-is-a-superpower.html)
 - [Noirbnb – Fortune](https://fortune.com/2016/11/02/airbnb-discrimination-startups)
 - [Warby Parker 与 Stripe – Startup Savant](https://startupsavant.com/?p=19383)

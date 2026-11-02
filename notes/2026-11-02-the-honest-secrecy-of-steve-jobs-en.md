@@ -54,6 +54,7 @@ So in short: his frankness was about **people and ideas in the room**. His secre
 ---
 
 **References:**
+
 - [Steve Jobs bio: candid portrait of a complicated man – Phys.org](https://phys.org/news/2011-10-steve-jobs-bio-candid-portrait.html)
 - [Steve Jobs: The Good, the Bad, the Secretive – InternetNews](https://internetnews.com/it-management/steve-jobs-the-good-the-bad-the-secretive)
 - [Biographer: Jobs brilliant, prickly, eccentric – Macworld](https://www.macworld.com/article/1163198/biographer_jobs_brilliant_prickly_eccentric.html)

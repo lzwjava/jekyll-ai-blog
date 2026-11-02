@@ -58,7 +58,7 @@ The merged company was subsequently rebranded as Upwork in 2015, and Upwork went
 ## 👥 Summary of All Founders
 
 | Founder | Company | Background |
-|---|---|---|
+| --- | --- | --- |
 | **Beerud Sheth** | Elance | IIT Bombay + MIT grad; ex-Merrill Lynch banker |
 | **Srini Anumolu** | Elance | Wall Street veteran |
 | **Sanjay Noronha** | Elance | PhD student at USC |
@@ -68,6 +68,7 @@ The merged company was subsequently rebranded as Upwork in 2015, and Upwork went
 ---
 
 **References:**
+
 - [Upwork – Wikipedia](https://en.wikipedia.org/wiki/Upwork)
 - [oDesk Founding Story – Xconomy](https://legacy.xconomy.com/2011/02/15/odesk-charts-the-future-of-distributed-work/2)
 - [Beerud Sheth's Entrepreneurial Journey – Sramana Mitra](https://www.sramanamitra.com/?p=83197)

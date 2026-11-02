@@ -64,7 +64,7 @@ Upwork's Future Workforce Index 2026 found **38% of skilled workers now freelanc
 ## 🗂️ Summary: Winners vs. Losers
 
 | Category | AI Impact |
-|---|---|
+| --- | --- |
 | Generic writing, basic design | ❌ Declining fast |
 | AI integration & consulting | ✅ +178% demand |
 | AI video/image work | ✅ +329% demand |
@@ -79,6 +79,7 @@ Upwork's Future Workforce Index 2026 found **38% of skilled workers now freelanc
 ---
 
 **References:**
+
 - [AI Is Changing Freelance Platforms – TryUncle](https://tryuncle.com/learn/ai-at-work/how-ai-is-changing-freelance-platforms-like-upwork-and-fiverr)
 - [40% of Upwork Tasks AI-Assisted – CallSphere](https://www.callsphere.ai/blog/ai-agents-gig-economy-40-percent-upwork-tasks-ai-assisted)
 - [Upwork Future Workforce Index 2026](https://investors.upwork.com/node/13166/pdf)

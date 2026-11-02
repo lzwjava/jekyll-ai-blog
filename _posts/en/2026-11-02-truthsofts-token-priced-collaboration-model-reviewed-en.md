@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: Does https://truthsoft.dev make sense, and is their token-priced long-term collaboration model the future of software development?
+Question: Does <https://truthsoft.dev> make sense, and is their token-priced long-term collaboration model the future of software development?
 
 Answer:
 
@@ -22,11 +22,13 @@ It's a Chinese AI-native dev shop (求真软件) — not a platform like Replit,
 Honestly — *partially*. Here's the breakdown:
 
 **What works well:**
+
 - **Trust-building through transparency** — showing real prior work (training GPT-2, 52GB GPU cluster, clients like 猿辅导) instead of vague promises is genuinely differentiated. Most dev shops hide behind jargon.
 - **Token-based billing aligns with how AI work actually costs** — enterprise AI costs are rising due to a shift from flat-rate subscriptions to usage-based billing; under this consumption model, every prompt, iterative interaction, and multi-agent workflow incurs direct token costs. Truthsoft is honestly reflecting that reality.
 - **"Long-term partner" positioning** — the iterative, no-waterfall approach is right for AI-era products where requirements are genuinely unclear upfront.
 
 **What's risky or unclear:**
+
 - **Token pricing passed to clients is a UX problem.** The smartest approach in 2026 is to treat per-million-token pricing as one input among many, not the north star. Clients struggle to budget unpredictably.
 - **Margin squeeze is real.** Gartner forecasts that by 2028, AI coding costs could surpass the average developer salary. A shop that passes token costs through has thin margin and pricing pressure.
 - **"Long-term partner" is hard to monetize.** It's a great pitch but a soft contract — clients tend to churn once they internalize the skills or the AI tools get good enough that they don't need a shop.
@@ -38,7 +40,7 @@ Honestly — *partially*. Here's the breakdown:
 These are actually **different bets**:
 
 | | Replit / Cursor / Claude Code | truthsoft.dev |
-|---|---|---|
+| --- | --- | --- |
 | Model | Platform + self-serve tools | Human team with AI as leverage |
 | Client | Developers | Non-technical founders/companies |
 | Scalability | High (SaaS) | Low (people-hours) |
@@ -51,6 +53,7 @@ Truthsoft's bet is subtler: **most companies still can't actually ship with thos
 **Bottom line:** The tagline "priced by the token, collaborating anytime" is genuine — it's just describing how AI work costs today, not a gimmick. The model makes sense as a *boutique AI studio* for the Chinese market. The question is whether this survives as AI agents get better at autonomous delivery. For now: yes, the direction is real. The execution and trust-building (not the pricing model itself) will determine success.
 
 References:
+
 - [The Era of Affordable AI Is Over](https://builtin.com/articles/affordable-ai-era-over)
 - [Why Per-Token Pricing in 2026 Is a Trap for Most AI Builders](https://tkmxai.it.com/why-per-token-pricing-in-2026-is-a-trap-for-most-ai-builders)
 - [Gartner: AI Coding Costs Will Surpass Average Developer Salary by 2028](https://www.devopsdigest.com/gartner-ai-coding-costs-will-surpass-average-developer-salary-by-2028-as-token-consumption-surges)

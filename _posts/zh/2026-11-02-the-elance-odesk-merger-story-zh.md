@@ -58,7 +58,7 @@ Tsatalos 创建了一个程序，可以与他身在希腊的高中同学进行�
 ## 👥 所有创始人概览
 
 | 创始人 | 公司 | 背景 |
-|---|---|---|
+| --- | --- | --- |
 | **Beerud Sheth** | Elance | IIT Bombay + MIT 毕业生；前 Merrill Lynch 银行家 |
 | **Srini Anumolu** | Elance | Wall Street 资深人士 |
 | **Sanjay Noronha** | Elance | USC 博士生 |
@@ -68,6 +68,7 @@ Tsatalos 创建了一个程序，可以与他身在希腊的高中同学进行�
 ---
 
 **参考资料：**
+
 - [Upwork – Wikipedia](https://en.wikipedia.org/wiki/Upwork)
 - [oDesk 创立故事 – Xconomy](https://legacy.xconomy.com/2011/02/15/odesk-charts-the-future-of-distributed-work/2)
 - [Beerud Sheth 的创业历程 – Sramana Mitra](https://www.sramanamitra.com/?p=83197)

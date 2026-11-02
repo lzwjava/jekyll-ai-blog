@@ -28,7 +28,7 @@ type: note
 ### 摘要
 
 | | 详情 |
-|---|---|
+| --- | --- |
 | **创始人** | Dr. Yu Hong Chen（陈宇红） |
 | **成立时间** | 2000 年 2 月 |
 | **现任职务** | 董事长兼 CEO |
@@ -40,5 +40,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [Yu Hong Chen – MarketScreener](https://uk.marketscreener.com/insider/YU-HONG-CHEN-A06UAE/)
 - [Yu Hong Chen Experience – MarketScreener](https://uk.marketscreener.com/insider/YU-HONG-CHEN-A06UAE/experience/)

@@ -58,6 +58,7 @@ Apple 严格实行部门隔离，以至于连自己的员工也无法得知即�
 ---
 
 **参考资料：**
+
 - [Apple 对保密的痴迷愈发强烈 – CNBC](https://www.cnbc.com/id/31505250)
 - [Apple 近乎偏执的保密有助于创造巨大销量 – MacDailyNews](https://macdailynews.com/2006/06/29/apples_obsessive_secrecy_helps_generate_big_sales/)
 - [Apple 的神秘生活 – CACM](https://cacm.acm.org/?p=224865)

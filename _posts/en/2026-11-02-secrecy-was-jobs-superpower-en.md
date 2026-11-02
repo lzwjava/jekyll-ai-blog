@@ -58,6 +58,7 @@ In short, secrecy was Jobs' **superpower** — turning every product launch into
 ---
 
 **References:**
+
 - [Apple's Obsession With Secrecy Grows Stronger – CNBC](https://www.cnbc.com/id/31505250)
 - [Apple's Obsessive Secrecy Helps Generate Big Sales – MacDailyNews](https://macdailynews.com/2006/06/29/apples_obsessive_secrecy_helps_generate_big_sales/)
 - [The Secretive Life of Apple – CACM](https://cacm.acm.org/?p=224865)

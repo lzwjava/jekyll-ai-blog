@@ -19,12 +19,14 @@ There are two main contexts:
 
 **1. Marketing / Branding**
 A brief slogan tied to a company or product.
+
 - Nike: *"Just Do It"*
 - Apple: *"Think Different"*
 - McDonald's: *"I'm Lovin' It"*
 
 **2. Movies / Entertainment**
 A short phrase on a poster or ad that captures the film's mood or premise.
+
 - *Alien*: *"In space, no one can hear you scream."*
 - *Jurassic Park*: *"An adventure 65 million years in the making."*
 

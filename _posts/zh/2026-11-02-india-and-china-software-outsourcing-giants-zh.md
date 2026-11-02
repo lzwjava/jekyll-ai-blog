@@ -19,10 +19,10 @@ type: note
 
 印度 IT 行业在 2026 财年营收首次突破 3000 亿美元，这得益于 AI 驱动的快速变化。北美公司仍是印度扩张的主要引擎，占新增机构的三分之二。
 
-### 印度顶级 IT 外包巨头：
+### 印度顶级 IT 外包巨头
 
 | 公司 | 规模 | 核心优势 |
-|---|---|---|
+| --- | --- | --- |
 | **TCS** (Tata Consultancy Services) | 约 613,000 名员工 | 企业、银行、航空 |
 | **Infosys** | 约 324,000 名员工 | 数字咨询、AI |
 | **HCLTech** | 约 223,000 名员工 | 基础设施、工程 |
@@ -41,10 +41,10 @@ TCS 在提供服务的同时运营专有平台，这对希望获得软件资产�
 
 中国在 AI、大数据和 IoT 等新兴技术领域处于全球领先地位，这使其成为寻求创新和大规模软件开发解决方案的公司的有力选择。得益于政府对科技的大规模投资以及不断壮大的经验丰富的工程师队伍，中国作为软件外包领域的重要参与者持续崛起。费率：$30–$60/小时。最适合 AI/ML、IoT、研发密集型项目，以及寻求大规模、高性能软件系统的企业。
 
-### 中国知名 IT 外包公司：
+### 中国知名 IT 外包公司
 
 | 公司 | 备注 |
-|---|---|
+| --- | --- |
 | **Neusoft** | 中国历史最悠久、规模最大的 IT 外包公司之一 |
 | **DHC Software** | 面向全球客户的企业解决方案 |
 | **ChinaSoft International** | 上市大型 IT 服务提供商 |
@@ -64,6 +64,7 @@ TCS 在提供服务的同时运营专有平台，这对希望获得软件资产�
 ---
 
 **参考资料：**
+
 - [印度顶级 IT 外包公司 – Wisemonk](https://www.wisemonk.io/blogs/top-it-outsourcing-companies-in-india)
 - [2026 年 50 大 IT 外包公司 – Stealth Agents](https://stealthagents.com/top-50-it-outsourcing-companies)
 - [印度离岸科技营收 2026 财年达 984 亿美元 – Communications Today](https://www.communicationstoday.co.in/india-offshore-tech-revenue-hits-98-4b-in-fy26-nasscom/)

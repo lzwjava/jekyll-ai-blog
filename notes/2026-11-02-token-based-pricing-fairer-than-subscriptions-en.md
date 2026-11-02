@@ -30,7 +30,7 @@ Fixed plans like $20/month or $200/month have an obvious problem — light users
 **What makes it uniquely fair:**
 
 | Traditional Model | Token-Based Model |
-|---|---|
+| --- | --- |
 | Fixed fee regardless of usage | Pay exactly what you consume |
 | Risk of overpaying for idle months | No expiry, refundable balance |
 | Scope negotiated upfront | Scope evolves naturally |
@@ -39,4 +39,5 @@ Fixed plans like $20/month or $200/month have an obvious problem — light users
 The insight is that **software projects don't have fixed "effort"** — they breathe. Token billing mirrors that reality perfectly. It's essentially treating AI-driven development like a utility bill — electricity, not a gym membership.
 
 References:
+
 - [truthsoft.dev](https://truthsoft.dev)

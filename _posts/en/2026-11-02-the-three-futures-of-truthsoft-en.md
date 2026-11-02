@@ -29,6 +29,7 @@ He's also genuinely hands-on with AI — trained GPT-2 at multiple parameter siz
 ## Network Realistically Assessed
 
 **What the network is:**
+
 - Enterprise banking contacts: HSBC, DBS — useful for enterprise credibility but not startup capital
 - Chinese media: featured in Pencil Way and Lieyunwang (respectable Chinese startup press, not tier-1)
 - Clients with brand value: 猿辅导, 粉笔, 江苏卫视 — strong logos for a solo dev shop
@@ -37,6 +38,7 @@ He's also genuinely hands-on with AI — trained GPT-2 at multiple parameter siz
 - Y Combinator: reached second round — notable signal, but no investment
 
 **What the network is NOT:**
+
 - No Tsinghua/PKU/top-tier Chinese university alumni network
 - No VC relationships (the YC near-miss didn't convert)
 - The Jeff Dean Bluesky interaction is peripheral — a mention, not a relationship
@@ -73,6 +75,7 @@ Truthsoft is best understood as **one person's serious attempt to go from contra
 The most likely 3-year future: Truthsoft generates ¥1–3M/year serving 5–15 clients in the AI transformation space in China, with the founder either growing it into a 5-person studio or eventually joining an AI company as a staff/principal engineer. Both are good outcomes. A breakout product or fundraise would require the network gap to be closed — specifically a BD co-founder or a viral open-source tool.
 
 References:
+
 - [Zhiwei Li Resume](https://lzwjava.com/resume-en)
 - [Open to Work — AI & Engineering Roles](https://lzwjava.github.io/job-search-en)
 - [Zhiwei's Introduction](https://lzwjava.github.io/introduction-en)

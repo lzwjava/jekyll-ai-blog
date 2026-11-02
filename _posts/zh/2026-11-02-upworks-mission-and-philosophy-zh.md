@@ -56,6 +56,7 @@ Upwork 完成了为期三年的转型历程，在 2025 全年实现超过 40 亿
 ---
 
 **参考资料：**
+
 - [Upwork 使命 – Comparably](https://www.comparably.com/companies/upwork/mission)
 - [Upwork 2025 影响力报告](https://www.upwork.com/mc/documents/2025-impact-report.pdf)
 - [Upwork 招聘页面](https://upwork.com/careers)

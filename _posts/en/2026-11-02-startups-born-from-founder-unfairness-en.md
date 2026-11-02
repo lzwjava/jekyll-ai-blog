@@ -63,6 +63,7 @@ Some of the most successful startups didn't start with a business plan. They sta
 The common thread: **unfairness is a powerful fuel**. When founders feel wronged — by discrimination, bad systems, or being overlooked — that anger often becomes the most authentic motivation to build something better.
 
 References:
+
 - [Bumble Founder Story – CNBC](https://www.cnbc.com/2022/07/06/bumble-ceo-whitney-wolfe-herd-being-underestimated-is-a-superpower.html)
 - [Noirbnb – Fortune](https://fortune.com/2016/11/02/airbnb-discrimination-startups)
 - [Warby Parker & Stripe – Startup Savant](https://startupsavant.com/?p=19383)

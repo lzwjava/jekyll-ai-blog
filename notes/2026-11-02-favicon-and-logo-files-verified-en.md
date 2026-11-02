@@ -12,11 +12,13 @@ type: note
 Yes, the logo shows correctly in the browser tab. Verified:
 
 **Files exist and are valid**
+
 - `logo/favicon.ico` — valid ICO, contains 5 sizes (16×16, 24×24, 32×32, 48×48, 64×64)
 - `logo/deepcompute-icon.png` — 256×256 RGBA PNG (the modern fallback icon Browsers prefer)
 - `logo/apple-touch-icon.png` — 180×180 for iOS/iPhone
 
 **References in HTML** (both `index.html` and `portfolio.html`):
+
 ```html
 <link rel="icon" href="logo/favicon.ico" sizes="any">
 <link rel="icon" href="logo/deepcompute-icon.png" type="image/png">

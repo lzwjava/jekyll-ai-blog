@@ -19,12 +19,14 @@ type: note
 
 **1. 营销 / 品牌建设**
 与公司或产品相关的简短口号。
+
 - Nike：*“Just Do It”*
 - Apple：*“Think Different”*
 - McDonald's：*“I'm Lovin' It”*
 
 **2. 电影 / 娱乐**
 海报或广告上的简短语句，用来概括影片的基调或设定。
+
 - *Alien*：*“In space, no one can hear you scream.”*
 - *Jurassic Park*：*“An adventure 65 million years in the making.”*
 
