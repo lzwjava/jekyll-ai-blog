@@ -171,6 +171,72 @@
     .post-number {
         font-size: 16px;
     }
+
+    .deepwiki-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        max-width: 46rem;
+        margin: 0.5rem auto 0;
+
+        .deepwiki-badge {
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: #fff;
+            background: linear-gradient(120deg, #004eff, #bfc800);
+            padding: 0.6rem 1.8rem;
+            border-radius: 3rem;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 6px 18px rgba(0, 78, 255, 0.35);
+
+            &:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 10px 24px rgba(0, 78, 255, 0.45);
+            }
+        }
+
+        .deepwiki-form {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            width: 100%;
+            background: #fff;
+            border: 2px solid #004eff;
+            border-radius: 3rem;
+            padding: 0.35rem;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+
+            .deepwiki-input {
+                flex: 1;
+                border: none;
+                outline: none;
+                background: transparent;
+                font-size: 1.15rem;
+                padding: 0.8rem 1rem;
+                color: #333;
+            }
+
+            .deepwiki-submit {
+                flex-shrink: 0;
+                border: none;
+                background: linear-gradient(120deg, #004eff, #bfc800);
+                color: #fff;
+                font-size: 1.05rem;
+                font-weight: 700;
+                padding: 0.8rem 1.6rem;
+                border-radius: 3rem;
+                cursor: pointer;
+
+                &:hover {
+                    filter: brightness(1.08);
+                }
+            }
+        }
+    }
 }
 
 .post-number {

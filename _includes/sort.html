@@ -5,9 +5,15 @@
   </div>
 
   <div class="deepwiki-link">
-    <a href="https://deepwiki.com/lzwjava/jekyll-ai-blog" target="_blank" rel="noopener">
+    <a class="deepwiki-badge" href="https://deepwiki.com/lzwjava/jekyll-ai-blog" target="_blank" rel="noopener">
       Ask DeepWiki
     </a>
+    <form class="deepwiki-form" action="https://deepwiki.com/lzwjava/jekyll-ai-blog" method="get" target="_blank" rel="noopener">
+      <input type="text" name="q" class="deepwiki-input"
+             placeholder="Ask DeepWiki anything about this blog..."
+             aria-label="Ask DeepWiki" />
+      <button type="submit" class="deepwiki-submit" aria-label="Ask">Ask</button>
+    </form>
   </div>
 
   {% assign type = include.type | default: "notes" %}
