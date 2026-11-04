@@ -10,7 +10,7 @@ translated: false
 
 The screenshots below show page views from multiple months.
 
-Before April 2026, I did not calculate or recall exactly how many page views this blog had. It has been running since 2021, so I’ll estimate that total at about 100,000. From April 2026 onward it added another 241,840 views — about 4 months of traffic at the ~60,460 views/month rate — bringing the cumulative total to 341,840 page views.
+Before April 2026, I did not calculate or recall exactly how many page views this blog had. It has been running since 2021, so I’ll estimate that total at about 100,000. From April 2026 onward it added another 905,602 views — about 6 months of traffic at the ~150,934 views/month rate — bringing the cumulative total to 1,005,602 page views.
 
 ![](assets/images/analytics/pv.png)
 
