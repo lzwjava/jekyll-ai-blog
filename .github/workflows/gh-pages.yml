@@ -32,10 +32,13 @@ jobs:
         with:
           fetch-depth: 5
 
-      - name: Set up Python 3.13.2
+      - name: Set up Python 3.13
         uses: actions/setup-python@v6
         with:
-          python-version: "3.13.2"
+          # Patch-less version resolves to the newest 3.13.x available on the
+          # runner; exact pins like 3.13.2 are no longer in the hosted
+          # toolcache for Ubuntu 26.04 (ubuntu-latest).
+          python-version: "3.13"
 
       - name: Install Dependencies
         run: |
@@ -185,15 +188,20 @@ jobs:
           python scripts/bot/telegram_bot.py --job send_message
 
       - name: Notify on Failure
+        # Uses curl directly instead of the python telegram_utils module so the
+        # notification still fires even when Python setup / dependency
+        # installation failed earlier in the job.
         if: failure()
         env:
           TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
           TELEGRAM_CHAT_ID: "610574272"
         run: |
-          python3 -c "
-          import sys
-          sys.path.insert(0, 'scripts/nytimes')
-          from telegram_utils import send_telegram_message
-          msg = '❌ GitHub Actions Deploy Failed\n\nRepo: \${{ github.repository }}\nBranch: \${{ github.ref_name }}\nRun: \${{ github.server_url }}/\${{ github.repository }}/actions/runs/\${{ github.run_id }}'
-          send_telegram_message(msg)
-          "
+          MSG="$(printf '\u274c GitHub Actions Deploy Failed\n\nRepo: %s\nBranch: %s\nRun: %s/actions/runs/%s' \
+            '${{ github.repository }}' \
+            '${{ github.ref_name }}' \
+            '${{ github.server_url }}/${{ github.repository }}' \
+            '${{ github.run_id }}')"
+          curl -sS -o /dev/null -w "Telegram API status: %{http_code}\n" \
+            -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_API_KEY}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=${MSG}"

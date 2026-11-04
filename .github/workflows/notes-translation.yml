@@ -18,10 +18,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Set up Python 3.13.2
+      - name: Set up Python 3.13
         uses: actions/setup-python@v6
         with:
-          python-version: "3.13.2"
+          python-version: "3.13"
 
       - name: Install dependencies
         run: |
