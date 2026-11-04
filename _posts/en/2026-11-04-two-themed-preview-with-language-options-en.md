@@ -21,7 +21,7 @@ ww card --lang en --theme light   # 奶油浅色
 **light theme** (matched to the avatar's warm tones):
 
 | Element | Color |
-|---|---|
+| --- | --- |
 | Background | `(247, 240, 230)` cream |
 | Left panel | `(219, 200, 175)` warm beige |
 | Accent | `(180, 116, 52)` dark caramel |
@@ -31,6 +31,7 @@ ww card --lang en --theme light   # 奶油浅色
 Verified: background, panel, name text, and accent divider all render at the expected colors. Dark theme is unchanged (still the default). Invalid `--theme` values are rejected with the available options listed.
 
 Take a look at the previews and tell me which you prefer — I can also:
+
 - make `light` the default if you like it more
 - adjust specific colors (e.g. lighter beige panel, stronger caramel)
 - add a third theme (e.g. a neutral gray, or something cooler to offset the warm photo)

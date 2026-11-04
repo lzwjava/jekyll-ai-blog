@@ -28,6 +28,7 @@ type: note
 - 添加 `--theme` 选项以切换调色板
 
 你可以运行的所有命令：
+
 ```bash
 ww card --lang zh        # Chinese card
 ww card --lang en        # English card

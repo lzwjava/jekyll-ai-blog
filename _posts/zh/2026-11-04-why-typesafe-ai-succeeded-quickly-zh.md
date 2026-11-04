@@ -52,6 +52,7 @@ OpenAI 的 Nikunj Handa 称赞 TypeSafe 一个仅有三周的模型“启发了�
 简而言之，TypeSafe 的成功在于瞄准了AI中**不起眼但庞大的基础设施层**——软件管道内部的决策，而非聊天机器人；其背后拥有技术可信的团队、两年的隐身研发积累，以及企业客户能够实际采纳的数据。
 
 **参考文献：**
+
 - [TypeSafe AI $870M Funding — KuCoin](https://www.kucoin.com/news/flash/typesafe-ai-completes-870m-funding-at-7-5b-valuation-with-a16z-lead)
 - [TypeSafe exits stealth — SiliconAngle](https://siliconangle.com/2026/09/16/typesafe-ai-exits-stealth-with-40m-to-build-ai-for-software/)
 - [TypeSafe Jev Model — The Register](https://www.theregister.com/a/5296711)

@@ -22,6 +22,7 @@ ww card              # defaults to en
 ## What changed
 
 **`ww/card/card.py`**
+
 - `--lang en|zh` flag (validated; default `en`)
 - **中文内容** — from your ZH CV PDF: name **李智维**, role **AI 工程师**, location **中国广州**
 - Chinese labels: `关于我` / `联系我`, contact labels 博客/领英/AI 作品集/软件作品集

@@ -22,5 +22,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [Pandaily – Andy Tian 逝世](https://pandaily.com/?p=155125)
 - [Dealroom – Asia Innovations](https://dealroom.co/companies/asia-innovations/)

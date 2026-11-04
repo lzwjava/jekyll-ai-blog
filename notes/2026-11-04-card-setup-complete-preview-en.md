@@ -28,6 +28,7 @@ All committed on `main`. The previews are open — take a look and let me know w
 - add a `--theme` option to switch palettes
 
 All commands you can run:
+
 ```bash
 ww card --lang zh        # Chinese card
 ww card --lang en        # English card

@@ -22,5 +22,6 @@ He died quite young — a real loss for the tech industry.
 ---
 
 **References:**
+
 - [Pandaily – Andy Tian Passes Away](https://pandaily.com/?p=155125)
 - [Dealroom – Asia Innovations](https://dealroom.co/companies/asia-innovations/)

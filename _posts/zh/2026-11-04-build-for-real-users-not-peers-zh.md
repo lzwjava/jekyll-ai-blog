@@ -50,6 +50,7 @@ type: note
 ---
 
 **参考来源：**
+
 - [成功产品背后的隐藏模式 | 马克·平卡斯（Lenny的播客）](https://podscripts.co/podcasts/lennys-podcast-product-career-growth/the-hidden-pattern-behind-successful-products-mark-pincus-founder-of-zynga)
 - [马克·平卡斯 – CEO访谈](https://ceointerviews.ai/interview/985678/)
 - [来自马克·平卡斯的教训](https://www.antoinebuteau.com/lessons-from-mark-pincus/)

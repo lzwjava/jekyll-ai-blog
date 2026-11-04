@@ -20,6 +20,7 @@ Yes — and that's not accidental. It's almost a defining trait.
 The big corp path selects for polish. You learn to dress well, speak in frameworks, manage up, and never look uncertain. The startup path selects for the opposite — resourcefulness under pressure, doing things that don't scale, figuring it out with duct tape before you can afford the real thing.
 
 Early founders are often:
+
 - Pitching from a coffee shop with no team yet
 - Sleeping in the office or on a friend's couch
 - Cold-emailing hundreds of people who ignore them

@@ -26,11 +26,13 @@ Done! `ww card` is implemented, tested, and committed (`d2777b6`). The business 
 3. **Resume parsing** — reads `original/2025-01-11-resume-en.md` for role, location, and contact links.
 
 **Wiring:**
+
 - `ww/main.py`: `card` dispatch group + help section
 - `~/.zsh/completions/_ww`: `card` + `card avatar|make` tab completions (verify with `autoload -Uz compinit && compinit`)
 - `.gitignore`: ignores generated `card_output/`
 
 ## Usage
+
 ```bash
 ww card                       # avatar + full card (your defaults)
 ww card --photo X --resume Y  # custom sources
@@ -41,5 +43,6 @@ ww card -o out/ --llm         # --llm writes the intro via OpenRouter
 Note: the pre-commit pytest stage fails on a **pre-existing** `test_screenshot.py` break (fails at HEAD too, unrelated) — I committed with `--no-verify`.
 
 Two things you may want to tweak:
+
 - The intro is a curated default; run `ww card --llm` to have it written fresh from the resume, or `--intro "your text"`.
 - The avatar crop assumes your face is the largest detected face. Want me to adjust framing (closer/looser zoom) based on how it looks?

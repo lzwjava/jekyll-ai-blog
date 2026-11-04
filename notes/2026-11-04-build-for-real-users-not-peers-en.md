@@ -50,6 +50,7 @@ Real ambition is harder: it means building something that *ordinary people* actu
 ---
 
 **References:**
+
 - [The hidden pattern behind successful products | Mark Pincus (Lenny's Podcast)](https://podscripts.co/podcasts/lennys-podcast-product-career-growth/the-hidden-pattern-behind-successful-products-mark-pincus-founder-of-zynga)
 - [Mark Pincus – CEO Interviews](https://ceointerviews.ai/interview/985678/)
 - [Lessons from Mark Pincus](https://www.antoinebuteau.com/lessons-from-mark-pincus/)

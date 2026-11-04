@@ -34,6 +34,7 @@ After 梦百合 appealed to the Tennessee Court of Appeals, the court announced 
 **Summary:** The "hundreds of millions lost" framing comes mainly from **one major US court battle** with a former American business partner, not being cheated by multiple people. The punitive damages were enormous and threatened the company's full-year profits. However, the appeal court sided with 梦百合 and sent the case back for retrial — so the founder did not simply "lose" the money.
 
 **References:**
+
 - [每日经济新闻 — 梦百合被美国法院判决支付上亿元，发回重审](https://news.sina.cn/2023-11-26/detail-imzvwcen7729543.d.html)
 - [界面新闻 — 净利大幅下滑后，梦百合又摊上巨额赔偿](https://m.jiemian.com/article/6570598.html)
 - [财联社 — 梦百合股权纠纷案详情](https://finance.sina.cn/2023-04-10/detail-imypwqvq4632468.d.html)

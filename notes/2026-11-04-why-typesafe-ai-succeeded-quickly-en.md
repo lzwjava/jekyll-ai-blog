@@ -52,6 +52,7 @@ OpenAI's Nikunj Handa credited a three-week-old model from TypeSafe with "inspir
 In short, TypeSafe succeeded by targeting the **unsexy but massive infrastructure layer** of AI — decisions inside software pipelines — rather than chatbots, arriving with a technically credible team, two years of stealth R&D, and numbers that enterprise customers could actually act on.
 
 **References:**
+
 - [TypeSafe AI $870M Funding — KuCoin](https://www.kucoin.com/news/flash/typesafe-ai-completes-870m-funding-at-7-5b-valuation-with-a16z-lead)
 - [TypeSafe exits stealth — SiliconAngle](https://siliconangle.com/2026/09/16/typesafe-ai-exits-stealth-with-40m-to-build-ai-for-software/)
 - [TypeSafe Jev Model — The Register](https://www.theregister.com/a/5296711)

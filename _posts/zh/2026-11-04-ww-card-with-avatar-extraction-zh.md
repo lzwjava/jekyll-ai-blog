@@ -26,11 +26,13 @@ type: note
 3. **简历解析** — 读取 `original/2025-01-11-resume-en.md` 获取职位、地点和联系链接。
 
 **连接配置：**
+
 - `ww/main.py`：`card` 命令组 + 帮助说明
 - `~/.zsh/completions/_ww`：`card` + `card avatar|make` 标签补全（使用 `autoload -Uz compinit && compinit` 验证）
 - `.gitignore`：忽略生成的 `card_output/` 目录
 
 ## 用法
+
 ```bash
 ww card                       # 头像 + 完整名片（使用默认设置）
 ww card --photo X --resume Y  # 自定义来源
@@ -41,5 +43,6 @@ ww card -o out/ --llm         # --llm 通过 OpenRouter 生成介绍
 注意：pre-commit 的 pytest 阶段在**已有的** `test_screenshot.py` 中断（在 HEAD 也会失败，与此无关）—— 我使用 `--no-verify` 提交了。
 
 你可能想调整两个部分：
+
 - 介绍是预设的默认文本；运行 `ww card --llm` 可从简历重新生成，或使用 `--intro "你的文本"`。
 - 头像裁剪默认使用检测到的最大面部。需要我根据效果调整构图（更近/更宽松的缩放）吗？

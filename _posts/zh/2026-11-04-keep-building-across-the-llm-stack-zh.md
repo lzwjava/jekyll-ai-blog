@@ -20,7 +20,7 @@ type: note
 不要将自己局限于应用开发或单一领域。在完整的 model lifecycle 中建立专业能力。
 
 | 领域 | 探索内容 | 为何重要 |
-|---|---|---|
+| --- | --- | --- |
 | **Pretraining** | Tokenization、data pipelines、distributed training、scaling laws、optimization | 了解模型如何获得能力 |
 | **Post-training** | SFT、preference optimization、RL、synthetic data、evaluations | 了解 base models 如何成为有用的 assistants 和 agents |
 | **Inference** | KV cache、batching、quantization、speculative decoding、serving systems | 让模型更快、更便宜、更易获取 |
