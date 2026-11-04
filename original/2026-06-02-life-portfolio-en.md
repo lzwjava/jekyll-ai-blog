@@ -234,7 +234,7 @@ These influences converge in how I work: build things, write about them publicly
 
 ## 📊 Impact — 150 Million People and Counting
 
-Over 12 years of engineering, my code and content have reached more than 150 million people. Not all of it was glamorous — much of it was backend services, SDKs, and blog posts that quietly do their work behind the scenes. Here's the breakdown:
+Over 12 years of engineering, my code and content have reached more than 200 million people. Not all of it was glamorous — much of it was backend services, SDKs, and blog posts that quietly do their work behind the scenes. Here's the breakdown:
 
 | Project | Role | Impact |
 | --------- | ------ | -------- |
