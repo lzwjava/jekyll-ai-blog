@@ -87,4 +87,21 @@
             color: black !important;
         }
     }
+
+    // Match the full specificity of the light-theme rule
+    // (.sort-container .deepwiki-link .deepwiki-form) so the dark
+    // background/text actually win instead of losing to the 3-class chain.
+    .sort-container .deepwiki-link .deepwiki-form {
+        background: #2a2a2a;
+        border-color: #4f82e6;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+
+        .deepwiki-input {
+            color: #f0f0f0;
+
+            &::placeholder {
+                color: #9a9a9a;
+            }
+        }
+    }
 }
