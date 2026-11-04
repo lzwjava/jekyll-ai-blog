@@ -12,12 +12,14 @@ type: note
 Fixed and verified. Here's what was going on:
 
 **Root cause — CSS specificity, not the input itself (your hunch about the wrapper was right):**
+
 - Light theme: `.sort-container .deepwiki-link .deepwiki-form` → **3 classes** → `background: #fff`
 - Dark theme: `.dark-mode .deepwiki-form` → only **2 classes** → `background: #2a2a2a`
 
 The 3-class light rule outgunned the 2-class dark rule, so the white pill background (and the blue border, shadow, and even `color: #333` on the input text) always won in dark mode.
 
 **Fix** in `_sass/dark-mode.scss`: matched the full chain plus the `.dark-mode` ancestor:
+
 ```scss
 .sort-container .deepwiki-link .deepwiki-form {   // under .dark-mode →
     background: #2a2a2a;                          // .dark-mode .sort-container .deepwiki-link .deepwiki-form
@@ -28,6 +30,7 @@ The 3-class light rule outgunned the 2-class dark rule, so the white pill backgr
 ```
 
 **Verified** with `bundle exec jekyll build` (exit 0) — compiled CSS now contains:
+
 ```css
 .dark-mode .sort-container .deepwiki-link .deepwiki-form { background: #2a2a2a; ... }
 .dark-mode .sort-container .deepwiki-link .deepwiki-form .deepwiki-input { color: #f0f0f0; ... }

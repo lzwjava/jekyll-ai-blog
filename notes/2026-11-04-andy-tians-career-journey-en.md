@@ -32,5 +32,6 @@ In short, Andy Tian's career path was: **MIT → Google China (mobile) → Zynga
 ---
 
 **References:**
+
 - [Boao Forum for Asia – Andy Tian Profile](https://www.boaoforum.org/ljnh/en/2017anyjjb/30258.htm)
 - [VatorNews – Andy Tian leaving Zynga China](https://vator.tv/n/303a)

@@ -48,10 +48,12 @@ Confirm the info and click "Confirm" to finish certificate and admin registratio
 ---
 
 **Key things to double-check:**
+
 - UKey light should be on when inserted (indicates hardware is recognized)
 - Use a Windows PC with IE-compatible browser or the dedicated UBank desktop client
 - If the UKey is not detected, verify the Smart Card service is set to **Automatic** in Windows Services
 
 **References:**
+
 - [招商银行网上企业银行初次使用指南 (PDF)](https://market.cmbchina.com/mpage/online/220516150452657/wyccsyzn/wyccsyzn.pdf)
 - [CMB English Corporate Internet Banking](https://english.cmbchina.com/Corporate/Internet/Default.aspx)

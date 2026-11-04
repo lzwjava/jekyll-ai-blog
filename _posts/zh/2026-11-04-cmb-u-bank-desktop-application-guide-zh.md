@@ -69,7 +69,7 @@ U-Bank 有三种用户角色：**System Administrator**、**Input User** 和 **A
 ## 总结表
 
 | 步骤 | 操作 |
-|------|------|
+| ------ | ------ |
 | 1 | 在分行开立招商银行企业账户 |
 | 2 | 申请 U-Bank 并领取 UKey 和密码信封 |
 | 3 | 下载并安装 `FirmBank.exe` |
@@ -79,6 +79,7 @@ U-Bank 有三种用户角色：**System Administrator**、**Input User** 和 **A
 ---
 
 **参考链接：**
+
 - [CMB U-Bank Corporate Banking (English)](https://english.cmbchina.com/Corporate/Internet/Default.aspx)
 - [CMB U-Bank First-Time Use Guide (PDF, Chinese)](https://market.cmbchina.com/mpage/online/220516150452657/wyccsyzn/wyccsyzn.pdf)
 - [Update U-Bank / Download FirmBank.exe](https://u.ebank.cmbchina.com/CmbBank_GenShell/UI/Help/FirmBankEN/HTML/Install/Update%20the%20Online%20Firmbank%20System.htm)

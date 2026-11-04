@@ -18,7 +18,7 @@ type: note
 ## 🔓 Open Source Models（可自行托管）
 
 | 工具 | 描述 |
-|------|------|
+| ------ | ------ |
 | **Wan2.1** | 一个基础性的 open-source 大规模视频生成模型，由Wan团队开发，提供从文本和图像生成高质量视频。 |
 | **CogVideoX** | 一个 open-source text/image/video-to-video generation 项目，托管 CogVideoX 系列 diffusion-transformer 模型，并提供 end-to-end 工具。 |
 | **Open-Sora** | 一个旨在民主化高质量视频制作的 open-source 计划，提供用户友好的平台，简化视频生成的复杂性。 |
@@ -30,7 +30,7 @@ type: note
 ## ✂️ Open Source Short-Form Automation（长视频 → Shorts）
 
 | 工具 | 描述 |
-|------|------|
+| ------ | ------ |
 | **OpenShorts** | 一个 GitHub 上的 open-source 自动短视频生成器。它会自动烧录字幕，并可以选择性地将其翻译成其他语言，以便多市场分发。 |
 | **AI-YouTube-Shorts-Generator** | 一个基于 Python 的工具，可自动从较长的源视频创建 short-form vertical video 剪辑 — 适用于 YouTube Shorts、Instagram Reels 或 TikTok。 |
 | **short-video-factory** | 一个 open-source 工具，可以从 prompts 和 assets 一键生成 product-marketing 视频。 |
@@ -54,6 +54,7 @@ AI视频生成在2026年最大的成功故事是 short-form content。然而，�
 ---
 
 **参考文献：**
+
 - [Open Generative AI – GitHub/Gitee](https://github.com/Anil-matcha/Open-Generative-AI)
 - [OpenShorts – 2026 Video Automation](https://braindetox.kr/en/posts/openshorts_video_to_shorts_automation_2026.html)
 - [Best AI Video Generators for Social Media 2026 – rangy.ai](https://rangy.ai/blog/best-ai-video-generator-for-social-media)

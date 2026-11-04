@@ -12,7 +12,7 @@ type: note
 Done for the two remotes that pushed cleanly:
 
 | Remote | Push status |
-|--------|-------------|
+| -------- | ------------- |
 | **origin (GitHub)** | ✅ `f5e6401b..852a5564` pushed |
 | **gitea** | ✅ `65f99c8d..852a5564` pushed |
 | **gitlab** | ❌ rejected (non-fast-forward) |

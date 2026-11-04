@@ -12,7 +12,7 @@ type: note
 Done. Applied the same fix to the 7 other workflows that pinned `"3.13.2"`:
 
 | Workflow | Change |
-|---|---|
+| --- | --- |
 | `gh-pages.yml` | `3.13.2` → `3.13` + curl-based failure notify |
 | `test.yml` | `3.13.2` → `3.13` |
 | `punch.yml` | `3.13.2` → `3.13` |

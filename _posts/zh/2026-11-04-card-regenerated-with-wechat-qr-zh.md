@@ -12,6 +12,7 @@ type: note
 完成了 — 两张名片均已重新生成（含微信二维码），并且预览已打开。
 
 **输出文件 (`card_output/`):**
+
 - `business_card_zh.png` — 中文名片, 4200×2400, 1.6 MB
 - `business_card_en.png` — English card, 4200×2400, 1.4 MB
 - `avatar.jpg` — 提取的头像

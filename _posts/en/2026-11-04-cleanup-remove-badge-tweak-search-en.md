@@ -18,11 +18,13 @@ All done and verified. Here's what changed:
 **2. `_sass/layout.scss`** — Deleted the now-unused `.deepwiki-badge` / `:hover` styles.
 
 **3. `_sass/dark-mode.scss`** — Added dark-mode styling for the search form so it no longer looks like a harsh white box in dark mode:
+
 - form background → `#2a2a2a` (dark)
 - input text → `#f0f0f0`, placeholder → `#9a9a9a`
 - softer border (`#4f82e6`) and deeper shadow
 
 ## Verification
+
 - Incremental Jekyll build succeeded (only the pre-existing, unrelated Sass deprecation warning remains).
 - Rendered output has **0** `deepwiki-badge` occurrences.
 - Compiled CSS now has `.dark-mode .deepwiki-form` rules (with the `#2a2a2a` background), plus the form/input/submit styles intact.

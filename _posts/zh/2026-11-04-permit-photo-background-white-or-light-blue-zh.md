@@ -22,7 +22,7 @@ type: note
 因此，总结如下：
 
 | 背景颜色 | 是否允许？ |
-|---|---|
+| --- | --- |
 | 白色 | ✅ 是 |
 | 浅灰色 | ✅ 是 |
 | 淡蓝色 | ✅ 是 |
@@ -42,5 +42,6 @@ type: note
 ---
 
 **参考来源：**
+
 - [港澳通行证照片要求 — bendibao.com](https://m.bendibao.com/baidu/gatxzzp/)
 - [网上补换港澳通行证证件照要求 — bendibao.com](https://m.bendibao.com/bsy646344.html)

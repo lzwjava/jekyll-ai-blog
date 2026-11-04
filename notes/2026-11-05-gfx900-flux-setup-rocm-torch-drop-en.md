@@ -12,8 +12,9 @@ type: note
 Status so far:
 
 **Done**
+
 | Step | Result |
-|---|---|
+| --- | --- |
 | Env | `.venv` (py3.12) + `fluxreel -e .` installed |
 | ffmpeg | via `imageio-ffmpeg` → `~/.local/bin/ffmpeg` (has libx264) |
 | Pipeline smoke test | ✅ passed — 1080×1920, 30 fps, 15.00 s, H.264+AAC, CJK slide rendered |

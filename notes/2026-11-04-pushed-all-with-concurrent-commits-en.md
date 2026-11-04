@@ -12,6 +12,7 @@ type: note
 All pushed. GitHub `main` is now at `f5e6401b3`, working tree clean.
 
 What went up (in order):
+
 1. `5ca3c4aa9` — `fix(ci)`: patch-less Python version (previous task)
 2. `045c8466f` — `fix(build)`: remove duplicate posts/marp collisions *(not mine — appeared in the history concurrently)*
 3. `62d9ef190` — `fix(style)`: dark-mode DeepWiki pill specificity fix

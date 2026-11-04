@@ -18,11 +18,13 @@ type: note
 **2. `_sass/layout.scss`** — 删除了现在未使用的 `.deepwiki-badge` / `:hover` 样式。
 
 **3. `_sass/dark-mode.scss`** — 为搜索表单添加了 dark-mode 样式，使其在暗色模式下不再显得像刺眼的白框：
+
 - form background → `#2a2a2a` (dark)
 - input text → `#f0f0f0`, placeholder → `#9a9a9a`
 - softer border (`#4f82e6`) and deeper shadow
 
 ## 验证
+
 - Incremental Jekyll build 成功（仅剩下预先存在的、无关的 Sass deprecation warning）。
 - 渲染的输出中 **0** 个 `deepwiki-badge` 出现。
 - 编译后的 CSS 现在包含 `.dark-mode .deepwiki-form` 规则（带有 `#2a2a2a` 背景），并且 form/input/submit 样式保持完整。

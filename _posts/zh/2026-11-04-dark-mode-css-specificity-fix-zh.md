@@ -12,12 +12,14 @@ type: note
 已修复并验证。以下是情况说明：
 
 **根因 —— CSS 特异性 (specificity)，而非输入本身（你对包装器（wrapper）的直觉是对的）：**
+
 - 浅色主题：`.sort-container .deepwiki-link .deepwiki-form` → **3 个类** → `background: #fff`
 - 深色主题：`.dark-mode .deepwiki-link` → 只有 **2 个类** → `background: #2a2a2a`
 
 拥有 3 个类的浅色规则覆盖了只有 2 个类的深色规则，因此在暗模式下，白色的药片背景（以及蓝色边框、阴影，甚至输入文本上的 `color: #333`）总是胜出。
 
 **修复** 位于 `_sass/dark-mode.scss` 中：匹配完整的链加上 `.dark-mode` 祖先：
+
 ```scss
 .sort-container .deepwiki-link .deepwiki-form {   // 在 .dark-mode 下 →
     background: #2a2a2a;                          // .dark-mode .sort-container .deepwiki-link .deepwiki-form
@@ -28,6 +30,7 @@ type: note
 ```
 
 **验证** 通过 `bundle exec jekyll build` (exit 0) — 编译后的 CSS 现在包含：
+
 ```css
 .dark-mode .sort-container .deepwiki-link .deepwiki-form { background: #2a2a2a; ... }
 .dark-mode .sort-container .deepwiki-link .deepwiki-form .deepwiki-input { color: #f0f0f0; ... }

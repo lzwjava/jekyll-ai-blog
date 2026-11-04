@@ -12,8 +12,9 @@ type: note
 目前状态：
 
 **已完成**
+
 | 步骤 | 结果 |
-|---|---|
+| --- | --- |
 | 环境 | `.venv` (py3.12) + `fluxreel -e .` 已安装 |
 | ffmpeg | 通过 `imageio-ffmpeg` → `~/.local/bin/ffmpeg` (包含 libx264) |
 | 管线冒烟测试 | ✅ 通过 — 1080×1920, 30 fps, 15.00 s, H.264+AAC, 已渲染 CJK 幻灯片 |

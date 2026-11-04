@@ -69,7 +69,7 @@ U-Bank has three user roles: **System Administrator**, **Input User**, and **App
 ## Summary Table
 
 | Step | Action |
-|------|--------|
+| ------ | -------- |
 | 1 | Open a CMB corporate account at a branch |
 | 2 | Apply for U-Bank and receive UKey + password envelope |
 | 3 | Download & install `FirmBank.exe` |
@@ -79,6 +79,7 @@ U-Bank has three user roles: **System Administrator**, **Input User**, and **App
 ---
 
 **References:**
+
 - [CMB U-Bank Corporate Banking (English)](https://english.cmbchina.com/Corporate/Internet/Default.aspx)
 - [CMB U-Bank First-Time Use Guide (PDF, Chinese)](https://market.cmbchina.com/mpage/online/220516150452657/wyccsyzn/wyccsyzn.pdf)
 - [Update U-Bank / Download FirmBank.exe](https://u.ebank.cmbchina.com/CmbBank_GenShell/UI/Help/FirmBankEN/HTML/Install/Update%20the%20Online%20Firmbank%20System.htm)

@@ -21,10 +21,12 @@ The root cause: `_config.yml` uses `permalink: /:title`, which is derived from t
 For every group of posts sharing a slug, kept the **newest-dated** post and removed the older copies.
 
 **2. Marp asset source collisions (2 files)**
+
 - Removed `assets/marp/neural_networks_to_agents.md` and `assets/marp/neural_networks_to_agents_preview.md`
 - Kept the compiled `*.html` decks (the actual deliverable the site serves); previously Jekyll was trying to render each `.md` into the same `_site/assets/marp/*.html` path occupied by the static `.html` file.
 
 ### What's an important trade-off to be aware of
+
 I kept the **newest** post per group since these look like the auto-generated notes re-published across dates. Note this removed some older real/hand-written posts (e.g. `2021-03-12-start-en.md`, `generated: false`) in favor of newer `generated: true` copies. Everything is still in git history, so if you'd prefer to keep the **oldest/original** version for any specific slug, tell me which and I'll swap it back.
 
 Verification: `bundle exec jekyll build` → `grep -ci 'conflict|shared by multiple'` → **0**.

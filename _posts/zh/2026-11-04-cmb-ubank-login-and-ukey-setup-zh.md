@@ -48,10 +48,12 @@ type: note
 ---
 
 **需仔细核对的要点：**
+
 - 插入UKey时指示灯应亮起（表示硬件已被识别）
 - 使用带有IE兼容浏览器的Windows PC或专用UBank桌面客户端
 - 如果未检测到UKey，请检查Windows服务中的Smart Card服务是否设置为**自动**
 
 **参考资料：**
+
 - [招商银行网上企业银行初次使用指南 (PDF)](https://market.cmbchina.com/mpage/online/220516150452657/wyccsyzn/wyccsyzn.pdf)
 - [CMB English Corporate Internet Banking](https://english.cmbchina.com/Corporate/Internet/Default.aspx)

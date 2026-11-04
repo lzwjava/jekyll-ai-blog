@@ -15,6 +15,7 @@ Both cards regenerated with a taller, larger layout:
 - **Chinese card**: `card_output/business_card_zh.png` (2300×1680)
 
 Changes made in `ww/card/card.py`:
+
 - **Bigger canvas**: 2300×1680 (up from 2100×1200) — taller so the About text has plenty of room.
 - **Larger text everywhere**: bigger About body font (44/46 vs 38/40), name (92), role (46), contacts (34), watermark (34).
 - **More air per line**: increased line-height/spacing and paragraph gaps.

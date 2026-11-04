@@ -20,8 +20,6 @@ According to the National Immigration Administration's photo requirements, eithe
 
 Shanwei Government+2
 
-
-
 Other photo requirements:
 
 | Item       | Requirement                        |

@@ -12,6 +12,7 @@ type: note
 All committed and pushed. Summary:
 
 **Committed** (4 commits already, including the new one):
+
 - `feat(home): show notes as front page instead of posts` (`f5e6401b3`)
 - plus 3 earlier commits ahead of remote
 

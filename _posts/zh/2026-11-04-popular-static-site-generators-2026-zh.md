@@ -18,7 +18,7 @@ type: note
 以下是主要工具的快速分类：
 
 | Tool | Language | Best For |
-|------|----------|----------|
+| ------ | ---------- | ---------- |
 | **Astro** | JS (any framework) | Blogs, marketing, portfolios |
 | **Hugo** | Go | Large docs, fastest builds |
 | **Next.js** | React/JS | Dynamic + static hybrid |
@@ -38,6 +38,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [2026年最受欢迎的静态网站生成器 – wmtips.com](https://www.wmtips.com/technologies/static-site-generators/)
 - [2026年最佳静态网站生成器 – thesoftwarescout.com](https://thesoftwarescout.com/best-static-site-generators-2026-astro-next-js-hugo-more/)
 - [2026年按用例划分的最佳SSG – naturaily.com](https://naturaily.com/blog/best-static-site-generators)

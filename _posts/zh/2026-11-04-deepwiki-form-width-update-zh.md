@@ -12,6 +12,7 @@ type: note
 完成。DeepWiki 表单现在正好是 **26rem** 宽（并且限制在 `100%`，因此永远不会在小屏幕上溢出）。
 
 编译后的 CSS 确认：
+
 ```css
 .sort-container .deepwiki-link .deepwiki-form {
   width: 26rem;

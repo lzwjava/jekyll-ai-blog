@@ -39,5 +39,6 @@ The rare people who get results aren't smarter. They're just boring enough to ke
 ---
 
 References:
+
 - [The Knowing-Doing Gap — Pfeffer & Sutton](https://hbswk.hbs.edu/item/the-knowing-doing-gap)
 - [Deep Work — Cal Newport](https://www.calnewport.com/books/deep-work/)

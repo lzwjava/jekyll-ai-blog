@@ -18,7 +18,7 @@ type: note
 ## 🔓 Open Source Models (Self-hostable)
 
 | Tool | Description |
-|------|-------------|
+| ------ | ------------- |
 | **Wan2.1** | A foundational open-source large-scale video generative model by the Wan team, providing high-quality video generation from text and images. |
 | **CogVideoX** | An open source text/image/video-to-video generation project hosting the CogVideoX family of diffusion-transformer models with end-to-end tooling. |
 | **Open-Sora** | An open-source initiative aimed at democratizing high-quality video production, offering a user-friendly platform that simplifies the complexities of video generation. |
@@ -30,7 +30,7 @@ type: note
 ## ✂️ Open Source Short-Form Automation (Long → Shorts)
 
 | Tool | Description |
-|------|-------------|
+| ------ | ------------- |
 | **OpenShorts** | An open-source automatic shorts generator on GitHub. It burns in captions automatically and can optionally translate them into other languages for multi-market distribution. |
 | **AI-YouTube-Shorts-Generator** | A Python-based tool that automates creation of short-form vertical video clips from longer source videos — ideal for YouTube Shorts, Instagram Reels, or TikTok. |
 | **short-video-factory** | An open-source tool that generates product-marketing videos from prompts and assets in a single click. |
@@ -54,6 +54,7 @@ The biggest success story of AI video generation in 2026 is short-form content. 
 ---
 
 **References:**
+
 - [Open Generative AI – GitHub/Gitee](https://github.com/Anil-matcha/Open-Generative-AI)
 - [OpenShorts – 2026 Video Automation](https://braindetox.kr/en/posts/openshorts_video_to_shorts_automation_2026.html)
 - [Best AI Video Generators for Social Media 2026 – rangy.ai](https://rangy.ai/blog/best-ai-video-generator-for-social-media)

@@ -12,6 +12,7 @@ type: note
 全部 committed 并 pushed。总结：
 
 **Committed**（已有4个 commits，包括新提交）：
+
 - `feat(home): show notes as front page instead of posts` (`f5e6401b3`)
 - 加上之前领先远程的3个 commits
 

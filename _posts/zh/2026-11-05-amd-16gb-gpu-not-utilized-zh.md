@@ -16,7 +16,7 @@ type: note
 **通过 ROCm 的 AMD GPU**（你询问的那个）：
 
 | 项目 | 值 |
-|---|---|
+| --- | --- |
 | 设备 | `0000:03:00.0`, DID `0x6861` (Vega 10 / Radeon Instinct MI25 级别), 子系统 `0x0c1e` |
 | ROCm 名称 | **AMD Radeon Pro WX 9100** (gfx900, Vega 10) |
 | **VRAM 总计** | **17,163,091,968 B = 15.98 GiB (16 GB HBM2)** |
@@ -32,10 +32,13 @@ type: note
 系统：i5-6500，总计 **11 GiB RAM**（已使用 4.0 GiB，可用约 7.1 GiB），4 GiB 交换空间。
 
 ### 与此仓库相关
+
 你的 `build/CMakeCache.txt` 包含：
+
 ```
 GGML_HIP=OFF
 SD_HIPBLAS=OFF
 SD_CUDA=OFF
 ```
+
 因此当前构建是 **仅限 CPU** 的，不会使用 16 GB 的 AMD 显卡。要使用它，你需要一个针对 `gfx900` 的 HIP 构建，例如 `-DGGML_HIP=ON -DSD_HIPBLAS=ON -DAMDGPU_TARGETS=gfx900`（注：gfx900 没有 matrix cores，因此其吞吐量大致相当于 Vega 级别——并且 11 GB 的系统 RAM 是模型加载的更严格的限制）。

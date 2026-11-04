@@ -18,7 +18,7 @@ type: note
 **I ran the real sd-cli twice:**
 
 | Attempt | Result |
-|---|---|
+| --- | --- |
 | Everything on GPU (no `--backend`) | **OOM** — `cudaMalloc failed` for the 6,389 MB diffusion model |
 | `--backend diffusion=cuda,clip=cpu,vae=cuda,t5xxl=cpu` | ✅ **Works** — 512×384, 2 steps, 60 s total |
 
@@ -27,7 +27,7 @@ type: note
 Weight footprint reported by sd-cli:
 
 | Component | Size | Placement |
-|---|---|---|
+| --- | --- | --- |
 | T5-XXL fp16 | 9,318.83 MB | CPU (must offload) |
 | FLUX Q4_0 diffusion | 6,389.02 MB | GPU |
 | VAE | 160 MB | GPU |
@@ -35,12 +35,13 @@ Weight footprint reported by sd-cli:
 | **Total** | **15,867.85 MB** | |
 
 | Mode | VRAM weights | + activations @960×720 | Peak need | Verdict on this 4070 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Full GPU | 15.9 GB | ~1.5–2.5 GB | **~18 GB** | ❌ OOM (confirmed) |
 | T5/CLIP on CPU | 6.55 GB | ~1.5–2 GB | **~8–8.5 GB** | ✅ fits in 10.5 GB free |
 | Full GPU w/ fp8 T5 | ~11.3 GB | ~1.5–2 GB | ~13 GB | ⚠️ still too tight |
 
 **Rules of thumb:**
+
 - **Minimum:** ~7 GB VRAM + ~10 GB system RAM (T5 offloaded) → works on 8 GB cards at ≤768×576.
 - **Comfortable for this card:** **8–9 GB free VRAM**, `--max-vram 9`, 960×720. Keep the desktop under ~2 GB.
 - **Full-GPU (no offload):** needs **≥18 GB** (16 GB cards still need T5 offloaded; 24 GB is comfortable).

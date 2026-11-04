@@ -38,5 +38,6 @@ type: note
 
 ---
 参考资料：
+
 - [The Knowing-Doing Gap — Pfeffer & Sutton](https://hbswk.hbs.edu/item/the-knowing-doing-gap)
 - [Deep Work — Cal Newport](https://www.calnewport.com/books/deep-work/)

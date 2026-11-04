@@ -12,6 +12,7 @@ type: note
 Done — both cards regenerated fresh (with the WeChat QR) and previews opened.
 
 **输出文件 (`card_output/`):**
+
 - `business_card_zh.png` — 中文名片, 4200×2400, 1.6 MB
 - `business_card_en.png` — English card, 4200×2400, 1.4 MB
 - `avatar.jpg` — the extracted avatar

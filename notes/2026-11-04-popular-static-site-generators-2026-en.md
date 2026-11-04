@@ -18,7 +18,7 @@ In 2026, the top static site generators by market share are **Astro** (25.5%), *
 Here's a quick breakdown of the main players:
 
 | Tool | Language | Best For |
-|------|----------|----------|
+| ------ | ---------- | ---------- |
 | **Astro** | JS (any framework) | Blogs, marketing, portfolios |
 | **Hugo** | Go | Large docs, fastest builds |
 | **Next.js** | React/JS | Dynamic + static hybrid |
@@ -41,6 +41,7 @@ Here's a quick breakdown of the main players:
 ---
 
 **References:**
+
 - [Most Popular Static Site Generators 2026 – wmtips.com](https://www.wmtips.com/technologies/static-site-generators/)
 - [Best Static Site Generators 2026 – thesoftwarescout.com](https://thesoftwarescout.com/best-static-site-generators-2026-astro-next-js-hugo-more/)
 - [Best SSGs by Use Case 2026 – naturaily.com](https://naturaily.com/blog/best-static-site-generators)

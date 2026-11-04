@@ -12,6 +12,7 @@ type: note
 Done. The DeepWiki form is now exactly **26rem** wide (and caps at `100%` so it never overflows small screens).
 
 Compiled CSS confirms:
+
 ```css
 .sort-container .deepwiki-link .deepwiki-form {
   width: 26rem;

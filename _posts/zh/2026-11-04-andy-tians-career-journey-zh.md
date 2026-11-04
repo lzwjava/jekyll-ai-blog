@@ -32,5 +32,6 @@ type: note
 ---
 
 **参考资料：**
+
 - [博鳌亚洲论坛 – Andy Tian 简介](https://www.boaoforum.org/ljnh/en/2017anyjjb/30258.htm)
 - [VatorNews – Andy Tian 离开 Zynga China](https://vator.tv/n/303a)

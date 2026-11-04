@@ -22,7 +22,7 @@ When taking the photo yourself, the guidance is to choose a **white or light blu
 So in summary:
 
 | Background Color | Allowed? |
-|---|---|
+| --- | --- |
 | White (白色) | ✅ Yes |
 | Light Gray (浅灰色) | ✅ Yes |
 | Light Blue (淡蓝色) | ✅ Yes |
@@ -37,11 +37,11 @@ So in summary:
 - No head coverings (except for religious/medical/cultural reasons, as long as the face is not obscured)
 - Even lighting, no shadows or bright spots on the face
 
-
 > **Note:** If you're going to a photo studio, just tell them it's for 出入境证件照 — they'll know the standards. White is the most common and safest choice.
 
 ---
 
 **References:**
+
 - [港澳通行证照片要求 — bendibao.com](https://m.bendibao.com/baidu/gatxzzp/)
 - [网上补换港澳通行证证件照要求 — bendibao.com](https://m.bendibao.com/bsy646344.html)

@@ -31,6 +31,7 @@ After the online application is submitted, it goes through a backend review befo
 That SMS means your application passed the review. You now need to pay the **document production fee (证件工本费)** within **7 days**, or the application will be automatically cancelled.
 
 Where to pay:
+
 - WeChat mini-program: **移民局12367** → 【我的申请】
 - Alipay mini-program: same path
 - 移民局 APP → 【我的申请】
@@ -49,5 +50,6 @@ The permit will be issued within **20 working days** after the application is ac
 ---
 
 **References:**
+
 - [深圳港澳通行证网上补换证申请流程 - 本地宝](https://m.bendibao.com/bsy643330.html)
 - [台湾通行证补换证全程网办入口及流程 - 本地宝](https://m.gz.bendibao.com/life/363903.html)
