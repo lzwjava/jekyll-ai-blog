@@ -18,6 +18,7 @@ type: note
 **《公司注册证书》包含的信息（有限）：**
 
 香港《公司注册证书》上的关键信息包括：
+
 - 注册编号
 - 证书类型
 - 公司正式名称（中文、英文或中英文）
@@ -36,7 +37,7 @@ type: note
 **总结：**
 
 | 场景 | 风险等级 |
-|---|---|
+| --- | --- |
 | 向银行、律师或商业伙伴提供以进行KYC/尽职调查 | ✅ 正常且合规 |
 | 公开发布在社交媒体等网络平台 | ⚠️ 非必要，应避免 |
 | 分享给未经验证的第三方 | ⚠️ 需先核实对方身份 |
@@ -44,6 +45,7 @@ type: note
 该文件本身**包含的敏感信息极少**，但仍建议仅出于明确商业目的，分享给**可信且可识别身份的实体**——避免公开或随意传播。
 
 **参考资料：**
+
 - [香港公司注册证书内容详解](https://www.chinacheckup.com/blog/hong-kong-certificate-of-incorporation)
 - [3E CPA – 公司注册证书指南](https://www.3ecpa.com.hk/blog/certificate-of-incorporation-in-hong-kong-everything-companies-should-know/)
 - [分享香港公司证书的风险](https://en.xiaoniucw.com/article/35087)

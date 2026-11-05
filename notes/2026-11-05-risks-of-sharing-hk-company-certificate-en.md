@@ -18,6 +18,7 @@ Generally, **it is low-risk to share**, but with some caveats:
 **What the Certificate of Incorporation contains (limited info):**
 
 The key items on a Hong Kong Certificate of Incorporation are:
+
 - Registration Number
 - Certificate Type
 - Official Company Name (Chinese, English, or both)
@@ -36,7 +37,7 @@ There is a potential risk of **identity theft or fraud** — in some cases, mali
 **Bottom line:**
 
 | Scenario | Risk Level |
-|---|---|
+| --- | --- |
 | Sharing with a bank, lawyer, or business partner for KYC/due diligence | ✅ Normal & expected |
 | Posting publicly online (e.g., social media) | ⚠️ Unnecessary, avoid |
 | Sharing with an unverified third party | ⚠️ Verify their identity first |
@@ -44,6 +45,7 @@ There is a potential risk of **identity theft or fraud** — in some cases, mali
 The document itself contains **minimal sensitive data**, but share it only with **trusted, identifiable parties** for a clear business purpose — not publicly or indiscriminately.
 
 **References:**
+
 - [What's in a HK Certificate of Incorporation](https://www.chinacheckup.com/blog/hong-kong-certificate-of-incorporation)
 - [3E CPA – Certificate of Incorporation Guide](https://www.3ecpa.com.hk/blog/certificate-of-incorporation-in-hong-kong-everything-companies-should-know/)
 - [Risks of Sharing HK Company Certificates](https://en.xiaoniucw.com/article/35087)

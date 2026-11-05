@@ -113,7 +113,7 @@ I would establish one central positioning:
 
 # TruthSoft
 
-## An AI-native software engineering company.
+## An AI-native software engineering company
 
 Think clearly. Build what matters. Play the long game.
 
