@@ -656,7 +656,7 @@ Not all of this impact is visible or glamorous. Much of it comes from backend se
 Here's a breakdown:
 
 | Project | Role | Impact |
-|---|---|---|
+| --- | --- | --- |
 | Chongding | Backend Engineer | Approximately 50 million users — a mobile trivia app similar to HQ Trivia, one of China's most popular apps in early 2018 |
 | PayMe by HSBC | Backend Engineer | Approximately 3 million users — one of Hong Kong's leading peer-to-peer payment applications |
 | LeanCloud | SDK Engineer | Served more than 200,000 developers, indirectly reaching approximately 50 million end users through applications built on the platform |
