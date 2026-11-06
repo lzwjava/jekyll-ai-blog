@@ -239,9 +239,9 @@ Java: 88.
 
 English: 80.
 
-I said: See? I'm actually capable of doing this.
+See? I said to myself. I'm actually capable of doing this.
 
-Computer Networks: 23.
+Then Computer Networks: 23.
 
 A score even smaller than my age.
 
@@ -251,7 +251,7 @@ Politics: 56.
 
 So close. Just a little short.
 
-But the passing mark doesn't care about "almost."
+But the passing mark doesn't care about "almost." A score of 57 and a score of 60 feel like the same number when the answer key is the only judge.
 
 New textbooks. New code. New major registration numbers.
 
