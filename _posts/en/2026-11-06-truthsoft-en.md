@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: 31 Years Old, Setting Out Again
+title: "31 Years Old: From College Dropout to Startup Founder, IELTS, and Now AI"
 translated: false
 ---
 
@@ -16,12 +16,11 @@ The rooms were filled with twenty-something entrepreneurs.
 
 In that moment, I realized:
 
-If I didn't set out,
-the world would leave me behind.
+If I didn't set out, the world would leave me behind.
 
 I once wrote:
 
-**21-year-old CEO. First, let's make our first million.**
+**21-year-old CEO. First, let's make our first 100 million.**
 
 My journey took me through Wangjing and Haidian in Beijing.
 
@@ -37,19 +36,15 @@ At 18, I was learning Lisp and reading *Hackers & Painters*.
 
 After raising funding, I expanded the business to learn management.
 
-I once lost ¥450,000.
-
-I also built a business with ¥3 million in annual revenue.
+I once lost ¥450,000. I also built a business with ¥3 million in annual revenue.
 
 There was a year when I celebrated ¥500,000 in profit.
 
-I completed more than 40 outsourcing projects.
+I completed more than 40 outsourcing projects with a team.
 
 Knowing you can afford to lose is what gives you the freedom to let go.
 
-I've visited Google and Stanford.
-
-In Silicon Valley, I met many remarkable people.
+I've visited Google and Stanford. In Silicon Valley, I met many remarkable people.
 
 In 2016, I was reading about deep learning on a train in California.
 
@@ -67,7 +62,7 @@ Instead, it pulled me into a prolonged period of hardship.
 
 I knew the real estate bubble would eventually burst.
 
-Perhaps I had already read *The Collapse of Japan's Economic Superpower* in 2019.
+Perhaps I had already read the book that warned about Chinese real estate in 2019.
 
 Yet I still bought the property, driven by vanity and comparison.
 
@@ -79,9 +74,7 @@ I had also believed that foreign companies were stable.
 
 But multinational companies earn revenue across many countries while hiring locally.
 
-They are still affected by the broader economic environment.
-
-The competition is intense.
+They are still affected by the broader economic environment. The competition is intense.
 
 The property price fell from ¥2 million to ¥1 million.
 
@@ -105,9 +98,7 @@ Is it really true? Is it actually correct?
 
 I used to believe almost everything.
 
-Now I keep asking:
-
-What is the unpopular truth about this?
+Now I keep asking: What is the unpopular truth about this?
 
 I began examining myself critically and questioning the world around me.
 
@@ -115,7 +106,7 @@ I worked and studied harder.
 
 For 16 months, I gave everything I had.
 
-I earned the appreciation of the bank's Chief Engineer.
+I earned the appreciation of the bank's Principal Engineer.
 
 I received recommendations from senior consulting experts.
 
@@ -123,13 +114,11 @@ I even made it to the final round of interviews.
 
 The world can be so pragmatic.
 
-So many capable people with excellent English skills
-
-end up working as outsourced engineers for large corporations.
+So many capable people with excellent English skills end up working as outsourced engineers for large corporations.
 
 In 2016, I interviewed at ByteDance's Zhonghang Building.
 
-I love new things and new technologies.
+I love new things and new technologies. I chose to interview for the backend position.
 
 I made it to the final round for a backend engineering position, but unfortunately didn't pass.
 
@@ -153,19 +142,15 @@ My content and code have been viewed and used by 200 million people.
 
 I read Yin Wang's writings and gradually found my way out of the low point.
 
-I learned to leave political opinions in a drawer.
+I learned to leave unpopular opinions in a drawer.
 
 I kept my eyes on the light in the distance and let it guide me.
 
 Little by little, I learned to let go of my resentment toward the world.
 
-I've left several companies.
+I've left several companies. I've also been welcomed back.
 
-I've also been welcomed back.
-
-Zhang Yiming shut down Neihan Duanzi. Wang Xing shut down Fanfou.
-
-Even Steve Jobs was once forced out of Apple.
+Zhang Yiming shut down Neihan Duanzi. Wang Xing shut down Fanfou. Even Steve Jobs was once forced out of Apple.
 
 ## Volume 5 · Reconciliation and Gratitude
 
@@ -179,15 +164,9 @@ I wear glasses with a prescription 150 degrees weaker than my original prescript
 
 I can spend almost 14 hours a day looking at my phone and computer without feeling tired.
 
-Before bed, I soak my feet with hydrogen peroxide.
+Before bed, I soak my feet with hydrogen peroxide. Then I use Pi and DeepSeek to train models.
 
-Then I use Pi and DeepSeek to train models.
-
-My daughter sings songs from English cartoons.
-
-I can understand her.
-
-I can hear that life is getting better.
+My daughter sings songs from English cartoons. I can understand her. I can hear that life is getting better.
 
 ## Volume 6 · Setting Out Again
 
@@ -205,7 +184,7 @@ Ten years separate these two beginnings.
 
 I've already weathered the storms once.
 
-Now I want to put AI to practical use.
+Now I want to put AI to more practical use.
 
 Rebuild my professional network.
 
@@ -233,21 +212,13 @@ Once you've set a goal, don't look back.
 
 Those never-ending associate-degree exams.
 
-Advanced Mathematics: 77.
-
-Java: 88.
-
-English: 80.
+Advanced Mathematics: 77. Java: 88. English: 80.
 
 See? I said to myself. I'm actually capable of doing this.
 
-Then Computer Networks: 23.
+Then Computer Networks: 23. A score even smaller than my age.
 
-A score even smaller than my age.
-
-College Chinese: 57.
-
-Politics: 56.
+College Chinese: 57, Politics: 56.
 
 So close. Just a little short.
 
@@ -299,9 +270,7 @@ TruthSoft.
 
 Think clearly before taking action.
 
-Build what matters.
-
-Play the long game.
+Build what matters. Play the long game.
 
 We're not selling code, nor are we simply selling tokens.
 
@@ -319,11 +288,9 @@ Transparency is part of the product.
 
 Honesty is the most reliable path forward.
 
-From models trained at the lowest level
+From models trained at the lowest level to applications in the hands of users
 
-to applications in the hands of users,
-
-one complete value chain, four business lines,
+one complete value chain, four business lines.
 
 and one standard: the pursuit of truth.
 
@@ -345,27 +312,19 @@ Our predecessor was called Square Root.
 
 Today, we're called TruthSoft.
 
-The name has changed.
-
-What hasn't changed is the determination to get things done.
+The name has changed. What hasn't changed is the determination to get things done.
 
 TruthSoft.
 
 Think clearly. Build what matters. Play the long game.
 
-Let's turn this journey
-
-into a signpost for others to follow.
+Let's turn this journey into a signpost for others to follow.
 
 ## Volume 9 · Declaration
 
 In my 31 years, I've endured more than my share of grievances.
 
-I refuse to accept defeat.
-
-I will use my mind and intelligence,
-
-and use AI to create value and achieve greater success.
+I refuse to accept defeat. I will use my mind and intelligence. And use AI to create value and achieve greater success.
 
 My code and content have been used and viewed by 200 million people.
 
@@ -375,17 +334,13 @@ Tomorrow, when the sun rises,
 
 I'll be standing at a new crossroads again.
 
-At 21, I was young.
-
-At 31, I'm more certain of my direction.
+At 21, I was young. At 31, I'm more certain of my direction.
 
 The money I've lost, the debts I've owed, and the roads I've traveled
 
-will all become the foundation for what lies ahead.
+Will all become the foundation for what lies ahead.
 
-I still choose to believe in this world.
-
-I've written down these experiences.
+I still choose to believe in this world. I've written down these experiences.
 
 For more than ten years, many friends have watched me grow.
 
@@ -397,9 +352,7 @@ Thank you to the people who sold me the house, the companies, and the government
 
 Thank you to the version of myself that never forgot to set out again.
 
-My life is still long. There are many roads ahead.
-
-I've decided to set out again.
+My life is still long. There are many roads ahead. I've decided to set out again.
 
 ---
 
@@ -510,7 +463,7 @@ You pay only for what you use.
 
 Finally, there's just one thing I'd like to say:
 
-We spend a year preparing ourselves, then devote a lifetime of patience to the products we build.
+We spend months preparing ourselves, then devote a lifetime of patience to the products we build.
 
 If you're hesitating over an idea or a product, feel free to get in touch.
 
@@ -558,7 +511,7 @@ I've continued learning and transforming my skills throughout my career. Today, 
 
 - Won first prize in the 2014 Lanqiao Cup competition during my freshman year. Ranked first in a monthly ACM/ICPC competition among approximately 100 top students.
 - Developed the Bjfu Assistant campus app, used by thousands of students. Also developed an English-learning app that won third prize at a hackathon.
-- Chose to drop out because I had a clear entrepreneurial direction. Continued self-study afterward.
+- Chose to drop out because I had a clear entrepreneurial dream. Continued self-study afterward.
 
 **Guangdong University of Foreign Studies · Computer Applications (Associate Degree, National Self-Study Examination, October 2022 – Present)**
 
@@ -832,70 +785,3 @@ Built an AI-assisted personal engineering workflow with more than 400 reusable s
 - [lzwjava.com](https://lzwjava.com) — More than 400 articles and 15,000 AI-generated knowledge-base notes.
 - WeChat Official Account — 74 articles.
 - WeChat Channels — 80 videos.
-
-# Selected Articles
-
-## AI / LLM and Model Training
-
-1. SEC-EDGAR-GPT: Training a GPT-2 (124M) Model from Scratch on SEC EDGAR Documents
-2. Exploring a Lightweight CUDA Deep Learning Library
-3. CUDA Graph Optimization and Inference Acceleration
-4. Beyond Attention and Transformers
-5. Model Training
-6. Fine-Tuning Models
-7. Exploring llama.cpp and Ollama
-8. MMLU Benchmarking
-9. Maximum Context Lengths in Large Language Models
-10. LLM Miscellany — Understanding the World Through a Bowl of Porridge
-11. An AI-Generated Conversation About DeepSeek V3
-12. AMD MI50 Workstation
-13. Neural Networks, Transformers, and GPT
-
-## AI Agents and Applications
-
-14. AI Agent Course
-15. From Neural Networks to Agents — Slides
-16. AI Course: From Neural Networks to Agents
-17. Building a Habit-Tracking Bot with Mistral
-18. Automated News Summarization Bot
-19. Automating Check-ins with a Telegram Location Bot
-20. Using AI to Generate SQL Queries
-21. BCEmbedding: Bilingual Embeddings for RAG
-22. Simplified Reminders Through Telegram
-
-## AI Tools, Workflows, and Engineering
-
-23. Custom Instructions — AI-First, Deep Technical, Startup Mode
-24. AI Workflows, Code Editors, and Platform Disruption
-25. The Complete AI Tool Ecosystem
-26. Optimizing Software Engineering for AI
-27. AI Tool Tips and Tricks
-28. AI Papers
-29. Use DeepThink or ChatGPT o1 More Often
-30. LLM Costs, Agents, and Coding Tools
-31. Building a Spring Boot Project with AI Tools
-
-## Software Consulting and Work
-
-32. Work With Me — Software Consulting
-33. Looking for Work — AI and Engineering Roles
-34. Square Root Technical Case Studies
-35. Interview with the Founder of ThingsPanel
-36. Technical Discussions: Game Server Development, Programming Languages, and AI-Assisted Programming
-37. Multi-Region Software Development
-38. My AI Portfolio — Evidence of Everyday AI Work
-39. My Life Portfolio — Beyond Code and AI
-40. How to Build and Scale High-Performance Teams
-41. The Problems with Conda
-42. Funk — Cloud Management and Infrastructure
-
-## Perspective and Strategy
-
-43. Why We Write in the AI Era
-44. A Conversation About Building AI Frameworks and Life Choices
-45. A Mentor Conversation About AI Research and Life Direction
-46. An Honest Discussion About English in Tech, Life Planning, and Personal Finance
-47. About Big Companies
-48. Bad Engineers
-49. Cloudflare Web Analytics Report
-50. My Computer
