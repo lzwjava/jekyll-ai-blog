@@ -62,7 +62,7 @@ Instead, it pulled me into a prolonged period of hardship.
 
 I knew the real estate bubble would eventually burst.
 
-Perhaps I had already read the book to worry about Chinese Real Estate in 2019.
+Perhaps I had already read the book that warned about Chinese real estate in 2019.
 
 Yet I still bought the property, driven by vanity and comparison.
 
@@ -114,11 +114,11 @@ I even made it to the final round of interviews.
 
 The world can be so pragmatic.
 
-So many capable people with excellent English skills, end up working as outsourced engineers for large corporations.
+So many capable people with excellent English skills end up working as outsourced engineers for large corporations.
 
 In 2016, I interviewed at ByteDance's Zhonghang Building.
 
-I love new things and new technologies. I chose to interview the backend position.
+I love new things and new technologies. I chose to interview for the backend position.
 
 I made it to the final round for a backend engineering position, but unfortunately didn't pass.
 
@@ -166,7 +166,7 @@ I can spend almost 14 hours a day looking at my phone and computer without feeli
 
 Before bed, I soak my feet with hydrogen peroxide. Then I use Pi and DeepSeek to train models.
 
-My daughter sing songs from English cartoons. I can understand her. I can hear that life is getting better.
+My daughter sings songs from English cartoons. I can understand her. I can hear that life is getting better.
 
 ## Volume 6 · Setting Out Again
 
@@ -184,7 +184,7 @@ Ten years separate these two beginnings.
 
 I've already weathered the storms once.
 
-Now I want to put AI to practical use more.
+Now I want to put AI to more practical use.
 
 Rebuild my professional network.
 
