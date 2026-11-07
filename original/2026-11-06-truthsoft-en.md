@@ -216,9 +216,7 @@ Advanced Mathematics: 77. Java: 88. English: 80.
 
 See? I said to myself. I'm actually capable of doing this.
 
-Then Computer Networks: 23.
-
-A score even smaller than my age.
+Then Computer Networks: 23. A score even smaller than my age.
 
 College Chinese: 57, Politics: 56.
 
