@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: "31 Years Old: From College Dropout to Entrepreneur, and Now to AI"
+title: "31 Years Old: From College Dropout to Startup Founder, IELTS, and Now AI"
 translated: false
 ---
 
