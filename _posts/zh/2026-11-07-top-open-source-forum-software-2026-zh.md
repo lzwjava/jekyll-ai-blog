@@ -56,7 +56,7 @@ type: note
 ### 快速对比
 
 | 软件 | 编程语言 | 最佳适用场景 |
-|----------|----------|----------|
+| ---------- | ---------- | ---------- |
 | Discourse | Ruby/JS | 现代化社区 |
 | Flarum | PHP/JS | 轻量级现代化论坛 |
 | phpBB | PHP | 经典/久经考验 |
@@ -70,6 +70,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [2026年7款最佳在线论坛软件 – Guideflow](https://www.guideflow.com/blog/online-forum-software)
 - [2026年最佳论坛软件 – Toolradar](https://toolradar.com/guides/best-forum-software)
 - [十大最佳论坛软件 – Gitnux](https://gitnux.org/best/forum-software/)

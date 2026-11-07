@@ -18,7 +18,7 @@ Everything is clear now. Summary of the situation:
 Here are the biggest offenders (sorted, all > 700 MB):
 
 | Repo | Size |
-|---|---|
+| --- | --- |
 | Qwen2.5-Coder | 3.5 GB |
 | TensorRT-LLM | 3.0 GB |
 | openai-cookbook | 1.8 GB |
@@ -45,6 +45,7 @@ Here are the biggest offenders (sorted, all > 700 MB):
 My plan: delete these **top ~22 repos (>500 MB) from disk + remove them from `repos.json`** — frees ~27 GB. Note this includes heavy users like `pytorch` and `llama.cpp`; say if you want them kept.
 
 Confirm which to remove? Reply:
+
 - **`yes`** → remove all repos above (>500 MB, frees ~27 GB)
 - **`top10`** → only the 10 largest (frees ~16.5 GB)
 - or tell me names to keep/exclude

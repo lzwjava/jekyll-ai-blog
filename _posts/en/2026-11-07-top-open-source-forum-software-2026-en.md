@@ -56,7 +56,7 @@ A lightweight forum inside an existing WordPress website, GPL open-source WordPr
 ### Quick Comparison
 
 | Software | Language | Best For |
-|----------|----------|----------|
+| ---------- | ---------- | ---------- |
 | Discourse | Ruby/JS | Modern community |
 | Flarum | PHP/JS | Lightweight modern |
 | phpBB | PHP | Classic/proven |
@@ -70,6 +70,7 @@ A lightweight forum inside an existing WordPress website, GPL open-source WordPr
 ---
 
 **References:**
+
 - [7 Best Online Forum Software for 2026 – Guideflow](https://www.guideflow.com/blog/online-forum-software)
 - [Best Forum Software in 2026 – Toolradar](https://toolradar.com/guides/best-forum-software)
 - [Top 10 Best Forum Software – Gitnux](https://gitnux.org/best/forum-software/)

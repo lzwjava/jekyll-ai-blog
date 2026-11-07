@@ -18,7 +18,7 @@ type: note
 Yes, absolutely — and it's one of the most psychologically precise things Wang Xing ever wrote. The quote draws a sharp three-level gradient of emotional response to others' success:
 
 | Emotion | Chinese | Nature | Effect on you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Admire | 羡慕 | Positive longing | Motivates, inspires |
 | Jealousy | 嫉妒 | Toxic comparison | Corrodes focus |
 | Hate | 恨 | Destructive resentment | Destroys the self |
@@ -36,5 +36,6 @@ The deeper insight: **羡慕 makes you a student; 嫉妒 makes you a rival; 恨 
 ---
 
 **References:**
+
 - [王兴饭否摘录 — 人人都是产品经理](https://www.woshipm.com/it/1471816.html)
 - [深度：谁在管理美团 — 晚点LatePost](https://moomoo.com/news/post/7205784)
